@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBeruf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Beruf>
+    <Index>1</Index>
+    <Name>Alchemist</Name>
+    <Weapon>Stab</Weapon>
+    <Equipment>Öl, 1 Fläschchen</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>2</Index>
+    <Name>Tierbändiger</Name>
+    <Weapon>Knüppel</Weapon>
+    <Equipment>Pony</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>3</Index>
+    <Name>Waffenschmied</Name>
+    <Weapon>Hammer (wie Knüppel)</Weapon>
+    <Equipment>Eisenhelm</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>4</Index>
+    <Name>Astrologe</Name>
+    <Weapon>Dolch</Weapon>
+    <Equipment>Fernrohr</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>5</Index>
+    <Name>Barbier</Name>
+    <Weapon>Rasierklinge (wie Dolch)</Weapon>
+    <Equipment>Schere</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>6</Index>
+    <Name>Büttel</Name>
+    <Weapon>Stab</Weapon>
+    <Equipment>Heiliges Symbol</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>7</Index>
+    <Name>Imker</Name>
+    <Weapon>Stab</Weapon>
+    <Equipment>Honigtopf</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>8</Index>
+    <Name>Schmied</Name>
+    <Weapon>Hammer (wie Knüppel)</Weapon>
+    <Equipment>Stahlzange</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>9</Index>
+    <Name>Metzger</Name>
+    <Weapon>Hackbeil (wie Axt)</Weapon>
+    <Equipment>1 Stück Rindfleisch</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>10</Index>
+    <Name>Karawanenwache</Name>
+    <Weapon>Kurzschwert</Weapon>
+    <Equipment>Leinen, 1 m</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>11</Index>
+    <Name>Käser</Name>
+    <Weapon>Schlagstock (wie Stab)</Weapon>
+    <Equipment>Stinkender Käse</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>12</Index>
+    <Name>Schuster</Name>
+    <Weapon>Ahle (wie Dolch)</Weapon>
+    <Equipment>Schuhlöffel</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>13</Index>
+    <Name>Betrüger</Name>
+    <Weapon>Dolch</Weapon>
+    <Equipment>Hochwertiger Mantel</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>14</Index>
+    <Name>Böttcher</Name>
+    <Weapon>Brechstange (wie Knüppel)</Weapon>
+    <Equipment>Fass</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>15</Index>
+    <Name>Straßenhändler</Name>
+    <Weapon>Messer (wie Dolch)</Weapon>
+    <Equipment>Früchte</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>16</Index>
+    <Name>Taschendieb</Name>
+    <Weapon>Dolch</Weapon>
+    <Equipment>Kleine Kiste</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>17</Index>
+    <Name>Grabengräber</Name>
+    <Weapon>Schaufel (wie Stab)</Weapon>
+    <Equipment>Feine Erde, ½ kg</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>18</Index>
+    <Name>Hafenarbeiter</Name>
+    <Weapon>Stange (wie Stab)</Weapon>
+    <Equipment>ein verspätetes Rollenspielbuch</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>19</Index>
+    <Name>Zwergischer Apotheker</Name>
+    <Weapon>Schlagstock (wie Stab)</Weapon>
+    <Equipment>Stahlphiole</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>20</Index>
+    <Name>Zwergischer Schmied</Name>
+    <Weapon>Hammer (wie Knüppel)</Weapon>
+    <Equipment>Mithril, 30 g</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>21</Index>
+    <Name>Zwergischer Kistenmacher</Name>
+    <Weapon>Meißel (wie Dolch)</Weapon>
+    <Equipment>Holz, 5 kg</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>22</Index>
+    <Name>Zwergischer Hirte</Name>
+    <Weapon>Stab</Weapon>
+    <Equipment>Sau**</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>23</Index>
+    <Name>Zwergischer Minenarbeiter</Name>
+    <Weapon>Hacke (wie Knüppel)</Weapon>
+    <Equipment>Laterne</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>24</Index>
+    <Name>Zwergischer Minenarbeiter</Name>
+    <Weapon>Hacke (wie Knüppel)</Weapon>
+    <Equipment>Laterne</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>25</Index>
+    <Name>Zwergischer Pilzzüchter</Name>
+    <Weapon>Schaufel (wie Stab)</Weapon>
+    <Equipment>Sack</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>26</Index>
+    <Name>Zwergischer Rattenfänger</Name>
+    <Weapon>Knüppel</Weapon>
+    <Equipment>Netz</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>27</Index>
+    <Name>Zwergischer Steinmetz</Name>
+    <Weapon>Hammer</Weapon>
+    <Equipment>schöner Stein, 5 kg</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>28</Index>
+    <Name>Zwergischer Steinmetz</Name>
+    <Weapon>Hammer</Weapon>
+    <Equipment>schöner Stein, 5 kg</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>29</Index>
+    <Name>Elfischer Kunsthandwerker</Name>
+    <Weapon>Stab</Weapon>
+    <Equipment>Ton, ½ kg</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>30</Index>
+    <Name>Elfischer Advokat</Name>
+    <Weapon>Schreibfeder (wie Wurfpfeil)</Weapon>
+    <Equipment>Buch</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>31</Index>
+    <Name>Elfischer Kerzenmacher</Name>
+    <Weapon>Schere (wie Dolch)</Weapon>
+    <Equipment>Kerzen, 20</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>32</Index>
+    <Name>Elfischer Falkner</Name>
+    <Weapon>Dolch</Weapon>
+    <Equipment>Falke</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>33</Index>
+    <Name>Elfischer Förster</Name>
+    <Weapon>Stab</Weapon>
+    <Equipment>Kräuter, ½ kg</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>34</Index>
+    <Name>Elfischer Förster</Name>
+    <Weapon>Stab</Weapon>
+    <Equipment>Kräuter, ½ kg</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>35</Index>
+    <Name>Elfischer Glasbläser</Name>
+    <Weapon>Hammer (wie Knüppel)</Weapon>
+    <Equipment>Glasperlen</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>36</Index>
+    <Name>Elfischer Navigator</Name>
+    <Weapon>Kurzbogen</Weapon>
+    <Equipment>Fernrohr</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>37</Index>
+    <Name>Elfischer Gelehrter</Name>
+    <Weapon>Dolch</Weapon>
+    <Equipment>Pergament und Schreibfeder</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>38</Index>
+    <Name>Elfischer Gelehrter</Name>
+    <Weapon>Dolch</Weapon>
+    <Equipment>Pergament und Schreibfeder</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>39</Index>
+    <Name>Bauer*</Name>
+    <Weapon>Mistgabel (wie Speer)</Weapon>
+    <Equipment>Henne**</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>40</Index>
+    <Name>Bauer*</Name>
+    <Weapon>Mistgabel (wie Speer)</Weapon>
+    <Equipment>Henne**</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>41</Index>
+    <Name>Bauer*</Name>
+    <Weapon>Mistgabel (wie Speer)</Weapon>
+    <Equipment>Henne**</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>42</Index>
+    <Name>Bauer*</Name>
+    <Weapon>Mistgabel (wie Speer)</Weapon>
+    <Equipment>Henne**</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>43</Index>
+    <Name>Bauer*</Name>
+    <Weapon>Mistgabel (wie Speer)</Weapon>
+    <Equipment>Henne**</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>44</Index>
+    <Name>Bauer*</Name>
+    <Weapon>Mistgabel (wie Speer)</Weapon>
+    <Equipment>Henne**</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>45</Index>
+    <Name>Bauer*</Name>
+    <Weapon>Mistgabel (wie Speer)</Weapon>
+    <Equipment>Henne**</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>46</Index>
+    <Name>Bauer*</Name>
+    <Weapon>Mistgabel (wie Speer)</Weapon>
+    <Equipment>Henne**</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>47</Index>
+    <Name>Bauer*</Name>
+    <Weapon>Mistgabel (wie Speer)</Weapon>
+    <Equipment>Henne**</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>48</Index>
+    <Name>Wahrsager</Name>
+    <Weapon>Dolch</Weapon>
+    <Equipment>Tarotkarten</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>49</Index>
+    <Name>Glücksspieler</Name>
+    <Weapon>Knüppel</Weapon>
+    <Equipment>Würfel</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>50</Index>
+    <Name>Buttenmann/-frau</Name>
+    <Weapon>Handschaufel (wie Dolch)</Weapon>
+    <Equipment>Sack gesammelter Notdurft</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>51</Index>
+    <Name>Totengräber</Name>
+    <Weapon>Schaufel (wie Stab)</Weapon>
+    <Equipment>Handschaufel</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>52</Index>
+    <Name>Totengräber</Name>
+    <Weapon>Schaufel (wie Stab)</Weapon>
+    <Equipment>Handschaufel</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>53</Index>
+    <Name>Gildenbettler</Name>
+    <Weapon>Schleuder</Weapon>
+    <Equipment>Krücken</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>54</Index>
+    <Name>Gildenbettler</Name>
+    <Weapon>Schleuder</Weapon>
+    <Equipment>Krücken</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>55</Index>
+    <Name>Halblinghühnermetzger</Name>
+    <Weapon>Handaxt</Weapon>
+    <Equipment>Hühnchenfleisch, 2½ kg</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>56</Index>
+    <Name>Halblingfärber</Name>
+    <Weapon>Stab</Weapon>
+    <Equipment>Stoff, 3 m</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>57</Index>
+    <Name>Halblingfärber</Name>
+    <Weapon>Stab</Weapon>
+    <Equipment>Stoff, 3 m</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>58</Index>
+    <Name>Halblinghandschuhmacher</Name>
+    <Weapon>Ahle (wie Dolch)</Weapon>
+    <Equipment>Handschuhe, 4 Paar</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>59</Index>
+    <Name>Halbling vom Fahrenden Volk</Name>
+    <Weapon>Schleuder</Weapon>
+    <Equipment>Zauberpuppe</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>60</Index>
+    <Name>Halblingkurzwarenhändler</Name>
+    <Weapon>Schere (wie Dolch)</Weapon>
+    <Equipment>Feine Herrenkleidung, 3 Garnituren</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>61</Index>
+    <Name>Halblingseemann</Name>
+    <Weapon>Messer (wie Dolch)</Weapon>
+    <Equipment>Segeltuch, 2 m</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>62</Index>
+    <Name>Halblinggeldverleiher</Name>
+    <Weapon>Kurzschwert</Weapon>
+    <Equipment>5 GM, 10 SM, 200 KM</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>63</Index>
+    <Name>Halblinghändler</Name>
+    <Weapon>Kurzschwert</Weapon>
+    <Equipment>20 SM</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>64</Index>
+    <Name>Halblinglandstreicher</Name>
+    <Weapon>Knüppel</Weapon>
+    <Equipment>Bettelschale</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>65</Index>
+    <Name>Heiler</Name>
+    <Weapon>Knüppel</Weapon>
+    <Equipment>Heiliges Wasser, 1 Fläschchen</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>66</Index>
+    <Name>Kräuterkundler</Name>
+    <Weapon>Knüppel</Weapon>
+    <Equipment>Kräuter, ½ kg</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>67</Index>
+    <Name>Hirte</Name>
+    <Weapon>Stab</Weapon>
+    <Equipment>Schäferhund**</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>68</Index>
+    <Name>Jäger</Name>
+    <Weapon>Kurzbogen</Weapon>
+    <Equipment>Hirschfell</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>69</Index>
+    <Name>Jäger</Name>
+    <Weapon>Kurzbogen</Weapon>
+    <Equipment>Hirschfell</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>70</Index>
+    <Name>Vertragsknecht</Name>
+    <Weapon>Stab</Weapon>
+    <Equipment>Anhänger</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>71</Index>
+    <Name>Narr</Name>
+    <Weapon>Wurfpfeil</Weapon>
+    <Equipment>Seidenkleidung</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>72</Index>
+    <Name>Juwelier</Name>
+    <Weapon>Dolch</Weapon>
+    <Equipment>Edelstein, 20 GM wert</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>73</Index>
+    <Name>Schlosser</Name>
+    <Weapon>Dolch</Weapon>
+    <Equipment>Feinwerkzeug</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>74</Index>
+    <Name>Bettler</Name>
+    <Weapon>Knüppel</Weapon>
+    <Equipment>Käsesoße</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>75</Index>
+    <Name>Söldner</Name>
+    <Weapon>Langschwert</Weapon>
+    <Equipment>Fellrüstung</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>76</Index>
+    <Name>Kaufmann</Name>
+    <Weapon>Dolch</Weapon>
+    <Equipment>4 GM, 14 SM, 27 KM</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>77</Index>
+    <Name>Müller/Bäcker</Name>
+    <Weapon>Knüppel</Weapon>
+    <Equipment>Mehl, ½ kg</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>78</Index>
+    <Name>Barde</Name>
+    <Weapon>Dolch</Weapon>
+    <Equipment>Ukulele</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>79</Index>
+    <Name>Adeliger</Name>
+    <Weapon>Langschwert</Weapon>
+    <Equipment>Goldring, 10 GM wert</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>80</Index>
+    <Name>Waise</Name>
+    <Weapon>Knüppel</Weapon>
+    <Equipment>Stoffpuppe</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>81</Index>
+    <Name>Stallknecht</Name>
+    <Weapon>Stab</Weapon>
+    <Equipment>Zaumzeug</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>82</Index>
+    <Name>Gesetzloser</Name>
+    <Weapon>Kurzschwert</Weapon>
+    <Equipment>Lederrüstung</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>83</Index>
+    <Name>Seiler</Name>
+    <Weapon>Messer (wie Dolch)</Weapon>
+    <Equipment>Seil, 30 m</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>84</Index>
+    <Name>Schreiber</Name>
+    <Weapon>Wurfpfeil</Weapon>
+    <Equipment>Pergament, 10 Blätter</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>85</Index>
+    <Name>Schamane</Name>
+    <Weapon>Streitkolben</Weapon>
+    <Equipment>Kräuter, ½ kg</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>86</Index>
+    <Name>Sklave</Name>
+    <Weapon>Knüppel</Weapon>
+    <Equipment>Seltsam aussehender Stein</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>87</Index>
+    <Name>Schmuggler</Name>
+    <Weapon>Schleuder</Weapon>
+    <Equipment>Wasserdichter Sack</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>88</Index>
+    <Name>Soldat</Name>
+    <Weapon>Speer</Weapon>
+    <Equipment>Schild</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>89</Index>
+    <Name>Knappe</Name>
+    <Weapon>Langschwert</Weapon>
+    <Equipment>Stahlhelm</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>90</Index>
+    <Name>Knappe</Name>
+    <Weapon>Langschwert</Weapon>
+    <Equipment>Stahlhelm</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>91</Index>
+    <Name>Steuereintreiber</Name>
+    <Weapon>Langschwert</Weapon>
+    <Equipment>100 KM</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>92</Index>
+    <Name>Fallensteller</Name>
+    <Weapon>Schleuder</Weapon>
+    <Equipment>Dachsfell</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>93</Index>
+    <Name>Fallensteller</Name>
+    <Weapon>Schleuder</Weapon>
+    <Equipment>Dachsfell</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>94</Index>
+    <Name>Gassenkind</Name>
+    <Weapon>Stock (wie Knüppel)</Weapon>
+    <Equipment>Bettelschale</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>95</Index>
+    <Name>Wagner</Name>
+    <Weapon>Knüppel</Weapon>
+    <Equipment>Schubkarre***</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>96</Index>
+    <Name>Weber</Name>
+    <Weapon>Dolch</Weapon>
+    <Equipment>Feine Kleidung</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>97</Index>
+    <Name>Zauberlehrling</Name>
+    <Weapon>Dolch</Weapon>
+    <Equipment>Schwarzes Zauberbuch</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>98</Index>
+    <Name>Holzfäller</Name>
+    <Weapon>Handaxt</Weapon>
+    <Equipment>Bündel Holz</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>99</Index>
+    <Name>Holzfäller</Name>
+    <Weapon>Handaxt</Weapon>
+    <Equipment>Bündel Holz</Equipment>
+  </Beruf>
+  <Beruf>
+    <Index>100</Index>
+    <Name>Holzfäller</Name>
+    <Weapon>Handaxt</Weapon>
+    <Equipment>Bündel Holz</Equipment>
+  </Beruf>
+</ArrayOfBeruf>

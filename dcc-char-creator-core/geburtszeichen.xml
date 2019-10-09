@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGeburtszeichen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Geburtszeichen>
+    <Index>1</Index>
+    <Name>Strenger Winter</Name>
+    <Schicksalswurf>Alle Angriffswürfe</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>2</Index>
+    <Name>Der Bulle</Name>
+    <Schicksalswurf>Angriffswürfe im Nahkampf</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>3</Index>
+    <Name>Glückstag</Name>
+    <Schicksalswurf>Angriffswürfe mit Fernkampfwaffen</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>4</Index>
+    <Name>Von Wölfen aufgezogen</Name>
+    <Schicksalswurf>Unbewaffnete Angriffswürfe</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>5</Index>
+    <Name>Im Sattel gezeugt</Name>
+    <Schicksalswurf>Berittene Angriffswürfe</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>6</Index>
+    <Name>Geboren auf dem Schlachtfeld</Name>
+    <Schicksalswurf>Schadenswürfe</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>7</Index>
+    <Name>Pfad des Bären</Name>
+    <Schicksalswurf>Schadenswürfe im Nahkampf</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>8</Index>
+    <Name>Adlerauge</Name>
+    <Schicksalswurf>Schadenswürfe mit Fernkampfwaffen</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>9</Index>
+    <Name>Rudeljäger</Name>
+    <Schicksalswurf>Angriffs- und Schadenswürfe für die auf Stufe 0 erlernten Waffe</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>10</Index>
+    <Name>Geboren unter einem Webstuhl</Name>
+    <Schicksalswurf>Fertigkeitswürfe (inkl. Diebesfertigkeiten)</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>11</Index>
+    <Name>Listigkeit des Fuchses</Name>
+    <Schicksalswurf>Fallen entdecken/entschärfen</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>12</Index>
+    <Name>Vierblättriges Kleeblatt</Name>
+    <Schicksalswurf>Geheimtüren entdecken</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>13</Index>
+    <Name>Siebter Sohn</Name>
+    <Schicksalswurf>Zauberwürfe</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>14</Index>
+    <Name>Der tobende Sturm</Name>
+    <Schicksalswurf>Zauberschaden</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>15</Index>
+    <Name>Rechtschaffenes Herz</Name>
+    <Schicksalswurf>Unheiliges-vertreiben-Würfe</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>16</Index>
+    <Name>Überlebender der Pest</Name>
+    <Schicksalswurf>Magische Heilung*</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>17</Index>
+    <Name>Glücksbringer</Name>
+    <Schicksalswurf>Rettungswürfe</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>18</Index>
+    <Name>Schutzengel</Name>
+    <Schicksalswurf>Rettungswürfe, um Fallen zu entkommen</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>19</Index>
+    <Name>Überlebender eines Spinnenbisses</Name>
+    <Schicksalswurf>Rettungswürfe gegen Gift</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>20</Index>
+    <Name>Vom Blitz getroffen</Name>
+    <Schicksalswurf>Reflexwürfe</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>21</Index>
+    <Name>Überlebender einer Hungersnot</Name>
+    <Schicksalswurf>Zähigkeitswürfe</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>22</Index>
+    <Name>Der Versuchung widerstanden</Name>
+    <Schicksalswurf>Willenskraftwürfe</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>23</Index>
+    <Name>Verzaubertes Heim</Name>
+    <Schicksalswurf>Rüstungsklasse</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>24</Index>
+    <Name>Schnelligkeit der Kobra</Name>
+    <Schicksalswurf>Initiative</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>25</Index>
+    <Name>Reiche Ernte</Name>
+    <Schicksalswurf>Trefferpunkte (gilt für jede Stufe)</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>26</Index>
+    <Name>Arm des Kriegers</Name>
+    <Schicksalswurf>Kritische Treffertabellen**</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>27</Index>
+    <Name>Unheiliges Heim</Name>
+    <Schicksalswurf>Verderbniswürfe</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>28</Index>
+    <Name>Der zerbrochene Stern</Name>
+    <Schicksalswurf>Patzer**</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>29</Index>
+    <Name>Vogelgesang</Name>
+    <Schicksalswurf>Anzahl an Sprachen</Schicksalswurf>
+  </Geburtszeichen>
+  <Geburtszeichen>
+    <Index>30</Index>
+    <Name>Wildes Kind</Name>
+    <Schicksalswurf>Geschwindigkeit (jedes +1/−1 = +1,5 m/−1,5 m)</Schicksalswurf>
+  </Geburtszeichen>
+</ArrayOfGeburtszeichen>
