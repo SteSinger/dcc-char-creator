@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfHandelsware xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Handelsware>
+    <Wurf>1</Wurf>
+    <Gegenstand>Brecheisen</Gegenstand>
+    <Preis>2 GM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>2</Wurf>
+    <Gegenstand>Diebeswerkzeug</Gegenstand>
+    <Preis>25 KM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>3</Wurf>
+    <Gegenstand>Eisennägel</Gegenstand>
+    <Preis>je 1 SM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>4</Wurf>
+    <Gegenstand>Fackel</Gegenstand>
+    <Preis>je 1 KM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>5</Wurf>
+    <Gegenstand>Feuerstein und Stahl</Gegenstand>
+    <Preis>15 KM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>6</Wurf>
+    <Gegenstand>Fläschchen, leer</Gegenstand>
+    <Preis>3 KM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>7</Wurf>
+    <Gegenstand>Hammer, klein</Gegenstand>
+    <Preis>5 SM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>8</Wurf>
+    <Gegenstand>Heiliges Symbol</Gegenstand>
+    <Preis>25 GM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>9</Wurf>
+    <Gegenstand>Kerze</Gegenstand>
+    <Preis>1 KM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>10</Wurf>
+    <Gegenstand>Kette, 3 m</Gegenstand>
+    <Preis>30 GM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>11</Wurf>
+    <Gegenstand>Kletterhaken</Gegenstand>
+    <Preis>1 GM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>12</Wurf>
+    <Gegenstand>Kreide, 1 Stück</Gegenstand>
+    <Preis>1 KM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>13</Wurf>
+    <Gegenstand>Laterne</Gegenstand>
+    <Preis>10 GM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>14</Wurf>
+    <Gegenstand>Öl, 1 Fläschchen***</Gegenstand>
+    <Preis>2 SM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>15</Wurf>
+    <Gegenstand>Rationen, pro Tag</Gegenstand>
+    <Preis>5 KM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>16</Wurf>
+    <Gegenstand>Rucksack</Gegenstand>
+    <Preis>2 GM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>17</Wurf>
+    <Gegenstand>Sack, groß</Gegenstand>
+    <Preis>12 KM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>18</Wurf>
+    <Gegenstand>Sack, klein</Gegenstand>
+    <Preis>8 KM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>19</Wurf>
+    <Gegenstand>Seil, 15 m</Gegenstand>
+    <Preis>25 KM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>20</Wurf>
+    <Gegenstand>Spiegel, Hand-</Gegenstand>
+    <Preis>10 GM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>21</Wurf>
+    <Gegenstand>Stange, 3 m</Gegenstand>
+    <Preis>15 KM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>22</Wurf>
+    <Gegenstand>Truhe, leer</Gegenstand>
+    <Preis>2 GM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>23</Wurf>
+    <Gegenstand>Weihwasser, 1 Phiole**</Gegenstand>
+    <Preis>25 GM</Preis>
+  </Handelsware>
+  <Handelsware>
+    <Wurf>24</Wurf>
+    <Gegenstand>Wasserschlauch</Gegenstand>
+    <Preis>5 SM</Preis>
+  </Handelsware>
+</ArrayOfHandelsware>

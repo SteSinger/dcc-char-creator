@@ -1,9 +1,6 @@
-﻿using DccCharCreator.core.Dice;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using DccCharCreator.core.Würfel;
 
-namespace DccCharCreator.core
+namespace DccCharCreator.core.CharacterData
 {
     public class Attribute
     {
@@ -14,14 +11,14 @@ namespace DccCharCreator.core
         public Attribut Intelligenz { get; set; }
         public Attribut Glück { get; set; }
 
-        public Attribute(I3D6 dice)
+        public Attribute(I3W6 dice)
         {
-            Stärke = new Attribut(dice.Roll());
-            Geschicklichkeit = new Attribut(dice.Roll());
-            Ausdauer = new Attribut(dice.Roll());
-            Persönlichkeit = new Attribut(dice.Roll());
-            Intelligenz = new Attribut(dice.Roll());
-            Glück = new Attribut(dice.Roll());
+            Stärke = new Attribut(dice.Würfeln());
+            Geschicklichkeit = new Attribut(dice.Würfeln());
+            Ausdauer = new Attribut(dice.Würfeln());
+            Persönlichkeit = new Attribut(dice.Würfeln());
+            Intelligenz = new Attribut(dice.Würfeln());
+            Glück = new Attribut(dice.Würfeln());
         }
         public override string ToString()
         {

@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Text;
 
-namespace DccCharCreator.core
+namespace DccCharCreator.core.CharacterData
 {
     public struct Attribut : IEquatable<Attribut>
     {
@@ -40,7 +38,7 @@ namespace DccCharCreator.core
 
         public override bool Equals(object? obj)
         {
-            if(obj is null)
+            if (obj is null)
             {
                 return false;
             }

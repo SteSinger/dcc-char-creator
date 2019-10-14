@@ -1,0 +1,24 @@
+﻿@model IEnumerable<DccCharCreator.core.CharacterData.Character>
+
+@{
+    ViewData["Title"] = "Character";
+}
+
+<h1>Character</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.ToString()
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

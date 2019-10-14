@@ -2,15 +2,13 @@
 using DccCharCreator.core.Würfel;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
+using System.Text;
 
-namespace dcc_char_creator_cli
+namespace DccCharCreator.core
 {
-    class Program
+    public static class CharacterFactory
     {
-        static void Main(string[] args)
+        public static Character Default()
         {
             var berufWürfel = WürfelFactory.W100;
             var zeichenWürfel = WürfelFactory.W30;
@@ -18,12 +16,8 @@ namespace dcc_char_creator_cli
             var trefferWürfel = WürfelFactory.W4;
             var handelsWarenWürfel = WürfelFactory.W24;
             var geldWürfel = WürfelFactory._5W12;
-            
-            while (Console.ReadKey().Key != ConsoleKey.Q)
-            {
-                var c = new Character(attributWürfel, berufWürfel, zeichenWürfel, trefferWürfel, geldWürfel, handelsWarenWürfel);
-                Console.WriteLine(c);
-            }
+
+            return new Character(attributWürfel, berufWürfel, zeichenWürfel, trefferWürfel, geldWürfel, handelsWarenWürfel);            
         }
     }
 }

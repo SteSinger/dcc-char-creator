@@ -1,20 +1,19 @@
-﻿using DccCharCreator.core.Dice;
+﻿using DccCharCreator.core.Würfel;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Xml;
-using System.Xml.Serialization;
 
-namespace DccCharCreator.core
+namespace DccCharCreator.core.CharacterData
 {
     public class Geburtszeichen
     {
-        public int Index { get; set; }
+        public int Wurf { get; set; }
         public string Name { get; set; } = string.Empty;
         public string Schicksalswurf { get; set; } = string.Empty;
         public int Bonus { get; set; }
 
+        private const string fileName = "geburtszeichen.xml";
         private static Lazy<Dictionary<int, Geburtszeichen>> GeburtszeichenDict = new Lazy<Dictionary<int, Geburtszeichen>>(Load);
 
         public Geburtszeichen()
@@ -23,25 +22,20 @@ namespace DccCharCreator.core
 
         public Geburtszeichen(Geburtszeichen zeichen, int bonus)
         {
-            Index = zeichen.Index;
+            Wurf = zeichen.Wurf;
             Name = zeichen.Name;
             Schicksalswurf = zeichen.Schicksalswurf;
             Bonus = bonus;
         }
 
-        public static Geburtszeichen Random(ID30 dice, int bonus)
+        public static Geburtszeichen Random(IW30 dice, int bonus)
         {
-            return new Geburtszeichen(GeburtszeichenDict.Value[dice.Roll()], bonus);
+            return new Geburtszeichen(GeburtszeichenDict.Value[dice.Würfeln()], bonus);
         }
 
         public static Dictionary<int, Geburtszeichen> Load()
         {
-            using var reader = XmlReader.Create("geburtszeichen.xml");
-            var serializer = new XmlSerializer(typeof(Geburtszeichen[]));
-            var deserializedObject = serializer.Deserialize(reader);
-            var result = ((Geburtszeichen[])deserializedObject).ToDictionary(x => x.Index);
-            Validate(result);
-            return result;
+            return Serializer.Load<Geburtszeichen>(fileName, Validate, x => x.Wurf);
         }
 
         private static void Validate(Dictionary<int, Geburtszeichen> result)
@@ -62,14 +56,12 @@ namespace DccCharCreator.core
 
         public static void Save(List<Geburtszeichen> geburtszeichen)
         {
-            using var writer = XmlWriter.Create("geburtszeichen.xml", new XmlWriterSettings { Indent = true });
-            var serializer = new XmlSerializer(typeof(List<Geburtszeichen>));
-            serializer.Serialize(writer, geburtszeichen);
+            Serializer.Save(fileName, geburtszeichen);
         }
 
         public override string ToString()
         {
-            return $"{Index}: {Name}; {Schicksalswurf} ({Bonus.ToString("+0;-0;0", CultureInfo.InvariantCulture)})";
+            return $"{Wurf}: {Name}; {Schicksalswurf} ({Bonus.ToString("+0;-0;0", CultureInfo.InvariantCulture)})";
         }
     }
 }
