@@ -6,26 +6,26 @@ using System.Text;
 
 namespace DccCharCreator.core.CharacterData
 {
-    public class Handelsware
+    public class Ausrüstung
     {
         public int Wurf { get; set; }
         public string Gegenstand { get; set; } = string.Empty;
         public string Preis { get; set; } = string.Empty;
 
-        private const string fileName = "handelswaren.xml";
-        private static readonly Lazy<Dictionary<int, Handelsware>> Handelswaren = new Lazy<Dictionary<int, Handelsware>>(Load());
+        private const string fileName = "ausrüstung.xml";
+        private static readonly Lazy<Dictionary<int, Ausrüstung>> Handelswaren = new Lazy<Dictionary<int, Ausrüstung>>(Load());
 
-        public static Handelsware Random(IW24 würfel)
+        public static Ausrüstung Random(IW24 würfel)
         {
             return Handelswaren.Value[würfel.Würfeln()];
         }
 
-        public static Dictionary<int, Handelsware> Load()
+        public static Dictionary<int, Ausrüstung> Load()
         {
-            return Serializer.Load<Handelsware>(fileName, Validate, x => x.Wurf);
+            return Serializer.Load<Ausrüstung>(fileName, Validate, x => x.Wurf);
         }
 
-        private static void Validate(Dictionary<int, Handelsware> result)
+        private static void Validate(Dictionary<int, Ausrüstung> result)
         {
             if (result.Count != 24)
             {
@@ -41,7 +41,7 @@ namespace DccCharCreator.core.CharacterData
             }
         }
 
-        public static void Save(List<Handelsware> handelswaren)
+        public static void Save(List<Ausrüstung> handelswaren)
         {
             Serializer.Save(fileName, handelswaren);
         }

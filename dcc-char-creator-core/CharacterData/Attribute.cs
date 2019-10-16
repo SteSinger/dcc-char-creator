@@ -22,7 +22,7 @@ namespace DccCharCreator.core.CharacterData
         }
         public override string ToString()
         {
-            return $"ST: {Stärke.value}({Stärke.BonusFormatted}); GE: {Geschicklichkeit.value}({Geschicklichkeit.BonusFormatted}); AU: {Ausdauer.value}({Ausdauer.BonusFormatted}); PE: {Persönlichkeit.value}({Persönlichkeit.BonusFormatted}); IN: {Intelligenz.value}({Intelligenz.BonusFormatted}); GL: {Glück.value}({Glück.BonusFormatted}); ";
+            return $"ST: {Stärke.Value}({Stärke.BonusFormatted}); GE: {Geschicklichkeit.Value}({Geschicklichkeit.BonusFormatted}); AU: {Ausdauer.Value}({Ausdauer.BonusFormatted}); PE: {Persönlichkeit.Value}({Persönlichkeit.BonusFormatted}); IN: {Intelligenz.Value}({Intelligenz.BonusFormatted}); GL: {Glück.Value}({Glück.BonusFormatted}); ";
         }
     }
 }

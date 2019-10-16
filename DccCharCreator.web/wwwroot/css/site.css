@@ -1,1 +1,21 @@
-﻿
+﻿ul {
+    list-style: none
+}
+
+.charactere {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.charcter{
+    max-width: 500px;
+}
+
+.character table{
+    border: none;
+}
+
+.character table th {
+    text-align: left;
+}

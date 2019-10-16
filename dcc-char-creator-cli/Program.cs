@@ -18,12 +18,12 @@ namespace dcc_char_creator_cli
             var trefferWürfel = WürfelFactory.W4;
             var handelsWarenWürfel = WürfelFactory.W24;
             var geldWürfel = WürfelFactory._5W12;
-            
-            while (Console.ReadKey().Key != ConsoleKey.Q)
+
+            do
             {
                 var c = new Character(attributWürfel, berufWürfel, zeichenWürfel, trefferWürfel, geldWürfel, handelsWarenWürfel);
                 Console.WriteLine(c);
-            }
+            } while (Console.ReadKey().Key != ConsoleKey.Q);
         }
     }
 }

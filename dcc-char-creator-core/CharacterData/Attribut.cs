@@ -5,15 +5,13 @@ namespace DccCharCreator.core.CharacterData
 {
     public struct Attribut : IEquatable<Attribut>
     {
-        public int value;
-
         public Attribut(int value) : this()
         {
-            this.value = value;
+            Value = value;
         }
 
         public int Bonus =>
-            value switch
+            Value switch
             {
                 3 => -3,
                 4 => -2,
@@ -36,6 +34,8 @@ namespace DccCharCreator.core.CharacterData
 
         public string BonusFormatted => Bonus.ToString("+0;-0;0", CultureInfo.InvariantCulture);
 
+        public int Value { get; }
+
         public override bool Equals(object? obj)
         {
             if (obj is null)
@@ -43,12 +43,12 @@ namespace DccCharCreator.core.CharacterData
                 return false;
             }
 
-            return ((Attribut)obj).value == value;
+            return ((Attribut)obj).Value == Value;
         }
 
         public override int GetHashCode()
         {
-            return value.GetHashCode();
+            return Value.GetHashCode();
         }
 
         public static bool operator ==(Attribut left, Attribut right)
@@ -63,7 +63,7 @@ namespace DccCharCreator.core.CharacterData
 
         public bool Equals(Attribut other)
         {
-            return other.value == value;
+            return other.Value == Value;
         }
     }
 }

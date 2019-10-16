@@ -11,9 +11,9 @@ namespace DccCharCreator.core.CharacterData
 
         public string Name { get; set; } = string.Empty;
 
-        public string Weapon { get; set; } = string.Empty;
+        public string Startwaffe { get; set; } = string.Empty;
 
-        public string Equipment { get; set; } = string.Empty;
+        public string Handelsware { get; set; } = string.Empty;
 
         public Rasse Rasse { get; set; }
 
@@ -66,7 +66,7 @@ namespace DccCharCreator.core.CharacterData
 
         public override string ToString()
         {
-            return $"{Wurf}: {Name}; {Weapon}; {Equipment}; {Rassenvorteile()}";
+            return $"{Wurf}: {Name}; {Startwaffe}; {Handelsware}; {Rassenvorteile()}";
         }
     }
 }

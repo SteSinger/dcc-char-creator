@@ -1,24 +1,89 @@
 ﻿@model IEnumerable<DccCharCreator.core.CharacterData.Character>
 
 @{
-    ViewData["Title"] = "Character";
+    ViewData["Title"] = "Dungeon Crawl Classics - Charactergenerator";
 }
 
-<h1>Character</h1>
+<h1>Die Totgeweihten</h1>
+<div class="charactere">
+    @foreach (var character in Model)
+    {
+        <div class="character">
+            <h2>@character.Beruf.Name</h2>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @item.ToString()
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Stärke:</th>
+                        <td>@character.Attribute.Stärke.Format()</td>
+                    </tr>
+                    <tr>
+                        <th>Geschicklichkeit:</th>
+                        <td>@character.Attribute.Geschicklichkeit.Format()</td>
+                    </tr>
+                    <tr>
+                        <th>Ausdauer: </th>
+                        <td>@character.Attribute.Ausdauer.Format()</td>
+                    </tr>
+                    <tr>
+                        <th>Persönlichkeit:</th>
+                        <td>@character.Attribute.Persönlichkeit.Format()</td>
+                    </tr>
+                    <tr>
+                        <th>Intelligenz:</th>
+                        <td>@character.Attribute.Intelligenz.Format()</td>
+                    </tr>
+                    <tr>
+                        <th>Glück:</th>
+                        <td>@character.Attribute.Glück.Format()</td>
+                    </tr>
+                    <tr><td><br /></td><td><br /></td></tr>
+                    <tr>
+                        <th>Zähigkeit:</th> 
+                        <td>@character.Zähigkeit</td>
+                    </tr>
+                    <tr>
+                        <th>Willenskraft:</th>
+                        <td>@character.Willenskraft</td>
+                    </tr>
+                    <tr>
+                        <th>Reflexe:</th>
+                        <td>@character.Refelexe</td>
+                    </tr>
+                    <tr><td><br /></td><td><br /></td></tr>
+                    <tr>
+                        <th>Trefferpunkte:</th>
+                        <td>@character.Trefferpunkte</td>
+                    </tr>
+                    <tr>
+                        <th>Rüstungsklasse:</th>
+                        <td>@character.Rüstungsklasse</td>
+                    </tr>
+                    <tr>
+                        <th>Initiative:</th>
+                        <td>@character.Initiative</td>
+                    </tr>
+                    <tr><td><br /></td><td><br /></td></tr>
+                    <tr>
+                        <th>Geburtszeichen:</th>
+                        <td>@character.Geburtszeichen.Format()</td>
+                    </tr>
+                    <tr><td><br /></td><td><br /></td></tr>
+                    <tr>
+                        <th>Startwaffe:</th>
+                        <td>@character.Beruf.Startwaffe</td>
+                    </tr>
+                    <tr>
+                        <th>Handelsware:</th>
+                        <td>@character.Beruf.Handelsware</td>
+                    </tr>
+                    <tr>
+                        <th>Ausrüstung: </th>
+                        <td>@character.Ausrüstung.Gegenstand (Wert: @character.Ausrüstung.Preis)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+

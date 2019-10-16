@@ -3,701 +3,701 @@
   <Beruf>
     <Wurf>1</Wurf>
     <Name>Alchemist</Name>
-    <Weapon>Stab</Weapon>
-    <Equipment>Öl, 1 Fläschchen</Equipment>
+    <Startwaffe>Stab</Startwaffe>
+    <Handelsware>Öl, 1 Fläschchen</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>2</Wurf>
     <Name>Tierbändiger</Name>
-    <Weapon>Knüppel</Weapon>
-    <Equipment>Pony</Equipment>
+    <Startwaffe>Knüppel</Startwaffe>
+    <Handelsware>Pony</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>3</Wurf>
     <Name>Waffenschmied</Name>
-    <Weapon>Hammer (wie Knüppel)</Weapon>
-    <Equipment>Eisenhelm</Equipment>
+    <Startwaffe>Hammer (wie Knüppel)</Startwaffe>
+    <Handelsware>Eisenhelm</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>4</Wurf>
     <Name>Astrologe</Name>
-    <Weapon>Dolch</Weapon>
-    <Equipment>Fernrohr</Equipment>
+    <Startwaffe>Dolch</Startwaffe>
+    <Handelsware>Fernrohr</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>5</Wurf>
     <Name>Barbier</Name>
-    <Weapon>Rasierklinge (wie Dolch)</Weapon>
-    <Equipment>Schere</Equipment>
+    <Startwaffe>Rasierklinge (wie Dolch)</Startwaffe>
+    <Handelsware>Schere</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>6</Wurf>
     <Name>Büttel</Name>
-    <Weapon>Stab</Weapon>
-    <Equipment>Heiliges Symbol</Equipment>
+    <Startwaffe>Stab</Startwaffe>
+    <Handelsware>Heiliges Symbol</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>7</Wurf>
     <Name>Imker</Name>
-    <Weapon>Stab</Weapon>
-    <Equipment>Honigtopf</Equipment>
+    <Startwaffe>Stab</Startwaffe>
+    <Handelsware>Honigtopf</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>8</Wurf>
     <Name>Schmied</Name>
-    <Weapon>Hammer (wie Knüppel)</Weapon>
-    <Equipment>Stahlzange</Equipment>
+    <Startwaffe>Hammer (wie Knüppel)</Startwaffe>
+    <Handelsware>Stahlzange</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>9</Wurf>
     <Name>Metzger</Name>
-    <Weapon>Hackbeil (wie Axt)</Weapon>
-    <Equipment>1 Stück Rindfleisch</Equipment>
+    <Startwaffe>Hackbeil (wie Axt)</Startwaffe>
+    <Handelsware>1 Stück Rindfleisch</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>10</Wurf>
     <Name>Karawanenwache</Name>
-    <Weapon>Kurzschwert</Weapon>
-    <Equipment>Leinen, 1 m</Equipment>
+    <Startwaffe>Kurzschwert</Startwaffe>
+    <Handelsware>Leinen, 1 m</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>11</Wurf>
     <Name>Käser</Name>
-    <Weapon>Schlagstock (wie Stab)</Weapon>
-    <Equipment>Stinkender Käse</Equipment>
+    <Startwaffe>Schlagstock (wie Stab)</Startwaffe>
+    <Handelsware>Stinkender Käse</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>12</Wurf>
     <Name>Schuster</Name>
-    <Weapon>Ahle (wie Dolch)</Weapon>
-    <Equipment>Schuhlöffel</Equipment>
+    <Startwaffe>Ahle (wie Dolch)</Startwaffe>
+    <Handelsware>Schuhlöffel</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>13</Wurf>
     <Name>Betrüger</Name>
-    <Weapon>Dolch</Weapon>
-    <Equipment>Hochwertiger Mantel</Equipment>
+    <Startwaffe>Dolch</Startwaffe>
+    <Handelsware>Hochwertiger Mantel</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>14</Wurf>
     <Name>Böttcher</Name>
-    <Weapon>Brechstange (wie Knüppel)</Weapon>
-    <Equipment>Fass</Equipment>
+    <Startwaffe>Brechstange (wie Knüppel)</Startwaffe>
+    <Handelsware>Fass</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>15</Wurf>
     <Name>Straßenhändler</Name>
-    <Weapon>Messer (wie Dolch)</Weapon>
-    <Equipment>Früchte</Equipment>
+    <Startwaffe>Messer (wie Dolch)</Startwaffe>
+    <Handelsware>Früchte</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>16</Wurf>
     <Name>Taschendieb</Name>
-    <Weapon>Dolch</Weapon>
-    <Equipment>Kleine Kiste</Equipment>
+    <Startwaffe>Dolch</Startwaffe>
+    <Handelsware>Kleine Kiste</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>17</Wurf>
     <Name>Grabengräber</Name>
-    <Weapon>Schaufel (wie Stab)</Weapon>
-    <Equipment>Feine Erde, ½ kg</Equipment>
+    <Startwaffe>Schaufel (wie Stab)</Startwaffe>
+    <Handelsware>Feine Erde, ½ kg</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>18</Wurf>
     <Name>Hafenarbeiter</Name>
-    <Weapon>Stange (wie Stab)</Weapon>
-    <Equipment>ein verspätetes Rollenspielbuch</Equipment>
+    <Startwaffe>Stange (wie Stab)</Startwaffe>
+    <Handelsware>ein verspätetes Rollenspielbuch</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>19</Wurf>
     <Name>Zwergischer Apotheker</Name>
-    <Weapon>Schlagstock (wie Stab)</Weapon>
-    <Equipment>Stahlphiole</Equipment>
+    <Startwaffe>Schlagstock (wie Stab)</Startwaffe>
+    <Handelsware>Stahlphiole</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>20</Wurf>
     <Name>Zwergischer Schmied</Name>
-    <Weapon>Hammer (wie Knüppel)</Weapon>
-    <Equipment>Mithril, 30 g</Equipment>
+    <Startwaffe>Hammer (wie Knüppel)</Startwaffe>
+    <Handelsware>Mithril, 30 g</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>21</Wurf>
     <Name>Zwergischer Kistenmacher</Name>
-    <Weapon>Meißel (wie Dolch)</Weapon>
-    <Equipment>Holz, 5 kg</Equipment>
+    <Startwaffe>Meißel (wie Dolch)</Startwaffe>
+    <Handelsware>Holz, 5 kg</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>22</Wurf>
     <Name>Zwergischer Hirte</Name>
-    <Weapon>Stab</Weapon>
-    <Equipment>Sau**</Equipment>
+    <Startwaffe>Stab</Startwaffe>
+    <Handelsware>Sau**</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>23</Wurf>
     <Name>Zwergischer Minenarbeiter</Name>
-    <Weapon>Hacke (wie Knüppel)</Weapon>
-    <Equipment>Laterne</Equipment>
+    <Startwaffe>Hacke (wie Knüppel)</Startwaffe>
+    <Handelsware>Laterne</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>24</Wurf>
     <Name>Zwergischer Minenarbeiter</Name>
-    <Weapon>Hacke (wie Knüppel)</Weapon>
-    <Equipment>Laterne</Equipment>
+    <Startwaffe>Hacke (wie Knüppel)</Startwaffe>
+    <Handelsware>Laterne</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>25</Wurf>
     <Name>Zwergischer Pilzzüchter</Name>
-    <Weapon>Schaufel (wie Stab)</Weapon>
-    <Equipment>Sack</Equipment>
+    <Startwaffe>Schaufel (wie Stab)</Startwaffe>
+    <Handelsware>Sack</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>26</Wurf>
     <Name>Zwergischer Rattenfänger</Name>
-    <Weapon>Knüppel</Weapon>
-    <Equipment>Netz</Equipment>
+    <Startwaffe>Knüppel</Startwaffe>
+    <Handelsware>Netz</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>27</Wurf>
     <Name>Zwergischer Steinmetz</Name>
-    <Weapon>Hammer</Weapon>
-    <Equipment>schöner Stein, 5 kg</Equipment>
+    <Startwaffe>Hammer</Startwaffe>
+    <Handelsware>schöner Stein, 5 kg</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>28</Wurf>
     <Name>Zwergischer Steinmetz</Name>
-    <Weapon>Hammer</Weapon>
-    <Equipment>schöner Stein, 5 kg</Equipment>
+    <Startwaffe>Hammer</Startwaffe>
+    <Handelsware>schöner Stein, 5 kg</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>29</Wurf>
     <Name>Elfischer Kunsthandwerker</Name>
-    <Weapon>Stab</Weapon>
-    <Equipment>Ton, ½ kg</Equipment>
+    <Startwaffe>Stab</Startwaffe>
+    <Handelsware>Ton, ½ kg</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>30</Wurf>
     <Name>Elfischer Advokat</Name>
-    <Weapon>Schreibfeder (wie Wurfpfeil)</Weapon>
-    <Equipment>Buch</Equipment>
+    <Startwaffe>Schreibfeder (wie Wurfpfeil)</Startwaffe>
+    <Handelsware>Buch</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>31</Wurf>
     <Name>Elfischer Kerzenmacher</Name>
-    <Weapon>Schere (wie Dolch)</Weapon>
-    <Equipment>Kerzen, 20</Equipment>
+    <Startwaffe>Schere (wie Dolch)</Startwaffe>
+    <Handelsware>Kerzen, 20</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>32</Wurf>
     <Name>Elfischer Falkner</Name>
-    <Weapon>Dolch</Weapon>
-    <Equipment>Falke</Equipment>
+    <Startwaffe>Dolch</Startwaffe>
+    <Handelsware>Falke</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>33</Wurf>
     <Name>Elfischer Förster</Name>
-    <Weapon>Stab</Weapon>
-    <Equipment>Kräuter, ½ kg</Equipment>
+    <Startwaffe>Stab</Startwaffe>
+    <Handelsware>Kräuter, ½ kg</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>34</Wurf>
     <Name>Elfischer Förster</Name>
-    <Weapon>Stab</Weapon>
-    <Equipment>Kräuter, ½ kg</Equipment>
+    <Startwaffe>Stab</Startwaffe>
+    <Handelsware>Kräuter, ½ kg</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>35</Wurf>
     <Name>Elfischer Glasbläser</Name>
-    <Weapon>Hammer (wie Knüppel)</Weapon>
-    <Equipment>Glasperlen</Equipment>
+    <Startwaffe>Hammer (wie Knüppel)</Startwaffe>
+    <Handelsware>Glasperlen</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>36</Wurf>
     <Name>Elfischer Navigator</Name>
-    <Weapon>Kurzbogen</Weapon>
-    <Equipment>Fernrohr</Equipment>
+    <Startwaffe>Kurzbogen</Startwaffe>
+    <Handelsware>Fernrohr</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>37</Wurf>
     <Name>Elfischer Gelehrter</Name>
-    <Weapon>Dolch</Weapon>
-    <Equipment>Pergament und Schreibfeder</Equipment>
+    <Startwaffe>Dolch</Startwaffe>
+    <Handelsware>Pergament und Schreibfeder</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>38</Wurf>
     <Name>Elfischer Gelehrter</Name>
-    <Weapon>Dolch</Weapon>
-    <Equipment>Pergament und Schreibfeder</Equipment>
+    <Startwaffe>Dolch</Startwaffe>
+    <Handelsware>Pergament und Schreibfeder</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>39</Wurf>
     <Name>Bauer*</Name>
-    <Weapon>Mistgabel (wie Speer)</Weapon>
-    <Equipment>Henne**</Equipment>
+    <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>40</Wurf>
     <Name>Bauer*</Name>
-    <Weapon>Mistgabel (wie Speer)</Weapon>
-    <Equipment>Henne**</Equipment>
+    <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>41</Wurf>
     <Name>Bauer*</Name>
-    <Weapon>Mistgabel (wie Speer)</Weapon>
-    <Equipment>Henne**</Equipment>
+    <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>42</Wurf>
     <Name>Bauer*</Name>
-    <Weapon>Mistgabel (wie Speer)</Weapon>
-    <Equipment>Henne**</Equipment>
+    <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>43</Wurf>
     <Name>Bauer*</Name>
-    <Weapon>Mistgabel (wie Speer)</Weapon>
-    <Equipment>Henne**</Equipment>
+    <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>44</Wurf>
     <Name>Bauer*</Name>
-    <Weapon>Mistgabel (wie Speer)</Weapon>
-    <Equipment>Henne**</Equipment>
+    <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>45</Wurf>
     <Name>Bauer*</Name>
-    <Weapon>Mistgabel (wie Speer)</Weapon>
-    <Equipment>Henne**</Equipment>
+    <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>46</Wurf>
     <Name>Bauer*</Name>
-    <Weapon>Mistgabel (wie Speer)</Weapon>
-    <Equipment>Henne**</Equipment>
+    <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>47</Wurf>
     <Name>Bauer*</Name>
-    <Weapon>Mistgabel (wie Speer)</Weapon>
-    <Equipment>Henne**</Equipment>
+    <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>48</Wurf>
     <Name>Wahrsager</Name>
-    <Weapon>Dolch</Weapon>
-    <Equipment>Tarotkarten</Equipment>
+    <Startwaffe>Dolch</Startwaffe>
+    <Handelsware>Tarotkarten</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>49</Wurf>
     <Name>Glücksspieler</Name>
-    <Weapon>Knüppel</Weapon>
-    <Equipment>Würfel</Equipment>
+    <Startwaffe>Knüppel</Startwaffe>
+    <Handelsware>Würfel</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>50</Wurf>
     <Name>Buttenmann/-frau</Name>
-    <Weapon>Handschaufel (wie Dolch)</Weapon>
-    <Equipment>Sack gesammelter Notdurft</Equipment>
+    <Startwaffe>Handschaufel (wie Dolch)</Startwaffe>
+    <Handelsware>Sack gesammelter Notdurft</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>51</Wurf>
     <Name>Totengräber</Name>
-    <Weapon>Schaufel (wie Stab)</Weapon>
-    <Equipment>Handschaufel</Equipment>
+    <Startwaffe>Schaufel (wie Stab)</Startwaffe>
+    <Handelsware>Handschaufel</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>52</Wurf>
     <Name>Totengräber</Name>
-    <Weapon>Schaufel (wie Stab)</Weapon>
-    <Equipment>Handschaufel</Equipment>
+    <Startwaffe>Schaufel (wie Stab)</Startwaffe>
+    <Handelsware>Handschaufel</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>53</Wurf>
     <Name>Gildenbettler</Name>
-    <Weapon>Schleuder</Weapon>
-    <Equipment>Krücken</Equipment>
+    <Startwaffe>Schleuder</Startwaffe>
+    <Handelsware>Krücken</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>54</Wurf>
     <Name>Gildenbettler</Name>
-    <Weapon>Schleuder</Weapon>
-    <Equipment>Krücken</Equipment>
+    <Startwaffe>Schleuder</Startwaffe>
+    <Handelsware>Krücken</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>55</Wurf>
     <Name>Halblinghühnermetzger</Name>
-    <Weapon>Handaxt</Weapon>
-    <Equipment>Hühnchenfleisch, 2½ kg</Equipment>
+    <Startwaffe>Handaxt</Startwaffe>
+    <Handelsware>Hühnchenfleisch, 2½ kg</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>56</Wurf>
     <Name>Halblingfärber</Name>
-    <Weapon>Stab</Weapon>
-    <Equipment>Stoff, 3 m</Equipment>
+    <Startwaffe>Stab</Startwaffe>
+    <Handelsware>Stoff, 3 m</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>57</Wurf>
     <Name>Halblingfärber</Name>
-    <Weapon>Stab</Weapon>
-    <Equipment>Stoff, 3 m</Equipment>
+    <Startwaffe>Stab</Startwaffe>
+    <Handelsware>Stoff, 3 m</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>58</Wurf>
     <Name>Halblinghandschuhmacher</Name>
-    <Weapon>Ahle (wie Dolch)</Weapon>
-    <Equipment>Handschuhe, 4 Paar</Equipment>
+    <Startwaffe>Ahle (wie Dolch)</Startwaffe>
+    <Handelsware>Handschuhe, 4 Paar</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>59</Wurf>
     <Name>Halbling vom Fahrenden Volk</Name>
-    <Weapon>Schleuder</Weapon>
-    <Equipment>Zauberpuppe</Equipment>
+    <Startwaffe>Schleuder</Startwaffe>
+    <Handelsware>Zauberpuppe</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>60</Wurf>
     <Name>Halblingkurzwarenhändler</Name>
-    <Weapon>Schere (wie Dolch)</Weapon>
-    <Equipment>Feine Herrenkleidung, 3 Garnituren</Equipment>
+    <Startwaffe>Schere (wie Dolch)</Startwaffe>
+    <Handelsware>Feine Herrenkleidung, 3 Garnituren</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>61</Wurf>
     <Name>Halblingseemann</Name>
-    <Weapon>Messer (wie Dolch)</Weapon>
-    <Equipment>Segeltuch, 2 m</Equipment>
+    <Startwaffe>Messer (wie Dolch)</Startwaffe>
+    <Handelsware>Segeltuch, 2 m</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>62</Wurf>
     <Name>Halblinggeldverleiher</Name>
-    <Weapon>Kurzschwert</Weapon>
-    <Equipment>5 GM, 10 SM, 200 KM</Equipment>
+    <Startwaffe>Kurzschwert</Startwaffe>
+    <Handelsware>5 GM, 10 SM, 200 KM</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>63</Wurf>
     <Name>Halblinghändler</Name>
-    <Weapon>Kurzschwert</Weapon>
-    <Equipment>20 SM</Equipment>
+    <Startwaffe>Kurzschwert</Startwaffe>
+    <Handelsware>20 SM</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>64</Wurf>
     <Name>Halblinglandstreicher</Name>
-    <Weapon>Knüppel</Weapon>
-    <Equipment>Bettelschale</Equipment>
+    <Startwaffe>Knüppel</Startwaffe>
+    <Handelsware>Bettelschale</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>65</Wurf>
     <Name>Heiler</Name>
-    <Weapon>Knüppel</Weapon>
-    <Equipment>Heiliges Wasser, 1 Fläschchen</Equipment>
+    <Startwaffe>Knüppel</Startwaffe>
+    <Handelsware>Heiliges Wasser, 1 Fläschchen</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>66</Wurf>
     <Name>Kräuterkundler</Name>
-    <Weapon>Knüppel</Weapon>
-    <Equipment>Kräuter, ½ kg</Equipment>
+    <Startwaffe>Knüppel</Startwaffe>
+    <Handelsware>Kräuter, ½ kg</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>67</Wurf>
     <Name>Hirte</Name>
-    <Weapon>Stab</Weapon>
-    <Equipment>Schäferhund**</Equipment>
+    <Startwaffe>Stab</Startwaffe>
+    <Handelsware>Schäferhund**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>68</Wurf>
     <Name>Jäger</Name>
-    <Weapon>Kurzbogen</Weapon>
-    <Equipment>Hirschfell</Equipment>
+    <Startwaffe>Kurzbogen</Startwaffe>
+    <Handelsware>Hirschfell</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>69</Wurf>
     <Name>Jäger</Name>
-    <Weapon>Kurzbogen</Weapon>
-    <Equipment>Hirschfell</Equipment>
+    <Startwaffe>Kurzbogen</Startwaffe>
+    <Handelsware>Hirschfell</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>70</Wurf>
     <Name>Vertragsknecht</Name>
-    <Weapon>Stab</Weapon>
-    <Equipment>Anhänger</Equipment>
+    <Startwaffe>Stab</Startwaffe>
+    <Handelsware>Anhänger</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>71</Wurf>
     <Name>Narr</Name>
-    <Weapon>Wurfpfeil</Weapon>
-    <Equipment>Seidenkleidung</Equipment>
+    <Startwaffe>Wurfpfeil</Startwaffe>
+    <Handelsware>Seidenkleidung</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>72</Wurf>
     <Name>Juwelier</Name>
-    <Weapon>Dolch</Weapon>
-    <Equipment>Edelstein, 20 GM wert</Equipment>
+    <Startwaffe>Dolch</Startwaffe>
+    <Handelsware>Edelstein, 20 GM wert</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>73</Wurf>
     <Name>Schlosser</Name>
-    <Weapon>Dolch</Weapon>
-    <Equipment>Feinwerkzeug</Equipment>
+    <Startwaffe>Dolch</Startwaffe>
+    <Handelsware>Feinwerkzeug</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>74</Wurf>
     <Name>Bettler</Name>
-    <Weapon>Knüppel</Weapon>
-    <Equipment>Käsesoße</Equipment>
+    <Startwaffe>Knüppel</Startwaffe>
+    <Handelsware>Käsesoße</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>75</Wurf>
     <Name>Söldner</Name>
-    <Weapon>Langschwert</Weapon>
-    <Equipment>Fellrüstung</Equipment>
+    <Startwaffe>Langschwert</Startwaffe>
+    <Handelsware>Fellrüstung</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>76</Wurf>
     <Name>Kaufmann</Name>
-    <Weapon>Dolch</Weapon>
-    <Equipment>4 GM, 14 SM, 27 KM</Equipment>
+    <Startwaffe>Dolch</Startwaffe>
+    <Handelsware>4 GM, 14 SM, 27 KM</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>77</Wurf>
     <Name>Müller/Bäcker</Name>
-    <Weapon>Knüppel</Weapon>
-    <Equipment>Mehl, ½ kg</Equipment>
+    <Startwaffe>Knüppel</Startwaffe>
+    <Handelsware>Mehl, ½ kg</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>78</Wurf>
     <Name>Barde</Name>
-    <Weapon>Dolch</Weapon>
-    <Equipment>Ukulele</Equipment>
+    <Startwaffe>Dolch</Startwaffe>
+    <Handelsware>Ukulele</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>79</Wurf>
     <Name>Adeliger</Name>
-    <Weapon>Langschwert</Weapon>
-    <Equipment>Goldring, 10 GM wert</Equipment>
+    <Startwaffe>Langschwert</Startwaffe>
+    <Handelsware>Goldring, 10 GM wert</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>80</Wurf>
     <Name>Waise</Name>
-    <Weapon>Knüppel</Weapon>
-    <Equipment>Stoffpuppe</Equipment>
+    <Startwaffe>Knüppel</Startwaffe>
+    <Handelsware>Stoffpuppe</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>81</Wurf>
     <Name>Stallknecht</Name>
-    <Weapon>Stab</Weapon>
-    <Equipment>Zaumzeug</Equipment>
+    <Startwaffe>Stab</Startwaffe>
+    <Handelsware>Zaumzeug</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>82</Wurf>
     <Name>Gesetzloser</Name>
-    <Weapon>Kurzschwert</Weapon>
-    <Equipment>Lederrüstung</Equipment>
+    <Startwaffe>Kurzschwert</Startwaffe>
+    <Handelsware>Lederrüstung</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>83</Wurf>
     <Name>Seiler</Name>
-    <Weapon>Messer (wie Dolch)</Weapon>
-    <Equipment>Seil, 30 m</Equipment>
+    <Startwaffe>Messer (wie Dolch)</Startwaffe>
+    <Handelsware>Seil, 30 m</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>84</Wurf>
     <Name>Schreiber</Name>
-    <Weapon>Wurfpfeil</Weapon>
-    <Equipment>Pergament, 10 Blätter</Equipment>
+    <Startwaffe>Wurfpfeil</Startwaffe>
+    <Handelsware>Pergament, 10 Blätter</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>85</Wurf>
     <Name>Schamane</Name>
-    <Weapon>Streitkolben</Weapon>
-    <Equipment>Kräuter, ½ kg</Equipment>
+    <Startwaffe>Streitkolben</Startwaffe>
+    <Handelsware>Kräuter, ½ kg</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>86</Wurf>
     <Name>Sklave</Name>
-    <Weapon>Knüppel</Weapon>
-    <Equipment>Seltsam aussehender Stein</Equipment>
+    <Startwaffe>Knüppel</Startwaffe>
+    <Handelsware>Seltsam aussehender Stein</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>87</Wurf>
     <Name>Schmuggler</Name>
-    <Weapon>Schleuder</Weapon>
-    <Equipment>Wasserdichter Sack</Equipment>
+    <Startwaffe>Schleuder</Startwaffe>
+    <Handelsware>Wasserdichter Sack</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>88</Wurf>
     <Name>Soldat</Name>
-    <Weapon>Speer</Weapon>
-    <Equipment>Schild</Equipment>
+    <Startwaffe>Speer</Startwaffe>
+    <Handelsware>Schild</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>89</Wurf>
     <Name>Knappe</Name>
-    <Weapon>Langschwert</Weapon>
-    <Equipment>Stahlhelm</Equipment>
+    <Startwaffe>Langschwert</Startwaffe>
+    <Handelsware>Stahlhelm</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>90</Wurf>
     <Name>Knappe</Name>
-    <Weapon>Langschwert</Weapon>
-    <Equipment>Stahlhelm</Equipment>
+    <Startwaffe>Langschwert</Startwaffe>
+    <Handelsware>Stahlhelm</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>91</Wurf>
     <Name>Steuereintreiber</Name>
-    <Weapon>Langschwert</Weapon>
-    <Equipment>100 KM</Equipment>
+    <Startwaffe>Langschwert</Startwaffe>
+    <Handelsware>100 KM</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>92</Wurf>
     <Name>Fallensteller</Name>
-    <Weapon>Schleuder</Weapon>
-    <Equipment>Dachsfell</Equipment>
+    <Startwaffe>Schleuder</Startwaffe>
+    <Handelsware>Dachsfell</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>93</Wurf>
     <Name>Fallensteller</Name>
-    <Weapon>Schleuder</Weapon>
-    <Equipment>Dachsfell</Equipment>
+    <Startwaffe>Schleuder</Startwaffe>
+    <Handelsware>Dachsfell</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>94</Wurf>
     <Name>Gassenkind</Name>
-    <Weapon>Stock (wie Knüppel)</Weapon>
-    <Equipment>Bettelschale</Equipment>
+    <Startwaffe>Stock (wie Knüppel)</Startwaffe>
+    <Handelsware>Bettelschale</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>95</Wurf>
     <Name>Wagner</Name>
-    <Weapon>Knüppel</Weapon>
-    <Equipment>Schubkarre***</Equipment>
+    <Startwaffe>Knüppel</Startwaffe>
+    <Handelsware>Schubkarre***</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>96</Wurf>
     <Name>Weber</Name>
-    <Weapon>Dolch</Weapon>
-    <Equipment>Feine Kleidung</Equipment>
+    <Startwaffe>Dolch</Startwaffe>
+    <Handelsware>Feine Kleidung</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>97</Wurf>
     <Name>Zauberlehrling</Name>
-    <Weapon>Dolch</Weapon>
-    <Equipment>Schwarzes Zauberbuch</Equipment>
+    <Startwaffe>Dolch</Startwaffe>
+    <Handelsware>Schwarzes Zauberbuch</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>98</Wurf>
     <Name>Holzfäller</Name>
-    <Weapon>Handaxt</Weapon>
-    <Equipment>Bündel Holz</Equipment>
+    <Startwaffe>Handaxt</Startwaffe>
+    <Handelsware>Bündel Holz</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>99</Wurf>
     <Name>Holzfäller</Name>
-    <Weapon>Handaxt</Weapon>
-    <Equipment>Bündel Holz</Equipment>
+    <Startwaffe>Handaxt</Startwaffe>
+    <Handelsware>Bündel Holz</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>100</Wurf>
     <Name>Holzfäller</Name>
-    <Weapon>Handaxt</Weapon>
-    <Equipment>Bündel Holz</Equipment>
+    <Startwaffe>Handaxt</Startwaffe>
+    <Handelsware>Bündel Holz</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
 </ArrayOfBeruf>
