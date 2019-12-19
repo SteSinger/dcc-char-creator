@@ -1,12 +1,14 @@
-﻿@model IEnumerable<DccCharCreator.core.CharacterData.Character>
+﻿@model CharacterViewModel
 
 @{
     ViewData["Title"] = "Dungeon Crawl Classics - Charactergenerator";
 }
 
 <h1>Die Totgeweihten</h1>
+@*<a asp-controller="Character" asp-action="Index" asp-route-seed="@Model.Seed">Drucken</a>*@
+<a asp-controller="Character" asp-action="Index">&#x1F3B2;</a>
 <div class="charactere">
-    @foreach (var character in Model)
+    @foreach (var character in Model.Characters)
     {
         <div class="character">
             <h2>@character.Beruf.Name</h2>
@@ -39,7 +41,7 @@
                     </tr>
                     <tr><td><br /></td><td><br /></td></tr>
                     <tr>
-                        <th>Zähigkeit:</th> 
+                        <th>Zähigkeit:</th>
                         <td>@character.Zähigkeit</td>
                     </tr>
                     <tr>
@@ -80,6 +82,10 @@
                     <tr>
                         <th>Ausrüstung: </th>
                         <td>@character.Ausrüstung.Gegenstand (Wert: @character.Ausrüstung.Preis)</td>
+                    </tr>
+                    <tr>
+                        <th>Startkapital: </th>
+                        <td>@character.Startkapital</td>
                     </tr>
                 </tbody>
             </table>

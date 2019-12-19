@@ -3,11 +3,16 @@ using System.Linq;
 
 namespace DccCharCreator.core.Würfel
 {
-    class WürfelFunktionen
+    internal class WürfelFunktionen
     {
-        private static Random random = new Random();
+        private readonly Random random;
 
-        public static int W6(int anzahl = 1)
+        internal WürfelFunktionen(Random random)
+        {
+            this.random = random;
+        }
+
+        internal int W6(int anzahl = 1)
         {
             if (anzahl <= 0)
             {
@@ -17,7 +22,7 @@ namespace DccCharCreator.core.Würfel
             return Enumerable.Range(1, anzahl).Sum(x => random.Next(1, 7));
         }
 
-        public static int W12(int anzahl = 1)
+        internal int W12(int anzahl = 1)
         {
             if (anzahl <= 0)
             {
@@ -27,22 +32,22 @@ namespace DccCharCreator.core.Würfel
             return Enumerable.Range(1, anzahl).Sum(x => random.Next(1, 13));
         }
 
-        internal static int W4()
+        internal int W4()
         {
             return random.Next(1, 5);
         }
 
-        internal static int W24()
+        internal int W24()
         {
             return random.Next(1, 25);
         }
 
-        internal static int W30()
+        internal int W30()
         {
             return random.Next(1, 31);
         }
 
-        public static int W100()
+        internal int W100()
         {
             return random.Next(1, 101);
         }

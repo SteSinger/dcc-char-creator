@@ -16,7 +16,7 @@ namespace DccCharCreator.core.CharacterData
 
         public Ausrüstung Ausrüstung { get; }
 
-        public string Geld { get; set; }
+        public string Startkapital { get; set; }
 
         public string Zähigkeit => Attribute.Ausdauer.BonusFormatted;
         public string Refelexe => Attribute.Geschicklichkeit.BonusFormatted;
@@ -30,7 +30,7 @@ namespace DccCharCreator.core.CharacterData
             Beruf = Beruf.Random(berufWürfel);
             Geburtszeichen = Geburtszeichen.Random(zeichenWürfel, Attribute.Glück.Bonus);
             Trefferpunkte = Math.Max(trefferpunkteWürfel.Würfeln() + Attribute.Ausdauer.Bonus, 1);
-            Geld = $"{geldWürfel.Würfeln()} KM";
+            Startkapital = $"{geldWürfel.Würfeln()} KM";
             Ausrüstung = Ausrüstung.Random(handelsWarenWürfel);
         }
 
@@ -43,7 +43,7 @@ namespace DccCharCreator.core.CharacterData
             sb.Append("Beruf: ").AppendLine(Beruf.ToString());
             sb.Append("Geburtszeichen: ").AppendLine(Geburtszeichen.ToString());
             sb.Append("Rettungswürfe: ").AppendLine($"Zähigkeit: {Zähigkeit}, Reflexe: {Refelexe}, Willenskraft: {Willenskraft}");
-            sb.Append("Geld: ").AppendLine(Geld);
+            sb.Append("Geld: ").AppendLine(Startkapital);
             sb.Append("Ausrüstung: ").AppendLine(Ausrüstung.ToString());
             return sb.ToString();
         }
