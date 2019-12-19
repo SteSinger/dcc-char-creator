@@ -39,12 +39,15 @@ namespace DccCharCreator.core.CharacterData
         {
             var sb = new StringBuilder();
             sb.Append("Attribute: ").AppendLine(Attribute.ToString());
-            sb.Append("Trefferpunkte: ").AppendLine(Trefferpunkte.ToString());
+            sb.Append("TP: ").Append(Trefferpunkte.ToString());
+            sb.Append(" RK: ").Append(Rüstungsklasse.ToString());
+            sb.Append(" INI: ").AppendLine(Initiative);
             sb.Append("Beruf: ").AppendLine(Beruf.ToString());
             sb.Append("Geburtszeichen: ").AppendLine(Geburtszeichen.ToString());
             sb.Append("Rettungswürfe: ").AppendLine($"Zähigkeit: {Zähigkeit}, Reflexe: {Refelexe}, Willenskraft: {Willenskraft}");
             sb.Append("Geld: ").AppendLine(Startkapital);
             sb.Append("Ausrüstung: ").AppendLine(Ausrüstung.ToString());
+            
             return sb.ToString();
         }
 

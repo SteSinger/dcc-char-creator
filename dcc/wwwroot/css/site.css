@@ -1,0 +1,23 @@
+﻿ul {
+    list-style: none
+}
+
+.charaktere {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.charakter{
+    max-width: 350px;
+    margin: 5px;
+}
+
+.charakter table{
+    border: none;
+}
+
+.charakter table th {
+    text-align: left;
+}

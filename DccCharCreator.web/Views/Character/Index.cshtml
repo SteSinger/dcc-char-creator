@@ -1,92 +1,103 @@
 ﻿@model CharacterViewModel
 
 @{
-    ViewData["Title"] = "Dungeon Crawl Classics - Charactergenerator";
+    ViewData["Title"] = "Dungeon Crawl Classics - Charaktergenerator";
 }
+<h1>Dungeon Crawl Classics - Charaktergenerator</h1>
+<p>
+    Bei jedem Laden der Seite warten 4 neue Dörfler darauf dem sicheren Tod zu trotzen, wie @(((long)Context.Items["count"] - 1) * 4) vor ihnen.
+Basierend auf der deutschen Übersetzung von DCC von <a href="https://www.system-matters.de/produkt/dungeon-crawl-classics/">System Matters</a>.
+</p>
 
-<h1>Die Totgeweihten</h1>
+<h2>Morituri te salutant</h2>
 @*<a asp-controller="Character" asp-action="Index" asp-route-seed="@Model.Seed">Drucken</a>*@
 <a asp-controller="Character" asp-action="Index">&#x1F3B2;</a>
 <div class="charactere">
     @foreach (var character in Model.Characters)
     {
-        <div class="character">
-            <h2>@character.Beruf.Name</h2>
-
+        <div class="charakter">
+            <h3>@charakter.Beruf.Name</h3>
             <table>
                 <tbody>
                     <tr>
                         <th>Stärke:</th>
-                        <td>@character.Attribute.Stärke.Format()</td>
+                        <td>@charakter.Attribute.Stärke.Format()</td>
                     </tr>
                     <tr>
                         <th>Geschicklichkeit:</th>
-                        <td>@character.Attribute.Geschicklichkeit.Format()</td>
+                        <td>@charakter.Attribute.Geschicklichkeit.Format()</td>
                     </tr>
                     <tr>
                         <th>Ausdauer: </th>
-                        <td>@character.Attribute.Ausdauer.Format()</td>
+                        <td>@charakter.Attribute.Ausdauer.Format()</td>
                     </tr>
                     <tr>
                         <th>Persönlichkeit:</th>
-                        <td>@character.Attribute.Persönlichkeit.Format()</td>
+                        <td>@charakter.Attribute.Persönlichkeit.Format()</td>
                     </tr>
                     <tr>
                         <th>Intelligenz:</th>
-                        <td>@character.Attribute.Intelligenz.Format()</td>
+                        <td>@charakter.Attribute.Intelligenz.Format()</td>
                     </tr>
                     <tr>
                         <th>Glück:</th>
-                        <td>@character.Attribute.Glück.Format()</td>
+                        <td>@charakter.Attribute.Glück.Format()</td>
                     </tr>
                     <tr><td><br /></td><td><br /></td></tr>
                     <tr>
                         <th>Zähigkeit:</th>
-                        <td>@character.Zähigkeit</td>
+                        <td>@charakter.Zähigkeit</td>
                     </tr>
                     <tr>
                         <th>Willenskraft:</th>
-                        <td>@character.Willenskraft</td>
+                        <td>@charakter.Willenskraft</td>
                     </tr>
                     <tr>
                         <th>Reflexe:</th>
-                        <td>@character.Refelexe</td>
+                        <td>@charakter.Refelexe</td>
                     </tr>
                     <tr><td><br /></td><td><br /></td></tr>
                     <tr>
                         <th>Trefferpunkte:</th>
-                        <td>@character.Trefferpunkte</td>
+                        <td>@charakter.Trefferpunkte</td>
                     </tr>
                     <tr>
                         <th>Rüstungsklasse:</th>
-                        <td>@character.Rüstungsklasse</td>
+                        <td>@charakter.Rüstungsklasse</td>
                     </tr>
                     <tr>
                         <th>Initiative:</th>
-                        <td>@character.Initiative</td>
+                        <td>@charakter.Initiative</td>
                     </tr>
                     <tr><td><br /></td><td><br /></td></tr>
                     <tr>
                         <th>Geburtszeichen:</th>
-                        <td>@character.Geburtszeichen.Format()</td>
+                        <td>@charakter.Geburtszeichen.Format()</td>
                     </tr>
                     <tr><td><br /></td><td><br /></td></tr>
                     <tr>
                         <th>Startwaffe:</th>
-                        <td>@character.Beruf.Startwaffe</td>
+                        <td>@charakter.Beruf.Startwaffe</td>
                     </tr>
                     <tr>
                         <th>Handelsware:</th>
-                        <td>@character.Beruf.Handelsware</td>
+                        <td>@charakter.Beruf.Handelsware</td>
                     </tr>
                     <tr>
                         <th>Ausrüstung: </th>
-                        <td>@character.Ausrüstung.Gegenstand (Wert: @character.Ausrüstung.Preis)</td>
+                        <td>@charakter.Ausrüstung.Gegenstand (Wert: @charakter.Ausrüstung.Preis)</td>
                     </tr>
                     <tr>
                         <th>Startkapital: </th>
                         <td>@character.Startkapital</td>
                     </tr>
+                    @if (!string.IsNullOrWhiteSpace(charakter.Beruf.Rassenvorteile()))
+                    {
+                        <tr>
+                            <th>Rasseneigenschaften: </th>
+                            <td>@charakter.Beruf.Rassenvorteile()</td>
+                        </tr>
+                    }
                 </tbody>
             </table>
         </div>
