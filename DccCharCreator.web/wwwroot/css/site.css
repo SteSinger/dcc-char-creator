@@ -2,20 +2,22 @@
     list-style: none
 }
 
-.charactere {
+.charaktere {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.charcter{
-    max-width: 500px;
+.charakter{
+    max-width: 350px;
+    margin: 5px;
 }
 
-.character table{
+.charakter table{
     border: none;
 }
 
-.character table th {
+.charakter table th {
     text-align: left;
 }

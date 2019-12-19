@@ -12,7 +12,7 @@ namespace DccCharCreator.core.CharacterData
         public string Gegenstand { get; set; } = string.Empty;
         public string Preis { get; set; } = string.Empty;
 
-        private const string fileName = "ausrüstung.xml";
+        private const string fileName = "ausruestung.xml";
         private static readonly Lazy<Dictionary<int, Ausrüstung>> Handelswaren = new Lazy<Dictionary<int, Ausrüstung>>(Load());
 
         public static Ausrüstung Random(IW24 würfel)

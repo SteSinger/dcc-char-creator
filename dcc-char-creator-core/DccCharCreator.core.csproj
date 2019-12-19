@@ -26,7 +26,7 @@
     <None Update="Xml\geburtszeichen.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Xml\ausrüstung.xml">
+    <None Update="Xml\ausruestung.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
