@@ -6,14 +6,14 @@
 <h1>Dungeon Crawl Classics - Charaktergenerator</h1>
 <p>
     Bei jedem Laden der Seite warten 4 neue Dörfler darauf dem sicheren Tod zu trotzen, wie @(((long)Context.Items["count"] - 1) * 4) vor ihnen.
-Basierend auf der deutschen Übersetzung von DCC von <a href="https://www.system-matters.de/produkt/dungeon-crawl-classics/">System Matters</a>.
+    Basierend auf der deutschen Übersetzung von DCC von <a href="https://www.system-matters.de/produkt/dungeon-crawl-classics/">System Matters</a>.<br />
+    <a asp-controller="Character" asp-action="Index">Neu &#x1F3B2;</a>
 </p>
 
 <h2>Morituri te salutant</h2>
 @*<a asp-controller="Character" asp-action="Index" asp-route-seed="@Model.Seed">Drucken</a>*@
-<a asp-controller="Character" asp-action="Index">&#x1F3B2;</a>
-<div class="charactere">
-    @foreach (var character in Model.Characters)
+<div class="charaktere">
+    @foreach (var charakter in Model.Characters)
     {
         <div class="charakter">
             <h3>@charakter.Beruf.Name</h3>
@@ -89,7 +89,7 @@ Basierend auf der deutschen Übersetzung von DCC von <a href="https://www.system
                     </tr>
                     <tr>
                         <th>Startkapital: </th>
-                        <td>@character.Startkapital</td>
+                        <td>@charakter.Startkapital</td>
                     </tr>
                     @if (!string.IsNullOrWhiteSpace(charakter.Beruf.Rassenvorteile()))
                     {
