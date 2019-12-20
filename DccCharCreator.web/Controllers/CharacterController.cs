@@ -21,5 +21,19 @@ namespace DccCharCreator.web
 
             return View(c);
         }
+
+        public IActionResult Print(int seed)
+        {
+            var random = new Random(seed);
+            var factory = new CharacterFactory(random);
+            var c = new CharacterViewModel
+            {
+                Characters = new[] { factory.Default(), factory.Default(), factory.Default(), factory.Default() },
+                Seed = seed
+            };
+
+            return View(c);
+        }
+
     }
 }

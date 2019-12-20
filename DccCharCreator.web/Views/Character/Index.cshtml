@@ -7,11 +7,11 @@
 <p>
     Bei jedem Laden der Seite warten 4 neue Dörfler darauf dem sicheren Tod zu trotzen, wie @(((long)Context.Items["count"] - 1) * 4) vor ihnen.
     Basierend auf der deutschen Übersetzung von DCC von <a href="https://www.system-matters.de/produkt/dungeon-crawl-classics/">System Matters</a>.<br />
-    <a asp-controller="Character" asp-action="Index">Neu &#x1F3B2;</a>
+    <a asp-controller="Character" asp-action="Index">Neu &#x1F3B2;</a><br />
 </p>
 
 <h2>Morituri te salutant</h2>
-@*<a asp-controller="Character" asp-action="Index" asp-route-seed="@Model.Seed">Drucken</a>*@
+<a asp-controller="Character" asp-action="Print" asp-route-seed="@Model.Seed">Druckansicht &#x1f5b6;</a>
 <div class="charaktere">
     @foreach (var charakter in Model.Characters)
     {
