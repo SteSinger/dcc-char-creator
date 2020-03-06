@@ -1,0 +1,23 @@
+﻿@model ZauberbuchViewModel
+@{
+    ViewData["Title"] = "Zauberbuch";
+}
+
+<h1>Grimoire  für Level 1</h1>
+<p>Glück: @Model.Glueck</p>
+<p>Anzahl Zauber: @Model.AnzahlZauber</p>
+@foreach (var zauber in Model.Zauberbuch)
+{
+    <p>
+
+        (@zauber.Wurf) <strong>@zauber.Name</strong> (S. @zauber.Seite)<br />
+        @zauber.Beschreibung<br />
+        <strong>Manifestation:</strong> @zauber.Manifestation<br />
+        <strong>Launen der Magie:</strong>
+        @foreach (var laune in zauber.LaunenDerMagie)
+        {
+            <text>(</text>@laune.Wurf<text>) </text>
+            @laune.Beschreibung<br />
+        }
+    </p>
+}

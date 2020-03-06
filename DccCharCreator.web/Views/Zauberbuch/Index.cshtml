@@ -1,0 +1,31 @@
+﻿<content>
+    <h1>Zufälliges Grimoire erstellen</h1>
+    <form asp-controller="Zauberbuch" asp-action="Generate" method="get">
+        <label for="anzahlZauber">
+            <span>Intelligenz:</span>
+            <select id="anzahlZauber" class="smooth" name="anzahlZauber" >
+                <option value="2">4-5 (-2)</option>
+                <option value="3">6-7 (-1)</option>
+                <option selected="selected" value="4">8-13 (0)</option>
+                <option value="5">14-16 (+1)</option>
+                <option value="6">17-18 (+2)</option>
+            </select>
+        </label>
+        <label for="zaubertyp">
+            <span>Klasse:</span>
+            <select id="klasse" class="smooth" name="klasse">
+                <option value="Zauberer">Zauberer</option>
+                <option value="Kleriker">Kleriker</option>
+                <option value="Elf">Elf</option>
+            </select>
+        </label>
+        <label for="glueck">
+            <span>Glück:</span>
+            <input id="glueck" type="number" min="-3" max="3" class="smooth" name="glueck" value="0" />
+        </label>
+        <label>
+            <span></span>
+            <input type="submit" value="Grimoire erstellen"/>
+        </label>
+    </form>
+</content>

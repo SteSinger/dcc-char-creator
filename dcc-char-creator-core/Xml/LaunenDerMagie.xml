@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfLauneDerMagie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LauneDerMagie>
+    <Wurf>01</Wurf>
+    <Beschreibung>Zu einem hohen Preis: Jedes Mal, wenn der Zauberkundige diesen Zauber spricht, stirbt jemand, den er kennt. (SL entscheidet).</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>02</Wurf>
+    <Beschreibung>Besonders schwierig zu wirken: Anstatt den üblichen Zauberwurf auszuführen, wird der Würfeltyp des Zauberkundigen um 2 Stufen auf der Würfelkette verringert. (Der Spieler würfelt z. B. statt des W20 nun einen W14.)</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>03</Wurf>
+    <Beschreibung>Seelenopfer: Um den Zauber einsetzen zu können, muss der Zauberkundige entweder die Seele des Zieles seinem Patron opfern – oder das eines Wesens mit gleich vielen Trefferwürfeln wie das Ziel. Versagt der Zauberkundige darin, die Seele für seinen Patron zu beanspruchen, kann der Zauber erst wieder eingesetzt werden, wenn der Patron besänftigt wurde.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>04</Wurf>
+    <Beschreibung>Gesundheitsschaden: Das Zaubern dieses Zaubers senkt die Ausdauer des Zauberkundigen jedes Mal vorübergehend um 1W3 Punkte. Dieser Attributspunkteverlust entsteht zusätzlich zu etwaigem Zauberbrand und wird vor dem Einsatz von Zauberbrand abgezogen.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>05</Wurf>
+    <Beschreibung>Schwierig zu wirken: Anstatt den üblichen Zauberwurf auszuführen, wird der Würfeltyp des Zauberkundigen um 1 Stufe auf der Würfelkette verringert. (Der Spieler würfelt z. B. statt des W20 nun einen W16.)</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>06</Wurf>
+    <Beschreibung>Gegenzauberblase: In der Runde nach Wirken dieses Zaubers erhalten alle anderen Zauber (auch die des Zauberkundigen selbst) im Umkreis von 30 m einen Malus von -4 auf den Zauberwurf.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>07</Wurf>
+    <Beschreibung>Glücksverzerrung: Nach Wirken dieses Zaubers erleidet der Zauberkundige 1W4 Runden lang einen Malus von -2 auf alle Würfe.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>08</Wurf>
+    <Beschreibung>Zähl bis Zehn: Jedes Mal, wenn der Zauberkundige diesen Zauber wirkt, schmilzt einer seiner Finger (oder Zehen, nach Ermessen des SL). Pro zwei verlorene Glieder erleidet der Zauberkundige eine dauerhafte Reduzierung seiner Geschicklichkeit um 1. Die Glieder können mittels Magie wiederhergestellt werden, doch sollten sie dem Zauberkundigen einmal ausgehen, so kann er diesen Zauber nicht mehr wirken.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>09</Wurf>
+    <Beschreibung>Seelenschwund: Der Zauberkundige erleidet jedes Mal Verderbnis, wenn er diesen Zauber wirkt, unabhängig vom Zauberwurf – es sei denn, er setzt Zauberbrand ein.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>10</Wurf>
+    <Beschreibung>Blutmagie: Die Kraft dieses Zaubers speist sich teilweise aus vergossenem Blut, einem Opfer an die undurchschaubaren Fürsten der Magie. Ein Lebewesen mit Trefferpunkten größer oder gleich dem Zaubergrad muss geopfert werden, bevor der Zauber eingesetzt wird; geschieht dies nicht, erleidet der Zauberwurf einen Malus von -4 oder der Zauberkundige erhält einen Makel des Patrons (nach Wahl des SL). Das Opfer muss nicht über ein Bewusstsein verfügen; Hühner, Ziegen und andere, gewöhnliche Tiere mit der notwendigen Menge an Trefferpunkten sind ausreichend.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>11</Wurf>
+    <Beschreibung>Dimensionsspalte: Das Wirken dieses Zaubers reißt ein klaffendes Loch in das Gewebe des Multiversums. Es besteht eine kumulative Wahrscheinlichkeit von 1 % pro Zaubernutzung, dass ein Grauen aus der Äußeren Finsternis durch die Spalte tritt. Dieses fürchterliche Wesen verfügt über TW in Höhe der Stufe des Zauberwirkers +5. Würfle 1W3: (1) Das Monster stiehlt den Zauber aus dem Verstand des Zauberkundigen, bevor es für immer verschwindet; (2) das Monster attackiert die SC in der Absicht, den Zauberkundigen zu erschlagen; (3) das Monster trachtet nach einem Handel mit dem Zauberkundigen und bietet dem SC verbotenes Wissen (nach Wahl des SL) im Tausch gegen die Seelen der anderen Gruppenmitglieder des Zauberkundigen an.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>12</Wurf>
+    <Beschreibung>Magischer Nachhall: Für 1W4 Runden nach Wirken des Zaubers ist der Zauberkundige einem Rückstrom von unheimlichen Energien ausgesetzt. Alle Zauberwürfe, die der Zauberkundige in dieser Zeit macht, erleiden einen Malus von -4.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>13</Wurf>
+    <Beschreibung>Langsames Zaubern: Es dauert doppelt so lang, den Zauber zu wirken.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>14</Wurf>
+    <Beschreibung>Schlaf der Äonen: Nach Wirken dieses Zaubers muss der Zauberkundige einen Zähigkeitswurf (SG 5 + Zaubergrad) bestehen, oder er fällt für 1 Tag pro Zaubergrad in einen tiefen Schlaf. In dieser Zeit kann er weder auf herkömmliche noch magische Weise geweckt werden.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>15</Wurf>
+    <Beschreibung>Dingliche Magie: Der Zauber erfordert eine ungewöhnliche Substanz oder ein Objekt der Macht, um gewirkt zu werden. Der Zauberkundige muss diese zusätzlich zu etwaigen normalen Komponenten aufbringen. Diese Materialkomponente wird vom SL bestimmt und ihre Seltenheit sollte in Relation zur Macht des Zaubers stehen. Das Objekt wird bei erfolgreichem Wirken verbraucht.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>16</Wurf>
+    <Beschreibung>Urzeitliche Verbindung: Erinnerungen aus Epochen vor dem Zeitalter der Menschheit fluten den Geist des Zauberkundigen, der daraufhin ein primitives Verhalten an den Tag legt. Jedes Mal, wenn er diesen Zauber wirkt, nimmt der Zauberkundige 1W4 Runden lang nichtmenschliche Verhaltensweisen an. In dieser Zeit kann er weder verständlich sprechen, noch schreiben, nicht lesen, keine Zauber wirken, komplexe Geräte bedienen etc.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>17</Wurf>
+    <Beschreibung>Gestohlenes Wissen: Die Formel dieses Zaubers wurde einem mächtigen Externar gestohlen. Bei jedem Wirken des Zaubers besteht eine kumulative Wahrscheinlichkeit von 1 % pro Zaubergrad, dass dieses Wesen auftaucht, um sich sein okkultes Wissen zurückzuholen … auf die harte Tour. Würfle 1W7: (1) Großsultan der Ifrits; (2) der große Cthulhu; (3) ein Großherzog der Hölle; (4) ein elefantengesichtiger, kleiner Gott der Äußeren Finsternis; (5) der Geist eines lange verstorbenen Erzmagiers; (6) ein mechanisiertes Gehirn aus der fernen Zukunft; (7) ein Elementarfürst.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>18</Wurf>
+    <Beschreibung>Ungeziefermagnet: Der Zauber lockt einen Schwarm lästiger Insekten zum Aufenthaltsort des Zauberkundigen, die 1W4 Runden nach dem Sprechen des Zaubers eintreffen. Diese Insekten umgeben den Zauberwirker 1W10 Runden lang (oder bis er geeignete Maßnahmen ergreift, um den Schwarm aufzulösen oder ihm zu entkommen), beißen ihn (1 Punkt Schaden pro Runde) und sorgen für einen Malus von -1 auf alle seine Rettungs-, Initiative- und Zauberwürfe.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>19</Wurf>
+    <Beschreibung>Magische Entleerung: Das Wirken dieses Zaubers bringt eine Wahrscheinlichkeit von 50 % mit sich, dass der Zauberkundige oder eine andere Person in der Nähe einen Zauber gleichen Grades für den Tag vergisst, als wäre ihm der Zauberwurf misslungen. Tritt dieser Verlust ein, besteht eine Wahrscheinlichkeit von 75 %, dass es den Zauberkundigen selbst trifft und eine Wahrscheinlichkeit von 25 %, dass der nächststehende Zauberwirker betroffen ist. Sollte der betroffene Zauberkundige über keinen Zauber des entsprechenden Grades verfügen, erleidet er Schaden in Höhe von 1W6 + Zaubergrad.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>20</Wurf>
+    <Beschreibung>Windböe: Bei jedem Wirken dieses Zaubers entsteht ein starker Windstoß, der vom Zauberwirker ausgeht und auf dessen Ziel gerichtet ist. Fackeln flackern und werden mit einer Wahrscheinlichkeit von 50 % gelöscht.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>21</Wurf>
+    <Beschreibung>Korrodierende Berührung: Das Wirken dieses Zaubers lässt einen zufällig bestimmten Gegenstand aus Stahl oder Eisen in 4,5 m Umkreis um den Zauberkundigen verrosten. Der durch diesen Effekt verrostende Gegenstand ist immer dolchgroß oder größer und wird zufällig ausgewählt. Falls der Zauberkundige freiwillig einen Metallgegenstand der entsprechenden Größe berührt, während er den Zauber wirkt, wird immer dieses Objekt zerstört und kein anderes.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>22</Wurf>
+    <Beschreibung>Sympathische Magie: Damit dieser Zauber normal funktioniert, ist es erforderlich, dass der Zauberwirker einen persönlichen Gegenstand oder ein physisches Stück seines Zieles besitzt. Der Zauber kann auch ohne diese sympathische Verbindung gewirkt werden, doch dann erleidet der Zauberkundige einen Malus von -4 auf seinen Zauberwurf.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>23</Wurf>
+    <Beschreibung>Kannibalistische Magie: Der Zauberwirker erleidet jedes Mal, wenn er diesen Zauber wirkt, Schaden in Höhe von 1W4 + Zaubergrad – es sei denn, er hat körperlichen Kontakt zu einer anderen Person, die willens ist, den Schaden für ihn hinzunehmen. Unwillige oder Unwissende können nicht gezwungen werden, für den Zauberkundigen zu leiden.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>24</Wurf>
+    <Beschreibung>Prismatische Verzerrung: Nahes Licht wird verzerrt. Würfle 1W6: (1) Ein Bereich von 6 m um den Zauberkundigen herum wird in Schatten gehüllt; (2) alle Lichtquellen (Fackeln, Laternen etc.) im Umkreis von 6m werden magisch gelöscht; (3) nach Beendigung des Zaubers gibt es einen grellweißen Blitz; (4) einem Bereich von 6 m um den Zauberkundigen werden für 1W4 Runden alle Farben entzogen; (5) das Licht nimmt für 1W4 Runden einen grünen/orangefarbenen/blauen/gelben Farbton an; (6) für 1W4 Runden nach Beendigung des Zaubers werden unzählige Schatten aus verschiedenen Richtungen geworfen, als gäbe es zusätzliche, unsichtbare Lichtquellen.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>25</Wurf>
+    <Beschreibung>Furchteinflößend: Das Wirken dieses Zaubers ruft große Furcht in Tieren und Wesen mit einem Intelligenzwert von 3 oder weniger hervor. Solche Wesen im Umkreis von 15 m flüchten 1W14 Runden lang mit höchster Bewegungsrate vor dem Zauberwirker. Werden sie daran gehindert, geraten die Tiere in Panik und gehorchen keinen Befehlen mehr. Falls der Zauberkundige einen Vertrauten besitzt, ist dieser immun.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>26</Wurf>
+    <Beschreibung>Akustische Rückkopplung: Das Wirken des Zaubers steht immer mit ungewöhnlichen Geräuschen in Zusammenhang. Würfle 1W6: (1) Donnerschlag; (2) lautes Summen; (3) undeutliches Flüstern; (4) Wasserrauschen; (5) Tiergebrüll; (6) trauerndes Wehklagen.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>27</Wurf>
+    <Beschreibung>Nicht auf Entfernung: Der Zauber kann nicht auf Entfernung gewirkt werden, sondern nur, indem das Ziel berührt wird. Hat der Zauber normalerweise nur Berührungsreichweite, so kann er nur exakt 3 m vom Ziel entfernt gewirkt werden.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>28</Wurf>
+    <Beschreibung>Merkwürdiges Wachstum: Jedes Mal, wenn der Zauber gewirkt wird, erwächst etwas in der unmittelbaren Umgebung aus dem Nichts. Würfle 1W6: (1) Fliegenpilze; (2) Pfützen aus Schleim; (3) Blumen; (4) Schwarzschimmel; (5) Kristalle; (6) Weizenfelder.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>29</Wurf>
+    <Beschreibung>Angst und Abscheu: Das verbotene Wissen des Zauberwirkers ruft bei intelligenten Wesen eine furchterregende Abneigung hervor. Freundlich gesinnte Verbündete sind immun, doch alle anderen sind wie folgt betroffen: Jene, die nur halb so viele TW wie der Zauberwirker oder weniger haben, müssen einen Moralwurf bestehen oder fliehen; jene, die über mehr TW verfügen, konzentrieren alle ihre Angriffe auf den Zauberwirker.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>30</Wurf>
+    <Beschreibung>Erinnerungen eines sterbenden Gottes: Das Wirken dieses Zaubers greift auf die Erinnerungen eines sterbenden Gottes zu. Dem Zauberwirker muss ein Willenskraftwurf (SG 13) gelingen oder er wird 1W3 Runden lang von Halluzinationen eines blutigen Götterkrieges überwältigt. Gelingt dem Zauberwirker der Rettungswurf einmal mit einer gewürfelten 20, triumphiert er über den Gott, wird von den Halluzinationen nie wieder behelligt und macht alle künftigen Zauberwürfe für diesen Zauber mit einem W24.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>31</Wurf>
+    <Beschreibung>Unerwünschte Aufmerksamkeit: Das Wirken dieses Zaubers erregt die Aufmerksamkeit eines mächtigen, übernatürlichen Wesens, das den Zauberkundigen 1W10 Runden lang beobachtet. Würfle 1W4: (1) Ein blutunterlaufenes Auge öffnet sich auf der Stirn des Zauberkundigen und sieht alles, was dieser sieht; (2) ein kleines Tier (Krähe, Frosch, Katze etc.) erscheint und läuft dem Zauberkundigen hinterher; (3) der Zauberkundige und seine Verbündeten haben ein Gefühl, als würde etwas Riesiges und Schreckliches direkt hinter ihnen stehen; (4) ein Vertreter des übernatürlichen Wesens erscheint und verhört den Zauberkundigen zur Verwendung des Zaubers.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>32</Wurf>
+    <Beschreibung>Situationsspezifische Magie: Der Zauberkundige kann diesen Zauber nur wirken, wenn persönliche oder umgebungsbedingte Bedingungen vorliegen. Zur Bestimmung dieser Bedingungen würfle 1W10: (1) im Dunkel der Nacht; (2) im hellen Licht der Sonne; (3) im Wasser; (4) im betrunkenen Zustand; (5) nach 24 Stunden des Fastens; (6) unter der Erde; (7) in der Kälte des Winters; (8) nackt; (9) aus erhöhter Position; (10) wenn die Trefferpunkte auf 50% oder darunter gesunken sind.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>33</Wurf>
+    <Beschreibung>Haarige Magie: Die Kopfbehaarung des Zauberkundigen (Haar, Bart, Augenbrauen, Ohrenhaare etc.) wächst jedes Mal um 3 cm, wenn dieser Zauber gewirkt wird.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>34</Wurf>
+    <Beschreibung>Vom Donner gerührt: Das Wirken dieses Zaubers wird von einem Donnerschlag und blitzendem Wetterleuchten begleitet, was allen in Sichtweite die Position des Zauberkundigen verrät. Dies lenkt wahrscheinlich sowohl Aufmerksamkeit als auch Pfeile auf ihn.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>35</Wurf>
+    <Beschreibung>Durchschnittstalent: Anstelle eines W20 verwendet der Zauberkundige 2W10, wenn er den Zauberwurf für diesen Zauber durchführt. Sollte sein Zauberwurf-Würfel ein anderer sein, verwendet er stattdessen zwei „halbe Würfel“ (d. h. 2W7 anstelle eines W14, 2W8 anstelle eines W16 etc.).</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>36</Wurf>
+    <Beschreibung>Dämonenstimme: Die Worte dieses Zaubers sind in einer dämonischen Sprache verfasst, die Sterblichen unbekannt ist. Einem Dämon wird auferlegt/erlaubt, den Zauber durch die Stimme des Zauberkundigen selbst zu sprechen. Die Belastung durch die Kanalisierung dieser widernatürlichen Stimme macht es dem Zauberkundigen für 1W4 Runden nach Beendigung des Zaubers unmöglich zu sprechen.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>37</Wurf>
+    <Beschreibung>Aura des Zerfalls: Der Zauber schwächt eine bestimmte Substanz innerhalb von 6 m um den Zauberwirker herum und lässt es dadurch altern. Würfle 1W6: (1) Metall läuft an und weist Rostflecken auf; (2) Holz trocknet aus, wird brüchig und splittert; (3) Stein wird geschliffen und verwittert; (4) Tuch und Leder fransen aus und reißen; (5) Lebensmittel und Getränke verderben; (6) Fleisch altert und Wesen im Wirkungsbereich altern um ein Jahr.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>38</Wurf>
+    <Beschreibung>Launischer Patron: Das Gelingen dieses Zaubers ist vom Patron des Zauberkundigen abhängig, doch ist dieser bekanntermaßen wankelmütig. Jedes Mal, wenn dieser Zauber gewirkt wird, würfle 1W6, um den Würfel für den Zauberwurf zu bestimmen: (1 – 2) W16; (3 – 4) W20; (5) W24; (6) W30. Dieser W6-Wurf hat Vorrang vor dem normalen Aktionswürfel des Zauberkundigen und der Würfelkette.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>39</Wurf>
+    <Beschreibung>Blutschweiß: Beim Wirken dieses Zaubers tritt Blut aus sämtlichen Poren des Zauberkundigen hervor. Dies verursacht keinen Schaden, doch der Zauberkundige sieht aus, als käme er aus dem Schlachthaus. Nach Ermessen des Spielleiters könnte dies auch Raubtiere anlocken.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>40</Wurf>
+    <Beschreibung>Heißhunger: Nach Wirken dieses Zaubers wird der Zauberkundige von einem Heißhunger übermannt. Hungrige Leute sind oft unleidlich, daher verringert sich die Persönlichkeit um 2, bis der Zauberkundige etwas gegessen hat.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>41</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>42</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>43</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>44</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>45</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>46</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>47</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>48</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>49</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>50</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>51</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>52</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>53</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>54</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>55</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>56</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>57</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>58</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>59</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>60</Wurf>
+    <Beschreibung>Keine Veränderung. Der Zauber manifestiert sich normal.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>61</Wurf>
+    <Beschreibung>Ist das laut genug? Die Wege der Magie sind unergründlich – dieser Zauber muss beim Wirken laut gerufen werden. Wodurch sich faktisch jede Möglichkeit, unbemerkt zu bleiben, für den Zauberkundigen erledigt hat.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>62</Wurf>
+    <Beschreibung>Geschlechterwechsel: Beim Wirken dieses Zaubers wechselt der Zauberkundige vorübergehend das Geschlecht. Dieser Geschlechterwechsel bleibt für 1 Stunde pro Zaubergrad wirksam. Beim erneuten Wirken dieses Zaubers nimmt der Zauberkundige sein ursprüngliches Geschlecht wieder an, ein Fehlschlag führt allerdings bei diesem Zauberwurf dazu, dass die Verwandlung 24 Stunden lang anhält.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>63</Wurf>
+    <Beschreibung>Tagaktive/Nachtaktive Magie: Die Kraft dieses Zaubers ist entweder mit dem Tag oder der Nacht verbunden. Während der Zeit vor Mittag/Mitternacht würfelt der Zauberkundige 1W24 für alle Zauberwürfe, in der Zeit nach Mittag/Mitternacht verwendet er einen W16. Sollte der Zauberkundige statt des W20 bereits einen anderen Würfel verwenden, so nimmt er den entsprechend höheren oder niedrigeren Würfel in der Würfelkette.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>64</Wurf>
+    <Beschreibung>Wohl und Wehe: Jedes Mal, wenn dieser Zauber gewirkt wird, besteht eine zufällige Chance von 1W6 x 10 %, dass sich der Glückswert des Zauberkundigen durch seine Magie verändert. Ist das Glück des Zauberkundigen betroffen, wird es mit einer Wahrscheinlichkeit von jeweils 50 % um 1W3 erhöht oder verringert.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>65</Wurf>
+    <Beschreibung>Zauberzirkel: Die Macht dieses Zaubers kann durch die Unterstützung weiterer Zauberkundiger verstärkt werden. Pro anwesendem Zauberkundigen, der bereit ist, den Zauberwirker zu unterstützen, erhält der ausführende Zauberkundige +1 auf den Zauberwurf. Beim Zaubern zu assistieren, erfordert keinerlei Kenntnisse über den Zauber, doch können alle unterstützenden Zauberer keine anderen Handlungen unternehmen, bis der Zauber abgeschlossen ist.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>66</Wurf>
+    <Beschreibung>Ungewollter Alchemist: Jedes Mal, wenn der Zauber gewirkt wird, verwandelt sich ein zufällig bestimmtes Objekt im Umkreis von 6 m um den Zauberkundigen in Blei – und ein anderes in Gold. Beide Objekte wiegen nun vermutlich mehr, als sie vorher gewogen haben und das Objekt aus Gold ist nun das Doppelte seines ursprünglichen Preises wert (mindestens 1 GM).</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>67</Wurf>
+    <Beschreibung>Sankt-Gygakks-Feuer: Beim Wirken dieses Zaubers wird der Zauberkundige 1W4 Runden lang von einem flackernden, hellgrünen Feuerschein umhüllt, der Gegnern einen Bonus von +2 auf Angriffe gegen den Zauberkundigen verleiht. Außerdem hebt er jegliche Deckung und Unsichtbarkeit auf, von denen der Zauberkundige gerade profitiert, beleuchtet dafür aber dessen unmittelbare Umgebung in schwachem Licht.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>68</Wurf>
+    <Beschreibung>Spiegelmagie: Dieser Zauber ruft ein unheimliches Echo hervor, das ein Duplikat des Zauberkundigen erzeugt, als hätte dieser den Zauber Spiegelbild mit einem Zauberwurf von 16 – 19 gewirkt. Jedes erzeugte Duplikat beraubt den Zauberkundigen jedoch eines Punktes Persönlichkeit bis das Abbild aufgelöst wird.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>69</Wurf>
+    <Beschreibung>Skelettmagier: Haut und innere Organe des Zauberkundigen werden für 1W4 Runden nach Wirken dieses Zaubers durchsichtig, wodurch er als bekleidetes Skelett erscheint. Er wird leicht für einen Untoten gehalten und erhält eine um +2 erhöhte RK gegen Geschossangriffe.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>70</Wurf>
+    <Beschreibung>Temporales Echo: Jedes Mal, wenn der Zauberkundige diesen Zauber wirkt, muss er das gewürfelte Ergebnis seines Zauberwurfs voraussagen. Sollte er genau diese Zahl würfeln, wird der Zauber 1W3 Runden lang jede Runde automatisch neu gewirkt. Das vorhergesagte Ergebnis muss ein erfolgreicher Zauberwurf sein; einen Fehlschlag vorauszusagen, hat keinen Effekt.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>71</Wurf>
+    <Beschreibung>Würmer des Erdreichs: Bleiche, weiße Würmer kriechen aus der Erde hervor, wenn der Zauberkundige diesen Zauber wirkt. Sie winden sich in brennendem Schmerz (oder unheiliger Verzückung), bevor sie unter freiem Himmel verenden. Die leicht totzutretenden Würmer lösen sich nach 1W6 Runden in seifige Asche auf.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>72</Wurf>
+    <Beschreibung>Kettenzauber: Jedes erfolgreiche Wirken dieses Zaubers verleiht dem Zauberkundigen einen Bonus von +1 auf seinen Zauberwurf (bis zum Maximum des höheren Modifikators von Intelligenz oder Glück). Sollte der Zauberkundige einen anderen Zauber wirken, unterbricht er die Kette und setzt den Modifikator auf 0 zurück.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>73</Wurf>
+    <Beschreibung>Karmazauber: Bevor er den Zauberwurf ausführt, darf sich der Zauberkundige entscheiden, ob er 1W5 von seinem Wurf abziehen oder dazuzählen möchte. Entscheidet er sich, 1W5 dazuzuzählen, muss er das nächste Mal, wenn er diesen Zauber wirkt, 1W5 abziehen (und umgekehrt). Wenn er den Zauber zweimal gewirkt hat, wird das Karma zurückgesetzt und der Zauberkundige darf sich erneut entscheiden, ob er den Wurf modifizieren möchte.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>74</Wurf>
+    <Beschreibung>Ascheflut: Alles pflanzliche Leben im Umkreis von 3 m pro Zaubergrad zerfällt zu Asche. Pflanzenartige Wesen erleiden 1W14 Schaden pro Zaubergrad. Tote pflanzliche Materie ist davon nicht betroffen.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>75</Wurf>
+    <Beschreibung>Magischer Stellvertreter: Der Zauberkundige darf eine Person oder eine Sache auswählen, über die oder das der Zauber an seiner statt gewirkt wird. Diesen Stellvertreter muss er zuvor berühren und dann den Zauber wirken, der aber zu diesem Zeitpunkt noch nicht ausgelöst wird. Der Stellvertreter löst dann den Zauber einige Runden später aus (1W4 + Zaubergrad). Nicht intelligente Stellvertreter lassen den Zauber immer erst zu diesem Zeitpunkt frei. Intelligente Stellvertreter können sich auch für einen früheren als den ausgewürfelten Zeitpunkt entscheiden.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>76</Wurf>
+    <Beschreibung>Lautlos: Wenn er möchte, kann der Zauberkundige diesen Zauber lautlos wirken. Er muss dabei also nicht sprechen und eventuelle akustische Effekte des Zaubers können unterdrückt werden.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>77</Wurf>
+    <Beschreibung>Ruf der Äußeren Finsternis: Seltsame Schreie durchschneiden die Stille und fremdartige Sterne schweben über dem Zauberkundigen. Allen, die den Zauberkundigen anblicken, muss ein Willenskraftwurf (SG 10) gelingen, oder sie sind 1W3 Runden lang entrückt. Angriffe gegen entrückte Charaktere reißen sie aus diesem Zustand heraus.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>78</Wurf>
+    <Beschreibung>Mentalismus: Wenn er möchte, kann der Zauberkundige diesen Zauber allein mittels seiner außersinnlichen Wahrnehmung wirken. Um die Zaubereffekte auszulösen, muss er sich weder bewegen noch sprechen, atmen oder Materialkomponenten benutzen.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>79</Wurf>
+    <Beschreibung>Rattenplage: Tausende Ratten, Maulwürfe, Feld- und Wühlmäuse kriechen aus den Ärmeln, Gewändern und Taschen des Zauberkundigen hervor und stieben in alle Richtungen davon. Körperliche Angriffe gegen den Zauberkundigen werden um 1W4 Schaden gemindert, da die quiekende Flut aus Nagern die Hiebe auffängt.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>80</Wurf>
+    <Beschreibung>Dimensionsspaltung: Durch das Wirken dieses Zaubers schleudert sich der Zauberkundige in eine Verwerfung mehrfacher Realitäten; 1W7 + 1 Duplikate des Zauberkundigen erscheinen, die zwar nahezu identisch sind, aber allesamt aus unterschiedlichen Paralleluniversen stammen. Bei Angriffen gegen den Zauberkundigen wird das Ziel zufällig unter seinen Doppelgängern ermittelt. Diese Doppelgänger bleiben für 1 Runde pro Zaubergrad. Ferner besteht eine Chance von 1 % pro Zaubergrad, dass der Zauberkundige selbst in einer der alternativen Realitäten verschwindet und von einer nahezu identischen Inkarnation ersetzt wird; Gesinnung und Patron dieses anderen Zauberkundigen sind dem Original entgegengesetzt.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>81</Wurf>
+    <Beschreibung>Erschreckender Anblick: Der Zauberkundige wird furchteinflößend, wenn er diesen Zauber wirkt. Würfle 1W6: (1) Er scheint größer zu werden; (2) er nimmt grauenhafte Züge an; (3) er glüht feuerrot; (4) sein Körper hüllt sich in Schatten, während sein Gesicht hell erleuchtet wird; (5) die Erscheinung seines Patrons erhebt sich über ihm; (6) ein wirbelnder Wind umgibt ihn.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>82</Wurf>
+    <Beschreibung>Zaubermord: Das Wirken dieses Zaubers stiehlt einer sterbenden Welt die Kraft und jede Anwendung dieses Zaubers bringt Abertausenden den Tod. In jeder Nacht, die nach dem Wirken dieses Zaubers hereinbricht, wird der Zauberkundige im Traum von den Nachrichten eines uralten Magierkönigs heimgesucht, der verzweifelt sein Volk schützen will.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>83</Wurf>
+    <Beschreibung>Blauer Stern: Bei jedem Wirken dieses Zaubers flammt auf der Stirn des Zauberkundigen ein blauer, siebenzackiger Stern auf. Dieser Stern wirft in einem Umkreis von 7,5 m pro Zaubergrad ein grelles Licht.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>84</Wurf>
+    <Beschreibung>Energieentladung: Wird dieser Zauber erfolgreich gewirkt, wird der Zauberwirker von einer Entladung magischer Energie umgeben. Würfle 1W6: (1) Ein Flammenkranz, der den Zauberkundigen selbst zwar nicht verletzt, im Umkreis von 1,5 m jedoch brennbare Objekte entzündet und Nahkampfgegnern 1W6 Schaden zufügt; (2) knisternde Elektrizität, die als Blitz auf den nächststehenden Gegner im Umkreis von 3 m überspringt und 1W6 Schaden verursacht; (3) eine Aura aus Frost, die allem im Umkreis von 3 m 1W4 Punkte Kälteschaden zufügt und automatisch Fackeln und Laternen löscht; (4) eine Aschewolke, durch die zwar der Zauberkundige hindurchsehen kann, aber allen anderen im Umkreis von 1,5 m die Sicht nimmt; (5 – 6) anstatt den Effekt einmal zu bestimmen, wenn der Zauber erlernt wird, würfle zukünftig jedes Mal 1W4, wenn der Zauber gewirkt wird und vergleiche den Wurf mit den oben genannten Ergebnissen.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>85</Wurf>
+    <Beschreibung>Psychischer Schild: In der Runde unmittelbar nach Wirken dieses Zaubers wird der Zauberkundige von einer schützenden Barriere aus psychischer Energie umhüllt und erhält +2 auf seine RK sowie auf Willenskraftwürfe. Diese Barriere löst sich in der folgenden Runde wieder auf.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>86</Wurf>
+    <Beschreibung>Mystischer Zwilling: Durch das Wirken dieses Zaubers erscheint auf der Brust des Zauberkundigen ein vollkommen funktionstüchtiges Zwillingsgesicht. Dieses Gesicht bleibt für 1W3 Runden bestehen. Während dieser Zeit verfügt das Zwillingsgesicht über seinen eigenen Aktionswürfel (1W20) und befindet sich dabei unter der Kontrolle des Spielers. Es kann sprechen, Zauber wie der Zauberkundige wirken oder kryptische Weisheiten zum Besten geben.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>87</Wurf>
+    <Beschreibung>Ebenenspringer: Nach Wirken dieses Zaubers springt der Zauberkundige unvermittelt aus dieser Existenzebene hinaus und wieder hinein, was ihm einen Bonus von +4 auf seine RK verleiht, seine Angriffe aber mit einem Malus von -4 belegt. Dieser Effekt dauert 1 Runde pro Zaubergrad. Es besteht eine Wahrscheinlichkeit von 1 % pro Zaubergrad, dass der Zauberkundige von seiner unfreiwilligen Spritztour durch den Kosmos nicht mehr zurückkehrt.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>88</Wurf>
+    <Beschreibung>Froschregen: Das Wirken dieses Zaubers löst ein Gewitter aus Amphibien aus, die in einem Umkreis von 9 m um den Zauberkundigen herum zu Boden regnen. Allen, die sich in diesem Bereich aufhalten, müssen Reflexund Zähigkeitswürfe gelingen (SG 10 + Intelligenzmodifikator des Zauberkundigen), sonst rutschen sie auf einem Frosch aus und stürzen zu Boden (bei misslungenem Reflexwurf) oder werden von besonders großen Lurchen getroffen und erleiden 1W3 Punkte Schaden (bei misslungenem Zähigkeitswurf).</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>89</Wurf>
+    <Beschreibung>Asynchron: Nach Wirken dieses Zaubers ist der Zauberkundige zu dieser Welt phasenverschoben, wodurch er unsichtbar wird und durch Angriffe nicht mehr getroffen werden kann. Allerdings kann er mit der Umgebung auch nicht mehr interagieren. Dieser Zustand hält 1W6 + 1 Runden pro Zaubergrad an.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>90</Wurf>
+    <Beschreibung>Wetterfrosch: Durch das Wirken dieses Zaubers gerät das örtliche Wetter aus seinem Gefüge. Würfle 1W7: (1) Dürre, 1W12 Jahre kein Regen oder Feuchtigkeit für das Land; (2) ein strenger Winter hält das Land 1W3 Jahre im Griff; (3) unablässiger Regen überschüttet 1W20 Wochen das Land ; (4) ein außergewöhnliches Gewitter mit Blitzen geht 1W100 Stunden lang auf dem Gebiet nieder; (5) orkanartige Winde fegen 1W7 Wochen über das Land hinweg; (6) eine örtlich begrenzte Finsternis verdunkelt 1W20 Tage lang die Sonne; (7) am Himmel sind 1W100 Jahre lang keine Sterne mehr zu sehen. Der Wirkungsbereich kann vom Spielleiter angepasst werden.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>91</Wurf>
+    <Beschreibung>Lebenshauch: Das Wirken dieses Zaubers durchströmt den Zauberkundigen sowie alle in seiner Nähe mit wohltuenden Energien. Ob Freund oder Feind, alle im Umkreis von 4,5 m um den Zauberkundigen heilen 1W6 Schaden pro Zaubergrad (d. h. ein Zauber des 3. Grades heilt 3W6 Schaden).</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>92</Wurf>
+    <Beschreibung>Plappernde Verbündete: Schnatternde, stinkende, rattengroße Dämonen wuseln aus den Taschen und Ärmeln des Zauberkundigen heraus und umgeben ihn wie eine wütende, kratzende Woge. Sie attackieren Feinde im Umkreis von 3 m (Angriff +2, 1W4 Schaden) und unterstützen den Zauber, falls möglich, bevor sie sich nach 1 Minute in einer Aschewolke auflösen.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>93</Wurf>
+    <Beschreibung>Größere Macht: Der Zauberkundige darf für einen zufällig bestimmbaren Aspekt des Zaubers (Schaden, Wirkungsdauer, Anzahl betroffener Ziele etc.) 2x würfeln und ein Ergebnis wählen.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>94</Wurf>
+    <Beschreibung>Feinsteuerung: Der Zauberkundige ist im Zügeln der magischen Energien seines Zaubers äußerst geübt und darf sich ein Ergebnis auf der Zaubertabelle des Zaubers aussuchen, dass kleiner oder gleich seinem Zauberwurf ist.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>95</Wurf>
+    <Beschreibung>Psychischer Fokus: Das Wirken dieses Zaubers klärt den Geist des Zauberkundigen und bereitet ihn darauf vor, weitere Energien zu kanalisieren. Nach Wirken des Zaubers erhält der Zauberkundige 1W4 Runden lang einen Bonus von +4 auf andere Zauberwürfe. Der Zauberkundige kann nicht mehrfach von diesem Effekt profitieren.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>96</Wurf>
+    <Beschreibung>Machtvolles Wirken: Anstatt normal zu würfeln, benutzt der Zauberkundige den nächsthöheren Würfel der Würfelkette für seinen Zauberwurf (etwa statt eines W20 einen W24).</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>97</Wurf>
+    <Beschreibung>Nekrotischer Entzug: Dieser Zauber speist sich aus den Energien der Lebenden. Die am nächsten stehenden Wesen (der Zauberwirker ausgenommen) erleiden 1W6 Schaden pro Zaubergrad. Pro 2 verlorene TP wird das Resultat des Zauberwurfs um +1 erhöht.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>98</Wurf>
+    <Beschreibung>Naturtalent: Anstatt des üblichen Würfels verwendet der Zauberkundige den um 2 Stufen höheren Würfel der Würfelkette für seinen Zauberwurf (etwa statt eines W20 einen W30).</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>99</Wurf>
+    <Beschreibung>Würfle 2x neu und wende beide Ergebnisse an.</Beschreibung>
+  </LauneDerMagie>
+  <LauneDerMagie>
+    <Wurf>100</Wurf>
+    <Beschreibung>Wie 99, aber statt eines W100 nimmst du 4W20, deren Ergebnis durch den Glücksmodifikator des Zauberkundigen modifiziert wird (jeder Punkt entspricht 10 %).</Beschreibung>
+  </LauneDerMagie>
+</ArrayOfLauneDerMagie>

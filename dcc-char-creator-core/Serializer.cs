@@ -15,12 +15,16 @@ namespace DccCharCreator.core
 
         public static Dictionary<int, T> Load<T>(string fileName, Action<Dictionary<int, T>> validate, Func<T, int> index)
         {
-            using var xmlReader = XmlReader.Create(Path.Combine(BasePath, "Xml", fileName));
-            var xmlSerializer = new XmlSerializer(typeof(T[]));
-            var deserializedObject = xmlSerializer.Deserialize(xmlReader);
-            var result = ((T[])deserializedObject).ToDictionary(index);
+            var result = Load<T>(fileName).ToDictionary(index);
             validate(result);
             return result;
+        }
+
+        public static T[] Load<T>(string fileName)
+        {
+            using var xmlReader = XmlReader.Create(Path.Combine(BasePath, "Xml", fileName));
+            var xmlSerializer = new XmlSerializer(typeof(T[]));
+            return (T[])xmlSerializer.Deserialize(xmlReader);
         }
 
         public static void Save<T>(string fileName, List<T> values)
