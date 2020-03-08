@@ -1,38 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Xml.Serialization;
 
 namespace DccCharCreator.core.Zauberbuch
 {
     public class Zauber
     {
-        public int Wurf { get; set; }
-
-        public string Seite { get; set; } = string.Empty;
-        public string Manifestation { get; set; } = string.Empty;
-
-        public Zaubertyp Typ { get; set; }
-
-        [XmlIgnore]
-        public IList<LauneDerMagie> LaunenDerMagie { get; set; } = new List<LauneDerMagie>();
-
-        public string Beschreibung { get; set; } = string.Empty;
-
-        public string Name { get; set; } = string.Empty;
-
-        private const string FileName = "zauber.xml";
-        private static readonly Lazy<Dictionary<Zaubertyp, Dictionary<int, Zauber>>> ZauberDict = new Lazy<Dictionary<Zaubertyp, Dictionary<int, Zauber>>>(Load);
-
-        public static Zauber Get(Zaubertyp typ, int wurf)
+        public Zauber(ZauberTemplate zauberTemplate) : this(zauberTemplate.Wurf, zauberTemplate.Seite,zauberTemplate.Name, zauberTemplate.Beschreibung)
         {
-            return (Zauber)ZauberDict.Value[typ][wurf].MemberwiseClone();
         }
 
-        public static Dictionary<Zaubertyp, Dictionary<int, Zauber>> Load()
+        public Zauber(int wurf, string seite, string name, string beschreibung)
         {
-            return Serializer.Load<Zauber>(FileName).GroupBy(x => x.Typ).ToDictionary(x => x.Key, x => x.ToDictionary(y => y.Wurf));
+            Wurf = wurf;
+            Seite = seite;
+            Name = name;
+            Beschreibung = beschreibung;
         }
+
+        public int Wurf { get; }
+        public string Seite { get; }
+        public string Name { get; }
+        public string Beschreibung { get; }
+        public Manifestation Manifestation { get; set; }
+        public IList<LauneDerMagie> LaunenDerMagie { get; set; }
     }
 }

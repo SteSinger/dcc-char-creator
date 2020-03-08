@@ -24,7 +24,25 @@ namespace DccCharCreator.core
         {
             using var xmlReader = XmlReader.Create(Path.Combine(BasePath, "Xml", fileName));
             var xmlSerializer = new XmlSerializer(typeof(T[]));
+            xmlSerializer.UnknownAttribute += Log;
+            xmlSerializer.UnknownElement += Log;
+            xmlSerializer.UnknownNode += Log;
             return (T[])xmlSerializer.Deserialize(xmlReader);
+        }
+
+        private static void Log(object sender, XmlNodeEventArgs e)
+        {
+            //throw new NotImplementedException();
+        }
+
+        private static void Log(object sender, XmlElementEventArgs e)
+        {
+            //throw new NotImplementedException();
+        }
+
+        private static void Log(object sender, XmlAttributeEventArgs e)
+        {
+            //throw new NotImplementedException();
         }
 
         public static void Save<T>(string fileName, List<T> values)

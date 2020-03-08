@@ -1,5 +1,6 @@
 ﻿using DccCharCreator.core.CharacterData;
 using DccCharCreator.core.Würfel;
+using DccCharCreator.core.Zauberbuch;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,6 +13,23 @@ namespace dcc_char_creator_cli
     {
         static void Main(string[] args)
         {
+            //var zt = new ZauberTemplate
+            //{
+            //    Beschreibung = "Beschreibung",
+            //    Manifestationen = new List<Manifestation> { new Manifestation { Beschreibung = "Manifestation" } },
+            //    Name = "Zauber",
+            //    Seite = "13",
+            //    Typ = Zaubertyp.Zauberkundigenzauber,
+            //    Wurf = 12
+            //};
+
+            //ZauberTemplate.Save(new List<ZauberTemplate>() { zt });
+
+            var wf = new WürfelFactory(new Random());
+            var zauberFactory = new ZauberFactory(wf.W100, wf.W27, wf._4W20, wf.W4, wf.W6, wf.W8, wf.W10);
+
+            zauberFactory.ZauberkundigenZauberErstellen(6, 1);
+
             var würfel = new WürfelFactory(new Random());
             var berufWürfel = würfel.W100;
             var zeichenWürfel = würfel.W30;

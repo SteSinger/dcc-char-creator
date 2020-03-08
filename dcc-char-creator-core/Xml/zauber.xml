@@ -1,27 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ArrayOfZauber xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Zauber>
+<ArrayOfZauberTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ZauberTemplate>
     <Wurf>1</Wurf>
     <Seite>129</Seite>
     <Name>Anrufung des Patrons</Name>
     <Beschreibung>Um diesen Zauber zu lernen, muss der Zauberkundige zunächst Pakt mit einem Patron wirken. Die Einzelheiten dieses Zaubers hängen von den Vorgaben des Patrons ab. Durch Wirken dieses Zaubers ruft der Zauberkundige den Namen seines übernatürlichen Patrons an, um dessen Hilfe zu erbitten. Mindestens einen Punkt Zauberbrand muss er zum Wirken einsetzen. Der Patron erwidert die Anrufung, indem er Hilfe schickt, die der Natur seiner Anhänger entspricht – der SL kennt hierzu die Einzelheiten. Hinweis: wiederholtes Wirken dieses Zaubers mag den Zauberkundigen spirituell und körperlich verderben.</Beschreibung>
-    <Manifestation>Variiert</Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung>Variiert</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>2</Wurf>
     <Seite>129</Seite>
     <Name>Ausbessern</Name>
     <Beschreibung>Der Zauberwirker kann beschädigte Gegenstände von normalerweise einfacher und alltäglicher Natur reparieren. Die Umkehrung des Zaubers, Zerreißen, verursacht kleinere Beschädigungen und erlaubt dem betroffenen Gegenstand einen Zähigkeitswurf.</Beschreibung>
-    <Manifestation>
-      Würfle 1W4: (1) Der Gegenstand leuchtet; (2) der Gegenstand verschwindet und taucht in repariertem Zustand
-      wieder auf; (3) ein Haufen winziger Gnome kriecht aus Spalten und Nischen hervor, um den Gegenstand
-      mit Hammer und Amboss zu reparieren, ehe er davon läuft; (4) der Gegenstand schmilzt und bildet
-      sich dann in ausgebessertem Zustand neu.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Der Gegenstand leuchtet</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Der Gegenstand verschwindet und taucht in repariertem Zustand wieder auf.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Ein Haufen winziger Gnome kriecht aus Spalten und Nischen hervor, um den Gegenstand mit Hammer und Amboss zu reparieren, ehe er davon läuft.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Der Gegenstand schmilzt und bildet sich dann in ausgebessertem Zustand neu.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>3</Wurf>
     <Seite>130</Seite>
     <Name>Bauchreden</Name>
@@ -29,26 +46,44 @@
       Der Zauberwirker projiziert den Klang seiner Stimme an einen anderen Ort, etwa in ein angrenzendes
       Zimmer, in ein Tier oder eine Statue, an das Ende eines Ganges usw.
     </Beschreibung>
-    <Manifestation>
-      Abhängig vom Zauberwurf (siehe unten). Entweder gibt es keine visuelle Manifestation oder würfle 1W4:
-      (1) „Hitzeflimmern“ am Ort des Klangs; (2) Luftbewegungen oder kleine Staubverwirbelungen, als würde
-      jemand an der Position sprechen; (3) glitzernde Luft; (4) Echo oder Widerhall.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung>
+          Abhängig vom Zauberwurf (siehe unten). Entweder gibt es keine visuelle Manifestation oder würfle 1W4:
+          (1) „Hitzeflimmern“ am Ort des Klangs; (2) Luftbewegungen oder kleine Staubverwirbelungen, als würde
+          jemand an der Position sprechen; (3) glitzernde Luft; (4) Echo oder Widerhall.
+        </Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>4</Wurf>
     <Seite>132</Seite>
     <Name>Brennende Hände</Name>
     <Beschreibung>Der Zauberwirker lässt aus seinen bloßen Händen Feuer schießen, um seine Feinde zu verbrennen.</Beschreibung>
-    <Manifestation>
-      Würfle 1W4: (1) Die Hände des Zauberwirkers brechen in Flammen aus; (2) Feuer springt aus den Fingerspitzen
-      des Zauberwirkers; (3) die Hände des Zauberwirkers verwandeln sich in wirbelnde, rauchende
-      Flammen; (4) die Haut wird schwarz, blättert ab und enthüllt skelettierte Hände, aus denen Lava spritzt.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Die Hände des Zauberwirkers brechen in Flammen aus.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Feuer springt aus den Fingerspitzen des Zauberwirkers.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Die Hände des Zauberwirkers verwandeln sich in wirbelnde, rauchende Flammen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Die Haut wird schwarz, blättert ab und enthüllt skelettierte Hände, aus denen Lava spritzt.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>5</Wurf>
     <Seite>133</Seite>
     <Name>Ekims mystische Maske</Name>
@@ -58,17 +93,39 @@
       auch entscheiden, einen Effekt geringerer Macht zu wählen, als sein Zauberwurf anzeigt, wenn dieser
       Effekt für ihn hilfreicher ist.
     </Beschreibung>
-    <Manifestation>
-      Würfle 1W4: (1) Der Zauberwirker greift aus der Luft nach der Maske; (2) das Fleisch im Gesicht des Zauberwirkers
-      schält sich ab, darunter kommt die Maske zum Vorschein; (3) der Kopf des Zauberwirkers verschwimmt
-      kurzzeitig; wenn der Effekt vorüber ist, sitzt die Maske bereits auf seinem Gesicht; (4) der Kopf
-      des Zauberwirkers dreht sich um 180° und bringt ein maskiertes Gesicht auf seinem Hinterkopf zum Vorschein.
-      Zusätzlich zur Manifestation verändert jede Maske das Gesicht des Zauberwirkers auf eine andere
-      Art. Diese Veränderungen werden in der Ergebnistabelle des Zauberwurfs (unten) näher beschrieben.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>
+          Der Zauberwirker greift aus der Luft nach der Maske.
+          Zusätzlich zur Manifestation verändert jede Maske das Gesicht des Zauberwirkers auf eine andere Art. Diese Veränderungen werden in der Ergebnistabelle des Zauberwurfs (unten) näher beschrieben.
+        </Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>
+          Das Fleisch im Gesicht des Zauberwirkers schält sich ab, darunter kommt die Maske zum Vorschein.
+          Zusätzlich zur Manifestation verändert jede Maske das Gesicht des Zauberwirkers auf eine andere Art. Diese Veränderungen werden in der Ergebnistabelle des Zauberwurfs (unten) näher beschrieben.
+        </Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>
+          Der Kopf des Zauberwirkers verschwimmt kurzzeitig; wenn der Effekt vorüber ist, sitzt die Maske bereits auf seinem Gesicht.
+          Zusätzlich zur Manifestation verändert jede Maske das Gesicht des Zauberwirkers auf eine andere Art. Diese Veränderungen werden in der Ergebnistabelle des Zauberwurfs (unten) näher beschrieben.
+        </Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>
+          Der Kopf des Zauberwirkers dreht sich um 180° und bringt ein maskiertes Gesicht auf seinem Hinterkopf zum Vorschein.
+          Zusätzlich zur Manifestation verändert jede Maske das Gesicht des Zauberwirkers auf eine andere Art. Diese Veränderungen werden in der Ergebnistabelle des Zauberwurfs (unten) näher beschrieben.
+        </Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>6</Wurf>
     <Seite>135</Seite>
     <Name>Energie formen</Name>
@@ -78,27 +135,68 @@
       beliebigen Effekt bis zur Höhe seines Zauberwurfes entscheiden, er kann also auch ein niedrigeres
       Ergebnis wählen, falls dieses in der Situation nützlicher ist.
     </Beschreibung>
-    <Manifestation>
-      Würfle 1W4: (1) Die Hände des Zauberwirkers schimmern und die Luft summt vor Energie; (2) eine Wolke
-      aus funkelnden Lichtpartikeln nimmt die Umrisse des erschaffenen Objekts an und löst sich dann auf; (3)
-      Blöcke aus blauer Energie fallen herab, um das Objekt oder die Barriere zu bilden, und verschwinden dann;
-      (4) der Zauberwirker zeichnet mit leuchtender Fingerspitze das gewünschte Objekt vor sich in die Luft.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Die Hände des Zauberwirkers schimmern und die Luft summt vor Energie.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Eine Wolke aus funkelnden Lichtpartikeln nimmt die Umrisse des erschaffenen Objekts an und löst sich dann auf.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Blöcke aus blauer Energie fallen herab, um das Objekt oder die Barriere zu bilden, und verschwinden dann.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Der Zauberwirker zeichnet mit leuchtender Fingerspitze das gewünschte Objekt vor sich in die Luft.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>7</Wurf>
     <Seite>136</Seite>
     <Name>Erstickende Wolke</Name>
     <Beschreibung>Der Zauberwirker ruft eine Wolke aus beißenden, ätzenden Dämpfen herbei, die ihr Ziel erstickt.</Beschreibung>
-    <Manifestation>
-      Würfle 1W8: (1) schwarze Wolke; (2) durchscheinender Dunst; (3) Ascheexplosion; (4) Geysir, der unter
-      dem Ziel aus dem Boden hervorbricht; (5) gelb-grüne Wolke; (6) roter Dunst; (7) dicker, öliger Nebel; (8)
-      bläuliche Wolke.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Schwarze Wolke.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Durchscheinender Dunst.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Ascheexplosion.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Geysir, der unter dem Ziel aus dem Boden hervorbricht.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>5</Wurf>
+        <Beschreibung>Gelb-grüne Wolke.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>6</Wurf>
+        <Beschreibung>Roter Dunst.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>7</Wurf>
+        <Beschreibung>Dicker, öliger Nebel.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>8</Wurf>
+        <Beschreibung>Bläuliche Wolke.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>8</Wurf>
     <Seite>Federfall</Seite>
     <Name>137</Name>
@@ -108,14 +206,27 @@
       dieser Zauber kann sofort gewirkt werden (auch außerhalb der Initiativreihenfolge), wenn der Zauberwirker
       oder ein Ziel in Reichweite fällt.
     </Beschreibung>
-    <Manifestation>
-      Würfle 1W4: (1) Aerodynamische Hautlappen aus Fleisch wachsen aus Armen und Beinen des Ziels; (2) das
-      Ziel leuchtet mit einer schwachen, federartigen Aura in Kanariengelb; (3) die Körperbehaarung des Ziels wird
-      durch Daunenfedern ersetzt; (4) der Körper des Ziels entfaltet sich wie ein Blatt, das vom Wind getragen wird.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Aerodynamische Hautlappen aus Fleisch wachsen aus Armen und Beinen des Ziels. </Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Das Ziel leuchtet mit einer schwachen, federartigen Aura in Kanariengelb.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Die Körperbehaarung des Ziels wird durch Daunenfedern ersetzt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Der Körper des Ziels entfaltet sich wie ein Blatt, das vom Wind getragen wird.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>9</Wurf>
     <Seite>138</Seite>
     <Name>Kalte Hand</Name>
@@ -123,14 +234,27 @@
       Mit diesem nekromantischen Zauber verbreitet der Zauberwirker den eiskalten Griff der Toten. Um den
       Zauber zu wirken, muss er mindestens 1 Zauberbrand einsetzen.
     </Beschreibung>
-    <Manifestation>
-      Würfle 1W4: (1) Die Hände des Zauberkundigen leuchten in blauem Licht; (2) die Hände des Zauberkundigen
-      werden schwarz; (3) der Zauberkundige verströmt einen starken Geruch der Verderbnis; (4) die
-      Hände des Zauberkundigen erscheinen skelettiert.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Die Hände des Zauberkundigen leuchten in blauem Licht.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Die Hände des Zauberkundigen werden schwarz.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Der Zauberkundige verströmt einen starken Geruch der Verderbnis.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Die Hände des Zauberkundigen erscheinen skelettiert.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>10</Wurf>
     <Seite>267</Seite>
     <Name>Magie entdecken*</Name>
@@ -139,10 +263,15 @@
       der Reichweite liegt. Die Reichweite ist ein kegelförmiger Bereich, der von dem heiligen Symbol des Klerikers
       ausstrahlt und 9 m lang und an seinem Ende 9 m breit ist.
     </Beschreibung>
-    <Manifestation>Siehe unten</Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung>Siehe unten</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>11</Wurf>
     <Seite>139</Seite>
     <Name>Magie lesen</Name>
@@ -152,37 +281,110 @@
       aktiviert diesen jedoch nicht. Der Zauberwirker kann auch die Umkehrung des Zaubers erlernen,
       Magie verschleiern, wodurch magischer Text unleserlich wird (selbst mithilfe dieses Zaubers).
     </Beschreibung>
-    <Manifestation>
-      Würfle 1W4: (1) Die Augen des Zauberwirkers glühen; (2) der Text leuchtet auf; (3) die Buchstaben des
-      Textes zerlaufen in eine neue, lesbare Form; (4) keine.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Die Augen des Zauberwirkers glühen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Der Text leuchtet auf.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Die Buchstaben des Textes zerlaufen in eine neue, lesbare Form.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Keine.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>12</Wurf>
     <Seite>141</Seite>
     <Name>Magischer Schild</Name>
     <Beschreibung>Der Zauberwirker erschafft einen magischen Schild, der ihn vor Gegnern schützt.</Beschreibung>
-    <Manifestation>
-      Würfle 1W6: (1) eine Scheibe aus schimmernder, blauer Energie; (2) ein gelbliches Kraftfeld; (3) eine Angriffe
-      abwehrende Riesenhand; (4) ein Faustschild, der helles Licht abstrahlt; (5) ein schwarzer, bodenloser
-      Riss im Saum der Realität; (6) ein Wirbelwind aus Luft, der Feinde wegstößt.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Eine Scheibe aus schimmernder, blauer Energie.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein gelbliches Kraftfeld.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Eine Angriffe abwehrende Riesenhand.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Ein Faustschild, der helles Licht abstrahlt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>5</Wurf>
+        <Beschreibung>Ein schwarzer, bodenloser Riss im Saum der Realität.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>6</Wurf>
+        <Beschreibung>Ein Wirbelwind aus Luft, der Feinde wegstößt.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>13</Wurf>
     <Seite>142</Seite>
     <Name>Magisches Geschoss</Name>
     <Beschreibung>Der Zauberwirker schleudert ein magisches Geschoss, das automatisch einen Feind trifft.</Beschreibung>
-    <Manifestation>
-      Würfle 1W10: (1) Meteor; (2) flammender Pfeil; (3) Pfeil aus kinetischer Energie; (4) kreischender, mit Klauen
-      angreifender Adler; (5) schwarzer Strahl; (6) Kugelblitz; (7) Kugel aus Säure; (8) Froststrahl; (9) Dolch
-      aus kinetischer Energie; (10) Axt aus kinetischer Energie.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Meteor.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Flammender Pfeil.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Pfeil aus kinetischer Energie.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Kreischender, mit Klauen angreifender Adler.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>5</Wurf>
+        <Beschreibung>Schwarzer Strahl.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>6</Wurf>
+        <Beschreibung>Kugelblitz.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>7</Wurf>
+        <Beschreibung>Kugel aus Säure.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>8</Wurf>
+        <Beschreibung>Froststrahl.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>9</Wurf>
+        <Beschreibung>Dolch aus kinetischer Energie.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>10</Wurf>
+        <Beschreibung>Axt aus kinetischer Energie.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>14</Wurf>
     <Seite>143</Seite>
     <Name>Pakt mit einem Patron</Name>
@@ -192,10 +394,15 @@
       zufrieden stellt. Dieser Patron kann ein Dämon, Teufel, Geist, Elementar, Engel, Chaosfürst oder ein anderes,
       übernatürliches Wesen sein, das die Dienste des Zauberwirkers annimmt... (Siehe Seite 143.)
     </Beschreibung>
-    <Manifestation>Variiert</Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung>Variiert</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>15</Wurf>
     <Seite>147</Seite>
     <Name>Personen bezaubern</Name>
@@ -205,13 +412,35 @@
       können auch versuchen, diesen Zauber auf Monster und Untote (mit einem Malus von -2 auf den
       Zauberwurf) oder auf Externare und Dämonen (mit -4 auf den Wurf) anzuwenden.
     </Beschreibung>
-    <Manifestation>
-      Würfle 1W6: (1) Lichtblitz; (2) einschläfernde Melodie; (3) schwarze Wolke; (4) glitzernder Feenstaub; (5)
-      schwarzer Strahl; (6) ein Mondstrahl von oben.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Lichtblitz.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Einschläfernde Melodie.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Schwarze Wolke.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Glitzernder Feenstaub.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>5</Wurf>
+        <Beschreibung>Schwarzer Strahl.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>6</Wurf>
+        <Beschreibung>Ein Mondstrahl von oben.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>16</Wurf>
     <Seite>149</Seite>
     <Name>Portal versperren</Name>
@@ -219,14 +448,35 @@
       Der Zauberwirker unterbindet auf magische Weise das Durchqueren eines Portals. Türen, Falltüren, Tore,
       Fallgitter, Gitter und jeder andere Durchgang können auf diese Weise versperrt werden.
     </Beschreibung>
-    <Manifestation>
-      Würfle 1W6: (1) ein in das Portal eingraviertes Siegel; (2) das Portal wird von einem widernatürlichen
-      Schatten eingehüllt; (3) das Portal verwandelt sich in Stein/Eisen/Stahl/Fels; (4) ein magischer Zirkel umgibt
-      das Portal; (5) eine Unmenge an Ketten und Seilen umschlingt das Portal; (6) kein sichtbarer Effekt.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Ein in das Portal eingraviertes Siegel.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Das Portal wird von einem widernatürlichen Schatten eingehüllt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Das Portal verwandelt sich in Stein/Eisen/Stahl/Fels.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Ein magischer Zirkel umgibt das Portal.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>5</Wurf>
+        <Beschreibung>Eine Unmenge an Ketten und Seilen umschlingt das Portal.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>6</Wurf>
+        <Beschreibung>Kein sichtbarer Effekt.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>17</Wurf>
     <Seite>151</Seite>
     <Name>Runenalphabet der Sterblichen</Name>
@@ -236,22 +486,40 @@
       Sphinxe und die Zeichen bestimmter Zauberer. Mit diesem Zauber ist der Zauberwirker in der Lage, die
       einfachsten Runen zu erzeugen, die für Sterbliche verständlich sind... (Siehe Seite 151.)
     </Beschreibung>
-    <Manifestation>Eingezeichnete Rune</Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung>Eingezeichnete Rune</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>18</Wurf>
     <Seite>152</Seite>
     <Name>Schlaf</Name>
     <Beschreibung>Der Zauberwirker versetzt ein Ziel in tiefen, festen Schlaf.</Beschreibung>
-    <Manifestation>
-      Würfl e 1W4: (1) ein Strahl aus glitzerndem Staub; (2) Schwanenschwingen, die sich aus der Erde erheben
-      und das Ziel umschließen; (3) weiche, weiße Wolken, die den Kopf des Ziels umhüllen; (4) Wellen aus
-      blauem Licht.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Ein Strahl aus glitzerndem Staub.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Schwanenschwingen, die sich aus der Erde erheben und das Ziel umschließen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Weiche, weiße Wolken, die den Kopf des Ziels umhüllen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Wellen aus blauem Licht.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>19</Wurf>
     <Seite>153</Seite>
     <Name>Seilmagie</Name>
@@ -261,27 +529,54 @@
       gebildet oder andere erstaunliche Dinge angestellt werden. Im Gegensatz zu anderen Zaubern kann
       der Zauberwirker nach dem Zauberwurf jedes Ergebnis bis in Höhe seines Wurfergebnisses auswählen.
     </Beschreibung>
-    <Manifestation>
-      Würfle 1W4: (1) ein normales Seil erscheint aus dem Nichts; (2) ein Seil lässt sich von oben herab; (3) das
-      Seil schießt als Schlange aus dem Erdboden hervor und sieht danach wie ein Seil aus; (4) mehrfarbige Fäden
-      wachsen aus dem Boden hervor und verdichten sich zu einem Seil.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Ein normales Seil erscheint aus dem Nichts.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein Seil lässt sich von oben herab.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Das Seil schießt als Schlange aus dem Erdboden hervor und sieht danach wie ein Seil aus.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Mehrfarbige Fäden wachsen aus dem Boden hervor und verdichten sich zu einem Seil.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>20</Wurf>
     <Seite>154</Seite>
     <Name>Spinnenklettern</Name>
     <Beschreibung>Der Zauberwirker erlangt die Spinnenfähigkeit, vertikale Oberflächen zu erklettern.</Beschreibung>
-    <Manifestation>
-      Würfle 1W4: (1) Vier zusätzliche, spinnenartige Gliedmaßen sprießen aus dem Torso des Zauberwirkers;
-      (2) aus den Händen und Füßen des Zauberwirkers tritt eine klebrige Substanz hervor; (3) die Finger und
-      Zehen des Zauberwirkers leuchten in einem seltsamen, orangefarbenen Licht; (4) dem Zauberwirker
-      wachsen sechs zusätzliche Augen.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Vier zusätzliche, spinnenartige Gliedmaßen sprießen aus dem Torso des Zauberwirkers.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Aus den Händen und Füßen des Zauberwirkers tritt eine klebrige Substanz hervor.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Die Finger und Zehen des Zauberwirkers leuchten in einem seltsamen, orangefarbenen Licht.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Dem Zauberwirker wachsen sechs zusätzliche Augen.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>21</Wurf>
     <Seite>156</Seite>
     <Name>Sprachen verstehen</Name>
@@ -289,13 +584,27 @@
       Der Zauberwirker kann nichtmagische Worte und Abbildungen (wie z. B. Schatzkarten) verstehen, die für
       ihn normalerweise unverständlich wären.
     </Beschreibung>
-    <Manifestation>
-      Würfle 1W4: (1) Die Augen des Zauberwirkers leuchten; (2) der Text leuchtet; (3) die Schriftzeichen des
-      Textes fügen sich zu lesbarer Form zusammen; (4) keine
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Die Augen des Zauberwirkers leuchten.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Der Text leuchtet.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Die Schriftzeichen des Textes fügen sich zu lesbarer Form zusammen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Keine.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>22</Wurf>
     <Seite>157</Seite>
     <Name>Sprühende Farben</Name>
@@ -303,16 +612,43 @@
       Der Zauberwirker ruft einen Sprühregen aus leuchtenden Farben hervor, der seine Ziele blendet und benommen
       macht.
     </Beschreibung>
-    <Manifestation>
-      Würfle 1W8: (1) Sprühregen aus farbigen Pfeilen; (2) Regenbogen aus dem Himmel; (3) Blitz aus bunt
-      gemischten Farbtönen; (4) ein Strahl rotierender Farben aus dem Himmel; (5) eine Wolke aus vielen oder
-      einer einzelnen Farbe; (6) ein Schatten aus unterdrückten, ausgewaschenen Farben; (7) eine Inversion aus
-      Farben des betroffenen Wirkungsgebiets; (8) seilartige Schnüre aus Licht, die von den Fingerspitzen des
-      Zauberwirkers ausgehen.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Sprühregen aus farbigen Pfeilen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Regenbogen aus dem Himmel.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Blitz aus bunt gemischten Farbtönen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Ein Strahl rotierender Farben aus dem Himmel.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>5</Wurf>
+        <Beschreibung>Eine Wolke aus vielen oder einer einzelnen Farbe.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>6</Wurf>
+        <Beschreibung>Ein Schatten aus unterdrückten, ausgewaschenen Farben.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>7</Wurf>
+        <Beschreibung>Eine Inversion aus Farben des betroffenen Wirkungsgebiets.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>8</Wurf>
+        <Beschreibung>Seilartige Schnüre aus Licht, die von den Fingerspitzen des Zauberwirkers ausgehen.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>23</Wurf>
     <Seite>158</Seite>
     <Name>Tiere beschwören</Name>
@@ -321,15 +657,27 @@
       muss mit der Tierart vertraut und im Besitz einer Materialprobe sein, die beim Wirken des Zaubers verbraucht
       wird (z. B. Haar, Fell, eine Pfote, ein Zahn, Schädel etc.).
     </Beschreibung>
-    <Manifestation>
-      Würfle 1W4: (1) Ein schimmerndes Ei erscheint und aus ihm schlüpft dann das herbeigerufene Tier; (2)
-      das Tier blitzt aus einer dunklen Wolke hervor; (3) das Skelett des Tiers erscheint als erstes, dann tauchen
-      Organe auf, die danach von Muskeln zusammengehalten werden, während Haut drüber wächst, bis das
-      Tier komplett erscheint; (4) das vollständige Tier bricht aus dem Boden hervor.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Ein schimmerndes Ei erscheint und aus ihm schlüpft dann das herbeigerufene Tier.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Das Tier blitzt aus einer dunklen Wolke hervor.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Das Skelett des Tiers erscheint als erstes, dann tauchen Organe auf, die danach von Muskeln zusammengehalten werden, während Haut drüber wächst, bis das Tier komplett erscheint.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Das vollständige Tier bricht aus dem Boden hervor.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>24</Wurf>
     <Seite>160</Seite>
     <Name>Vergrößern</Name>
@@ -342,15 +690,27 @@
       Dinge verkleinern. Mehrere Anwendungen dieses Zaubers wirken nicht kumulativ, aber Schrumpfen kann
       benutzt werden, um Vergrößern aufzuheben.
     </Beschreibung>
-    <Manifestation>
-      Würfle 1W4: (1) Das Ziel wird sichtbar größer; (2) das Ziel verschwindet und taucht in neuer Größe wieder
-      auf; (3) Hunderte kleiner Arbeiter tauchen auf, die das Ziel auseinanderzunehmen scheinen, um es dann
-      vergrößert wieder zusammenzusetzen; (4) das Ziel altert rückwärts bis auf die Größe und das Aussehen
-      eines Säuglings, um dann erstaunlicherweise wieder auf die neue Erwachsenengröße anzuwachsen.
-    </Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Das Ziel wird sichtbar größer.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Das Ziel verschwindet und taucht in neuer Größe wieder auf.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Hunderte kleiner Arbeiter tauchen auf, die das Ziel auseinanderzunehmen scheinen, um es dann vergrößert wieder zusammenzusetzen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Das Ziel altert rückwärts bis auf die Größe und das Aussehen eines Säuglings, um dann erstaunlicherweise wieder auf die neue Erwachsenengröße anzuwachsen.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>25</Wurf>
     <Seite>161</Seite>
     <Name>Vertrauten finden</Name>
@@ -369,10 +729,15 @@
       Malus von -5 auf Zauberwürfe.
       Der Spielleiter hat weiterführende Information (s. S. 322)
     </Beschreibung>
-    <Manifestation>Variiert</Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung>Variiert</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>26</Wurf>
     <Seite>162</Seite>
     <Name>Zaubertrick</Name>
@@ -385,15 +750,25 @@
       des Wirkens ankündigt, wobei das letztliche Zauberwurfergebnis die Grenzen bestimmt, wie in der Zauberwurftabelle
       unten angegeben.
     </Beschreibung>
-    <Manifestation>Unterschiedlich</Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung>Unterschiedlich</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-  <Zauber>
+  </ZauberTemplate>
+  <ZauberTemplate>
     <Wurf>27</Wurf>
     <Seite>328, 336, 342, 348, 354, 360, 361, 362</Seite>
     <Name>Patronzauber</Name>
     <Beschreibung></Beschreibung>
-    <Manifestation></Manifestation>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung>Unterschiedlich</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-  </Zauber>
-</ArrayOfZauber>
+  </ZauberTemplate>
+</ArrayOfZauberTemplate>

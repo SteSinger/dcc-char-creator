@@ -24,7 +24,7 @@ namespace DccCharCreator.web.Controllers
             }
 
             var wf = new WürfelFactory(new Random());
-            var zauberFactory = new ZauberFactory(wf.W100, wf.W27, wf._4W20);
+            var zauberFactory = new ZauberFactory(wf.W100, wf.W27, wf._4W20, wf.W4, wf.W6, wf.W8, wf.W10);
 
             var zauberbuchVM = new ZauberbuchViewModel
             {
