@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
+    <nav class="nav" tabindex="-1" onclick="this.focus()">
+        <div class="container">
+            <a asp-controller="Main" asp-action="Index" class="@((string)ViewContext.RouteData.Values["Controller"] == "Main" ? "pagename current" : "")">Main</a>
+            <a asp-controller="Character" asp-action="Index" class="@((string)ViewContext.RouteData.Values["Controller"] == "Character" ? "pagename current" : "")" >Charaktergenerator</a>
+            <a asp-controller="Zauberbuch" asp-action="Index" class="@((string)ViewContext.RouteData.Values["Controller"] == "Zauberbuch" ? "pagename current" : "")">Grimoire</a>
+        </div>
+    </nav>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

@@ -16,5 +16,6 @@
     public interface IW6 : IWürfel { }
     public interface IW8 : IWürfel { }
     public interface IW10 : IWürfel { }
-
+    public interface IW3 : IWürfel { }
+    public interface IW11 : IWürfel { }
 }

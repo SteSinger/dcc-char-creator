@@ -35,5 +35,9 @@ namespace DccCharCreator.core.Würfel
         public IW8 W8 => new WürfelBecher(() => würfel.W(8));
 
         public IW10 W10 => new WürfelBecher(() => würfel.W(10));
+
+        public IW11 W11 => new WürfelBecher(() => würfel.W(11));
+
+        public IW3 W3 => new WürfelBecher(() => würfel.W(3));
     }
 }

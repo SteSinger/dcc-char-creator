@@ -1,6 +1,6 @@
 ﻿@model ZauberbuchViewModel
 @{
-    ViewData["Title"] = "Zauberbuch";
+    ViewData["Title"] = "Grimoire";
 }
 
 <h1>Grimoire für Level 1</h1>
@@ -13,11 +13,14 @@
         (@zauber.Wurf) <strong>@zauber.Name</strong> (S. @zauber.Seite)<br />
         @zauber.Beschreibung<br />
         <strong>Manifestation:</strong> @zauber.Manifestation.Beschreibung<br />
-        <strong>Launen der Magie:</strong>
+        @if (zauber.LaunenDerMagie != null && zauber.LaunenDerMagie.Count > 0)
+        {
+            <strong>Launen der Magie:</strong>
         @foreach (var laune in zauber.LaunenDerMagie)
         {
             <text>(</text>@laune.Wurf<text>) </text>
             @laune.Beschreibung<br />
+        }
         }
     </p>
     <hr />

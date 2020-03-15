@@ -300,7 +300,6 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>12</Wurf>
@@ -548,7 +547,6 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>20</Wurf>
@@ -574,7 +572,6 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>21</Wurf>
@@ -770,5 +767,248 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>260</Seite>
+    <Name>Böses entdecken</Name>
+    <Beschreibung>Der Kleriker hält sein heiliges Symbol in die Höhe und erkennt innerhalb eines Strahls, der sich 1,5 m breit und 18 m weit (oder weiter) von dem Symbol ausdehnt, Ausströmungen des Bösen. Die Definition von „böse“ hängt dabei vom Kleriker ab: Normalerweise umfasst dies Wesen mit gegensätzlicher Gesinnung, diejenigen, die der Gottheit des Klerikers unheilig sind und diejenigen mit offensichtlich feindseligen Absichten. Abhängig von der Stärke des Zauberes kann der Kleriker auch weniger offensichtliche Gefahren erkennen. Dieser Zauber offenbart keine Wesen, die anderweitig verborgen sind, aber er informiert den Kleriker darüber, dass böse Absichten von einer bestimmten Stelle ausströmen. Dieser Zauber kann auch umgekehrt werden, um Gutes zu erkennen. Dies trifft auf Wesen mit verbündeter Gesinnung, gemeinsamen Gottheiten oder ähnlichen heiligen Zielen zu. </Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Böse Wesen leuchten schwach, wenn sie vom Kleriker gesehen werden.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein himmlischer Chor trompetet lautstarke Fanfaren der Warnung, wann immer der Kleriker ein böses Wesen sieht.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Böse Wesen verströmen in alle Richtungen schreckliche, dunkle Schatten, die ihre Erscheinung in einen dichten Schleier aus Dunkelheit hüllen.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>2</Wurf>
+    <Seite>261</Seite>
+    <Name>Dunkelheit</Name>
+    <Beschreibung>Der Kleriker lässt das Licht der Sonne erlöschen und zeigt so die große Kraft seiner Gottheit. Aus einiger Entfernung erscheint die Dunkelheit als ein Gebiet tiefster Nacht; kein Licht kann es durchdringen. Wesen, die sich innerhalb dieses Gebietes aufhalten, gelten als blind.</Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Schattenhafte Wolke aus Dunkelheit.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Absolute Schwärze.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Dicker, öliger, schwarzer Nebel.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>3</Wurf>
+    <Seite>262</Seite>
+    <Name>Göttermahl</Name>
+    <Beschreibung>Der Kleriker ruft die Macht seines Gottes an, um die Massen zu nähren. Dieser Zauber macht entweder ungenießbares Essen genießbar oder erschafft magische Lebensmittel, wenn Nahrungsmittel oder Getränke fehlen. Magisch erschaffene Nahrung ist eine schwammige, graue und fade schmeckende Masse, die nach 24 Stunden verdirbt. Magisch erschaffenes Wasser ist sauberes Regenwasser, das trinkbar bleibt, solange es ordnungsgemäß aufbewahrt wird.</Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Eine leuchtende, mit Essen beladene Tafel erscheint und verschwindet wieder – das Essen verbleibt an Ort und Stelle.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Essen regnet vom Himmel und sammelt sich auf flachen Oberflächen oder in aufgehaltenen Händen</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Der Kleriker würgt das magisch erschaffene Essen und Wasser hervor.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Nicht essbares Material wie Holz, Gestein und Erdreich wird in essbare Substanz verwandelt.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>4</Wurf>
+    <Seite>263</Seite>
+    <Name>Heilige Zuflucht</Name>
+    <Beschreibung>Der Kleriker beschwört einen Zufluchtsort, in dem er und seine Verbündeten sicher vor allen Gefahren sind.</Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Leuchtende Aura durch die der Kleriker knapp über dem Boden zu schweben scheint.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf></Wurf>
+        <Beschreibung>Himmlischer Heiligenschein durch die der Kleriker knapp über dem Boden zu schweben scheint.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf></Wurf>
+        <Beschreibung>Lichtstrahl von oben durch die der Kleriker knapp über dem Boden zu schweben scheint.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf></Wurf>
+        <Beschreibung>„Leichtfüßigkeit“ durch die der Kleriker knapp über dem Boden zu schweben scheint.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>5</Wurf>
+    <Seite>264</Seite>
+    <Name>Kälte oder Hitze widerstehen</Name>
+    <Beschreibung>Der Kleriker wehrt die Effekte von Kälte oder Hitze ab, indem er sich selbst und andere schützt. Er kann solche Bedingungen ohne jedwedes Unbehagen ertragen. Wenn er den Zauber wirkt, wählt der Kleriker, welchem Effekt er widerstehen möchte (Hitze oder Kälte). Es ist auch möglich, den Zauber zweimal zu wirken und einen Widerstand gegen beide Effekte zu erhalten.</Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Rötliche Aura.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Wabernde Hitzewellen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Bläuliche Hautfarbe.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>6</Wurf>
+    <Seite>265</Seite>
+    <Name>Lähmung</Name>
+    <Beschreibung>Das Licht der Gottheit des Klerikers hindert seine Gegner daran, ihre Hände gegen ihn zu erheben und üble Taten zu vollbringen.</Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Knisternde Elektrizität.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Schwarze, schäbige Fesseln.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Weiße Blässe.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Himmlischer grauer Dunst.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>7</Wurf>
+    <Seite>266</Seite>
+    <Name>Machtwort</Name>
+    <Beschreibung>Der Kleriker spricht ein machtvolles Wort, das den gebieterischen Willen seiner Gottheit in sich trägt. Wesen, die dieses Wort vernehmen, sind verpflichtet zu gehorchen. Das Wort muss ein einzelnes Wort sein, das eine Aktion beschreibt. Zum Beispiel: „Gehe!“, „Angriff!“, „Rückzug!“, „Sprich!“, „Schwimme!“, „Krieche!“, „Schweig!“ und so weiter. Das Wort muss in Richtung eines einzelnen, empfindungsfähigen Ziels in Reichweite gesprochen werden. Dieses Ziel erhält einen Willenskraftwurf, um zu widerstehen; wenn er fehlschlägt, muss es das Machtwort für die nächste Runde befolgen. Das Machtwort wird von dem Wesen als normaler Denkprozess gedeutet; z. B.: ein „Angriff“-Befehl wird auf einen Pflanzenfresser eine andere Auswirkung haben, als auf einen Fleischfresser. Der Befehl darf nicht länger als ein einzelnes Wort sein und könnte auch missinterpretiert werden. Wenn der Befehl absolut gegensätzlich zum Instinkt eines Wesens ist, erhält es einen Bonus von +4 auf den Willenskraftwurf, um zu widerstehen, etwa wenn einer Wüstenechse der Befehl „Schwimme!“ oder irgendein Befehl des „Selbstmordes“ erteilt wird.</Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Das Wort hallt in einer dröhnenden Stimme wider.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Das Wort wird vielmals wiederholt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Das Wort scheint aus allen Richtungen zu kommen, auch aus der Luft und aus dem Boden.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Das Wort erscheint am Himmel in feurigen Buchstaben, bevor es sich verteilt.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>8</Wurf>
+    <Seite>267</Seite>
+    <Name>Magie entdecken</Name>
+    <Beschreibung>Der Kleriker weiß, ob eine Verzauberung auf einer Person, einem Ort oder einem Gegenstand innerhalb der Reichweite liegt. Die Reichweite ist ein kegelförmiger Bereich, der von dem heiligen Symbol des Klerikers ausstrahlt und 9 m lang und an seinem Ende 9 m breit ist.</Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung>Siehe unten</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>9</Wurf>
+    <Seite>269</Seite>
+    <Name>Schutz vor Bösem</Name>
+    <Beschreibung>Der Kleriker ruft seine Gottheit an, um ihn vor Unheil zu schützen. Er wird auch vor Gefahren geschützt, derer er sich nicht bewusst ist. Die Definition von „böse“ hängt vom Kleriker ab: Üblicherweise umfasst dies Wesen mit entgegengesetzter Gesinnung, diejenigen, die der Gottheit des Klerikers unheilig sind und diejenigen mit offensichtlich feindseligen Absichten. Abhängig von der Stärke des Zauberes kann er sogar weniger offensichtliche Gefahren aufdecken. Dieser Zauber kann umgekehrt werden, um vor Gutem zu schützen.</Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Durchsichtiges heiliges Symbol.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Sanfte, schützende Aura.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Glühender Heiligenschein.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>10</Wurf>
+    <Seite>270</Seite>
+    <Name>Segnung</Name>
+    <Beschreibung>Der Kleriker erfleht die Segnung seines Gottes. Falls ihm diese gewährt wird, kann die Segnung eine große Wohltat für den Erfolg seiner Bemühungen sein. Der Zauber kann auf den Kleriker selbst, einen Gegenstand oder auf einen Verbündeten des Klerikers gewirkt werden. Wird der Zauber auf einen Verbündeten der gleichen Gesinnung gewirkt, ist er am wirksamsten. Wird dieser Zauber auf ein Ziel mit anderer Gesinnung gewirkt, so ergibt sich ein Malus von -1 auf den Zauberwurf. Wird dieser Zauber gar auf ein Ziel mit entgegengesetzter Gesinnung oder den Anhänger einer feindlich gesinnten Gottheit gewirkt, so erhält der Zauberwurf sogar einen Malus von -2. Der Zeitaufwand stellt das Gebet und die Meditation dar, während der Kleriker sein Heiliges Symbol benutzt, um das Segnungsritual durchzuführen. Segnungen, die in vielversprechenden Situationen ausgesprochen werden, erhalten je nach Ermessen des Spielleiters einen Bonus von +1 bis +4. Solche Situationen sind zum Beispiel das Aussprechen der Segnung in einem Tempel der Gottheit, der sich der Kleriker verschrieben hat, das Aussprechen an einem heiligen Feiertag oder das Aussprechen mit Hilfe einer heiligen Reliquie. Gleichermaßen erhält das Aussprechen in unheilvollen Situationen, wie z. B. das Aussprechen in einem unheiligen Tempel, einen Malus von -1 bis -4.</Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Das Ziel leuchtet.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Das Ziel ist von einer funkelnden Aura umgeben.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Über dem Ziel erscheint ein Heiligenschein.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Gesänge des himmlischen Heeres begleiten die Segnung.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>11</Wurf>
+    <Seite>273</Seite>
+    <Name>Zweites Gesicht</Name>
+    <Beschreibung>Der Kleriker kann mittels Zauberei, dem Lesen aus Eingeweiden oder einer anderen passenden Methode in die Zukunft blicken. Sobald er dies tut, erhält er auch Einblicke in die Auswirkungen seines Handelns.</Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf>1</Wurf>
+        <Beschreibung>Ein drittes Auge erscheint auf der Stirn des Klerikers.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Die Augen des Klerikers leuchten.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Die Augen des Klerikers sind verschmolzen, aber er kann immer noch sehen.</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
   </ZauberTemplate>
 </ArrayOfZauberTemplate>

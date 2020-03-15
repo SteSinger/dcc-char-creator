@@ -24,19 +24,20 @@ namespace DccCharCreator.web.Controllers
             }
 
             var wf = new WürfelFactory(new Random());
-            var zauberFactory = new ZauberFactory(wf.W100, wf.W27, wf._4W20, wf.W4, wf.W6, wf.W8, wf.W10);
+            var zauberFactory = new ZauberFactory(wf.W100, wf.W27, wf._4W20, wf.W4, wf.W6, wf.W8, wf.W10, wf.W3, wf.W11);
 
             var zauberbuchVM = new ZauberbuchViewModel
             {
                 Glueck = glueck,
-                AnzahlZauber = anzahlZauber,
+                AnzahlZauber = anzahlZauber
                 
             };
 
             zauberbuchVM.Zauberbuch = klasse switch
             {
                 Klasse.Zauberer => zauberFactory.ZauberkundigenZauberErstellen(anzahlZauber, glueck),
-                Klasse.Kleriker => zauberFactory.KlerikerZauberErstellen(anzahlZauber, glueck),
+                Klasse.Kleriker => zauberFactory.KlerikerZauberErstellen(anzahlZauber, glueck, false),
+                Klasse.KlerikerLaunen => zauberFactory.KlerikerZauberErstellen(anzahlZauber, glueck, true),
                 Klasse.Elf => zauberFactory.ElfenZauberErstellen(anzahlZauber, glueck),
                 _ => throw new ArgumentOutOfRangeException(nameof(klasse))
             };

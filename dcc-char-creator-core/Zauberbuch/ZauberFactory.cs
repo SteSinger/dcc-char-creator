@@ -10,12 +10,14 @@ namespace DccCharCreator.core.Zauberbuch
         private readonly IW100 w100;
         private readonly IW27 w27;
         private readonly I4W20 _4W20;
+        private readonly IW3 w3;
         private readonly IW4 w4;
         private readonly IW6 w6;
         private readonly IW8 w8;
         private readonly IW10 w10;
+        private readonly IW11 w11;
 
-        public ZauberFactory(IW100 w100, IW27 w27, I4W20 _4w20, IW4 w4, IW6 w6, IW8 w8, IW10 w10)
+        public ZauberFactory(IW100 w100, IW27 w27, I4W20 _4w20, IW4 w4, IW6 w6, IW8 w8, IW10 w10, IW3 w3, IW11 w11)
         {
             this.w100 = w100;
             this.w27 = w27;
@@ -24,6 +26,8 @@ namespace DccCharCreator.core.Zauberbuch
             this.w6 = w6;
             this.w8 = w8;
             this.w10 = w10;
+            this.w3 = w3;
+            this.w11 = w11;
         }
 
         public IList<Zauber> ZauberkundigenZauberErstellen(int anzahl, int glueck)
@@ -122,9 +126,39 @@ namespace DccCharCreator.core.Zauberbuch
             return zauberBuch;
         }
 
-        public IList<Zauber> KlerikerZauberErstellen(int anzahlZauber, int glueck)
+        public IList<Zauber> KlerikerZauberErstellen(int anzahlZauber, int glueck, bool launenDerMagie)
         {
-            throw new NotImplementedException();
+            if (anzahlZauber < 1 || anzahlZauber > 11)
+            {
+                throw new ArgumentOutOfRangeException(nameof(anzahlZauber), "Muss zwischen 1 und 11 liegen.");
+            }
+
+            var zauberBuch = new List<Zauber>(anzahlZauber);
+            while (zauberBuch.Count < anzahlZauber)
+            {
+                var wurf = w11.Würfeln();
+                while (zauberBuch.Any(x => x.Wurf == wurf))
+                {
+                    wurf = w11.Würfeln();
+                }
+
+                var zt = ZauberTemplate.Get(Zaubertyp.Klerikerzauber, wurf);
+                var zauber = new Zauber(zt)
+                {
+                    Manifestation = GetManifestation(zt)
+                };
+                if (launenDerMagie)
+                {
+                    zauber.LaunenDerMagie = CreateLaunenDerMagie(glueck);
+                }
+                else
+                {
+                    zauber.LaunenDerMagie = new List<LauneDerMagie>();
+                }
+
+                zauberBuch.Add(zauber);
+            }
+            return zauberBuch;
         }
 
         private IList<LauneDerMagie> CreateLaunenDerMagie(int glueck)
@@ -176,10 +210,12 @@ namespace DccCharCreator.core.Zauberbuch
             var index = manifestationen.Count switch
             {
                 1 => 1,
+                3 => w3.Würfeln(),
                 4 => w4.Würfeln(),
                 6 => w6.Würfeln(),
                 8 => w8.Würfeln(),
                 10 => w10.Würfeln(),
+                11 => w11.Würfeln(),
                 _ => throw new ArgumentOutOfRangeException(nameof(manifestationen.Count))
             };
             return manifestationen[index - 1];

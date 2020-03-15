@@ -8,6 +8,7 @@ namespace DccCharCreator.core.Zauberbuch
     {
         Zauberer,
         Kleriker,
-        Elf
+        Elf,
+        KlerikerLaunen
     }
 }
