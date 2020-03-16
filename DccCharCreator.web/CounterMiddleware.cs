@@ -30,20 +30,24 @@ namespace DccCharCreator.web
 
         public async Task InvokeAsync(HttpContext context)
         {
-            count++;
-            context.Items["count"] = count;
-
-            try
+            if (context.Request.Path.Value.Contains("Character"))
             {
-                if(count % 100 == 0)
-                    await File.WriteAllLinesAsync(CounterFile, new[] { count.ToString() });
-                else
-                    await File.AppendAllLinesAsync(CounterFile, new[] { count.ToString() });
-            }
-            catch
-            {
+                count++;
+                context.Items["count"] = count;
 
+                try
+                {
+                    if (count % 100 == 0)
+                        await File.WriteAllLinesAsync(CounterFile, new[] { count.ToString() });
+                    else
+                        await File.AppendAllLinesAsync(CounterFile, new[] { count.ToString() });
+                }
+                catch
+                {
+
+                }
             }
+            
             // Call the next delegate/middleware in the pipeline
             await _next(context);
         }

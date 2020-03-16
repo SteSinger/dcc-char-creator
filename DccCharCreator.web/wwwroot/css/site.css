@@ -2,6 +2,24 @@
     list-style: none
 }
 
+.mainselection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+}
+
+.mainselection a {
+    margin: 20px 40px 0 40px;
+}
+
+.grimoire {
+    flex-direction: column;
+    display: flex;
+    align-items: center
+}
+
 .charaktere {
     display: flex;
     flex-direction: row;

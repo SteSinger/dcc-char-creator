@@ -1,8 +1,8 @@
 ﻿
 @{
-    ViewData["Title"] = "DCC";
+    ViewData["Title"] = "DCC - Generatoren";
 }
-
-<a asp-controller="Character" asp-action="Index" class="btn btn-a smooth">Charaktergenerator</a><br />
-<a asp-controller="Zauberbuch" asp-action="Index" class="btn btn-a smooth">Lvl 1 Zauberbuch</a>
-
+    <div class="mainselection">
+        <a asp-controller="Character" asp-action="Index" class="btn btn-a smooth">Charaktergenerator</a>
+        <a asp-controller="Zauberbuch" asp-action="Index" class="grimoire"><img src="~/images/grimoire.png" alt="Grimoire" /><span>Lvl 1 Grimoire erstellen</span></a>
+    </div>

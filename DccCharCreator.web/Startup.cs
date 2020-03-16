@@ -46,7 +46,7 @@ namespace DccCharCreator.web
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Character}/{action=Index}/{id?}");
+                    pattern: "{controller=Main}/{action=Index}/{id?}");
             });
         }
     }
