@@ -13,6 +13,8 @@ namespace DccCharCreator.core.CharacterData
 
         public string Startwaffe { get; set; } = string.Empty;
 
+        public string Schaden { get; set; } = string.Empty;
+
         public string Handelsware { get; set; } = string.Empty;
 
         public Rasse Rasse { get; set; }

@@ -4,6 +4,7 @@
     <Wurf>1</Wurf>
     <Name>Alchemist</Name>
     <Startwaffe>Stab</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Öl, 1 Fläschchen</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -11,6 +12,7 @@
     <Wurf>2</Wurf>
     <Name>Tierbändiger</Name>
     <Startwaffe>Knüppel</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Pony</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -18,6 +20,7 @@
     <Wurf>3</Wurf>
     <Name>Waffenschmied</Name>
     <Startwaffe>Hammer (wie Knüppel)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Eisenhelm</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -25,6 +28,7 @@
     <Wurf>4</Wurf>
     <Name>Astrologe</Name>
     <Startwaffe>Dolch</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Fernrohr</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -32,6 +36,7 @@
     <Wurf>5</Wurf>
     <Name>Barbier</Name>
     <Startwaffe>Rasierklinge (wie Dolch)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Schere</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -39,6 +44,7 @@
     <Wurf>6</Wurf>
     <Name>Büttel</Name>
     <Startwaffe>Stab</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Heiliges Symbol</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -46,6 +52,7 @@
     <Wurf>7</Wurf>
     <Name>Imker</Name>
     <Startwaffe>Stab</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Honigtopf</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -53,6 +60,7 @@
     <Wurf>8</Wurf>
     <Name>Schmied</Name>
     <Startwaffe>Hammer (wie Knüppel)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Stahlzange</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -60,6 +68,7 @@
     <Wurf>9</Wurf>
     <Name>Metzger</Name>
     <Startwaffe>Hackbeil (wie Axt)</Startwaffe>
+    <Schaden>1W6</Schaden>
     <Handelsware>1 Stück Rindfleisch</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -67,6 +76,7 @@
     <Wurf>10</Wurf>
     <Name>Karawanenwache</Name>
     <Startwaffe>Kurzschwert</Startwaffe>
+    <Schaden>1W6</Schaden>
     <Handelsware>Leinen, 1 m</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -74,6 +84,7 @@
     <Wurf>11</Wurf>
     <Name>Käser</Name>
     <Startwaffe>Schlagstock (wie Stab)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Stinkender Käse</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -81,6 +92,7 @@
     <Wurf>12</Wurf>
     <Name>Schuster</Name>
     <Startwaffe>Ahle (wie Dolch)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Schuhlöffel</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -88,6 +100,7 @@
     <Wurf>13</Wurf>
     <Name>Betrüger</Name>
     <Startwaffe>Dolch</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Hochwertiger Mantel</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -95,6 +108,7 @@
     <Wurf>14</Wurf>
     <Name>Böttcher</Name>
     <Startwaffe>Brechstange (wie Knüppel)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Fass</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -102,6 +116,7 @@
     <Wurf>15</Wurf>
     <Name>Straßenhändler</Name>
     <Startwaffe>Messer (wie Dolch)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Früchte</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -109,6 +124,7 @@
     <Wurf>16</Wurf>
     <Name>Taschendieb</Name>
     <Startwaffe>Dolch</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Kleine Kiste</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -116,6 +132,7 @@
     <Wurf>17</Wurf>
     <Name>Grabengräber</Name>
     <Startwaffe>Schaufel (wie Stab)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Feine Erde, ½ kg</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -123,6 +140,7 @@
     <Wurf>18</Wurf>
     <Name>Hafenarbeiter</Name>
     <Startwaffe>Stange (wie Stab)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>ein verspätetes Rollenspielbuch</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -130,6 +148,7 @@
     <Wurf>19</Wurf>
     <Name>Zwergischer Apotheker</Name>
     <Startwaffe>Schlagstock (wie Stab)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Stahlphiole</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
@@ -137,6 +156,7 @@
     <Wurf>20</Wurf>
     <Name>Zwergischer Schmied</Name>
     <Startwaffe>Hammer (wie Knüppel)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Mithril, 30 g</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
@@ -144,6 +164,7 @@
     <Wurf>21</Wurf>
     <Name>Zwergischer Kistenmacher</Name>
     <Startwaffe>Meißel (wie Dolch)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Holz, 5 kg</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
@@ -151,6 +172,7 @@
     <Wurf>22</Wurf>
     <Name>Zwergischer Hirte</Name>
     <Startwaffe>Stab</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Sau**</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
@@ -158,6 +180,7 @@
     <Wurf>23</Wurf>
     <Name>Zwergischer Minenarbeiter</Name>
     <Startwaffe>Hacke (wie Knüppel)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Laterne</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
@@ -165,6 +188,7 @@
     <Wurf>24</Wurf>
     <Name>Zwergischer Minenarbeiter</Name>
     <Startwaffe>Hacke (wie Knüppel)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Laterne</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
@@ -172,6 +196,7 @@
     <Wurf>25</Wurf>
     <Name>Zwergischer Pilzzüchter</Name>
     <Startwaffe>Schaufel (wie Stab)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Sack</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
@@ -179,20 +204,23 @@
     <Wurf>26</Wurf>
     <Name>Zwergischer Rattenfänger</Name>
     <Startwaffe>Knüppel</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Netz</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>27</Wurf>
     <Name>Zwergischer Steinmetz</Name>
-    <Startwaffe>Hammer</Startwaffe>
+    <Startwaffe>Hammer (wie Knüppel)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>schöner Stein, 5 kg</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
   <Beruf>
     <Wurf>28</Wurf>
     <Name>Zwergischer Steinmetz</Name>
-    <Startwaffe>Hammer</Startwaffe>
+    <Startwaffe>Hammer (wie Knüppel)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>schöner Stein, 5 kg</Handelsware>
     <Rasse>Zwerg</Rasse>
   </Beruf>
@@ -200,6 +228,7 @@
     <Wurf>29</Wurf>
     <Name>Elfischer Kunsthandwerker</Name>
     <Startwaffe>Stab</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Ton, ½ kg</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
@@ -207,6 +236,7 @@
     <Wurf>30</Wurf>
     <Name>Elfischer Advokat</Name>
     <Startwaffe>Schreibfeder (wie Wurfpfeil)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Buch</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
@@ -214,6 +244,7 @@
     <Wurf>31</Wurf>
     <Name>Elfischer Kerzenmacher</Name>
     <Startwaffe>Schere (wie Dolch)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Kerzen, 20</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
@@ -221,6 +252,7 @@
     <Wurf>32</Wurf>
     <Name>Elfischer Falkner</Name>
     <Startwaffe>Dolch</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Falke</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
@@ -228,6 +260,7 @@
     <Wurf>33</Wurf>
     <Name>Elfischer Förster</Name>
     <Startwaffe>Stab</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Kräuter, ½ kg</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
@@ -235,6 +268,7 @@
     <Wurf>34</Wurf>
     <Name>Elfischer Förster</Name>
     <Startwaffe>Stab</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Kräuter, ½ kg</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
@@ -242,6 +276,7 @@
     <Wurf>35</Wurf>
     <Name>Elfischer Glasbläser</Name>
     <Startwaffe>Hammer (wie Knüppel)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Glasperlen</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
@@ -249,6 +284,7 @@
     <Wurf>36</Wurf>
     <Name>Elfischer Navigator</Name>
     <Startwaffe>Kurzbogen</Startwaffe>
+    <Schaden>1W6</Schaden>
     <Handelsware>Fernrohr</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
@@ -256,6 +292,7 @@
     <Wurf>37</Wurf>
     <Name>Elfischer Gelehrter</Name>
     <Startwaffe>Dolch</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Pergament und Schreibfeder</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
@@ -263,6 +300,7 @@
     <Wurf>38</Wurf>
     <Name>Elfischer Gelehrter</Name>
     <Startwaffe>Dolch</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Pergament und Schreibfeder</Handelsware>
     <Rasse>Elf</Rasse>
   </Beruf>
@@ -270,6 +308,7 @@
     <Wurf>39</Wurf>
     <Name>Bauer*</Name>
     <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Schaden>1W8</Schaden>
     <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -277,6 +316,7 @@
     <Wurf>40</Wurf>
     <Name>Bauer*</Name>
     <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Schaden>1W8</Schaden>
     <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -284,6 +324,7 @@
     <Wurf>41</Wurf>
     <Name>Bauer*</Name>
     <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Schaden>1W8</Schaden>
     <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -291,6 +332,7 @@
     <Wurf>42</Wurf>
     <Name>Bauer*</Name>
     <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Schaden>1W8</Schaden>
     <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -298,6 +340,7 @@
     <Wurf>43</Wurf>
     <Name>Bauer*</Name>
     <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Schaden>1W8</Schaden>
     <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -305,6 +348,7 @@
     <Wurf>44</Wurf>
     <Name>Bauer*</Name>
     <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Schaden>1W8</Schaden>
     <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -312,6 +356,7 @@
     <Wurf>45</Wurf>
     <Name>Bauer*</Name>
     <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Schaden>1W8</Schaden>
     <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -319,6 +364,7 @@
     <Wurf>46</Wurf>
     <Name>Bauer*</Name>
     <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Schaden>1W8</Schaden>
     <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -326,6 +372,7 @@
     <Wurf>47</Wurf>
     <Name>Bauer*</Name>
     <Startwaffe>Mistgabel (wie Speer)</Startwaffe>
+    <Schaden>1W8</Schaden>
     <Handelsware>Henne**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -333,6 +380,7 @@
     <Wurf>48</Wurf>
     <Name>Wahrsager</Name>
     <Startwaffe>Dolch</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Tarotkarten</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -340,6 +388,7 @@
     <Wurf>49</Wurf>
     <Name>Glücksspieler</Name>
     <Startwaffe>Knüppel</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Würfel</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -347,6 +396,7 @@
     <Wurf>50</Wurf>
     <Name>Buttenmann/-frau</Name>
     <Startwaffe>Handschaufel (wie Dolch)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Sack gesammelter Notdurft</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -354,6 +404,7 @@
     <Wurf>51</Wurf>
     <Name>Totengräber</Name>
     <Startwaffe>Schaufel (wie Stab)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Handschaufel</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -361,6 +412,7 @@
     <Wurf>52</Wurf>
     <Name>Totengräber</Name>
     <Startwaffe>Schaufel (wie Stab)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Handschaufel</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -368,6 +420,7 @@
     <Wurf>53</Wurf>
     <Name>Gildenbettler</Name>
     <Startwaffe>Schleuder</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Krücken</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -375,6 +428,7 @@
     <Wurf>54</Wurf>
     <Name>Gildenbettler</Name>
     <Startwaffe>Schleuder</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Krücken</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -382,6 +436,7 @@
     <Wurf>55</Wurf>
     <Name>Halblinghühnermetzger</Name>
     <Startwaffe>Handaxt</Startwaffe>
+    <Schaden>1W6</Schaden>
     <Handelsware>Hühnchenfleisch, 2½ kg</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
@@ -389,6 +444,7 @@
     <Wurf>56</Wurf>
     <Name>Halblingfärber</Name>
     <Startwaffe>Stab</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Stoff, 3 m</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
@@ -396,6 +452,7 @@
     <Wurf>57</Wurf>
     <Name>Halblingfärber</Name>
     <Startwaffe>Stab</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Stoff, 3 m</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
@@ -403,6 +460,7 @@
     <Wurf>58</Wurf>
     <Name>Halblinghandschuhmacher</Name>
     <Startwaffe>Ahle (wie Dolch)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Handschuhe, 4 Paar</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
@@ -410,6 +468,7 @@
     <Wurf>59</Wurf>
     <Name>Halbling vom Fahrenden Volk</Name>
     <Startwaffe>Schleuder</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Zauberpuppe</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
@@ -417,6 +476,7 @@
     <Wurf>60</Wurf>
     <Name>Halblingkurzwarenhändler</Name>
     <Startwaffe>Schere (wie Dolch)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Feine Herrenkleidung, 3 Garnituren</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
@@ -424,6 +484,7 @@
     <Wurf>61</Wurf>
     <Name>Halblingseemann</Name>
     <Startwaffe>Messer (wie Dolch)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Segeltuch, 2 m</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
@@ -431,6 +492,7 @@
     <Wurf>62</Wurf>
     <Name>Halblinggeldverleiher</Name>
     <Startwaffe>Kurzschwert</Startwaffe>
+    <Schaden>1W6</Schaden>
     <Handelsware>5 GM, 10 SM, 200 KM</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
@@ -438,6 +500,7 @@
     <Wurf>63</Wurf>
     <Name>Halblinghändler</Name>
     <Startwaffe>Kurzschwert</Startwaffe>
+    <Schaden>1W6</Schaden>
     <Handelsware>20 SM</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
@@ -445,6 +508,7 @@
     <Wurf>64</Wurf>
     <Name>Halblinglandstreicher</Name>
     <Startwaffe>Knüppel</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Bettelschale</Handelsware>
     <Rasse>Halbling</Rasse>
   </Beruf>
@@ -452,6 +516,7 @@
     <Wurf>65</Wurf>
     <Name>Heiler</Name>
     <Startwaffe>Knüppel</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Heiliges Wasser, 1 Fläschchen</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -459,6 +524,7 @@
     <Wurf>66</Wurf>
     <Name>Kräuterkundler</Name>
     <Startwaffe>Knüppel</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Kräuter, ½ kg</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -466,6 +532,7 @@
     <Wurf>67</Wurf>
     <Name>Hirte</Name>
     <Startwaffe>Stab</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Schäferhund**</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -473,6 +540,7 @@
     <Wurf>68</Wurf>
     <Name>Jäger</Name>
     <Startwaffe>Kurzbogen</Startwaffe>
+    <Schaden>1W6</Schaden>
     <Handelsware>Hirschfell</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -480,6 +548,7 @@
     <Wurf>69</Wurf>
     <Name>Jäger</Name>
     <Startwaffe>Kurzbogen</Startwaffe>
+    <Schaden>1W6</Schaden>
     <Handelsware>Hirschfell</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -487,6 +556,7 @@
     <Wurf>70</Wurf>
     <Name>Vertragsknecht</Name>
     <Startwaffe>Stab</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Anhänger</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -494,6 +564,7 @@
     <Wurf>71</Wurf>
     <Name>Narr</Name>
     <Startwaffe>Wurfpfeil</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Seidenkleidung</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -501,6 +572,7 @@
     <Wurf>72</Wurf>
     <Name>Juwelier</Name>
     <Startwaffe>Dolch</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Edelstein, 20 GM wert</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -508,6 +580,7 @@
     <Wurf>73</Wurf>
     <Name>Schlosser</Name>
     <Startwaffe>Dolch</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Feinwerkzeug</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -515,6 +588,7 @@
     <Wurf>74</Wurf>
     <Name>Bettler</Name>
     <Startwaffe>Knüppel</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Käsesoße</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -522,6 +596,7 @@
     <Wurf>75</Wurf>
     <Name>Söldner</Name>
     <Startwaffe>Langschwert</Startwaffe>
+    <Schaden>1W8</Schaden>
     <Handelsware>Fellrüstung</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -529,6 +604,7 @@
     <Wurf>76</Wurf>
     <Name>Kaufmann</Name>
     <Startwaffe>Dolch</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>4 GM, 14 SM, 27 KM</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -536,6 +612,7 @@
     <Wurf>77</Wurf>
     <Name>Müller/Bäcker</Name>
     <Startwaffe>Knüppel</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Mehl, ½ kg</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -543,6 +620,7 @@
     <Wurf>78</Wurf>
     <Name>Barde</Name>
     <Startwaffe>Dolch</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Ukulele</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -550,6 +628,7 @@
     <Wurf>79</Wurf>
     <Name>Adeliger</Name>
     <Startwaffe>Langschwert</Startwaffe>
+    <Schaden>1W8</Schaden>
     <Handelsware>Goldring, 10 GM wert</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -557,6 +636,7 @@
     <Wurf>80</Wurf>
     <Name>Waise</Name>
     <Startwaffe>Knüppel</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Stoffpuppe</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -564,6 +644,7 @@
     <Wurf>81</Wurf>
     <Name>Stallknecht</Name>
     <Startwaffe>Stab</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Zaumzeug</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -571,6 +652,7 @@
     <Wurf>82</Wurf>
     <Name>Gesetzloser</Name>
     <Startwaffe>Kurzschwert</Startwaffe>
+    <Schaden>1W6</Schaden>
     <Handelsware>Lederrüstung</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -578,6 +660,7 @@
     <Wurf>83</Wurf>
     <Name>Seiler</Name>
     <Startwaffe>Messer (wie Dolch)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Seil, 30 m</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -585,6 +668,7 @@
     <Wurf>84</Wurf>
     <Name>Schreiber</Name>
     <Startwaffe>Wurfpfeil</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Pergament, 10 Blätter</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -592,6 +676,7 @@
     <Wurf>85</Wurf>
     <Name>Schamane</Name>
     <Startwaffe>Streitkolben</Startwaffe>
+    <Schaden>1W6</Schaden>
     <Handelsware>Kräuter, ½ kg</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -599,6 +684,7 @@
     <Wurf>86</Wurf>
     <Name>Sklave</Name>
     <Startwaffe>Knüppel</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Seltsam aussehender Stein</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -606,6 +692,7 @@
     <Wurf>87</Wurf>
     <Name>Schmuggler</Name>
     <Startwaffe>Schleuder</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Wasserdichter Sack</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -613,6 +700,7 @@
     <Wurf>88</Wurf>
     <Name>Soldat</Name>
     <Startwaffe>Speer</Startwaffe>
+    <Schaden>1W8</Schaden>
     <Handelsware>Schild</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -620,6 +708,7 @@
     <Wurf>89</Wurf>
     <Name>Knappe</Name>
     <Startwaffe>Langschwert</Startwaffe>
+    <Schaden>1W8</Schaden>
     <Handelsware>Stahlhelm</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -627,6 +716,7 @@
     <Wurf>90</Wurf>
     <Name>Knappe</Name>
     <Startwaffe>Langschwert</Startwaffe>
+    <Schaden>1W8</Schaden>
     <Handelsware>Stahlhelm</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -634,6 +724,7 @@
     <Wurf>91</Wurf>
     <Name>Steuereintreiber</Name>
     <Startwaffe>Langschwert</Startwaffe>
+    <Schaden>1W8</Schaden>
     <Handelsware>100 KM</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -641,6 +732,7 @@
     <Wurf>92</Wurf>
     <Name>Fallensteller</Name>
     <Startwaffe>Schleuder</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Dachsfell</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -648,6 +740,7 @@
     <Wurf>93</Wurf>
     <Name>Fallensteller</Name>
     <Startwaffe>Schleuder</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Dachsfell</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -655,6 +748,7 @@
     <Wurf>94</Wurf>
     <Name>Gassenkind</Name>
     <Startwaffe>Stock (wie Knüppel)</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Bettelschale</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -662,6 +756,7 @@
     <Wurf>95</Wurf>
     <Name>Wagner</Name>
     <Startwaffe>Knüppel</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Schubkarre***</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -669,6 +764,7 @@
     <Wurf>96</Wurf>
     <Name>Weber</Name>
     <Startwaffe>Dolch</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Feine Kleidung</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -676,6 +772,7 @@
     <Wurf>97</Wurf>
     <Name>Zauberlehrling</Name>
     <Startwaffe>Dolch</Startwaffe>
+    <Schaden>1W4</Schaden>
     <Handelsware>Schwarzes Zauberbuch</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -683,6 +780,7 @@
     <Wurf>98</Wurf>
     <Name>Holzfäller</Name>
     <Startwaffe>Handaxt</Startwaffe>
+    <Schaden>1W6</Schaden>
     <Handelsware>Bündel Holz</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -690,6 +788,7 @@
     <Wurf>99</Wurf>
     <Name>Holzfäller</Name>
     <Startwaffe>Handaxt</Startwaffe>
+    <Schaden>1W6</Schaden>
     <Handelsware>Bündel Holz</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
@@ -697,6 +796,7 @@
     <Wurf>100</Wurf>
     <Name>Holzfäller</Name>
     <Startwaffe>Handaxt</Startwaffe>
+    <Schaden>1W6</Schaden>
     <Handelsware>Bündel Holz</Handelsware>
     <Rasse>Mensch</Rasse>
   </Beruf>
