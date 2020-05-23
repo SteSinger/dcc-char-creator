@@ -15,7 +15,7 @@ namespace DccCharCreator.core
             _random = random;
         }
 
-        public Character Default()
+        public CharacterData.Charakter Default()
         {
             var würfel = new WürfelFactory(_random);
             var berufWürfel = würfel.W100;
@@ -25,7 +25,7 @@ namespace DccCharCreator.core
             var handelsWarenWürfel = würfel.W24;
             var geldWürfel = würfel._5W12;
 
-            return new Character(attributWürfel, berufWürfel, zeichenWürfel, trefferWürfel, geldWürfel, handelsWarenWürfel);
+            return new CharacterData.Charakter(attributWürfel, berufWürfel, zeichenWürfel, trefferWürfel, geldWürfel, handelsWarenWürfel);
         }
     }
 }

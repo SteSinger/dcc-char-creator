@@ -40,7 +40,7 @@ namespace dcc_char_creator_cli
 
             do
             {
-                var c = new Character(attributWürfel, berufWürfel, zeichenWürfel, trefferWürfel, geldWürfel, handelsWarenWürfel);
+                var c = new Charakter(attributWürfel, berufWürfel, zeichenWürfel, trefferWürfel, geldWürfel, handelsWarenWürfel);
                 Console.WriteLine(c);
             } while (Console.ReadKey().Key != ConsoleKey.Q);
         }
