@@ -2,8 +2,10 @@
 using PdfSharpCore.Drawing;
 using PdfSharpCore.Fonts;
 using PdfSharpCore.Pdf;
+using PdfSharpCore.Pdf.AcroForms;
 using PdfSharpCore.Pdf.IO;
 using System;
+using System.IO;
 
 namespace DccCharCreator.pdf
 {
@@ -15,72 +17,58 @@ namespace DccCharCreator.pdf
         }
 
 
-        public void ErzeugeNullerBogen(Character[] c)
+        public MemoryStream ErzeugeNullerBogen(Character[] c)
         {
             var assembly = typeof(PdfCreator).Assembly;
             var nullerBogen = assembly.GetManifestResourceStream("DccCharCreator.pdf.Resources.Null_4.pdf");
             var pdf = PdfReader.Open(nullerBogen);
-            var page = pdf.Pages[0];
-            
-            var gfx = XGraphics.FromPdfPage(page);
-            var font = new XFont("OpenSans", 10);
-            DrawCharacter(c[0], gfx, font, 0, 0);
-            DrawCharacter(c[1], gfx, font, 420, 0);
-            DrawCharacter(c[2], gfx, font, 0, 296);
-            DrawCharacter(c[3], gfx, font, 420, 296);
-            pdf.Save("test.pdf");
+            if (pdf.AcroForm.Elements.ContainsKey("/NeedAppearances") == false)
+            {
+                pdf.AcroForm.Elements.Add("/NeedAppearances", new PdfBoolean(true));
+            }
+            else
+            {
+                pdf.AcroForm.Elements["/NeedAppearances"] = new PdfBoolean(true);
+            }
+
+            DrawCharacter(c[0], pdf.AcroForm, 1);
+            DrawCharacter(c[1], pdf.AcroForm, 2);
+            DrawCharacter(c[2], pdf.AcroForm, 3);
+            DrawCharacter(c[3], pdf.AcroForm, 4);
+
+            var stream = new MemoryStream();
+            pdf.Save(stream, false);
+            return stream;
         }
 
-        private void DrawCharacter(Character c, XGraphics gfx, XFont font, int xOffset, int yOffset)
+        private void DrawCharacter(Character c, PdfAcroForm form, int character)
         {
-            var am = new XStringFormat { Alignment = XStringAlignment.Center };
-            var ar = new XStringFormat { Alignment = XStringAlignment.Far };
-
-            var attribut = 108 + xOffset;
-            var attributBonus = 135 + xOffset;
-            var rettungswuerfe = 190 + xOffset;
-
-            //Attribute
-            gfx.DrawString(c.Attribute.Stärke.Value.ToString(), font, XBrushes.Black, attribut, 103 + yOffset, am);
-            gfx.DrawString(c.Attribute.Stärke.BonusFormatted.ToString(), font, XBrushes.Black, attributBonus, 103 + yOffset, ar);
-            gfx.DrawString(c.Refelexe.ToString(), font, XBrushes.Black, rettungswuerfe + 5, 95 + yOffset, am);
-
-            gfx.DrawString(c.Attribute.Geschicklichkeit.Value.ToString(), font, XBrushes.Black, attribut, 120 + yOffset, am);
-            gfx.DrawString(c.Attribute.Geschicklichkeit.BonusFormatted.ToString(), font, XBrushes.Black, attributBonus, 120 + yOffset, ar);
-
-            gfx.DrawString(c.Attribute.Ausdauer.Value.ToString(), font, XBrushes.Black, attribut, 137 + yOffset, am);
-            gfx.DrawString(c.Attribute.Ausdauer.BonusFormatted.ToString(), font, XBrushes.Black, attributBonus, 137 + yOffset, ar);
-            gfx.DrawString(c.Zähigkeit.ToString(), font, XBrushes.Black, rettungswuerfe + 3, 139 + yOffset, am);
-
-            gfx.DrawString(c.Attribute.Persönlichkeit.Value.ToString(), font, XBrushes.Black, attribut, 154 + yOffset, am);
-            gfx.DrawString(c.Attribute.Persönlichkeit.BonusFormatted.ToString(), font, XBrushes.Black, attributBonus, 154 + yOffset, ar);
-
-            gfx.DrawString(c.Attribute.Intelligenz.Value.ToString(), font, XBrushes.Black, attribut, 172 + yOffset, am);
-            gfx.DrawString(c.Attribute.Intelligenz.BonusFormatted.ToString(), font, XBrushes.Black, attributBonus, 172 + yOffset, ar);
-            gfx.DrawString(c.Willenskraft.ToString(), font, XBrushes.Black, rettungswuerfe, 166 + yOffset, am);
-
-            gfx.DrawString(c.Attribute.Glück.Value.ToString(), font, XBrushes.Black, attribut, 191 + yOffset, am);
-            gfx.DrawString(c.Attribute.Glück.BonusFormatted.ToString(), font, XBrushes.Black, attributBonus, 191 + yOffset, ar);
-
-            //Beruf
-            gfx.DrawString(c.Beruf.Name.ToString(), font, XBrushes.Black, 250 + xOffset, 65 + yOffset);
-
-            //TP
-            gfx.DrawString(c.Trefferpunkte.ToString(), font, XBrushes.Black, 237 + xOffset, 90 + yOffset, am);
-
-            //RK
-            gfx.DrawString(c.Rüstungsklasse.ToString(), font, XBrushes.Black, 250 + xOffset, 152 + yOffset, am);
-
-            //Ausrüstung
-            gfx.DrawString(c.Ausrüstung.Gegenstand.ToString(), font, XBrushes.Black, 308 + xOffset, 195 + yOffset);
-            gfx.DrawString(c.Beruf.Handelsware.ToString(), font, XBrushes.Black, 308 + xOffset, 205 + yOffset);
-
-            //Waffe
-            gfx.DrawString($"{c.Beruf.Startwaffe} ({c.Beruf.Schaden})", font, XBrushes.Black, 305 + xOffset, 115 + yOffset);
-
-            gfx.DrawString($"{c.Geburtszeichen.Name}: {c.Geburtszeichen.Schicksalswurf} ({c.Geburtszeichen.Bonus})", font, XBrushes.Black, 60 + xOffset, 270 + yOffset);
-            gfx.DrawString($"{c.Beruf.Rassenvorteile()}", font, XBrushes.Black, 60 + xOffset, 280 + yOffset);
-
+            var fields = form.Fields;
+            fields[$"Beruf{character}"].Value = new PdfString(c.Beruf.Name);
+            fields[$"Stufe{character}"].Value = new PdfString("0");
+            fields[$"Ep{character}"].Value = new PdfString("0");
+            fields[$"St{character}"].Value = new PdfString(c.Attribute.Stärke.Value.ToString());
+            fields[$"StMod{character}"].Value = new PdfString(c.Attribute.Stärke.Bonus.ToString());
+            fields[$"Ge{character}"].Value = new PdfString(c.Attribute.Geschicklichkeit.Value.ToString());
+            fields[$"GeMod{character}"].Value = new PdfString(c.Attribute.Geschicklichkeit.Bonus.ToString());
+            fields[$"Au{character}"].Value = new PdfString(c.Attribute.Ausdauer.Value.ToString());
+            fields[$"AuMod{character}"].Value = new PdfString(c.Attribute.Ausdauer.Bonus.ToString());
+            fields[$"Pe{character}"].Value = new PdfString(c.Attribute.Persönlichkeit.Value.ToString());
+            fields[$"PeMod{character}"].Value = new PdfString(c.Attribute.Persönlichkeit.Bonus.ToString());
+            fields[$"In{character}"].Value = new PdfString(c.Attribute.Intelligenz.Value.ToString());
+            fields[$"InMod{character}"].Value = new PdfString(c.Attribute.Intelligenz.Bonus.ToString());
+            fields[$"Gl{character}"].Value = new PdfString(c.Attribute.Glück.Value.ToString());
+            fields[$"GlMod{character}"].Value = new PdfString(c.Attribute.Glück.Bonus.ToString());
+            fields[$"R{character}"].Value = new PdfString(c.Reflexe);
+            fields[$"Z{character}"].Value = new PdfString(c.Zähigkeit);
+            fields[$"W{character}"].Value = new PdfString(c.Willenskraft);
+            fields[$"TpMax{character}"].Value = new PdfString(c.Trefferpunkte.ToString());
+            fields[$"TpCur{character}"].Value = new PdfString(c.Trefferpunkte.ToString());
+            fields[$"Rk{character}"].Value = new PdfString(c.Rüstungsklasse.ToString());
+            fields[$"KampfZ1_{character}"].Value = new PdfString($"{c.Beruf.Startwaffe} ({c.Beruf.Schaden})");
+            fields[$"Notizen{character}"].Value = new PdfString(c.Beruf.Rassenvorteile());
+            fields[$"Ausruestung{character}"].Value = new PdfString($"{c.Beruf.Handelsware}\n{c.Ausrüstung.Gegenstand} {c.Ausrüstung.Preis}\n{c.Startkapital}");
+            fields[$"BesFaehigk{character}"].Value = new PdfString($"{c.Geburtszeichen.Name}: {c.Geburtszeichen.Schicksalswurf} ({c.Geburtszeichen.Bonus})");
         }
     }
 }

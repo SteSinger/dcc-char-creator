@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\dcc-char-creator-core\DccCharCreator.core.csproj" />
+    <ProjectReference Include="..\DccCharCreator.pdf\DccCharCreator.pdf.csproj" />
   </ItemGroup>
 
 </Project>

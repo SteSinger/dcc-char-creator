@@ -19,7 +19,7 @@ namespace DccCharCreator.core.CharacterData
         public string Startkapital { get; set; }
 
         public string Zähigkeit => Attribute.Ausdauer.BonusFormatted;
-        public string Refelexe => Attribute.Geschicklichkeit.BonusFormatted;
+        public string Reflexe => Attribute.Geschicklichkeit.BonusFormatted;
         public string Willenskraft => Attribute.Persönlichkeit.BonusFormatted;
         public string Initiative => Attribute.Geschicklichkeit.BonusFormatted;
         public int Rüstungsklasse => 10 + Attribute.Geschicklichkeit.Bonus;
@@ -44,7 +44,7 @@ namespace DccCharCreator.core.CharacterData
             sb.Append(" INI: ").AppendLine(Initiative);
             sb.Append("Beruf: ").AppendLine(Beruf.ToString());
             sb.Append("Geburtszeichen: ").AppendLine(Geburtszeichen.ToString());
-            sb.Append("Rettungswürfe: ").AppendLine($"Zähigkeit: {Zähigkeit}, Reflexe: {Refelexe}, Willenskraft: {Willenskraft}");
+            sb.Append("Rettungswürfe: ").AppendLine($"Zähigkeit: {Zähigkeit}, Reflexe: {Reflexe}, Willenskraft: {Willenskraft}");
             sb.Append("Geld: ").AppendLine(Startkapital);
             sb.Append("Ausrüstung: ").AppendLine(Ausrüstung.ToString());
             

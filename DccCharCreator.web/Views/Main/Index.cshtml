@@ -3,6 +3,8 @@
     ViewData["Title"] = "DCC - Generatoren";
 }
     <div class="mainselection">
-        <a asp-controller="Character" asp-action="Index" class="btn btn-a smooth">Charaktergenerator</a>
+        <div class="charakter_selektion"><a asp-controller="Character" asp-action="Index" class="btn btn-a smooth">Charaktergenerator</a>
+        <a asp-controller="Character" asp-action="Print" class="btn btn-a smooth">4 Nullen als PDF</a>
+        </div>
         <a asp-controller="Zauberbuch" asp-action="Index" class="grimoire"><img src="~/images/grimoire.png" alt="Grimoire" /><span>Lvl 1 Grimoire erstellen</span></a>
     </div>

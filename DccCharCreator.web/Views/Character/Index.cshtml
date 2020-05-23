@@ -11,7 +11,7 @@
 </p>
 
 <h2>Morituri te salutant</h2>
-<a asp-controller="Character" asp-action="Print" asp-route-seed="@Model.Seed">Druckansicht &#x1f5b6;</a>
+<a asp-controller="Character" asp-action="Print" asp-route-seed="@Model.Seed">Als PDF herunterladen</a>
 <div class="charaktere">
     @foreach (var charakter in Model.Characters)
     {
@@ -54,7 +54,7 @@
                     </tr>
                     <tr>
                         <th>Reflexe:</th>
-                        <td>@charakter.Refelexe</td>
+                        <td>@charakter.Reflexe</td>
                     </tr>
                     <tr><td><br /></td><td><br /></td></tr>
                     <tr>

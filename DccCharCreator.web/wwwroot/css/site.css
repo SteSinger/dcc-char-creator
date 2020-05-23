@@ -20,6 +20,12 @@
     align-items: center
 }
 
+.charakter_selektion {
+    display: flex;
+    flex-direction:column;
+
+}
+
 .charaktere {
     display: flex;
     flex-direction: row;
