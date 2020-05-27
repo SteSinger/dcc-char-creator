@@ -1,6 +1,7 @@
 ﻿using DccCharCreator.core.Würfel;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 
 namespace DccCharCreator.core.Zauberbuch
@@ -216,7 +217,7 @@ namespace DccCharCreator.core.Zauberbuch
                 8 => w8.Würfeln(),
                 10 => w10.Würfeln(),
                 11 => w11.Würfeln(),
-                _ => throw new ArgumentOutOfRangeException(nameof(manifestationen.Count))
+                _ => throw new Exception(manifestationen.Count.ToString(CultureInfo.InvariantCulture))
             };
             return manifestationen[index - 1];
         }
