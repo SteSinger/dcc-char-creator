@@ -51,5 +51,18 @@ namespace DccCharCreator.pdf.Tests
             f.Flush();
         }
 
+
+        [TestMethod()]
+        public void ErzeugeKlerikerBogenTest()
+        {
+            var kleriker = new Kleriker(1, 1, 1, Gesinnung.Rechtschaffen);
+            var p = new PdfCreator();
+            using var klerikerPdf = p.ErzeugeKlerikerBogen(kleriker);
+
+            using var f = File.Create("kleriker_test.pdf");
+            klerikerPdf.CopyTo(f);
+            f.Flush();
+        }
+
     }
 }

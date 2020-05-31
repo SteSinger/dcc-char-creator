@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Security.Cryptography;
 
 namespace DccCharCreator.core.Zauberbuch
 {
@@ -65,7 +66,7 @@ namespace DccCharCreator.core.Zauberbuch
                     };
                     zauberBuch.Add(patron);
                 }
-                
+
                 zt = ZauberTemplate.Get(Zaubertyp.Zauberkundigenzauber, wurf);
                 var zauber = new Zauber(zt)
                 {
@@ -127,26 +128,21 @@ namespace DccCharCreator.core.Zauberbuch
             return zauberBuch;
         }
 
-        public IList<Zauber> KlerikerZauberErstellen(int anzahlZauber, int glueck, bool launenDerMagie)
+        public IList<Zauber> KlerikerZauberErstellen(int stufe, int glueck, bool launenDerMagie, Random random)
         {
-            if (anzahlZauber < 1 || anzahlZauber > 11)
+            if (stufe < 1 || stufe > 11)
             {
-                throw new ArgumentOutOfRangeException(nameof(anzahlZauber), "Muss zwischen 1 und 11 liegen.");
+                throw new ArgumentOutOfRangeException(nameof(stufe), "Muss zwischen 1 und 11 liegen.");
             }
 
-            var zauberBuch = new List<Zauber>(anzahlZauber);
-            while (zauberBuch.Count < anzahlZauber)
+            var anzahlZauber = AnzahlKlerikerZauber(stufe).Stufe1;
+            
+            var templates = ZauberTemplate.Get(Zaubertyp.Klerikerzauber).Values.ToList();
+            return Shuffle(templates, random).Select(x =>
             {
-                var wurf = w11.Würfeln();
-                while (zauberBuch.Any(x => x.Wurf == wurf))
+                var zauber = new Zauber(x)
                 {
-                    wurf = w11.Würfeln();
-                }
-
-                var zt = ZauberTemplate.Get(Zaubertyp.Klerikerzauber, wurf);
-                var zauber = new Zauber(zt)
-                {
-                    Manifestation = GetManifestation(zt)
+                    Manifestation = GetManifestation(x)
                 };
                 if (launenDerMagie)
                 {
@@ -156,11 +152,24 @@ namespace DccCharCreator.core.Zauberbuch
                 {
                     zauber.LaunenDerMagie = new List<LauneDerMagie>();
                 }
-
-                zauberBuch.Add(zauber);
-            }
-            return zauberBuch;
+                return zauber;
+            }).Take(anzahlZauber).ToList();
         }
+
+        private ZauberProStufe AnzahlKlerikerZauber(int stufe) => stufe switch
+        {
+            1 => new ZauberProStufe(4, 0, 0, 0, 0),
+            2 => new ZauberProStufe(5, 0, 0, 0, 0),
+            3 => new ZauberProStufe(5, 3, 0, 0, 0),
+            4 => new ZauberProStufe(6, 4, 0, 0, 0),
+            5 => new ZauberProStufe(6, 5, 2, 0, 0),
+            6 => new ZauberProStufe(7, 5, 3, 0, 0),
+            7 => new ZauberProStufe(7, 6, 4, 1, 0),
+            8 => new ZauberProStufe(8, 6, 5, 2, 0),
+            9 => new ZauberProStufe(8, 7, 5, 3, 1),
+            10 => new ZauberProStufe(9, 7, 6, 4, 2),
+            _ => new ZauberProStufe(0, 0, 0, 0, 0)
+        };
 
         private IList<LauneDerMagie> CreateLaunenDerMagie(int glueck)
         {
@@ -220,6 +229,38 @@ namespace DccCharCreator.core.Zauberbuch
                 _ => throw new Exception(manifestationen.Count.ToString(CultureInfo.InvariantCulture))
             };
             return manifestationen[index - 1];
+        }
+
+    public List<T> Shuffle<T>( List<T> list, Random random)
+    {
+        int n = list.Count;
+        while (n > 1)
+        {
+            n--;
+            int k = random.Next(n + 1);
+            T value = list[k];
+            list[k] = list[n];
+            list[n] = value;
+        }
+
+            return list;
+    }
+
+    private struct ZauberProStufe
+        {
+            public ZauberProStufe(int s1, int s2, int s3, int s4, int s5)
+            {
+                Stufe1 = s1;
+                Stufe2 = s2;
+                Stufe3 = s3;
+                Stufe4 = s4;
+                Stufe5 = s5;
+            }
+            public int Stufe1;
+            public int Stufe2;
+            public int Stufe3;
+            public int Stufe4;
+            public int Stufe5;
         }
     }
 }

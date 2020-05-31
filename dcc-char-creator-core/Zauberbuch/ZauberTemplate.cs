@@ -24,6 +24,11 @@ namespace DccCharCreator.core.Zauberbuch
         private const string FileName = "zauber.xml";
         private static readonly Lazy<Dictionary<Zaubertyp, Dictionary<int, ZauberTemplate>>> ZauberDict = new Lazy<Dictionary<Zaubertyp, Dictionary<int, ZauberTemplate>>>(Load);
 
+        public static Dictionary<int,ZauberTemplate> Get(Zaubertyp typ)
+        {
+            return ZauberDict.Value[typ];
+        }
+
         public static ZauberTemplate Get(Zaubertyp typ, int wurf)
         {
             return ZauberDict.Value[typ][wurf];

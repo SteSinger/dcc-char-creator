@@ -7,7 +7,7 @@ namespace DccCharCreator.core.CharacterData.Klasse
 {
     public abstract class KlasseBase
     {
-        private Character Character { get; }
+        protected Character Character { get; }
 
         protected Random random;
 
@@ -47,15 +47,15 @@ namespace DccCharCreator.core.CharacterData.Klasse
             _ => "1090"
         };
 
-        public int Zähigkeit => Attribute.Ausdauer.Bonus + ZähigkeitLookup(Stufe);
+        public int Zähigkeit => Attribute.Ausdauer.Modifikator + ZähigkeitLookup(Stufe);
 
-        public int Reflexe => Attribute.Geschicklichkeit.Bonus + ReflexLookup(Stufe);
+        public int Reflexe => Attribute.Geschicklichkeit.Modifikator + ReflexLookup(Stufe);
 
-        public int Willenskraft => Attribute.Persönlichkeit.Bonus + WillenskraftLookup(Stufe);
+        public int Willenskraft => Attribute.Persönlichkeit.Modifikator + WillenskraftLookup(Stufe);
 
-        public virtual int Initiative => Attribute.Geschicklichkeit.Bonus;
+        public virtual int Initiative => Attribute.Geschicklichkeit.Modifikator;
 
-        public virtual int Rüstungsklasse => 10 + Attribute.Geschicklichkeit.Bonus;
+        public virtual int Rüstungsklasse => 10 + Attribute.Geschicklichkeit.Modifikator;
 
         public string Titel => TitelLookup(Gesinnung, Stufe);
 
@@ -105,7 +105,7 @@ namespace DccCharCreator.core.CharacterData.Klasse
             trefferpunkte = wf.W(trefferwürfel, stufe);
             Gesinnung = gesinnung;
 
-            var intMod = Character.Attribute.Intelligenz.Bonus;
+            var intMod = Character.Attribute.Intelligenz.Modifikator;
             for (int i = 1; i <= intMod; i++)
             {
                 Sprachen.Add($"zusätzliche Sprache {i}");

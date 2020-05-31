@@ -10,7 +10,7 @@ namespace DccCharCreator.core.CharacterData
             Value = value;
         }
 
-        public int Bonus =>
+        public int Modifikator =>
             Value switch
             {
                 3 => -3,
@@ -32,7 +32,7 @@ namespace DccCharCreator.core.CharacterData
                 _ => throw new Exception("Attributswert muss zwischen 3 und 18 liegen"),
             };
 
-        public string BonusFormatted => Bonus.ToString("+0;-0;0", CultureInfo.InvariantCulture);
+        public string ModifikatorFormattiert => Modifikator.ToString("+0;-0;0", CultureInfo.InvariantCulture);
 
         public int Value { get; }
 

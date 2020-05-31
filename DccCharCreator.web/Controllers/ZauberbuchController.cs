@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using DccCharCreator.core.Würfel;
 using DccCharCreator.core.Zauberbuch;
 using DccCharCreator.web.Models;
@@ -23,7 +20,8 @@ namespace DccCharCreator.web.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            var wf = new WürfelFactory(new Random());
+            Random random = new Random();
+            var wf = new WürfelFactory(random);
             var zauberFactory = new ZauberFactory(wf.W100, wf.W27, wf._4W20, wf.W4, wf.W6, wf.W8, wf.W10, wf.W3, wf.W11);
 
             var zauberbuchVM = new ZauberbuchViewModel
@@ -36,8 +34,8 @@ namespace DccCharCreator.web.Controllers
             zauberbuchVM.Zauberbuch = klasse switch
             {
                 Klasse.Zauberer => zauberFactory.ZauberkundigenZauberErstellen(anzahlZauber, glueck),
-                Klasse.Kleriker => zauberFactory.KlerikerZauberErstellen(anzahlZauber, glueck, false),
-                Klasse.KlerikerLaunen => zauberFactory.KlerikerZauberErstellen(anzahlZauber, glueck, true),
+                Klasse.Kleriker => zauberFactory.KlerikerZauberErstellen(1, glueck, false, random), // Zauberanzahl ist Stufenabhängig
+                Klasse.KlerikerLaunen => zauberFactory.KlerikerZauberErstellen(1, glueck, true, random),
                 Klasse.Elf => zauberFactory.ElfenZauberErstellen(anzahlZauber, glueck),
                 _ => throw new ArgumentOutOfRangeException(nameof(klasse))
             };

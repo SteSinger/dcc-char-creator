@@ -14,7 +14,7 @@ namespace DccCharCreator.core.CharacterData.Klasse
             {
                 1 => 0,
                 2 => wf.W(6, 1) * 100,
-                _ => wf.W(6,3) * 100,
+                _ => wf.W(6, 3) * 100,
             };
 
             Startkapital = $"{startGold} GM";
@@ -39,16 +39,16 @@ namespace DccCharCreator.core.CharacterData.Klasse
 
         private string GlückswürfelLookup(int stufe) => stufe switch
         {
-            1 => "1W3",
-            2 => "1W4",
-            3 => "1W5",
-            4 => "1W6",
-            5 => "1W7",
-            6 => "1W8",
-            7 => "1W10",
-            8 => "1W12",
-            9 => "1W14",
-            10 => "1W16",
+            1 => "3",
+            2 => "4",
+            3 => "5",
+            4 => "6",
+            5 => "7",
+            6 => "8",
+            7 => "10",
+            8 => "12",
+            9 => "14",
+            10 => "16",
             _ => ""
         };
 
@@ -214,11 +214,11 @@ namespace DccCharCreator.core.CharacterData.Klasse
 
         public int HinterhältigerAngriff => Gesinnung switch
         {
-            Gesinnung.Rechtschaffen => progression1(Stufe), 
+            Gesinnung.Rechtschaffen => progression1(Stufe),
             Gesinnung.Chaotisch => progression3(Stufe),
-            Gesinnung.Neutral =>progression0(Stufe),
+            Gesinnung.Neutral => progression0(Stufe),
             _ => 0
-            
+
         };
         public int LautlosSchleichen => Gesinnung switch
         {
@@ -285,8 +285,8 @@ namespace DccCharCreator.core.CharacterData.Klasse
 
         public int UrkundeFälschen => Gesinnung switch
         {
-            Gesinnung.Rechtschaffen => progression0(Stufe),
-            Gesinnung.Chaotisch => progression0(Stufe),
+            Gesinnung.Rechtschaffen => progression00(Stufe),
+            Gesinnung.Chaotisch => progression00(Stufe),
             Gesinnung.Neutral => progression3(Stufe),
             _ => 0
 
@@ -296,15 +296,15 @@ namespace DccCharCreator.core.CharacterData.Klasse
         {
             Gesinnung.Rechtschaffen => progression0(Stufe),
             Gesinnung.Chaotisch => progression3(Stufe),
-            Gesinnung.Neutral => progression0(Stufe),
+            Gesinnung.Neutral => progression00(Stufe),
             _ => 0
 
         };
 
         public int SprachenLesen => Gesinnung switch
         {
-            Gesinnung.Rechtschaffen => progression0(Stufe),
-            Gesinnung.Chaotisch => progression0(Stufe),
+            Gesinnung.Rechtschaffen => progression00(Stufe),
+            Gesinnung.Chaotisch => progression00(Stufe),
             Gesinnung.Neutral => progression0(Stufe),
             _ => 0
 
@@ -314,45 +314,45 @@ namespace DccCharCreator.core.CharacterData.Klasse
         {
             Gesinnung.Rechtschaffen => progression0(Stufe),
             Gesinnung.Chaotisch => progression3(Stufe),
-            Gesinnung.Neutral => progression0(Stufe),
+            Gesinnung.Neutral => progression00(Stufe),
             _ => 0
 
         };
 
         public string ZauberVonEinerSchriftrolleWirken => (Gesinnung, Stufe) switch
         {
-            (Gesinnung.Rechtschaffen, 1) => "W10",
-            (Gesinnung.Rechtschaffen, 2) => "W10",
-            (Gesinnung.Rechtschaffen, 3) => "W12",
-            (Gesinnung.Rechtschaffen, 4) => "W12",
-            (Gesinnung.Rechtschaffen, 5) => "W14",
-            (Gesinnung.Rechtschaffen, 6) => "W14",
-            (Gesinnung.Rechtschaffen, 7) => "W16",
-            (Gesinnung.Rechtschaffen, 8) => "W16",
-            (Gesinnung.Rechtschaffen, 9) => "W20",
-            (Gesinnung.Rechtschaffen, 10) => "W20",
+            (Gesinnung.Rechtschaffen, 1) => "10",
+            (Gesinnung.Rechtschaffen, 2) => "10",
+            (Gesinnung.Rechtschaffen, 3) => "12",
+            (Gesinnung.Rechtschaffen, 4) => "12",
+            (Gesinnung.Rechtschaffen, 5) => "14",
+            (Gesinnung.Rechtschaffen, 6) => "14",
+            (Gesinnung.Rechtschaffen, 7) => "16",
+            (Gesinnung.Rechtschaffen, 8) => "16",
+            (Gesinnung.Rechtschaffen, 9) => "20",
+            (Gesinnung.Rechtschaffen, 10) => "20",
 
-            (Gesinnung.Chaotisch, 1) => "W10",
-            (Gesinnung.Chaotisch, 2) => "W10",
-            (Gesinnung.Chaotisch, 3) => "W12",
-            (Gesinnung.Chaotisch, 4) => "W12",
-            (Gesinnung.Chaotisch, 5) => "W14",
-            (Gesinnung.Chaotisch, 6) => "W14",
-            (Gesinnung.Chaotisch, 7) => "W16",
-            (Gesinnung.Chaotisch, 8) => "W16",
-            (Gesinnung.Chaotisch, 9) => "W20",
-            (Gesinnung.Chaotisch, 10) => "W20",
+            (Gesinnung.Chaotisch, 1) => "10",
+            (Gesinnung.Chaotisch, 2) => "10",
+            (Gesinnung.Chaotisch, 3) => "12",
+            (Gesinnung.Chaotisch, 4) => "12",
+            (Gesinnung.Chaotisch, 5) => "14",
+            (Gesinnung.Chaotisch, 6) => "14",
+            (Gesinnung.Chaotisch, 7) => "16",
+            (Gesinnung.Chaotisch, 8) => "16",
+            (Gesinnung.Chaotisch, 9) => "20",
+            (Gesinnung.Chaotisch, 10) => "20",
 
-            (Gesinnung.Neutral, 1) => "W12",
-            (Gesinnung.Neutral, 2) => "W12",
-            (Gesinnung.Neutral, 3) => "W14",
-            (Gesinnung.Neutral, 4) => "W14",
-            (Gesinnung.Neutral, 5) => "W16",
-            (Gesinnung.Neutral, 6) => "W16",
-            (Gesinnung.Neutral, 7) => "W20",
-            (Gesinnung.Neutral, 8) => "W20",
-            (Gesinnung.Neutral, 9) => "W20",
-            (Gesinnung.Neutral, 10) => "W20",
+            (Gesinnung.Neutral, 1) => "12",
+            (Gesinnung.Neutral, 2) => "12",
+            (Gesinnung.Neutral, 3) => "14",
+            (Gesinnung.Neutral, 4) => "14",
+            (Gesinnung.Neutral, 5) => "16",
+            (Gesinnung.Neutral, 6) => "16",
+            (Gesinnung.Neutral, 7) => "20",
+            (Gesinnung.Neutral, 8) => "20",
+            (Gesinnung.Neutral, 9) => "20",
+            (Gesinnung.Neutral, 10) => "20",
             _ => ""
 
         };
