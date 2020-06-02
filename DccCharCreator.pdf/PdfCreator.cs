@@ -1,23 +1,130 @@
 ﻿using DccCharCreator.core.CharacterData;
 using DccCharCreator.core.CharacterData.Klasse;
-using PdfSharpCore.Drawing;
-using PdfSharpCore.Fonts;
 using PdfSharpCore.Pdf;
 using PdfSharpCore.Pdf.AcroForms;
 using PdfSharpCore.Pdf.IO;
-using System;
 using System.IO;
 
 namespace DccCharCreator.pdf
 {
-    public class PdfCreator
+    public static class PdfCreator
     {
-        public PdfCreator()
+        public static MemoryStream ErzeugeZwergBogen(Zwerg zwerg)
         {
+            var assembly = typeof(PdfCreator).Assembly;
+            using var zwergBogen = assembly.GetManifestResourceStream("DccCharCreator.pdf.Resources.DCC_Zwerg_ausfüllbar.pdf");
+            using var pdf = PdfReader.Open(zwergBogen);
+            SetNeedAppearances(pdf);
 
+            FillZwerg(zwerg, pdf.AcroForm);
+
+            var stream = new MemoryStream();
+            pdf.Save(stream, false);
+            pdf.Dispose();
+            return stream;
         }
 
-        public MemoryStream ErzeugeKlerikerBogen(Kleriker kleriker)
+        private static void FillZwerg(Zwerg zwerg, PdfAcroForm form)
+        {
+            var fields = form.Fields;
+            FillBase(fields, zwerg);
+
+            fields["Klasse"].Value = new PdfString("Zwerg");
+            //Sternzeichen muss noch gesetzt werden.
+        }
+
+        public static MemoryStream ErzeugeHalblingBogen(Halbling halbling)
+        {
+            var assembly = typeof(PdfCreator).Assembly;
+            using var halblingBogen = assembly.GetManifestResourceStream("DccCharCreator.pdf.Resources.DCC_Halbling_ausfüllbar.pdf");
+            using var pdf = PdfReader.Open(halblingBogen);
+            SetNeedAppearances(pdf);
+
+            FillHalbling(halbling, pdf.AcroForm);
+
+            var stream = new MemoryStream();
+            pdf.Save(stream, false);
+            pdf.Dispose();
+            return stream;
+        }
+
+        private static void FillHalbling(Halbling halbling, PdfAcroForm form)
+        {
+            var fields = form.Fields;
+            FillBase(fields, halbling);
+
+            fields["Klasse"].Value = new PdfString("Halbling");
+            fields["Schleichen"].Value = new PdfString(halbling.schleichenVerstecken.ToString());
+            
+        }
+
+        public static MemoryStream ErzeugeElfBogen(Elf elf)
+        {
+            var assembly = typeof(PdfCreator).Assembly;
+            using var elfBogen = assembly.GetManifestResourceStream("DccCharCreator.pdf.Resources.DCC_Elf_ausfüllbar.pdf");
+            using var pdf = PdfReader.Open(elfBogen);
+            SetNeedAppearances(pdf);
+
+            FillElf(elf, pdf.AcroForm);
+
+            var stream = new MemoryStream();
+            pdf.Save(stream, false);
+            pdf.Dispose();
+            return stream;
+        }
+
+        private static void FillElf(Elf elf, PdfAcroForm form)
+        {
+            var fields = form.Fields;
+            FillBase(fields, elf);
+
+            fields["Klasse"].Value = new PdfString("Elf");
+            fields["BasisZauberwurf"].Value = new PdfString(elf.Zauberstufe.ToString());
+            //Sternzeichen muss noch gesetzt werden.
+
+            var i = 0;
+            foreach (var zauber in elf.Zauberbuch)
+            {
+                i++;
+                fields[$"Zauber{i}"].Value = new PdfString($"{zauber.Name} S.{zauber.Seite}\n{zauber.Manifestation.Beschreibung}");
+                if (i == 8) break;
+            }
+        }
+
+        public static MemoryStream ErzeugeZauberkundigerBogen(Zauberkundiger zauberkundiger)
+        {
+            var assembly = typeof(PdfCreator).Assembly;
+            using var zauberkundigerBogen = assembly.GetManifestResourceStream("DccCharCreator.pdf.Resources.DCC_Zauberer_ausfüllbar.pdf");
+            using var pdf = PdfReader.Open(zauberkundigerBogen);
+            SetNeedAppearances(pdf);
+
+            FillZauberkundiger(zauberkundiger, pdf.AcroForm);
+
+            var stream = new MemoryStream();
+            pdf.Save(stream, false);
+            pdf.Dispose();
+            return stream;
+        }
+
+        private static void FillZauberkundiger(Zauberkundiger zauberkundiger, PdfAcroForm form)
+        {
+            var fields = form.Fields;
+            FillBase(fields, zauberkundiger);
+
+            fields["Klasse"].Value = new PdfString("Zauberkundiger");
+            fields["BasisZauberwurf"].Value = new PdfString(zauberkundiger.Zauberstufe.ToString());
+            //Sternzeichen muss noch gesetzt werden.
+
+            var i = 0;
+            foreach (var zauber in zauberkundiger.Zauberbuch)
+            {
+                i++;
+                fields[$"Zauber{i}"].Value = new PdfString($"{zauber.Name} S.{zauber.Seite}\n{zauber.Manifestation.Beschreibung}");
+                if (i == 8) break;
+            }
+        }
+
+        public static MemoryStream ErzeugeKlerikerBogen(Kleriker kleriker)
         {
             var assembly = typeof(PdfCreator).Assembly;
             using var klerikerBogen = assembly.GetManifestResourceStream("DccCharCreator.pdf.Resources.DCC_Kleriker_ausfüllbar.pdf");
@@ -32,14 +139,14 @@ namespace DccCharCreator.pdf
             return stream;
         }
 
-        private void FillKleriker(Kleriker kleriker, PdfAcroForm form)
+        private static void FillKleriker(Kleriker kleriker, PdfAcroForm form)
         {
             var fields = form.Fields;
             FillBase(fields, kleriker);
 
             fields["Klasse"].Value = new PdfString("Kleriker");
             fields["Zauberwurf"].Value = new PdfString(kleriker.Zauberstufe.ToString());
-
+            //Sternzeichen muss noch gesetzt werden.
 
             var i = 0;
             foreach (var zauber in kleriker.Zauberbuch)
@@ -49,7 +156,7 @@ namespace DccCharCreator.pdf
             }
         }
 
-        public MemoryStream ErzeugeDiebBogen(Dieb dieb)
+        public static MemoryStream ErzeugeDiebBogen(Dieb dieb)
         {
             var assembly = typeof(PdfCreator).Assembly;
             using var diebBogen = assembly.GetManifestResourceStream("DccCharCreator.pdf.Resources.DCC_Dieb_ausfüllbar.pdf");
@@ -64,7 +171,7 @@ namespace DccCharCreator.pdf
             return stream;
         }
 
-        private void FillDieb(Dieb dieb, PdfAcroForm form)
+        private static void FillDieb(Dieb dieb, PdfAcroForm form)
         {
             var fields = form.Fields;
             FillBase(fields, dieb);
@@ -89,7 +196,7 @@ namespace DccCharCreator.pdf
 
         }
 
-        public MemoryStream ErzeugeKriegerBogen(Krieger krieger)
+        public static MemoryStream ErzeugeKriegerBogen(Krieger krieger)
         {
             var assembly = typeof(PdfCreator).Assembly;
             using var kriegerBogen = assembly.GetManifestResourceStream("DccCharCreator.pdf.Resources.DCC_Krieger_ausfüllbar.pdf");
@@ -116,7 +223,7 @@ namespace DccCharCreator.pdf
             }
         }
 
-        private void FillKrieger(Krieger krieger, PdfAcroForm form)
+        private static void FillKrieger(Krieger krieger, PdfAcroForm form)
         {
             var fields = form.Fields;
             FillBase(fields, krieger);
@@ -128,7 +235,7 @@ namespace DccCharCreator.pdf
             fields["PersWaffe"].Value = new PdfString();
         }
 
-        private void FillBase(PdfAcroField.PdfAcroFieldCollection fields, KlasseBase k)
+        private static void FillBase(PdfAcroField.PdfAcroFieldCollection fields, KlasseBase k)
         {
             fields["Titel"].Value = new PdfString(k.Titel);
             fields["Beruf"].Value = new PdfString(k.Beruf.Name);
@@ -173,7 +280,8 @@ namespace DccCharCreator.pdf
                 fields["Notizen"].Value = new PdfString($"{k.Geburtszeichen.Name}: {k.Geburtszeichen.Schicksalswurf} ({k.Geburtszeichen.Bonus})");
             }
         }
-        public MemoryStream ErzeugeNullerBogen(Character[] c)
+
+        public static MemoryStream ErzeugeNullerBogen(Character[] c)
         {
             var assembly = typeof(PdfCreator).Assembly;
             using var nullerBogen = assembly.GetManifestResourceStream("DccCharCreator.pdf.Resources.Null_4.pdf");
@@ -190,7 +298,7 @@ namespace DccCharCreator.pdf
             return stream;
         }
 
-        private void DrawNullCharacter(Character c, PdfAcroForm form, int character)
+        private static void DrawNullCharacter(Character c, PdfAcroForm form, int character)
         {
             var fields = form.Fields;
             fields[$"Beruf{character}"].Value = new PdfString(c.Beruf.Name);

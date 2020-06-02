@@ -1,0 +1,72 @@
+﻿@model CharacterViewModel
+@using DccCharCreator.core.CharacterData.Klasse;
+@{
+    ViewData["Title"] = "Dungeon Crawl Classics - Charaktergenerator";
+}
+<h1>Dungeon Crawl Classics - Charaktergenerator Stufe X</h1>
+
+<form asp-controller="Character" asp-action="Pdf" method="get">
+
+    <input type="hidden" name="seed" value="@Model.Seed">
+    @for (var i = 0; i < Model.Characters.Length; i++)
+    {
+        var charakter = Model.Characters[i];
+        <input type="radio" name="character" id="Character_@i" value="@(i+1)" />
+        <label for="Character_@i">
+            <span>
+                @charakter.Beruf.Name<br />
+                ST: @charakter.Attribute.Stärke.Format();
+                GE: @charakter.Attribute.Geschicklichkeit.Format();
+                AU: @charakter.Attribute.Ausdauer.Format();
+                PE: @charakter.Attribute.Persönlichkeit.Format();
+                IN: @charakter.Attribute.Intelligenz.Format();
+                GL: @charakter.Attribute.Glück.Format();<br />
+                INI: @charakter.Initiative;
+                TP: @charakter.Trefferpunkte;
+                RK: @charakter.Rüstungsklasse;
+                ZÄH: @charakter.Zähigkeit;
+                WIL: @charakter.Willenskraft;
+                REF: @charakter.Reflexe;<br />
+                Geburtszeichen: @charakter.Geburtszeichen.Format()<br />
+                Startwaffe: @charakter.Beruf.Startwaffe (@charakter.Beruf.Schaden)<br />
+                Handelsware: @charakter.Beruf.Handelsware<br />
+                Ausrüstung: @charakter.Ausrüstung.Gegenstand (Wert: @charakter.Ausrüstung.Preis)<br />
+                Startkapital: @charakter.Startkapital<br />
+                @if (!string.IsNullOrWhiteSpace(charakter.Beruf.Rassenvorteile()))
+                {
+                    @:Rasseneigenschaften: @charakter.Beruf.Rassenvorteile()<br />
+                }
+            </span>
+        </label>
+        <br />
+    }
+    <select id="Klasse" name="klasse">
+        <option value="@Klasse.Dieb">Dieb</option>
+        <option value="@Klasse.Elf">Elf</option>
+        <option value="@Klasse.Halbling">Halbling</option>
+        <option value="@Klasse.Kleriker">Kleriker</option>
+        <option value="@Klasse.Krieger">Krieger</option>
+        <option value="@Klasse.Zauberkundiger">Zauberkundiger</option>
+        <option value="@Klasse.Zwerg">Zwerg</option>
+    </select>
+
+    <select id="Gesinnung" name="gesinnung">
+        <option value="@Gesinnung.Chaotisch">Chaotisch</option>
+        <option value="@Gesinnung.Neutral">Neutral</option>
+        <option value="@Gesinnung.Rechtschaffen">Rechtschaffen</option>
+    </select>
+
+    <select id="Stufe" name="stufe">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    <input type="submit" />
+</form>

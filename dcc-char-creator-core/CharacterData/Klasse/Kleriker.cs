@@ -10,10 +10,19 @@ namespace DccCharCreator.core.CharacterData.Klasse
     {
         public Kleriker(int seed, int charakterNummer, int stufe, Gesinnung gesinnung) : base(seed, charakterNummer, stufe, 8, gesinnung)
         {
-            var wf = new WürfelFactory(random);
-            var zauberFactory = new ZauberFactory(wf.W100, wf.W27, wf._4W20, wf.W4, wf.W6, wf.W8, wf.W10, wf.W3, wf.W11);
+            var factory = new WürfelFactory(random);
+            var zauberFactory = new ZauberFactory(factory.W100, factory.W27, factory._4W20, factory.W4, factory.W6, factory.W8, factory.W10, factory.W3, factory.W11);
 
             Zauberbuch = zauberFactory.KlerikerZauberErstellen(stufe, Character.Attribute.Glück.Modifikator, false, random);
+
+            var startGold = wf.W(20, 4) + stufe switch
+            {
+                1 => 0,
+                2 => 400,
+                _ => 1300,
+            };
+
+            Startkapital = $"{startGold} GM";
         }
 
         public IList<Zauber> Zauberbuch {get; set;}
