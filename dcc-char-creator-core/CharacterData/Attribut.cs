@@ -29,7 +29,7 @@ namespace DccCharCreator.core.CharacterData
                 16 => 2,
                 17 => 2,
                 18 => 3,
-                _ => throw new Exception("Attributswert muss zwischen 3 und 18 liegen"),
+                _ => 0,
             };
 
         public string ModifikatorFormattiert => Modifikator.ToString("+0;-0;0", CultureInfo.InvariantCulture);

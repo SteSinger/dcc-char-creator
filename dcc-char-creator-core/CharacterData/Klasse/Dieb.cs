@@ -152,7 +152,7 @@ namespace DccCharCreator.core.CharacterData.Klasse
             _ => 0,
         };
 
-        private int progression00(int stufe) => stufe switch
+        private static int progression00(int stufe) => stufe switch
         {
             1 => 0,
             2 => 0,
@@ -167,7 +167,7 @@ namespace DccCharCreator.core.CharacterData.Klasse
             _ => 0
         };
 
-        private int progression0(int stufe) => stufe switch
+        private static int progression0(int stufe) => stufe switch
         {
             1 => 0,
             2 => 1,
@@ -182,7 +182,7 @@ namespace DccCharCreator.core.CharacterData.Klasse
             _ => 0
         };
 
-        private int progression1(int stufe) => stufe switch
+        private static int progression1(int stufe) => stufe switch
         {
             1 => 1,
             2 => 3,
@@ -197,7 +197,7 @@ namespace DccCharCreator.core.CharacterData.Klasse
             _ => 0
         };
 
-        private int progression3(int stufe) => stufe switch
+        private static int progression3(int stufe) => stufe switch
         {
             1 => 3,
             2 => 5,

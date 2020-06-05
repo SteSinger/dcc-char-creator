@@ -13,7 +13,7 @@ namespace DccCharCreator.web.Controllers
             return View();
         }
 
-        public IActionResult Generate(int anzahlZauber, int glueck, Klasse klasse)
+        public IActionResult Generate(int stufe, int intelligenz, int glueck, Klasse klasse)
         {
             if(glueck < -3 || glueck > 3)
             {
@@ -22,21 +22,21 @@ namespace DccCharCreator.web.Controllers
 
             Random random = new Random();
             var wf = new WürfelFactory(random);
-            var zauberFactory = new ZauberFactory(wf.W100, wf.W27, wf._4W20, wf.W4, wf.W6, wf.W8, wf.W10, wf.W3, wf.W11);
+            var zauberFactory = new ZauberFactory(wf.W100, wf._4W20, wf.W4, wf.W6, wf.W8, wf.W10, wf.W3, wf.W11);
 
             var zauberbuchVM = new ZauberbuchViewModel
             {
                 Glueck = glueck,
-                AnzahlZauber = anzahlZauber
+                Intelligenz = intelligenz
                 
             };
 
             zauberbuchVM.Zauberbuch = klasse switch
             {
-                Klasse.Zauberer => zauberFactory.ZauberkundigenZauberErstellen(anzahlZauber, glueck),
-                Klasse.Kleriker => zauberFactory.KlerikerZauberErstellen(1, glueck, false, random), // Zauberanzahl ist Stufenabhängig
-                Klasse.KlerikerLaunen => zauberFactory.KlerikerZauberErstellen(1, glueck, true, random),
-                Klasse.Elf => zauberFactory.ElfenZauberErstellen(anzahlZauber, glueck),
+                Klasse.Zauberer => zauberFactory.ZauberkundigenZauberErstellen(stufe, glueck, intelligenz, random),
+                Klasse.Kleriker => zauberFactory.KlerikerZauberErstellen(stufe, glueck, false, random), // Zauberanzahl ist Stufenabhängig
+                Klasse.KlerikerLaunen => zauberFactory.KlerikerZauberErstellen(stufe, glueck, true, random),
+                Klasse.Elf => zauberFactory.ElfenZauberErstellen(stufe, glueck, random),
                 _ => throw new ArgumentOutOfRangeException(nameof(klasse))
             };
 

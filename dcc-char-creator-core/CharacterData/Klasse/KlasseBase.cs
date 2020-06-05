@@ -9,7 +9,7 @@ namespace DccCharCreator.core.CharacterData.Klasse
     {
         protected Character Character { get; }
 
-        protected Random random;
+        protected Random random { get; set; }
 
         public int Trefferpunkte { get { return trefferpunkte + Character.Trefferpunkte; } }
         private int trefferpunkte = 0;

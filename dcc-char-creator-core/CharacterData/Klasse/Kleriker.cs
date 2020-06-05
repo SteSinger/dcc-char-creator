@@ -11,7 +11,7 @@ namespace DccCharCreator.core.CharacterData.Klasse
         public Kleriker(int seed, int charakterNummer, int stufe, Gesinnung gesinnung) : base(seed, charakterNummer, stufe, 8, gesinnung)
         {
             var factory = new WürfelFactory(random);
-            var zauberFactory = new ZauberFactory(factory.W100, factory.W27, factory._4W20, factory.W4, factory.W6, factory.W8, factory.W10, factory.W3, factory.W11);
+            var zauberFactory = new ZauberFactory(factory.W100, factory._4W20, factory.W4, factory.W6, factory.W8, factory.W10, factory.W3, factory.W11);
 
             Zauberbuch = zauberFactory.KlerikerZauberErstellen(stufe, Character.Attribute.Glück.Modifikator, false, random);
 
@@ -25,7 +25,7 @@ namespace DccCharCreator.core.CharacterData.Klasse
             Startkapital = $"{startGold} GM";
         }
 
-        public IList<Zauber> Zauberbuch {get; set;}
+        public IList<Zauber> Zauberbuch {get;}
 
         protected override string AktionswürfelLookup(int stufe) => stufe switch
         {

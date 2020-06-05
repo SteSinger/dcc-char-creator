@@ -24,5 +24,7 @@ namespace DccCharCreator.core.Zauberbuch
         public string Beschreibung { get; }
         public Manifestation Manifestation { get; set; }
         public IList<LauneDerMagie> LaunenDerMagie { get; set; }
+
+        public int Grad { get; }
     }
 }
