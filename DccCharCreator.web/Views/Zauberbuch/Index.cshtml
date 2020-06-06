@@ -1,8 +1,8 @@
 ﻿<content>
     <h1>Zufälliges Grimoire erstellen</h1>
-    <form asp-controller="Zauberbuch" asp-action="Generate" method="get">
-        <label for="anzahlZauber">
-            <span>Stufe:</span>
+    <form class="formList" asp-controller="Zauberbuch" asp-action="Generate" method="get">
+        <label for="stufe">
+            <span class="field">Stufe:</span>
             <select id="stufe" class="smooth" name="stufe">
                 <option selected="selected" value="1">1</option>
                 <option value="2">2</option>
@@ -16,8 +16,8 @@
                 <option value="10">10</option>
             </select>
         </label>
-        <label for="anzahlZauber">
-            <span>Intelligenz:</span>
+        <label for="intelligenz">
+            <span class="field">Intelligenz:</span>
             <select id="intelligenz" class="smooth" name="intelligenz">
                 <option value="3">3</option>
                 <option value="4">4</option>
@@ -37,8 +37,8 @@
                 <option value="18">18</option>
             </select>
         </label>
-        <label for="zaubertyp">
-            <span>Klasse:</span>
+        <label for="klasse">
+            <span class="field" class="field">Klasse:</span>
             <select id="klasse" class="smooth" name="klasse">
                 <option value="Zauberer">Zauberer</option>
                 <option value="Kleriker">Kleriker</option>
@@ -47,11 +47,19 @@
             </select>
         </label>
         <label for="glueck">
-            <span>Glück:</span>
-            <input id="glueck" type="number" min="-3" max="3" class="smooth" name="glueck" value="0" />
+            <span class="field">Glück:</span>
+            <select id="glueck" class="smooth" name="glueck" >
+                <option value="-3">-3</option>
+                <option value="-2">-2</option>
+                <option value="-1">-1</option>
+                <option selected="selected" value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
         </label>
         <label>
-            <span></span>
+            <span class="field"></span>
             <input type="submit" value="Grimoire erstellen" />
         </label>
     </form>

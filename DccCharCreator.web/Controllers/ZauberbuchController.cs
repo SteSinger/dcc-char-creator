@@ -27,8 +27,9 @@ namespace DccCharCreator.web.Controllers
             var zauberbuchVM = new ZauberbuchViewModel
             {
                 Glueck = glueck,
-                Intelligenz = intelligenz
-                
+                Intelligenz = intelligenz,
+                Stufe = stufe,
+                Klasse = klasse,
             };
 
             zauberbuchVM.Zauberbuch = klasse switch
@@ -36,7 +37,7 @@ namespace DccCharCreator.web.Controllers
                 Klasse.Zauberer => zauberFactory.ZauberkundigenZauberErstellen(stufe, glueck, intelligenz, random),
                 Klasse.Kleriker => zauberFactory.KlerikerZauberErstellen(stufe, glueck, false, random), // Zauberanzahl ist Stufenabhängig
                 Klasse.KlerikerLaunen => zauberFactory.KlerikerZauberErstellen(stufe, glueck, true, random),
-                Klasse.Elf => zauberFactory.ElfenZauberErstellen(stufe, glueck, random),
+                Klasse.Elf => zauberFactory.ElfenZauberErstellen(stufe, intelligenz, random),
                 _ => throw new ArgumentOutOfRangeException(nameof(klasse))
             };
 

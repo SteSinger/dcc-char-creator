@@ -25,7 +25,7 @@ namespace DccCharCreator.web
             return View(c);
         }
 
-        public IActionResult Gen()
+        public IActionResult Preview()
         {
             var seed = Environment.TickCount;
 
@@ -37,7 +37,7 @@ namespace DccCharCreator.web
                 Seed = seed
             };
 
-            return View("Gen", c);
+            return View("Preview", c);
         }
 
         public IActionResult Pdf(int seed, int character, Klasse klasse, int stufe, Gesinnung gesinnung)

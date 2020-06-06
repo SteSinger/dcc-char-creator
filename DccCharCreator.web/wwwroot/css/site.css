@@ -45,11 +45,18 @@
             text-align: left;
         }
 
-label > span {
-    display: inline-block
+.field {
+    width: 120px;
+    text-align:left;
 }
 
-label > textarea, label > input, label > select {
+label > span {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+label > textarea {
     width: 175px;
     display: inline-block
 }
@@ -59,13 +66,8 @@ label > textarea, label > input, label > select {
         display: inline-block
     }
 
-form > label {
-    display: inline-block;
-    vertical-align: middle;
-}
-
 input[type="radio"] {
-    display: inline-block
+    margin-right: 10px;
 }
 
 body, textarea, input, select {
@@ -262,4 +264,9 @@ textarea, input, select {
         padding: .5em 0;
         width: 50%
     }
+}
+
+.formList > *{
+    display: block;
+    margin-bottom: 10px;
 }

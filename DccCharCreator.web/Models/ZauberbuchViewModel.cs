@@ -1,8 +1,5 @@
 ﻿using DccCharCreator.core.Zauberbuch;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace DccCharCreator.web.Models
 {
@@ -10,6 +7,8 @@ namespace DccCharCreator.web.Models
     {
         public int Glueck { get; set; }
         public int Intelligenz { get; set; }
+        public int Stufe { get; set; }
         public IList<Zauber> Zauberbuch { get; set; }
+        public Klasse Klasse { get; set; }
     }
 }

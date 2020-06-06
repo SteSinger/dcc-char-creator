@@ -43,7 +43,7 @@ namespace DccCharCreator.core.Zauberbuch
             };
 
             var anzahlZauber = AnzahlZauberkundigenZauber(stufe, intelligenz);
-            var zg1 = ZauberTemplate.Get(Zaubertyp.Zauberkundigenzauber, 1);
+            var zg1 = Shuffle(ZauberTemplate.Get(Zaubertyp.Zauberkundigenzauber, 1), random);
             var zauberGrad1 = zg1.Select(zauberErstellen).Take(anzahlZauber.Stufe1).ToList();
 
             // Anrufung und Pakt zählen als ein Zauber
@@ -76,8 +76,7 @@ namespace DccCharCreator.core.Zauberbuch
                 zauberGrad1 = zauberGrad1.Where(x => x.Wurf != 27).ToList();
             }
 
-
-            var grad2bis5 = Enumerable.Range(2, 4).SelectMany(x => Shuffle(ZauberTemplate.Get(Zaubertyp.Zauberkundigenzauber, x), random).Select(zauberErstellen).Take(anzahlZauber[x])).ToList();
+            var grad2bis5 = Enumerable.Range(2, 4).SelectMany(x => Shuffle(ZauberTemplate.Get(Zaubertyp.Zauberkundigenzauber, x), random).Where(x => x.Wurf != 99 || patron > 0  ).Select(zauberErstellen).Take(anzahlZauber[x])).ToList();
 
             return zauberGrad1.Concat(grad2bis5).ToList();
         }
@@ -98,7 +97,7 @@ namespace DccCharCreator.core.Zauberbuch
             }
 
             var anzahlZauber = AnzahlElfZauber(stufe, intelligenz);
-            var zg1 = ZauberTemplate.Get(Zaubertyp.Zauberkundigenzauber, 1);
+            var zg1 = Shuffle(ZauberTemplate.Get(Zaubertyp.Zauberkundigenzauber, 1), random);
             var patronZauber = zg1.Where(x => x.Wurf == 1 || x.Wurf == 14).Select(zauberErstellen);
             var zauberGrad1 = zg1.Where(x => x.Wurf != 1 && x.Wurf != 14).Select(zauberErstellen).Take(anzahlZauber.Stufe1);
             var grad2bis5 = Enumerable.Range(2, 4).SelectMany(x => Shuffle(ZauberTemplate.Get(Zaubertyp.Zauberkundigenzauber, x), random).Select(zauberErstellen).Take(anzahlZauber[x])).ToList();
