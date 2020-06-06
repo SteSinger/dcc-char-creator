@@ -1,26 +1,39 @@
 ﻿@model ZauberbuchViewModel
+@using DccCharCreator.core.Zauberbuch;
 @{
     ViewData["Title"] = "Grimoire";
 }
+@{
+    var klassenName = Model.Klasse switch
+    {
+        Klasse.Elf => "Elf",
+        Klasse.Zauberer => "Zauberer",
+        Klasse.Kleriker => "Kleriker",
+        Klasse.KlerikerLaunen => "launenhaften Kleriker",
+    };
+}
 
-<h1>Grimoire für Level 1</h1>
+<h1>Grimoire für einen @klassenName der Stufe @Model.Stufe</h1>
 <p>Glück: @Model.Glueck</p>
-<p>Anzahl Zauber: @Model.AnzahlZauber</p>
+@if (Model.Klasse == Klasse.Elf || Model.Klasse == Klasse.Zauberer)
+{
+    <p>Intelligenz: @Model.Intelligenz</p>
+}
+<p># Zauber: @Model.Zauberbuch.Count</p>
 @foreach (var zauber in Model.Zauberbuch)
 {
     <p>
-
-        (@zauber.Wurf) <strong>@zauber.Name</strong> (S. @zauber.Seite)<br />
+        <strong>@zauber.Name</strong> (S. @zauber.Seite)<br />
         @zauber.Beschreibung<br />
         <strong>Manifestation:</strong> @zauber.Manifestation.Beschreibung<br />
         @if (zauber.LaunenDerMagie != null && zauber.LaunenDerMagie.Count > 0)
         {
             <strong>Launen der Magie:</strong>
-        @foreach (var laune in zauber.LaunenDerMagie)
-        {
-            <text>(</text>@laune.Wurf<text>) </text>
-            @laune.Beschreibung<br />
-        }
+            @foreach (var laune in zauber.LaunenDerMagie)
+            {
+                <text>(</text>@laune.Wurf<text>) </text>
+                @laune.Beschreibung<br />
+            }
         }
     </p>
     <hr />

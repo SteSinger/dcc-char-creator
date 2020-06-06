@@ -5,10 +5,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\DCC_Dieb_ausfüllbar.pdf" />
+    <None Remove="Resources\DCC_Elf_ausfüllbar.pdf" />
+    <None Remove="Resources\DCC_Halbling_ausfüllbar.pdf" />
+    <None Remove="Resources\DCC_Kleriker_ausfüllbar.pdf" />
+    <None Remove="Resources\DCC_Krieger_ausfüllbar.pdf" />
+    <None Remove="Resources\DCC_Zauberer_ausfüllbar.pdf" />
+    <None Remove="Resources\DCC_Zwerg_ausfüllbar.pdf" />
     <None Remove="Resources\Null_4.pdf" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Resources\DCC_Dieb_ausfüllbar.pdf" />
+    <EmbeddedResource Include="Resources\DCC_Elf_ausfüllbar.pdf" />
+    <EmbeddedResource Include="Resources\DCC_Halbling_ausfüllbar.pdf" />
+    <EmbeddedResource Include="Resources\DCC_Kleriker_ausfüllbar.pdf" />
+    <EmbeddedResource Include="Resources\DCC_Krieger_ausfüllbar.pdf" />
+    <EmbeddedResource Include="Resources\DCC_Zauberer_ausfüllbar.pdf" />
+    <EmbeddedResource Include="Resources\DCC_Zwerg_ausfüllbar.pdf" />
     <EmbeddedResource Include="Resources\Null_4.pdf" />
   </ItemGroup>
 

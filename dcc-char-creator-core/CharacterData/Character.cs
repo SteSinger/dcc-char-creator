@@ -18,18 +18,18 @@ namespace DccCharCreator.core.CharacterData
 
         public string Startkapital { get; set; }
 
-        public string Zähigkeit => Attribute.Ausdauer.BonusFormatted;
-        public string Reflexe => Attribute.Geschicklichkeit.BonusFormatted;
-        public string Willenskraft => Attribute.Persönlichkeit.BonusFormatted;
-        public string Initiative => Attribute.Geschicklichkeit.BonusFormatted;
-        public int Rüstungsklasse => 10 + Attribute.Geschicklichkeit.Bonus;
+        public string Zähigkeit => Attribute.Ausdauer.ModifikatorFormattiert;
+        public string Reflexe => Attribute.Geschicklichkeit.ModifikatorFormattiert;
+        public string Willenskraft => Attribute.Persönlichkeit.ModifikatorFormattiert;
+        public string Initiative => Attribute.Geschicklichkeit.ModifikatorFormattiert;
+        public int Rüstungsklasse => 10 + Attribute.Geschicklichkeit.Modifikator;
 
         public Character(I3W6 attributWürfel, IW100 berufWürfel, IW30 zeichenWürfel, IW4 trefferpunkteWürfel, I5W12 geldWürfel, IW24 handelsWarenWürfel)
         {
             Attribute = new Attribute(attributWürfel);
             Beruf = Beruf.Random(berufWürfel);
-            Geburtszeichen = Geburtszeichen.Random(zeichenWürfel, Attribute.Glück.Bonus);
-            Trefferpunkte = Math.Max(trefferpunkteWürfel.Würfeln() + Attribute.Ausdauer.Bonus, 1);
+            Geburtszeichen = Geburtszeichen.Random(zeichenWürfel, Attribute.Glück.Modifikator);
+            Trefferpunkte = Math.Max(trefferpunkteWürfel.Würfeln() + Attribute.Ausdauer.Modifikator, 1);
             Startkapital = $"{geldWürfel.Würfeln()} KM";
             Ausrüstung = Ausrüstung.Random(handelsWarenWürfel);
         }

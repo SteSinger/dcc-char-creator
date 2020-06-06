@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using DccCharCreator.core.Würfel;
 using DccCharCreator.core.Zauberbuch;
 using DccCharCreator.web.Models;
@@ -16,29 +13,31 @@ namespace DccCharCreator.web.Controllers
             return View();
         }
 
-        public IActionResult Generate(int anzahlZauber, int glueck, Klasse klasse)
+        public IActionResult Generate(int stufe, int intelligenz, int glueck, Klasse klasse)
         {
             if(glueck < -3 || glueck > 3)
             {
                 return RedirectToAction(nameof(Index));
             }
 
-            var wf = new WürfelFactory(new Random());
-            var zauberFactory = new ZauberFactory(wf.W100, wf.W27, wf._4W20, wf.W4, wf.W6, wf.W8, wf.W10, wf.W3, wf.W11);
+            Random random = new Random();
+            var wf = new WürfelFactory(random);
+            var zauberFactory = new ZauberFactory(wf.W100, wf._4W20, wf.W4, wf.W6, wf.W8, wf.W10, wf.W3, wf.W11);
 
             var zauberbuchVM = new ZauberbuchViewModel
             {
                 Glueck = glueck,
-                AnzahlZauber = anzahlZauber
-                
+                Intelligenz = intelligenz,
+                Stufe = stufe,
+                Klasse = klasse,
             };
 
             zauberbuchVM.Zauberbuch = klasse switch
             {
-                Klasse.Zauberer => zauberFactory.ZauberkundigenZauberErstellen(anzahlZauber, glueck),
-                Klasse.Kleriker => zauberFactory.KlerikerZauberErstellen(anzahlZauber, glueck, false),
-                Klasse.KlerikerLaunen => zauberFactory.KlerikerZauberErstellen(anzahlZauber, glueck, true),
-                Klasse.Elf => zauberFactory.ElfenZauberErstellen(anzahlZauber, glueck),
+                Klasse.Zauberer => zauberFactory.ZauberkundigenZauberErstellen(stufe, glueck, intelligenz, random),
+                Klasse.Kleriker => zauberFactory.KlerikerZauberErstellen(stufe, glueck, false, random), // Zauberanzahl ist Stufenabhängig
+                Klasse.KlerikerLaunen => zauberFactory.KlerikerZauberErstellen(stufe, glueck, true, random),
+                Klasse.Elf => zauberFactory.ElfenZauberErstellen(stufe, intelligenz, random),
                 _ => throw new ArgumentOutOfRangeException(nameof(klasse))
             };
 

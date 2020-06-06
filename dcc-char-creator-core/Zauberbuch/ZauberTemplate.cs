@@ -20,18 +20,20 @@ namespace DccCharCreator.core.Zauberbuch
         public string Beschreibung { get; set; } = string.Empty;
 
         public string Name { get; set; } = string.Empty;
+        
+        public int Grad { get; set; }
 
         private const string FileName = "zauber.xml";
-        private static readonly Lazy<Dictionary<Zaubertyp, Dictionary<int, ZauberTemplate>>> ZauberDict = new Lazy<Dictionary<Zaubertyp, Dictionary<int, ZauberTemplate>>>(Load);
+        private static readonly Lazy<Dictionary<Zaubertyp, Dictionary<int, List<ZauberTemplate>>>> ZauberDict = new Lazy<Dictionary<Zaubertyp, Dictionary<int, List<ZauberTemplate>>>>(Load);
 
-        public static ZauberTemplate Get(Zaubertyp typ, int wurf)
+        public static List<ZauberTemplate> Get(Zaubertyp typ, int grad)
         {
-            return ZauberDict.Value[typ][wurf];
+            return ZauberDict.Value[typ][grad];
         }
 
-        public static Dictionary<Zaubertyp, Dictionary<int, ZauberTemplate>> Load()
+        public static Dictionary<Zaubertyp, Dictionary<int, List<ZauberTemplate>>> Load()
         {
-            var dict = Serializer.Load<ZauberTemplate>(FileName).GroupBy(x => x.Typ).ToDictionary(x => x.Key, x => x.ToDictionary(y => y.Wurf));
+            var dict = Serializer.Load<ZauberTemplate>(FileName).GroupBy(x => x.Typ).ToDictionary(x => x.Key, x => x.GroupBy(y => y.Grad).ToDictionary(y => y.Key, y => y.ToList()));
             Validate(dict);
             return dict;
         }
@@ -41,7 +43,7 @@ namespace DccCharCreator.core.Zauberbuch
             Serializer.Save(FileName, zauber);
         }
 
-        public static void Validate(Dictionary<Zaubertyp, Dictionary<int, ZauberTemplate>> dict)
+        public static void Validate(Dictionary<Zaubertyp, Dictionary<int, List<ZauberTemplate>>> dict)
         {
             foreach(var entry in dict)
             {

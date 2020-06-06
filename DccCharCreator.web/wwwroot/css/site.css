@@ -10,9 +10,9 @@
     align-items: center
 }
 
-.mainselection a {
-    margin: 20px 40px 0 40px;
-}
+    .mainselection a {
+        margin: 20px 40px 0 40px;
+    }
 
 .grimoire {
     flex-direction: column;
@@ -22,8 +22,7 @@
 
 .charakter_selektion {
     display: flex;
-    flex-direction:column;
-
+    flex-direction: column;
 }
 
 .charaktere {
@@ -45,13 +44,19 @@
         .charakter table th {
             text-align: left;
         }
-label > span {
-    width: 100px;
-    font-weight: bold;
-    display: inline-block
+
+.field {
+    width: 120px;
+    text-align:left;
 }
 
-label > textarea, label > input, label > select {
+label > span {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+label > textarea {
     width: 175px;
     display: inline-block
 }
@@ -60,6 +65,10 @@ label > textarea, label > input, label > select {
         width: 157px;
         display: inline-block
     }
+
+input[type="radio"] {
+    margin-right: 10px;
+}
 
 body, textarea, input, select {
     background: 0;
@@ -255,4 +264,9 @@ textarea, input, select {
         padding: .5em 0;
         width: 50%
     }
+}
+
+.formList > *{
+    display: block;
+    margin-bottom: 10px;
 }

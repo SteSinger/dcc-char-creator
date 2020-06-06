@@ -12,6 +12,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>2</Wurf>
@@ -37,6 +38,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>3</Wurf>
@@ -57,6 +59,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>4</Wurf>
@@ -82,6 +85,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>5</Wurf>
@@ -124,6 +128,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>6</Wurf>
@@ -154,6 +159,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>7</Wurf>
@@ -195,6 +201,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>8</Wurf>
@@ -225,6 +232,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>9</Wurf>
@@ -253,6 +261,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>10</Wurf>
@@ -270,6 +279,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>11</Wurf>
@@ -300,6 +310,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>12</Wurf>
@@ -333,6 +344,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>13</Wurf>
@@ -382,6 +394,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>14</Wurf>
@@ -400,6 +413,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>15</Wurf>
@@ -438,6 +452,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>16</Wurf>
@@ -474,6 +489,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>17</Wurf>
@@ -492,6 +508,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>18</Wurf>
@@ -517,6 +534,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>19</Wurf>
@@ -547,6 +565,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>20</Wurf>
@@ -572,6 +591,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>21</Wurf>
@@ -600,6 +620,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>22</Wurf>
@@ -644,6 +665,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>23</Wurf>
@@ -673,6 +695,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>24</Wurf>
@@ -706,6 +729,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>25</Wurf>
@@ -733,6 +757,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>26</Wurf>
@@ -754,11 +779,12 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>27</Wurf>
     <Seite>328, 336, 342, 348, 354, 360, 361, 362</Seite>
-    <Name>Patronzauber</Name>
+    <Name>Patronzauber Grad 1</Name>
     <Beschreibung></Beschreibung>
     <Manifestationen>
       <Manifestation>
@@ -767,6 +793,833 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
+    <Grad>1</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>99</Wurf>
+    <Seite>328, 336, 342, 348, 354, 360, 361, 362</Seite>
+    <Name>Patronzauber Grad 2</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung>Unterschiedlich</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>99</Wurf>
+    <Seite>328, 336, 342, 348, 354, 360, 361, 362</Seite>
+    <Name>Patronzauber Grad 3</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung>Unterschiedlich</Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>163</Seite>
+    <Name>Arkane Spezialisierung</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>166</Seite>
+    <Name>Böses entdecken*</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>166</Seite>
+    <Name>Feuerresistenz</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>167</Seite>
+    <Name>Gedanken lesen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>170</Seite>
+    <Name>Gegenstand aufspüren</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>172</Seite>
+    <Name>Klopfen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>174</Seite>
+    <Name>Magischer Mund</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>176</Seite>
+    <Name>Monster beschwören</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>178</Seite>
+    <Name>Nythuuls Stachelschweinmantel</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>179</Seite>
+    <Name>Schrecken</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>181</Seite>
+    <Name>Schweben</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>180</Seite>
+    <Name>Schwächestrahl</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>183</Seite>
+    <Name>Sengender Strahl</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>184</Seite>
+    <Name>Spiegelbild</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>186</Seite>
+    <Name>Spinnennetz</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>188</Seite>
+    <Name>Stärke</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>190</Seite>
+    <Name>Trugbild</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>192</Seite>
+    <Name>Unsichtbarer Gefährte</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>194</Seite>
+    <Name>Unsichtbares entdecken</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>195</Seite>
+    <Name>Unsichtbarkeit</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>196</Seite>
+    <Name>Vergessen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>198</Seite>
+    <Name>Zauberstecken</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>202</Seite>
+    <Name>Zerbersten</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>205</Seite>
+    <Name>Besitz ergreifen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>276</Seite>
+    <Name>Bindender Ruf*</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>206</Seite>
+    <Name>Blitzstrahl</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>207</Seite>
+    <Name>Dämonen beschwören</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>209</Seite>
+    <Name>Ebenenwechsel</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>211</Seite>
+    <Name>Emirikols entropischer Mahlstrom</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>213</Seite>
+    <Name>Ewiger Held</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>214</Seite>
+    <Name>Feuerball</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>215</Seite>
+    <Name>Fleisch zu Stein</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>217</Seite>
+    <Name>Fliegen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>219</Seite>
+    <Name>Geister befragen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>221</Seite>
+    <Name>Gespenstischer Hund</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>223</Seite>
+    <Name>Hast</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>225</Seite>
+    <Name>Lebenshauch</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>265</Seite>
+    <Name>Lähmung*</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>227</Seite>
+    <Name>Magie bannen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>229</Seite>
+    <Name>Magie schreiben</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>231</Seite>
+    <Name>Runenalphabet der Feen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>232</Seite>
+    <Name>Schwertmagie</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>235</Seite>
+    <Name>Trank brauen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>237</Seite>
+    <Name>Verlangsamen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>238</Seite>
+    <Name>Wasser atmen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>239</Seite>
+    <Name>Windstoß</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>242</Seite>
+    <Name>Eis beherrschen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>4</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>243</Seite>
+    <Name>Erde umformen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>4</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>245</Seite>
+    <Name>Feuer beherrschen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>4</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>246</Seite>
+    <Name>Lokerimons geordnete Unterstützung</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>4</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>248</Seite>
+    <Name>Verwandlung</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>4</Grad>
+  </ZauberTemplate> 
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>249</Seite>
+    <Name>Zaubersinne</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>4</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>251</Seite>
+    <Name>Gedanken auslöschen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>5</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>252</Seite>
+    <Name>Hepsojs fruchtbare Pilze</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>5</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>254</Seite>
+    <Name>Lokerimons unfehlbarer Jäger</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>5</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>256</Seite>
+    <Name>Magisches Bollwerk</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>5</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>257</Seite>
+    <Name>Replikation</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Zauberkundigenzauber</Typ>
+    <Grad>5</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>1</Wurf>
@@ -788,6 +1641,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>2</Wurf>
@@ -809,6 +1663,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>3</Wurf>
@@ -834,6 +1689,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>4</Wurf>
@@ -859,6 +1715,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>5</Wurf>
@@ -880,6 +1737,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>6</Wurf>
@@ -905,6 +1763,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>7</Wurf>
@@ -930,6 +1789,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>8</Wurf>
@@ -943,6 +1803,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>9</Wurf>
@@ -964,6 +1825,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>10</Wurf>
@@ -989,6 +1851,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
+    <Grad>1</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>11</Wurf>
@@ -1010,5 +1873,357 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
+    <Grad>1</Grad>
+  </ZauberTemplate>
+
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>274</Seite>
+    <Name>Beißender Stein</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>290</Seite>
+    <Name>Blitz aus heiterem Himmel</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>300</Seite>
+    <Name>Erdbeben</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>4</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>307</Seite>
+    <Name>Gerechtes Feuer</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>5</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>276</Seite>
+    <Name>Bindender Ruf</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>291</Seite>
+    <Name>Exorzismus</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>302</Seite>
+    <Name>Gebrechen der Götter</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>4</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>208</Seite>
+    <Name>Wetterkontrolle</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>5</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>277</Seite>
+    <Name>Göttliches Symbol</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>292</Seite>
+    <Name>Fluch brechen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>304</Seite>
+    <Name>Ungezieferplage</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>4</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>309</Seite>
+    <Name>Wirbelnde Verderbnis</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>5</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>278</Seite>
+    <Name>Holz verdrehen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>293</Seite>
+    <Name>Mit den Toten sprechen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>305</Seite>
+    <Name>Weihe/Entweihung</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>4</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>279</Seite>
+    <Name>Lähmung heilen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>294</Seite>
+    <Name>Tote beleben</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>280</Seite>
+    <Name>Lebenskraft wiederherstellen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>296</Seite>
+    <Name>Waffe des Glaubens</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>281</Seite>
+    <Name>Lotusblick</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>297</Seite>
+    <Name>Wahrer Name</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>3</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>283</Seite>
+    <Name>Schlangen beschwören</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>285</Seite>
+    <Name>Verbannen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>286</Seite>
+    <Name>Verfluchen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>2</Grad>
+  </ZauberTemplate>
+  <ZauberTemplate>
+    <Wurf>1</Wurf>
+    <Seite>288</Seite>
+    <Name>Vergiftung oder Krankheit heilen</Name>
+    <Beschreibung></Beschreibung>
+    <Manifestationen>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung></Beschreibung>
+      </Manifestation>
+    </Manifestationen>
+    <Typ>Klerikerzauber</Typ>
+    <Grad>2</Grad>
   </ZauberTemplate>
 </ArrayOfZauberTemplate>
