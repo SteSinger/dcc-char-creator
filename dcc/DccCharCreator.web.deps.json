@@ -25,6 +25,7 @@
       "DccCharCreator.web/1.0.0": {
         "dependencies": {
           "DccCharCreator.core": "1.0.0",
+          "DccCharCreator.pdf": "1.0.0",
           "Microsoft.Extensions.Logging.Debug": "3.0.0-preview8.19405.4",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
@@ -2001,6 +2002,15 @@
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
         }
       },
+      "PdfSharpCore/1.1.25": {
+        "dependencies": {
+          "SixLabors.Fonts": "1.0.0-beta0009",
+          "SixLabors.ImageSharp": "1.0.0-beta0006"
+        },
+        "compile": {
+          "lib/netstandard2.0/PdfSharpCore.dll": {}
+        }
+      },
       "runtime.any.System.Collections/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -2168,6 +2178,31 @@
           "System.Private.Uri": "4.3.0",
           "runtime.native.System": "4.3.0",
           "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
+        }
+      },
+      "SixLabors.Core/1.0.0-beta0008": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0-preview8.19405.3"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/SixLabors.Core.dll": {}
+        }
+      },
+      "SixLabors.Fonts/1.0.0-beta0009": {
+        "dependencies": {
+          "SixLabors.Core": "1.0.0-beta0008"
+        },
+        "compile": {
+          "lib/netstandard2.0/SixLabors.Fonts.dll": {}
+        }
+      },
+      "SixLabors.ImageSharp/1.0.0-beta0006": {
+        "dependencies": {
+          "SixLabors.Core": "1.0.0-beta0008",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0-preview8.19405.3"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/SixLabors.ImageSharp.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -2925,12 +2960,22 @@
         "compile": {
           "DccCharCreator.core.dll": {}
         }
+      },
+      "DccCharCreator.pdf/1.0.0": {
+        "dependencies": {
+          "DccCharCreator.core": "1.0.0",
+          "PdfSharpCore": "1.1.25"
+        },
+        "compile": {
+          "DccCharCreator.pdf.dll": {}
+        }
       }
     },
     ".NETCoreApp,Version=v3.0/ubuntu.18.04-x64": {
       "DccCharCreator.web/1.0.0": {
         "dependencies": {
           "DccCharCreator.core": "1.0.0",
+          "DccCharCreator.pdf": "1.0.0",
           "Microsoft.Extensions.Logging.Debug": "3.0.0-preview8.19405.4",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
@@ -4960,6 +5005,18 @@
           }
         }
       },
+      "PdfSharpCore/1.1.25": {
+        "dependencies": {
+          "SixLabors.Fonts": "1.0.0-beta0009",
+          "SixLabors.ImageSharp": "1.0.0-beta0006"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PdfSharpCore.dll": {
+            "assemblyVersion": "1.1.25.0",
+            "fileVersion": "1.1.25.0"
+          }
+        }
+      },
       "runtime.any.System.Collections/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -5127,6 +5184,40 @@
           "System.Private.Uri": "4.3.0",
           "runtime.native.System": "4.3.0",
           "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
+        }
+      },
+      "SixLabors.Core/1.0.0-beta0008": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0-preview8.19405.3"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/SixLabors.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SixLabors.Fonts/1.0.0-beta0009": {
+        "dependencies": {
+          "SixLabors.Core": "1.0.0-beta0008"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SixLabors.Fonts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/1.0.0-beta0006": {
+        "dependencies": {
+          "SixLabors.Core": "1.0.0-beta0008",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0-preview8.19405.3"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "System.AppContext/4.3.0": {
@@ -5906,6 +5997,15 @@
         "runtime": {
           "DccCharCreator.core.dll": {}
         }
+      },
+      "DccCharCreator.pdf/1.0.0": {
+        "dependencies": {
+          "DccCharCreator.core": "1.0.0",
+          "PdfSharpCore": "1.1.25"
+        },
+        "runtime": {
+          "DccCharCreator.pdf.dll": {}
+        }
       }
     }
   },
@@ -6176,6 +6276,13 @@
       "sha512": "sha512-qbXaB76XYUVLocLBs8Z9TS/ERGK2wm797feO+0JEPFvT7o7MRadOR77mqaSD4J1k8G+DlZQyq+MlkCuxrkr3ag==",
       "path": "nuget.frameworks/4.7.0",
       "hashPath": "nuget.frameworks.4.7.0.nupkg.sha512"
+    },
+    "PdfSharpCore/1.1.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oST3iMsmGz+D40aREhIUYhfXxqdU/ZLqsi99pUnmAKexlcL2U2I+FEaqeBX0kqU16lUbi3xnUOl5NKJWnUbaqw==",
+      "path": "pdfsharpcore/1.1.25",
+      "hashPath": "pdfsharpcore.1.1.25.nupkg.sha512"
     },
     "runtime.any.System.Collections/4.3.0": {
       "type": "package",
@@ -6463,6 +6570,27 @@
       "sha512": "sha512-zQiTBVpiLftTQZW8GFsV0gjYikB1WMkEPIxF5O6RkUrSV/OgvRRTYgeFQha/0keBpuS0HYweraGRwhfhJ7dj7w==",
       "path": "runtime.unix.system.runtime.extensions/4.3.0",
       "hashPath": "runtime.unix.system.runtime.extensions.4.3.0.nupkg.sha512"
+    },
+    "SixLabors.Core/1.0.0-beta0008": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rrKPDN107tVOh+mUoNh+kHELa7WfYZREPPbYdiKJ3Rd6dex/UgDWDGBOjPJn4BBhmts/VGuaXMXyfT/BwiuH2g==",
+      "path": "sixlabors.core/1.0.0-beta0008",
+      "hashPath": "sixlabors.core.1.0.0-beta0008.nupkg.sha512"
+    },
+    "SixLabors.Fonts/1.0.0-beta0009": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jCSh8Ei/epW1zInmRReIovIzHGPB1zifwDaj4+Yb7aGCs5MbRHi69kl2+QM9Ov5X19IgKhHn833dd4S0OQ3sEw==",
+      "path": "sixlabors.fonts/1.0.0-beta0009",
+      "hashPath": "sixlabors.fonts.1.0.0-beta0009.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/1.0.0-beta0006": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VHDX00uAzPWj5qFYE5xJZyr5Cx4Jtd3p2dfX7swSrzlQoPEZPXXwQ+O3Fc4hNWvaNvR1NAiXSb27Ts6yv3lMDw==",
+      "path": "sixlabors.imagesharp/1.0.0-beta0006",
+      "hashPath": "sixlabors.imagesharp.1.0.0-beta0006.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",
@@ -6969,6 +7097,11 @@
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
     "DccCharCreator.core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DccCharCreator.pdf/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

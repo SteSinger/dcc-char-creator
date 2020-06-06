@@ -20,8 +20,8 @@ namespace DccCharCreator.pdf
         public MemoryStream ErzeugeNullerBogen(Character[] c)
         {
             var assembly = typeof(PdfCreator).Assembly;
-            var nullerBogen = assembly.GetManifestResourceStream("DccCharCreator.pdf.Resources.Null_4.pdf");
-            var pdf = PdfReader.Open(nullerBogen);
+            using var nullerBogen = assembly.GetManifestResourceStream("DccCharCreator.pdf.Resources.Null_4.pdf");
+            using var pdf = PdfReader.Open(nullerBogen);
             if (pdf.AcroForm.Elements.ContainsKey("/NeedAppearances") == false)
             {
                 pdf.AcroForm.Elements.Add("/NeedAppearances", new PdfBoolean(true));
@@ -38,6 +38,7 @@ namespace DccCharCreator.pdf
 
             var stream = new MemoryStream();
             pdf.Save(stream, false);
+            
             return stream;
         }
 
