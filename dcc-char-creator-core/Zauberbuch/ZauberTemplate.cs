@@ -24,7 +24,7 @@ namespace DccCharCreator.core.Zauberbuch
         public int Grad { get; set; }
 
         private const string FileName = "zauber.xml";
-        private static readonly Lazy<Dictionary<Zaubertyp, Dictionary<int, List<ZauberTemplate>>>> ZauberDict = new Lazy<Dictionary<Zaubertyp, Dictionary<int, List<ZauberTemplate>>>>(Load);
+        public static readonly Lazy<Dictionary<Zaubertyp, Dictionary<int, List<ZauberTemplate>>>> ZauberDict = new Lazy<Dictionary<Zaubertyp, Dictionary<int, List<ZauberTemplate>>>>(Load);
 
         public static List<ZauberTemplate> Get(Zaubertyp typ, int grad)
         {

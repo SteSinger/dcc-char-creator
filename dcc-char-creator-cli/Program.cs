@@ -13,6 +13,18 @@ namespace dcc_char_creator_cli
     {
         static void Main(string[] args)
         {
+            var zauberListe = ZauberTemplate.ZauberDict.Value.SelectMany(x => x.Value.SelectMany(y => y.Value)).ToList();
+            foreach (var z in zauberListe)
+            {
+                z.Beschreibung = string.Join(" ", z.Beschreibung.Split('\n', StringSplitOptions.RemoveEmptyEntries).Select(x => x.Trim()));
+
+                foreach (var m in z.Manifestationen)
+                {
+                    m.Beschreibung = string.Join(" ", m.Beschreibung.Split('\n', StringSplitOptions.RemoveEmptyEntries).Select(x => x.Trim()));
+                }
+            }
+
+            ZauberTemplate.Save(zauberListe);
             //var zt = new ZauberTemplate
             //{
             //    Beschreibung = "Beschreibung",

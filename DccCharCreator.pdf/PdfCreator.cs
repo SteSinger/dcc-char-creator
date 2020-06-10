@@ -1,8 +1,12 @@
 ﻿using DccCharCreator.core.CharacterData;
 using DccCharCreator.core.CharacterData.Klasse;
+using DccCharCreator.core.Zauberbuch;
 using PdfSharpCore.Pdf;
 using PdfSharpCore.Pdf.AcroForms;
+using PdfSharpCore.Pdf.Advanced;
 using PdfSharpCore.Pdf.IO;
+using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace DccCharCreator.pdf
@@ -99,7 +103,7 @@ namespace DccCharCreator.pdf
             SetNeedAppearances(pdf);
 
             FillZauberkundiger(zauberkundiger, pdf.AcroForm);
-
+            
             var stream = new MemoryStream();
             pdf.Save(stream, false);
             pdf.Dispose();
@@ -118,9 +122,18 @@ namespace DccCharCreator.pdf
             var i = 0;
             foreach (var zauber in zauberkundiger.Zauberbuch)
             {
-                i++;
-                fields[$"Zauber{i}"].Value = new PdfString($"{zauber.Name} S.{zauber.Seite}\n{zauber.Manifestation.Beschreibung}");
-                if (i == 8) break;
+                
+                if (i < 8)
+                {
+                    i++;
+                    fields[$"Zauber{i}"].Value = new PdfString($"{zauber.Name}"); 
+                }
+
+                fields[$"Name{i}"].Value = new PdfString($"{zauber.Name}");
+                fields[$"Seite{i}"].Value = new PdfString($"{zauber.Seite}");
+                fields[$"LaunenDerMagie{i}"].Value = new PdfString($"{string.Join(", ", zauber.LaunenDerMagie)}");
+                fields[$"Manifestation{i}"].Value = new PdfString($"{zauber.Manifestation.Beschreibung}");
+                fields[$"Beschreibung{i}"].Value = new PdfString($"{zauber.Beschreibung}");
             }
         }
 
