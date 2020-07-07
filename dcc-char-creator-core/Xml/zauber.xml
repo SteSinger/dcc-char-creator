@@ -716,25 +716,65 @@
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Nicht verfügbar</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Manche Zauberkundige ziehen es vor, sich auf eine besondere Art der Magie zu spezialisieren. Das mögen
+Nekromanten sein, die die Lehre des Untodes studieren, oder die Feuer beherrschende Pyromanten.
+Vielleicht sind es Elementalisten, die eigenwillige Elementare beherrschen, oder Beschwörer, die aus
+dem Nichts körperliche Dinge erschaffen können. Ihre Fähigkeiten, die weit über die Mächte gewöhnlicher
+Zauberkundiger hinausgehen, erlangen Spezialisten durch intensives Studium, lange Grübeleien
+und schließlich dadurch, dass sie sich der gewählten arkanen Magieschule vollständig verschreiben. Ein
+Nekromant lebt womöglich unter Untoten, um diese vollständig zu begreifen, ein Pyromant verlegt seinen
+Unterschlupf in einen Vulkan, ein Elementalist zieht auf eine der vier Elementarebenen und ein Verwandler
+befasst sich mit den atomaren Bausteinen der Materie.
+Dieser Zauber stellt den Mechanismus für Magiespezialisierungen dar. Er verstärkt die Neigung des Zauberwirkers
+hin zu einer speziellen Art der Magie. Diese Verbundenheit entwickelt sich erst, nachdem viel
+Zeit und Arbeit investiert wurde und sie hat auch ihren Preis: Der Zauberplatz ist auf ewig von diesem
+Zauber besetzt und der Zauberwirker ist auf ewig an die arkane Disziplin gebunden, auf die seine Wahl
+fällt. Natürlich hat dieser Zauber auch einen Vorzug: Er erhöht die Macht des Zauberwirkers in einer gewählten
+arkanen Schule.
+Obgleich dieser Zauber im Zauberbuch des Zauberkundigen als Arkane Spezialisierung eingetragen wird,
+hängt seine Bedeutung von den Zielen des Zauberkundigen ab. In Wahrheit stellt er die Zeit und die Arbeit
+dar, die notwendig ist, um eine Verbundenheit mit einer der arkanen Schulen zu erreichen. Der „Zeitaufwand“
+besteht aus einer Reihe von Ritualen und Handlungen, die zur Herausbildung dieser Spezialisierung
+erforderlich sind. Es ist ein Zauber des 2. Grades, da der Zauberwirker zunächst die Grundlagen der Magie
+verstanden haben muss, bevor er eine Spezialisierung entwickeln kann. Die traditionellen Spezialisierungen
+und ihr „Zeitaufwand“ werden im Folgenden beschrieben. Es sollte betont werden, dass der „Zeitaufwand“
+spielmechanisch mit der Zeit zwischen Abenteuern oder tatsächlicher Abenteuerzeit verknüpft werden kann... Siehe Regelwerk...</Beschreibung>
     <Name>Arkane Spezialisierung</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
   <ZauberTemplate>
     <Wurf>1</Wurf>
-    <Seite>166</Seite>
+    <Seite>260</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Böse Wesen leuchten schwach, wenn sie vom Kleriker gesehen werden.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein himmlischer Chor trompetet lautstarke Fanfaren der Warnung, wann immer der Kleriker ein böses Wesen sieht.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Böse Wesen verströmen in alle Richtungen schreckliche, dunkle Schatten, die ihre Erscheinung in einen dichten Schleier aus Dunkelheit hüllen.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>
+      Der Kleriker hält sein heiliges Symbol in die Höhe und erkennt innerhalb eines Strahls, der sich 1,5 m breit
+      und 18 m weit (oder weiter) von dem Symbol ausdehnt, Ausströmungen des Bösen. Die Definition von
+      „böse“ hängt dabei vom Kleriker ab: Normalerweise umfasst dies Wesen mit gegensätzlicher Gesinnung,
+      diejenigen, die der Gottheit des Klerikers unheilig sind und diejenigen mit offensichtlich feindseligen Absichten.
+      Abhängig von der Stärke des Zauberes kann der Kleriker auch weniger offensichtliche Gefahren
+      erkennen. Dieser Zauber offenbart keine Wesen, die anderweitig verborgen sind, aber er informiert den
+      Kleriker darüber, dass böse Absichten von einer bestimmten Stelle ausströmen. Dieser Zauber kann auch
+      umgekehrt werden, um Gutes zu erkennen. Dies trifft auf Wesen mit verbündeter Gesinnung, gemeinsamen
+      Gottheiten oder ähnlichen heiligen Zielen zu.
+    </Beschreibung>
     <Name>Böses entdecken*</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -743,12 +783,24 @@
     <Seite>166</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Die Haut des Zauberwirkers wird hart und schwarz, ähnlich erkalteter Lava.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ziele des Zaubers werden wässrig, ähnlich einem Elementar.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Eine Kugel weiß schimmernder Energie umhüllt das Ziel.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Schemenhafte Engel fächeln die Flammen zurück.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker erhöht seinen Widerstand gegen Hitze und Feuer.</Beschreibung>
     <Name>Feuerresistenz</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -757,12 +809,51 @@
     <Seite>167</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Nichts sichtbares.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Der Kopf des Zauberwirkers leuchtet.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Die Augen des Zauberwirkers werden milchig.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Schimmernde Wellen gehen vom Schädel des Zauberwirkers aus.</Beschreibung>
+      </Manifestation>    
+      <Manifestation>
+        <Wurf>5</Wurf>
+        <Beschreibung>Lichtblitze springen zeitweise vom Zauberwirkers aus über.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker kann durch Außersinnliche Wahrnehmung (kurz: ASW) die Gedanken anderer Wesen
+lesen. Bei niedrigen Zauberwürfen ist es dem Zauberwirker nur gestattet, oberflächliche Gedanken aufzuschnappen.
+Bei höheren Zauberwürfen kann sich der Zauberwirker konzentrieren und mit jeder Konzentrationsrunde
+tiefer in die Gedankenwelt vordringen, wie im Folgenden beschrieben. Um die Antwort
+auf eine gezielte Frage in den Gedanken zu finden, benötigt man üblicherweise 1W4 Runden, nachdem
+die für diese Tiefe der Gedankenwelt erforderliche Konzentrationsrunde erreicht wurde. Beispiel: Um herauszufinden,
+wo ein böser Nekromant seinen magischen Ring versteckt hat, benötigt man 1W4 Runden
+Zeit, sobald die vierte Konzentrationsrunde (jüngste Erinnerungen) erreicht ist. Um zu verstehen, warum
+der Nekromant so einen irrationalen Hass auf den König hat, benötigt man 1W4 Runden Zeit, wenn die
+sechste Konzentrationsrunde (Motivationen des Unterbewusstseins) erreicht ist.
+Runde 2: Der Zauberwirker begreift die längerfristigen Ziele und Motivationen, die mit den momentanen
+Gedanken und Handlungen des Wesens in Zusammenhang stehen.
+Runde 3: Der Zauberwirker versteht die Beziehungen des Wesens zu seinen Freunden und Feinden.
+Runde 4: Der Zauberwirker kann die jüngsten Erinnerungen des Wesens lesen. Es benötigt aber Zeit, um
+sich durch alle Gedanken zu wühlen – ungefähr eine Runde pro Tag an Erinnerungen.
+Runde 5: Der Zauberwirker kann die historischen Erinnerungen des Wesens lesen – so weit zurück, wie
+sich das Wesen erinnern kann.
+Runde 6: Der Zauberwirker begreift die unterbewussten Gedanken des Wesens – Motivationen und zugrundeliegende
+Verhaltensweisen, von denen vielleicht das Wesen selbst nichts weiß.
+Einige höhere Zauberwürfe erlauben dem Zauberwirker, sein Ziel zu wechseln. Durch den Wechsel auf
+ein neues Ziel darf dieses einen neuen Willenskraftwurf machen und die bisher erreichte Konzentrationsrunde
+wird zurückgesetzt. Beispiel: Falls der Zauberwirker sich drei Runden auf ein Ziel konzentriert hat,
+dann auf ein zweites Ziel wechselt und wieder auf das erste Ziel zurückspringt, würde er sich wieder in
+der ersten Konzentrationsrunde befinden.</Beschreibung>
     <Name>Gedanken lesen</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -772,11 +863,15 @@
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Entfällt</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Mit diesem Zauber kann der Zauberwirker einen Gegenstand aufspüren. Bei schwächeren Zauberwürfen
+ist eine physische Spur des gesuchten Gegenstands erforderlich und er kann nur auf der gleichen Existenzebene
+gefunden werden. Bei mächtigeren Zauberwürfen kann der Zauberwirker auch Gegenstände aufspüren,
+die er nie zu Gesicht bekommen hat, auch wenn diese sich auf einer anderen Ebene oder in einer
+anderen Zeit befinden.</Beschreibung>
     <Name>Gegenstand aufspüren</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -785,12 +880,24 @@
     <Seite>172</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Ein lautstarkes Klopfgeräusch.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein lautes, zertrümmerndes Geräusch.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Ein leises Klicken eines Schlosses, das aufspringt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Lichtblitz.</Beschreibung>
+      </Manifestation>          
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker öffnet ein verschlossenes Portal oder einen verschlossenen Gegenstand.</Beschreibung>
     <Name>Klopfen</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -799,12 +906,12 @@
     <Seite>174</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf></Wurf>
+        <Beschreibung>Entscheidung des Zauberwirkers.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Dieser Zauber erschafft einen magischen Mund, der spricht, wenn bestimmte Auslöser aktiviert werden.</Beschreibung>
     <Name>Magischer Mund</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -813,12 +920,28 @@
     <Seite>176</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Ein Ei taucht schimmernd auf, dann schlüpft daraus das beschworene Monster.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein Aufblitzen dunkler Wolken und das Monster erscheint.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Das Skelett des Monsters taucht als erstes auf, dann bilden sich Organe, danach ziehen Muskeln alles zusammen, eine Haut wächst darüber und das Monster erscheint.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Das vollständige Monster bricht aus dem Erdboden hervor.</Beschreibung>
+      </Manifestation>    
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker muss die Hälfte des Zeitaufwands damit zubringen, einen Beschwörungskreis zu zeichnen
+– den Rest der Zeit ruft er die Geister von Monstern an. Am Ende der Phase beschwört der Zauberwirker
+dann ein Monster herbei. Er muss mit dem Monster vertraut sein und es muss von dieser Existenzebene
+stammen. Der Zauberwirker muss eine Materialprobe des Monsters besitzen, die während des Wirkens
+verbraucht wird (z. B. Haar, Fell, Pfote, Zahn, Schädel usw.).</Beschreibung>
     <Name>Monster beschwören</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -828,11 +951,13 @@
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Die Haut des Zauberwirkers wird von einer Lage langer, spitzer Stacheln bedeckt, ähnlich denen eines Stachelschweins.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Dieser Zauber umhüllt den Zauberwirker mit einer Lage gesträubter, spitzer Stacheln. Diese Stacheln dienen
+als Rüstung, erhöhen seinen waffenlosen Nahkampfschaden und können bei mächtigeren Zauberwürfen
+auch als Fernkampfwaffe benutzt werden.</Beschreibung>
     <Name>Nythuuls Stachelschweinmantel</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -841,12 +966,26 @@
     <Seite>179</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Das Gesicht des Zauberwirkers verwandelt sich in eine grauenhafte Fratze.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Der schlimmste Albtraum des Ziels manifestiert sich für einen kurzen Moment vor dessen Augen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Es geschieht nichts Sichtbares, aber das Ziel wird von irrationaler Angst gepackt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Das Bildnis eines schrecklichen Monsters manifestiert sich für einen Moment und verschwindet dann.</Beschreibung>
+      </Manifestation>  
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Dieser Zauber lässt das Ziel abgrundtiefe Angst erleben, sodass es möglicherweise davonläuft oder sich
+auf den Boden kauert. Der Zauber wirkt nicht auf Konstrukte, Golems, geistlose Untote (etwa Zombies
+und Skelette) und andere Wesen, die keine Furcht empfinden.</Beschreibung>
     <Name>Schrecken</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -855,12 +994,27 @@
     <Seite>181</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Das Ziel schwebt in der Luft.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Eine bläuliche Kraftscheibe erscheint unter dem Ziel, um es in die Luft zu heben.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Ein Vogel mit großen Schwingen kommt von oben herab, um das Ziel hochzuheben.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Eine Säule aus geisterhaftem Nebel drückt das Wesen in die Luft.</Beschreibung>
+      </Manifestation>  
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>
+      Der Zauberwirker oder ein ausgewähltes Ziel können in der Luft schweben. Dieser Zauber erweist sich beim
+      Überwinden von Mauern, Durchsteigen von Schluchten oder dem Tragen schwerer Lasten als nützlich.
+    </Beschreibung>
     <Name>Schweben</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -869,12 +1023,33 @@
     <Seite>180</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Schwarzer Strahl.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Brennender Strahl.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Flimmernde Luft.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Dampfstrahl.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>5</Wurf>
+        <Beschreibung>Wabernder Nebelstrahl.</Beschreibung>
+      </Manifestation>      
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Dieser nekromantische Zauber erfordert mindestens 1 Zauberbrand. Der Zauberwirker erzeugt einen gefährlichen
+Strahl, der dem Ziel Stärke entzieht und somit dessen körperliche Kraft zerstört. Reduziert man
+ein Wesen auf Stärke 0, so verwandelt es sich in eine gallertartige Masse, die nicht mehr in der Lage ist,
+ihr eigenes Gewicht zu stemmen oder sich vor Angriffen zu schützen. Verfügt das Ziel über keine Stärkeangabe,
+so wird bei normalen Menschen und menschengroßen Wesen von 10 ausgegangen. Verlorene
+Attributspunkte heilen auf übliche Weise.</Beschreibung>
     <Name>Schwächestrahl</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -883,12 +1058,33 @@
     <Seite>183</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Ein Bogenstrahl aus Feuer. Die Farbe des Feuers variiert: Rot, Gelb,
+Blau oder Grün.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Laserstrahl. Die Farbe des Feuers variiert: Rot, Gelb,
+Blau oder Grün.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Lodernde Kugel. Die Farbe des Feuers variiert: Rot, Gelb,
+Blau oder Grün.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Zischendes Flammenmeer. Die Farbe des Feuers variiert: Rot, Gelb,
+Blau oder Grün.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>5</Wurf>
+        <Beschreibung>Brennende Hände, gefolgt von einem Funkenschauer. Die Farbe des Feuers variiert: Rot, Gelb,
+Blau oder Grün.</Beschreibung>
+      </Manifestation>          
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker beschwört die Flammen der Hölle herauf, um seine Feinde zu verbrennen.</Beschreibung>
     <Name>Sengender Strahl</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -897,12 +1093,16 @@
     <Seite>184</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf></Wurf>
+        <Beschreibung>Siehe unten</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Dieser Zauber erzeugt illusionäre Ebenbilder des Zauberwirkers, die seine Aktionen exakt nachahmen. Sie
+tauchen direkt neben ihm auf und lenken Gegner ab, sodass sie anstelle des Zauberwirkers seine Ebenbilder
+angreifen. Mächtigere Zauberwürfe können auch Ebenbilder von Verbündeten oder Gegenständen
+erschaffen. Die maximale Anzahl an Ebenbildern, die der Zauberwirker von sich, Verbündeten oder
+Gegenständen erzeugen kann, ist durch seinen Wert in IN begrenzt.</Beschreibung>
     <Name>Spiegelbild</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -911,12 +1111,22 @@
     <Seite>186</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf></Wurf>
+        <Beschreibung>Ein Spinnennetz in einer vom Zauberwirker bestimmten Form (lang und faserig, ein verklumpter Haufen,
+elegant, zerrissen usw.).</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker erschafft ein klebriges Spinnennetz, mit dem er Feinde fesseln kann. Sofern sich noch
+keine Dinge im Netz verfangen haben, ist es sehr schwer zu entdecken – quasi unsichtbar, es sei denn,
+jemand sucht danach. Ein Wesen, das das Netz berührt, wird festgehalten und kann sich nur über einen
+Stärke- oder Geschicklichkeitswurf (SG 20) befreien. Das Netz kann verbrannt (wodurch gefangene Wesen
+eventuell verwundet werden) oder mit einer sehr scharfen Klinge durchtrennt werden, sofern das
+schwertführende Wesen nicht schon im Netz verstrickt ist (RK 16, TP 5 pro zu befreiendem Wesen). Eine
+schartige Klinge oder ein stumpfer Gegenstand werden ebenfalls im Netz verstrickt; doch auch für eine
+außergewöhnlich scharfe Klinge besteht eine Wahrscheinlichkeit von 25 %, im Netz verstrickt zu werden.
+Nahkampfangriffe mit dem Ziel, im Netz festgehaltene Wesen zu befreien, laufen Gefahr, den Angreifer
+ebenfalls zu verstricken (Wahrscheinlichkeit: 10 % pro Angriff).</Beschreibung>
     <Name>Spinnennetz</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -925,12 +1135,24 @@
     <Seite>188</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Muskeln wachsen sichtbar an, lassen ggf. Kleidung platzen.</Beschreibung>
+      </Manifestation>
+    <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Muskeln glühen in einem teuflischen Licht.</Beschreibung>
+      </Manifestation>
+    <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Eine intensive Aura umgibt das Ziel.</Beschreibung>
+      </Manifestation>
+    <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Keine Veränderung.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Mit einer arkanen Formel verleiht der Zauberwirker einem willigen Ziel körperliche Stärke.</Beschreibung>
     <Name>Stärke</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -939,12 +1161,14 @@
     <Seite>190</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf></Wurf>
+        <Beschreibung>Siehe unten.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Mit diesem Zauber erschafft der Zauberwirker eine einfache Illusion. Dieses Trugbild ist rein visuell, es
+hat keine hörbaren, greifbaren oder riechbaren Bestandteile. Indem er sich konzentriert, kann der Zauberwirker
+die Illusion verändern.</Beschreibung>
     <Name>Trugbild</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -953,12 +1177,13 @@
     <Seite>192</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf></Wurf>
+        <Beschreibung>Nichts zu sehen. Unsichtbarkeit!</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker ruft ein unsichtbares Wesen herbei, das seinen Befehlen gehorcht. Dieser unsichtbare
+Gefährte steht unter der Kontrolle des Zauberwirkers und kann verschiedene Aufgaben erfüllen.</Beschreibung>
     <Name>Unsichtbarer Gefährte</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -967,12 +1192,23 @@
     <Seite>194</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Die Pupillen des Zauberwirkers verschwinden und es bleiben weiße Augäpfel zurück.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Die Augen des Zauberwirkers werden schwarz.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Der Zauberwirker ist in einen trüben Dunst gehüllt.</Beschreibung>
+      </Manifestation>      
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker weckt sein inneres Auge, um die wahre Natur der Dinge zu erkennen. Auf diese Weise
+ist er in der Lage, unsichtbare Wesen und Gegenstände zu sehen. Falls das Zielwesen oder der Zielgegenstand
+von einem Unsichtbarkeitsschild umgeben ist (gemäß dem Zauber Unsichtbarkeit), gilt das Zauberwurfergebnis
+des Zauberwirkers als SG für den Willenskraftwurf des Ziels.</Beschreibung>
     <Name>Unsichtbares entdecken</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -981,12 +1217,13 @@
     <Seite>195</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf></Wurf>
+        <Beschreibung>Das Ziel wird unsichtbar.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker macht sich selbst unsichtbar. Dieser Zauber kann auch Verbündeten Unsichtbarkeit verleihen
+und einen Unsichtbarkeitschild, der eine Entdeckung durch andere Zauber verhindert.</Beschreibung>
     <Name>Unsichtbarkeit</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -995,12 +1232,20 @@
     <Seite>196</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Gräulich angelaufene Fingerspitzen.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>In Flammen stehende Fingerspitzen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Ein Kegel aus Nebel.</Beschreibung>
+      </Manifestation>    
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker lässt ein Wesen etwas vergessen.</Beschreibung>
     <Name>Vergessen</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -1010,11 +1255,27 @@
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Ein Stecken aus Holz, Metall, Knochen oder einem anderen Material, der vom Zauberwirker anzufertigen ist.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>
+      Mit diesem Zauber erschafft sich der Zauberkundige einen Stecken und durchwirkt ihn mit den magischen
+      Energien seiner Seele. Ein Zauberkundiger kann nur einen Stecken gleichzeitig erschaffen und er
+      erleidet große Qualen, wenn dieser zerstört wird. Die Materialkosten betragen 1000 GM pro Zauberstufe,
+      erfordern zusätzlich ungewöhnliche Materialien (z. B. genügend Adamant für einen Adamantstecken) und
+      benötigen minimal 2 Punkte Zauberbrand pro ZS, um den Stab richtig an sich zu binden. Ein Punkt dieses
+      Zauberbrands wird nie wieder heilen – das Attribut wird entsprechend dauerhaft verringert. Außerdem
+      muss der Zauberwirker über die benötigten Zauber verfügen, die auf dem Stecken platziert werden sollen,
+      und diese ohne Rast während des Zeitaufwands nutzen können. Der Zeitaufwand erfordert ein fortgesetztes
+      Wirken mit nur kurzen Unterbrechungen, die ruhelosen Schlaf bringen und in denen der Zauber wirker
+      weder Zauberbrand noch andere Wunden heilen kann. Die Wirksamkeit des Steckens ist auf höheren
+      Zauberstufen ungleich größer, wodurch dann Zeit- und Materialkosten steigen, wenn der Zauberkundige
+      mächtiger wird. In den unten angeführten Beschreibungen bezieht sich „ursprüngliche Zauberstufe“ auf
+      die Stufe, die der Zauberkundige zum Zeitpunkt der Erschaffung des Steckens besaß. Wenn er nach Erschaffung
+      des Steckens auf eine höhere Stufe aufsteigt, erhöhen sich Fähigkeiten in Zusammenhang mit
+      der ursprünglichen Zauberstufe nicht.
+    </Beschreibung>
     <Name>Zauberstecken</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -1023,12 +1284,27 @@
     <Seite>202</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Der Gegenstand zerbricht einfach.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Er platzt wie bei einer Explosion.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Lichtblitz.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Ein Blitz aus dem Himmel trifft den Gegenstand.</Beschreibung>
+      </Manifestation>  
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker lässt einen physischen Gegenstand zerbersten. Dieser Zauber richtet bei unbelebten
+Gegenständen Schaden an und ist gegenüber Objekten aus Kristall oder Glas besonders effektiv. Er kann
+den Gegenstand nicht nur unmittelbar beschädigen, sondern auch anhaltende Risse erzeugen, durch die
+er zukünftig leichter beschädigt werden kann.</Beschreibung>
     <Name>Zerbersten</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -1051,12 +1327,27 @@
     <Seite>205</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Der Körper des Zauberwirkers fällt in sich zusammen wie eine leere Hülle, die nur schlaffe
+Haut zurücklässt.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Die Züge des Ziels verziehen sich und scheinen zu blubbern, bevor sie sich wieder normalisieren.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Ektoplasma schießt aus dem Mund des Zauberwirkers hervor und bahnt sich seinen Weg in
+den Kopf des Ziels.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Geisterhafte Doppelgänger vom Zauberwirker und Ziel scheinen in der Luft zwischen
+beiden und ringen für kurze Zeit miteinander, bevor sich beide in den Körper des Ziels zurückziehen.</Beschreibung>
+      </Manifestation>          
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker ergreift Besitz von einem anderen Körper, entweder vorübergehend oder dauerhaft.</Beschreibung>
     <Name>Besitz ergreifen</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1065,12 +1356,44 @@
     <Seite>276</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Glitzernder Staub erscheint in einer Wolke, die das Ziel umgibt.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein funkelndes, magisches Seil bindet das Ziel</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Eine göttliche Leine fällt herunter und befestigt sich am Ziel.</Beschreibung>
+      </Manifestation>      
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>
+      Mit diesem Zauber bindet der Kleriker ein übernatürliches Wesen und zwingt es dazu, seinem Willen zu
+      gehorchen. Der Zauber gelingt am einfachsten, wenn das Wesen bereits durch einem anderen Zauber beherrscht
+      wird. Der Kleriker kann diesen Zauber auch sprechen, um Wesen zu kontrollieren, die auf ihrer
+      Heimatebene angetroffen werden.
+      Der Kleriker kann ebenfalls ein Wesen binden, das bereits unter der Kontrolle eines anderen Zauberwirkers
+      steht und durch einen anderen Zauber beschworen wurde (z. B. Tiere beschwören, Monster beschwören oder
+      Unsichtbarer Gefährte). Dies funktioniert auch bei Wesen, die auf nichtmateriellen Ebenen beheimatet sind
+      (z. B. Dämonen, Teufel, Elementare, Geister etc.). Der Kleriker bindet das Wesen, um seinem Willen, anstelle
+      des seines bisherigen Herrn, zu gehorchen. Um dem Zauber zu widerstehen, ist ein Willenskraftwurf
+      erlaubt, allerdings wird der Rettungswurf von dem anderen Zauberkundigen durchgeführt und nicht von
+      dem bereits beherrschten Zielwesen. Ist der Rettungswurf erfolgreich, wird die Kontrolle des gebundenen
+      Wesens auf den Kleriker übertragen, der Bindender Ruf gezaubert hat. Der Kleriker behält den Einfluss auf
+      das Wesen für eine gewisse Zeit, nach derer die Kontrolle wieder zu dem ursprünglichen Zauberwirker
+      zurückkehrt (sofern der ursprüngliche Beschwörungs- oder Kontrollzauber nicht inzwischen beendet ist).
+      Dieser Zauber betrifft keine Vertrauten oder andere Wesen, die freiwillig einem Zauberwirker dienen,
+      sondern nur jenen, die zwangsweise unter seiner Kontrolle stehen.
+      Unter bestimmten Voraussetzungen, die weiter unten beschrieben werden, kann der Kleriker auch andere
+      Ziele beeinflussen.
+      Ein Wesen, das sich unter der Kontrolle des Klerikers befindet, kann angewiesen werden eine Handlung
+      durchzuführen, welche, genau wie bei dem Zauber Tiere beschwören, in ihrem gewöhnlichen Leistungsvermögen
+      liegt. Das Wesen muss die Befehle des Klerikers hören können und wird ihr Bestes geben, diese
+      auszuführen. Selbstmörderische oder grundsätzlich widersprüchliche Befehle gewähren dem Ziel einen
+      weiteren Willenskraftwurf gegen die Kontrolle des Klerikers.
+    </Beschreibung>
     <Name>Bindender Ruf*</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1080,11 +1403,15 @@
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Siehe unten</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>
+      Mit diesem Zauber ruft der Zauberwirker eine mächtige Entladung elektrischer Energie herbei, die ausreicht,
+      um den meisten Wesen einen tödlichen Stromschlag zu versetzen, hölzerne Gegenstände zu zersplittern,
+      Stein zerplatzen zu lassen und Metall zum Schmelzen zu bringen.
+    </Beschreibung>
     <Name>Blitzstrahl</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1093,12 +1420,41 @@
     <Seite>207</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Ein Ei manifestiert sich mit einem Schimmern, aus dem dann der beschworene Dämon schlüpft.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein Aufblitzen dunkler Wolken und der Dämon erscheint.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Das Skelett des Dämons erscheint als erstes,
+dann bilden sich Organe, die danach von Muskeln zusammengehalten werden, während anschließend die Haut
+darüber wächst, bis die Gestalt des Dämons vollständig ist.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>In voller Gestalt bricht der Dämon aus dem Boden hervor.</Beschreibung>
+      </Manifestation>      
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>
+      Dieser Zauber beschwört einen Dämon, der dem Zauberwirker gefügig ist. Dämonen sind intelligent, launenhaft,
+      ehrgeizig und gefühlsgesteuert – und sie resgieren nicht immer wohlwollend auf ihre Beschwörung.
+      Der Zauber erfordert ein finsteres Ritual und wenigstens 1 Punkt Zauberbrand. Die Auswirkungen
+      dieses Zaubers variieren je nach Ausführung des Rituals. Der Zauberwirker kann an seinen Patron appellieren,
+      sofern er einen hat; er kann einen spezifischen Dämon beschwören, falls er dessen wahren Namen
+      kennt; oder er kann einfach versuchen, irgendeinen Dämon herbeizurufen. Abhängig vom angestrebten
+      Ergebnis wird die entsprechende, folgend angeführte Spalte verwendet.
+      Der beschworene Dämon steht nicht notwendigerweise unter der Kontrolle des Zauberwirkers. Sofern
+      unten nichts anderes angegeben ist, erhält der Dämon immer einen Willenskraftwurf gegen den Zauberwurf,
+      um sich der Kontrolle zu widersetzen. Gelingt dem Dämon dieser Rettungswurf, schlägt er um sich,
+      wenn er beschworen wird. Es besteht eine Grundwahrscheinlichkeit von 50 %, dass er den Zauberwirker
+      attackiert; diese wird um 20 % gesenkt, falls der Zauberwirker den Dämon im Dienst für seinen Patron
+      beschwört und um weitere 20 %, falls der Zauberwirker den wahren Namen des Dämons kennt. Falls der
+      Dämon den Zauberwirker nicht angreift, attackiert er ein anderes Wesen in der Nähe.
+    </Beschreibung>
     <Name>Dämonen beschwören</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1107,12 +1463,30 @@
     <Seite>209</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Die Ziele verschwinden einfach und tauchen am Zielort wieder auf.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Die Ziele verschwinden in einer stinkenden Schwefelwolke und tauchen in einer ähnlichen Explosion am Zielort wieder auf.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Die Ziele verblassen langsam, werden zu Nebel, der sich dann auflöst, ehe sie auf ähnliche Weise am Zielort wieder auftauchen.</Beschreibung>
+      </Manifestation>      
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Mit diesem Zauber betritt der Zauberwirker einen anderen Ort im Universum. Bei niedrigen Zauberwürfen
+erlaubt dieser Zauber dem Zauberwirker das Teleportieren an einen anderen Ort auf derselben Ebene.
+Bei höheren Zauberwürfen kann der Zauberwirker mittels dieses Zaubers mit einem einzigen Schritt auf
+andere Ebenen oder sogar Dimensionen wechseln. Der Zauber befördert den Zauberwirker, dessen Ausrüstung
+und gegebenenfalls auch andere Wesen.
+Je höher das Zauberwurfergebnis, desto weiter reist der Zauberwirker und erreicht auch umso präziser
+sein Ziel. Der Erfolg dieses Zaubers ist zu großen Teilen davon abhängig, wie vertraut der Zauberwirker
+mit der Örtlichkeit ist, zu der er reisen möchte. Jedes Zauberwurfergebnis gibt die Grundwahrscheinlichkeit
+in Abhängigkeit davon an, wohin der Zauberwirker gelangen will und wie vertraut er mit dem Ort
+ist. Dieser Prozentwurf wird ausgeführt, wenn der Zauberwirker sich für ein Ziel entschieden hat. Schlägt
+dieser Wurf fehl, erleidet der Zauberwirker automatisch einen Zauberpatzer.</Beschreibung>
     <Name>Ebenenwechsel</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1122,11 +1496,17 @@
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>
+          Eine Bank aus purpur-schwarzem Nebel, der von Blitzen durchzuckt wird und in dessen Inneren die heulenden
+          Schreie der Verdammten zu hören sind.
+        </Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Dieser Zauber erzeugt einen entropischen Sturm, der eine Fläche von 12 x 12 m bedeckt. Wer in dem Mahlstrom
+gefangen ist, wird von elementaren Kräften des Chaos angegriffen, die Alterung, Zerfall oder Umwandlung
+hervorrufen. Alle Wesen rechtschaffener Gesinnung erhalten -1 auf Rettungswürfe, um dem
+Zauber zu widerstehen. Chaotische Wesen erhalten auf diese Rettungswürfe +1.</Beschreibung>
     <Name>Emirikols entropischer Mahlstrom</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1136,11 +1516,25 @@
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Siehe unten.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Durch die Einnahme eines mystischen Trunks vor dem Schlafengehen, kann der Zauberwirker im Traum
+zu den mächtigen Kriegern vergangener und zukünftiger Zeitalter sprechen. Einer dieser Krieger wird
+herbeigerufen, um für die Sache des Zauberwirkers zu streiten. Wenn der Zauberwirker erwacht, tritt der
+Krieger aus dem Sonnenaufgang des anbrechenden Tages hervor und verschwindet bei Sonnenuntergang
+mit all seinen Besitztümern. Der Krieger glaubt zu träumen, verhält sich aber ansonsten so, wie er sich
+auch unter normalen Umständen verhalten würde.
+Der durch diesen Zauber herbeigerufene Krieger ist geneigt, je nach Gesinnung und persönlichen Ansichten,
+für die Sache des Zauberwirkers zu streiten – und das wird er auch tun, solange er nicht beleidigt oder
+anderweitig davon abgebracht wird. Wird er erschlagen, lösen sich sein Körper und seine Besitztümer in
+Nebel auf. Es besteht eine Wahrscheinlichkeit von 10 %, dass der Krieger im Besitz uralten Wissens ist,
+welches dem Zauberwirker unmittelbar von praktischem Nutzen ist – falls er die richtigen Fragen stellt.
+Der Zauberwirker kann nur über einen Ewigen Helden zur gleichen Zeit verfügen. Wirkt er diesen Zauber,
+während noch ein Ewiger Held aus einem zuvor gewirkten Zauber existiert, wird der zweite Zauber automatisch
+fehlschlagen.
+Die Spielwerte des herbeigerufenen Kriegers sind in den unten beschriebenen Zauberergebnissen aufgeführt.</Beschreibung>
     <Name>Ewiger Held</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1149,12 +1543,31 @@
     <Seite>214</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Eine Flammenkugel, die sich in ihr Ziel katapultiert und dort feurig berstend explodiert.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein Strahl aus flüssigem Feuer, der sein Ziel mit einem Flammenregen übergießt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Eine Singularität, die an einem Punkt im Raum erscheint und dann mit blühendem Feuer explodiert.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Eine Ansammlung drehender, wirbelnder Feuersamen, die in Richtung Zielpunkt springen, wo sie in Flammen aufgehen.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>
+      Der Zauberwirker deutet mit dem Finger auf ein Ziel, spricht ein magisches Wort und schleudert einen Flammenstrahl,
+      der am Zielpunkt explodiert. Ein Feuerball hat einen Wirkungsbereich von 6 m Radius und trifft alle
+      Wesen am Zielort. Alle Wesen nehmen Schaden, falls ihnen kein erfolgreicher Reflexwurf gegen das Zauberwurfergebnis
+      gelingt. Andernfalls nehmen sie halben Schaden. Der Feuerball ist eine blitzartige Explosion die
+      für gewöhnlich keine Menschen in Brand steckt. Doch es besteht eine Wahrscheinlichkeit von 50 %, dass leicht
+      entflammbare Gegenstände (wie trockenes Tuch oder Papier) im Explosionsbereich in Flammen aufgehen.
+    </Beschreibung>
     <Name>Feuerball</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1163,12 +1576,26 @@
     <Seite>215</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Der Kopf des Zauberwirkers ähnelt dem einer Medusa (grauenhaftes Antlitz, Schlangen als Haar etc.).</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Die Augen des Zauberwirkers werden zu Kugeln aus poliertem Marmor.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Steinerne Ranken treten aus dem Boden hervor, um das Ziel zu umschlingen und sich in sein Fleisch zu graben.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Das Ziel schwitzt Quartz-Tropfen aus, die sich miteinander verbinden und eine umschließende Hülle formen.</Beschreibung>
+      </Manifestation>  
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker verwandelt andere Lebewesen zu Stein. Eine umgekehrte Version dieses Zaubers, Stein zu Fleisch,
+kann auch erlernt werden, um die Auswirkungen aufzuheben. Hinweis: Wird dieser Zauber erfolgreich gegen eine
+Wasserkreatur gewirkt (wie etwa ein Wasserelementar), fügt er ihr automatisch 1W4 Schaden pro ZS zu.</Beschreibung>
     <Name>Fleisch zu Stein</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1177,12 +1604,29 @@
     <Seite>217</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Dem Ziel wachsen Flügel (Engelsschwingen oder Dämonenflügel, abhängig von der Gesinnung).</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Das Ziel wird von Tausenden winzigen Vögeln umgeben, die es in die Luft heben.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Wolken bilden sich zu Füßen des Ziels.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Keine sichtbare Manifestation.</Beschreibung>
+      </Manifestation>    
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker verleiht sich oder einem anderen Wesen Flugfähigkeit. Bewegungsrate und Dauer sind
+vom Zauberwurfergebnis abhängig. Beim Steigflug ist die Bewegungsrate halbiert, beim Sinkflug wird sie
+verdoppelt. Schwer beladene Wesen fliegen mit halber Bewegungsrate. Die Manövrierfähigkeit ist im Allgemeinen
+gut und entspricht etwa der einen großen Vogels (z. B. Adler oder Habicht). Die Wirkungsdauer
+wird immer vom SL im Geheimen gewürfelt und der Empfänger der Flugfähigkeit weiß nicht, wann sein
+Flug endet, bis er zu Boden stürzt.</Beschreibung>
     <Name>Fliegen</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1191,12 +1635,44 @@
     <Seite>219</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Der Zauberwirker erstarrt und scheint während der Dauer nichts zu tun.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Der Zauberwirker fängt an zu flackern, verschwindet und taucht wieder auf, während er Fragen stellt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Der Zauberwirker scheint eine einseitige Unterhaltung zu führen.</Beschreibung>
+      </Manifestation>      
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker befragt einen Geist der äußeren Ebenen, um Antworten einzuholen oder Informationen weiterzugeben.
+Dieser Geist kann die Seele einer verstorbenen Person sein, ein Dämon einer anderen Ebene, ein
+Naturgeist in einem See oder Baum, der eigene, übernatürliche Patron des Zauberwirkers oder sogar ein Gott.
+Besonders effektiv ist dieser Zauber, falls der Zauberwirker einen Geist befragt, den er bereits kennt. Sollte
+der Zauberwirker seinen Patron (etwa über den Zauber Pakt mit einem Patron) oder einen von dessen Dienern
+befragen, erhält er +1 auf seinen Zauberwurf. Falls der Zauberwirker einen anderen, individuellen
+Geist befragt, der ihm durch einen vorherigen Kontakt, eine Legende, logische Schlussfolgerung (z. B. indem
+der Zauberwirker einen toten Körper sieht und dessen Geist zu finden wünscht) oder Nachforschung
+(z. B. indem der Zauberwirker dessen Altar besucht oder von seinen Taten gelesen hat) bekannt ist, gibt es
+keinen Modifikator. Falls der Zauberwirker keinerlei Kenntnisse über den zu befragenden Geist besitzt,
+einfach nur mit einem beliebigen, antwortenden Geist in Kontakt treten möchte oder absichtlich einen
+Geist der entgegengesetzten Gesinnung oder Einstellung kontaktiert, erhält er -1 auf den Zauberwurf.
+Falls der Geist dem Zauberwirker bekannt ist, ermittele mit 1W100 dessen Einstellung: (01 – 20) freundlich,
+(21 – 80) neutral, (81 – 00) feindselig. Ein freundlicher oder neutraler Geist wird nach bestem Wissen wahrheitsgemäß
+antworten und besitzt eine Grundwahrscheinlichkeit von 50 %, die Antwort auf eine gestellte Frage zu
+kennen, sofern diese in sein Wissensgebiet fällt – wobei die Wahrscheinlichkeit nach Ermessen des SL und der
+Schwierigkeit der gestellten Frage modifiziert werden kann. Wird ein feindseliger Geist befragt, würfle 1W100:
+(01 – 50) Er gibt irreführende Antworten; (51 – 80) er weigert sich, zu antworten; (81 – 95) er versucht, in den Verstand
+des Zauberwirkers einzudringen (Willenskraftwurf mit SG 4W6, bei Fehlschlag 1W4 temporärer IN-Schaden);
+(96 – 00) er versucht, diese Verbindung zu nutzen, um auf die materielle Ebene hinüberzuwechseln.
+Hinweis: Auf diese Weise Kontakt herzustellen, versetzt den Geist in die Lage, zukünftig umgekehrt Kontakt
+herzustellen (indem er den gleichen Zauber wirkt – sofern er dies kann – oder ähnliche Fähigkeiten
+besitzt). Außerdem sind nicht alle Geister erfreut darüber, von einem neugierigen Sterblichen gestört zu
+werden. Beispielsweise könnte ein Geist eines vor kurzem erschlagenen Wesens ziemlich zornig über seinen
+Tod sein. So eine Erweckung hätte sicherlich Konsequenzen.</Beschreibung>
     <Name>Geister befragen</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1205,12 +1681,51 @@
     <Seite>221</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Eine unsichtbare Präsenz, die Hunde und Pferde nervös macht.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein schattenhaftes Ding, das man nie richtig erkennen kann.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Ein dampfender Nebel, der eine dumpfe Nässe mit sich bringt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Eine flirrende Hitzewelle, die von Ort zu Ort springt.</Beschreibung>
+      </Manifestation>      
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker ruft einen Hund aus dem Jenseits herbei, der für ihn auf die Jagd geht. Dieser gespenstische
+Jäger ist eine abstoßendes, dämonisches Wesen, das nichts Gutes im Schilde führt. Der Zauber erfordert mindestens
+1 Zauberbrand, der nicht eher heilt, als bis der gespenstische Hund dorthin zurückgekehrt ist, woher er
+kam. Auf der materiellen Ebene hat er keine feste Form, sondern erscheint zumeist als ein Schatten aus dampfendem
+Nebel. Der Zauberwirker muss den Hund in einfachen und direkten Worten wissen lassen, welchen
+Gegenstand oder welche Person er sucht – denn Mehrdeutigkeiten könnten dazu führen, dass ein falsches Ziel
+aufgespürt wird. Eine Materialprobe, wie etwa Kleidung, Haar oder eine Phiole Blut, ist am besten. Bilder,
+Beschreibungen, Namen (auch wahre Namen) sind weniger nützlich. Der Hund hat einen außerordentlichen
+Geruchssinn, er verfügt über rudimentäre übersinnliche Wahrnehmung (ASW) und das Zweite Gesicht. Vorausgesetzt,
+er hat ausreichend fundierte Hinweise und eine Spur, der er folgen kann, ist er bei der Jagd auf sein
+Ziel für gewöhnlich äußerst erfolgreich. Er wird die angegebene Person oder das Objekt aufspüren und – tot
+oder lebendig – dorthin zurückbringen, wo er ursprünglich gerufen wurde. Ihm sind „tot“ oder „lebendig“
+egal, er wählt in der Regel die für ihn zweckdienlichste Methode. Befindet sich das Zielobjekt auf einem fernen
+Kontinent oder in einem gefährlichen Labyrinth, steht dem Hund natürlich eine lange und potenziell erfolglose
+Reise bevor. Möchte der Zauberwirker dem Hund Bedingungen aufzwingen – etwa, das Zielobjekt lebend zurückzubringen
+oder nur zu einer bestimmten Zeit oder nach einem bestimmten Ereignis – provoziert er damit
+ein mögliches Scheitern. Dies ist in den Zauberergebnissen unten angegeben.
+Sofern nicht anders angegeben, fliegt der Hund mit einer Bewegungsrate von 30 m, hat Attributswerte von
+14 und kann die gleichen Aktionen machen wie ein normaler Mensch. Er hört zu, aber spricht nie. Er hat
+RK 18, 4W12 Trefferpunkte, einen Angriffsbonus von +8 (2W6 Schaden) und die gleichen Rettungswürfe
+wie der Zauberwirker. Er lässt sich nicht leichtfertig auf Kämpfe ein – auch nicht, um den Zauberwirker zu
+verteidigen – sondern kämpft nur, um an das gewünschte Objekt oder die Person zu kommen. Und dann
+auch nur, wenn ein Kampf absolut unvermeidbar ist. Er ist geduldig und wartet lieber ab, als anzugreifen.
+Wurde er mit ausreichend Informationen versorgt, besteht eine Grundwahrscheinlichkeit, dass der Hund
+beim Aufspüren seines Zieles erfolgreich ist (wie in den Zauberergebnissen angegeben), wenngleich er
+dabei nicht zwischen den Ebenen wechseln kann (sofern nicht anders angegeben) und ein Erfolg beim
+Aufspüren des Zieles nicht gleichbedeutend damit ist, dass er es in der angewiesenen Zeit zurückbringen
+kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforderlich.</Beschreibung>
     <Name>Gespenstischer Hund</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1219,12 +1734,36 @@
     <Seite>223</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Das Ziel erscheint verschwommen.</Beschreibung>
       </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Das Ziel ist von einer unscharfen Aura umgeben, ähnlich einem Hitzeflimmern.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Keine Manifestation, wenn das Ziel stillsteht, aber seine Bewegungen sind blitzschnell.</Beschreibung>
+      </Manifestation>        
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>
+      Der Zauberwirker erlangt eine höhere Bewegungsschnelligkeit. Seine Aktionen werden in ihrer Geschwindigkeit
+      so sehr erhöht, dass er sich mit der doppelten Bewegungsrate eines normalen Menschen bewegt
+      – oder noch schneller! Auf höheren Stufen wirkt dieser Zauber auch auf einige Wesen im Umkreis von 6 m
+      um den Zauberwirker. Allerdings altern von diesem Zauber betroffene Wesen mit abnormaler Schnelligkeit,
+      während sie unter seinem Einfluss stehen. Zusätzliche Aktionen werden wie folgt gewonnen:
+      Bewegung: Unter Hast stehende Wesen verdoppeln ihre Bewegungsrate. In manchen Fällen kann sie sogar
+      verdreifacht werden, wie unten angegeben.
+      Aktionswürfel: Unter Hast stehende Wesen erhalten zusätzliche Aktionswürfel. Abhängig von ihrer Charakterklasse,
+      können diese für Angriffe, das Wirken von Zaubern, das Vertreiben von Untoten, Handauflegen
+      oder Fertigkeitswürfe eingesetzt werden. Verfügt der Charakter momentan nur über einen Aktionswürfel,
+      ist der zusätzliche Aktionswürfel vom gleichen Typ (normalerweise 1W20). Verfügt der Charakter
+      über mehrere Aktionswürfel (aufgrund einer hohen Klassenstufe oder anderer Faktoren), ist der zusätzliche
+      Aktionswürfel gleich dem niedrigsten Aktionswürfel, den er schon besitzt. Beispiel: ein Charakter hat
+      die Aktionswürfel 1W20 + 1W14, daher erhält er zusätzlich 1W14 als dritten Aktionswürfel.
+      Dieser Zauber kann auch gewirkt werden, um den Zauber Verlangsamen zu negieren.
+    </Beschreibung>
     <Name>Hast</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1235,7 +1774,7 @@
       <Manifestation>
         <Wurf />
         <Beschreibung />
-      </Manifestation>
+      </Manifestation>  
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
     <Beschreibung />
