@@ -8,25 +8,11 @@ namespace DccCharCreator.core.Zauberbuch
 {
     public class ZauberFactory
     {
-        private readonly IW100 w100;
-        private readonly I4W20 _4W20;
-        private readonly IW3 w3;
-        private readonly IW4 w4;
-        private readonly IW6 w6;
-        private readonly IW8 w8;
-        private readonly IW10 w10;
-        private readonly IW11 w11;
+        private readonly IWürfelFactory würfelFactory;
 
-        public ZauberFactory(IW100 w100, I4W20 _4w20, IW4 w4, IW6 w6, IW8 w8, IW10 w10, IW3 w3, IW11 w11)
+        public ZauberFactory(IWürfelFactory würfelFactory)
         {
-            this.w100 = w100;
-            this._4W20 = _4w20;
-            this.w4 = w4;
-            this.w6 = w6;
-            this.w8 = w8;
-            this.w10 = w10;
-            this.w3 = w3;
-            this.w11 = w11;
+            this.würfelFactory = würfelFactory;
         }
 
         public IList<Zauber> ZauberkundigenZauberErstellen(int stufe, int glueckMod, int intelligenz, Random random)
@@ -256,7 +242,7 @@ namespace DccCharCreator.core.Zauberbuch
 
         private IList<LauneDerMagie> CreateLaunenDerMagie(int glueckMod)
         {
-            var wurf = w100.Würfeln() + glueckMod * 10;
+            var wurf = würfelFactory.W100.Würfeln() + glueckMod * 10;
             wurf = Math.Clamp(wurf, 1, 100);
             var launen = new List<LauneDerMagie>(3)
             {
@@ -277,7 +263,7 @@ namespace DccCharCreator.core.Zauberbuch
 
         private IList<LauneDerMagie> CreateLaunenDerMagie100(int glueck)
         {
-            var wurf = _4W20.Würfeln() + glueck * 10;
+            var wurf = würfelFactory._4W20.Würfeln() + glueck * 10;
             wurf = Math.Clamp(wurf, 1, 100);
             var launen = new List<LauneDerMagie>(3)
             {
@@ -303,12 +289,13 @@ namespace DccCharCreator.core.Zauberbuch
             var index = manifestationen.Count switch
             {
                 1 => 1,
-                3 => w3.Würfeln(),
-                4 => w4.Würfeln(),
-                6 => w6.Würfeln(),
-                8 => w8.Würfeln(),
-                10 => w10.Würfeln(),
-                11 => w11.Würfeln(),
+                3 => würfelFactory.W3.Würfeln(),
+                4 => würfelFactory.W4.Würfeln(),
+                5 => würfelFactory.W5.Würfeln(),
+                6 => würfelFactory.W6.Würfeln(),
+                8 => würfelFactory.W8.Würfeln(),
+                10 => würfelFactory.W10.Würfeln(),
+                11 => würfelFactory.W11.Würfeln(),
                 _ => throw new Exception(manifestationen.Count.ToString(CultureInfo.InvariantCulture))
             };
             return manifestationen[index - 1];

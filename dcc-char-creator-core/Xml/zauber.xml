@@ -46,14 +46,11 @@
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung>Abhängig vom Zauberwurf (siehe unten). Entweder gibt es keine visuelle Manifestation oder würfle 1W4:
-          (1) „Hitzeflimmern“ am Ort des Klangs; (2) Luftbewegungen oder kleine Staubverwirbelungen, als würde
-          jemand an der Position sprechen; (3) glitzernde Luft; (4) Echo oder Widerhall.</Beschreibung>
+        <Beschreibung>Abhängig vom Zauberwurf (siehe unten). Entweder gibt es keine visuelle Manifestation oder würfle 1W4: (1) „Hitzeflimmern“ am Ort des Klangs; (2) Luftbewegungen oder kleine Staubverwirbelungen, als würde jemand an der Position sprechen; (3) glitzernde Luft; (4) Echo oder Widerhall.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Der Zauberwirker projiziert den Klang seiner Stimme an einen anderen Ort, etwa in ein angrenzendes
-      Zimmer, in ein Tier oder eine Statue, an das Ende eines Ganges usw.</Beschreibung>
+    <Beschreibung>Der Zauberwirker projiziert den Klang seiner Stimme an einen anderen Ort, etwa in ein angrenzendes Zimmer, in ein Tier oder eine Statue, an das Ende eines Ganges usw.</Beschreibung>
     <Name>Bauchreden</Name>
     <Grad>1</Grad>
   </ZauberTemplate>
@@ -89,30 +86,23 @@
     <Manifestationen>
       <Manifestation>
         <Wurf>1</Wurf>
-        <Beschreibung>Der Zauberwirker greift aus der Luft nach der Maske.
-          Zusätzlich zur Manifestation verändert jede Maske das Gesicht des Zauberwirkers auf eine andere Art. Diese Veränderungen werden in der Ergebnistabelle des Zauberwurfs (unten) näher beschrieben.</Beschreibung>
+        <Beschreibung>Der Zauberwirker greift aus der Luft nach der Maske. Zusätzlich zur Manifestation verändert jede Maske das Gesicht des Zauberwirkers auf eine andere Art. Diese Veränderungen werden in der Ergebnistabelle des Zauberwurfs (unten) näher beschrieben.</Beschreibung>
       </Manifestation>
       <Manifestation>
         <Wurf>2</Wurf>
-        <Beschreibung>Das Fleisch im Gesicht des Zauberwirkers schält sich ab, darunter kommt die Maske zum Vorschein.
-          Zusätzlich zur Manifestation verändert jede Maske das Gesicht des Zauberwirkers auf eine andere Art. Diese Veränderungen werden in der Ergebnistabelle des Zauberwurfs (unten) näher beschrieben.</Beschreibung>
+        <Beschreibung>Das Fleisch im Gesicht des Zauberwirkers schält sich ab, darunter kommt die Maske zum Vorschein. Zusätzlich zur Manifestation verändert jede Maske das Gesicht des Zauberwirkers auf eine andere Art. Diese Veränderungen werden in der Ergebnistabelle des Zauberwurfs (unten) näher beschrieben.</Beschreibung>
       </Manifestation>
       <Manifestation>
         <Wurf>3</Wurf>
-        <Beschreibung>Der Kopf des Zauberwirkers verschwimmt kurzzeitig; wenn der Effekt vorüber ist, sitzt die Maske bereits auf seinem Gesicht.
-          Zusätzlich zur Manifestation verändert jede Maske das Gesicht des Zauberwirkers auf eine andere Art. Diese Veränderungen werden in der Ergebnistabelle des Zauberwurfs (unten) näher beschrieben.</Beschreibung>
+        <Beschreibung>Der Kopf des Zauberwirkers verschwimmt kurzzeitig; wenn der Effekt vorüber ist, sitzt die Maske bereits auf seinem Gesicht. Zusätzlich zur Manifestation verändert jede Maske das Gesicht des Zauberwirkers auf eine andere Art. Diese Veränderungen werden in der Ergebnistabelle des Zauberwurfs (unten) näher beschrieben.</Beschreibung>
       </Manifestation>
       <Manifestation>
         <Wurf>4</Wurf>
-        <Beschreibung>Der Kopf des Zauberwirkers dreht sich um 180° und bringt ein maskiertes Gesicht auf seinem Hinterkopf zum Vorschein.
-          Zusätzlich zur Manifestation verändert jede Maske das Gesicht des Zauberwirkers auf eine andere Art. Diese Veränderungen werden in der Ergebnistabelle des Zauberwurfs (unten) näher beschrieben.</Beschreibung>
+        <Beschreibung>Der Kopf des Zauberwirkers dreht sich um 180° und bringt ein maskiertes Gesicht auf seinem Hinterkopf zum Vorschein. Zusätzlich zur Manifestation verändert jede Maske das Gesicht des Zauberwirkers auf eine andere Art. Diese Veränderungen werden in der Ergebnistabelle des Zauberwurfs (unten) näher beschrieben.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Der Zauberwirker ruft eine mystische Maske hervor, die sein Gesicht bedeckt und ihm Vorteile gegen Angriffe,
-      Zauber und andere Zustände verleiht. Nach erfolgreichem Wirken kann der Zauberkundige sich
-      auch entscheiden, einen Effekt geringerer Macht zu wählen, als sein Zauberwurf anzeigt, wenn dieser
-      Effekt für ihn hilfreicher ist.</Beschreibung>
+    <Beschreibung>Der Zauberwirker ruft eine mystische Maske hervor, die sein Gesicht bedeckt und ihm Vorteile gegen Angriffe, Zauber und andere Zustände verleiht. Nach erfolgreichem Wirken kann der Zauberkundige sich auch entscheiden, einen Effekt geringerer Macht zu wählen, als sein Zauberwurf anzeigt, wenn dieser Effekt für ihn hilfreicher ist.</Beschreibung>
     <Name>Ekims mystische Maske</Name>
     <Grad>1</Grad>
   </ZauberTemplate>
@@ -242,7 +232,7 @@
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung>Siehe unten</Beschreibung>
+        <Beschreibung>Siehe unten.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
@@ -370,7 +360,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Der Zauberwirker verpflichtet sich, einem übernatürlichen Herrn zu dienen, und geht damit einen Pakt mit ihm ein, um sich die Unterstützung dieses Patrons zu sichern, solange er diesen mit seinen Diensten zufrieden stellt. Dieser Patron kann ein Dämon, Teufel, Geist, Elementar, Engel, Chaosfürst oder ein anderes, übernatürliches Wesen sein, das die Dienste des Zauberwirkers annimmt... (Siehe Seite 143.)</Beschreibung>
+    <Beschreibung>Der Zauberwirker verpflichtet sich, einem übernatürlichen Herrn zu dienen, und geht damit einen Pakt mit ihm ein, um sich die Unterstützung dieses Patrons zu sichern, solange er diesen mit seinen Diensten zufrieden stellt. Dieser Patron kann ein Dämon, Teufel, Geist, Elementar, Engel, Chaosfürst oder ein anderes, übernatürliches Wesen sein, das die Dienste des Zauberwirkers annimmt... (Siehe Regelwerk.)</Beschreibung>
     <Name>Pakt mit einem Patron</Name>
     <Grad>1</Grad>
   </ZauberTemplate>
@@ -452,7 +442,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Zauberkundige lernen Alphabete magischer Symbole, die erstaunliche Dinge auslösen können, wenn sie gezeichnet werden. Es gibt verschiedene Alphabete: Zwergenrunen, Ältere Sigillen, die Hieroglyphen der Sphinxe und die Zeichen bestimmter Zauberer. Mit diesem Zauber ist der Zauberwirker in der Lage, die einfachsten Runen zu erzeugen, die für Sterbliche verständlich sind... (Siehe Seite 151.)</Beschreibung>
+    <Beschreibung>Zauberkundige lernen Alphabete magischer Symbole, die erstaunliche Dinge auslösen können, wenn sie gezeichnet werden. Es gibt verschiedene Alphabete: Zwergenrunen, Ältere Sigillen, die Hieroglyphen der Sphinxe und die Zeichen bestimmter Zauberer. Mit diesem Zauber ist der Zauberwirker in der Lage, die einfachsten Runen zu erzeugen, die für Sterbliche verständlich sind... (Siehe Regelwerk.)</Beschreibung>
     <Name>Runenalphabet der Sterblichen</Name>
     <Grad>1</Grad>
   </ZauberTemplate>
@@ -720,29 +710,7 @@
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Manche Zauberkundige ziehen es vor, sich auf eine besondere Art der Magie zu spezialisieren. Das mögen
-Nekromanten sein, die die Lehre des Untodes studieren, oder die Feuer beherrschende Pyromanten.
-Vielleicht sind es Elementalisten, die eigenwillige Elementare beherrschen, oder Beschwörer, die aus
-dem Nichts körperliche Dinge erschaffen können. Ihre Fähigkeiten, die weit über die Mächte gewöhnlicher
-Zauberkundiger hinausgehen, erlangen Spezialisten durch intensives Studium, lange Grübeleien
-und schließlich dadurch, dass sie sich der gewählten arkanen Magieschule vollständig verschreiben. Ein
-Nekromant lebt womöglich unter Untoten, um diese vollständig zu begreifen, ein Pyromant verlegt seinen
-Unterschlupf in einen Vulkan, ein Elementalist zieht auf eine der vier Elementarebenen und ein Verwandler
-befasst sich mit den atomaren Bausteinen der Materie.
-Dieser Zauber stellt den Mechanismus für Magiespezialisierungen dar. Er verstärkt die Neigung des Zauberwirkers
-hin zu einer speziellen Art der Magie. Diese Verbundenheit entwickelt sich erst, nachdem viel
-Zeit und Arbeit investiert wurde und sie hat auch ihren Preis: Der Zauberplatz ist auf ewig von diesem
-Zauber besetzt und der Zauberwirker ist auf ewig an die arkane Disziplin gebunden, auf die seine Wahl
-fällt. Natürlich hat dieser Zauber auch einen Vorzug: Er erhöht die Macht des Zauberwirkers in einer gewählten
-arkanen Schule.
-Obgleich dieser Zauber im Zauberbuch des Zauberkundigen als Arkane Spezialisierung eingetragen wird,
-hängt seine Bedeutung von den Zielen des Zauberkundigen ab. In Wahrheit stellt er die Zeit und die Arbeit
-dar, die notwendig ist, um eine Verbundenheit mit einer der arkanen Schulen zu erreichen. Der „Zeitaufwand“
-besteht aus einer Reihe von Ritualen und Handlungen, die zur Herausbildung dieser Spezialisierung
-erforderlich sind. Es ist ein Zauber des 2. Grades, da der Zauberwirker zunächst die Grundlagen der Magie
-verstanden haben muss, bevor er eine Spezialisierung entwickeln kann. Die traditionellen Spezialisierungen
-und ihr „Zeitaufwand“ werden im Folgenden beschrieben. Es sollte betont werden, dass der „Zeitaufwand“
-spielmechanisch mit der Zeit zwischen Abenteuern oder tatsächlicher Abenteuerzeit verknüpft werden kann... Siehe Regelwerk...</Beschreibung>
+    <Beschreibung>Manche Zauberkundige ziehen es vor, sich auf eine besondere Art der Magie zu spezialisieren. Das mögen Nekromanten sein, die die Lehre des Untodes studieren, oder die Feuer beherrschende Pyromanten. Vielleicht sind es Elementalisten, die eigenwillige Elementare beherrschen, oder Beschwörer, die aus dem Nichts körperliche Dinge erschaffen können. Ihre Fähigkeiten, die weit über die Mächte gewöhnlicher Zauberkundiger hinausgehen, erlangen Spezialisten durch intensives Studium, lange Grübeleien und schließlich dadurch, dass sie sich der gewählten arkanen Magieschule vollständig verschreiben. Ein Nekromant lebt womöglich unter Untoten, um diese vollständig zu begreifen, ein Pyromant verlegt seinen Unterschlupf in einen Vulkan, ein Elementalist zieht auf eine der vier Elementarebenen und ein Verwandler befasst sich mit den atomaren Bausteinen der Materie. Dieser Zauber stellt den Mechanismus für Magiespezialisierungen dar. Er verstärkt die Neigung des Zauberwirkers hin zu einer speziellen Art der Magie. Diese Verbundenheit entwickelt sich erst, nachdem viel Zeit und Arbeit investiert wurde und sie hat auch ihren Preis: Der Zauberplatz ist auf ewig von diesem Zauber besetzt und der Zauberwirker ist auf ewig an die arkane Disziplin gebunden, auf die seine Wahl fällt. Natürlich hat dieser Zauber auch einen Vorzug: Er erhöht die Macht des Zauberwirkers in einer gewählten arkanen Schule. Obgleich dieser Zauber im Zauberbuch des Zauberkundigen als Arkane Spezialisierung eingetragen wird, hängt seine Bedeutung von den Zielen des Zauberkundigen ab. In Wahrheit stellt er die Zeit und die Arbeit dar, die notwendig ist, um eine Verbundenheit mit einer der arkanen Schulen zu erreichen. Der „Zeitaufwand“ besteht aus einer Reihe von Ritualen und Handlungen, die zur Herausbildung dieser Spezialisierung erforderlich sind. Es ist ein Zauber des 2. Grades, da der Zauberwirker zunächst die Grundlagen der Magie verstanden haben muss, bevor er eine Spezialisierung entwickeln kann. Die traditionellen Spezialisierungen und ihr „Zeitaufwand“ werden im Folgenden beschrieben. Es sollte betont werden, dass der „Zeitaufwand“ spielmechanisch mit der Zeit zwischen Abenteuern oder tatsächlicher Abenteuerzeit verknüpft werden kann... (Siehe Regelwerk.)</Beschreibung>
     <Name>Arkane Spezialisierung</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -764,17 +732,7 @@ spielmechanisch mit der Zeit zwischen Abenteuern oder tatsächlicher Abenteuerze
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>
-      Der Kleriker hält sein heiliges Symbol in die Höhe und erkennt innerhalb eines Strahls, der sich 1,5 m breit
-      und 18 m weit (oder weiter) von dem Symbol ausdehnt, Ausströmungen des Bösen. Die Definition von
-      „böse“ hängt dabei vom Kleriker ab: Normalerweise umfasst dies Wesen mit gegensätzlicher Gesinnung,
-      diejenigen, die der Gottheit des Klerikers unheilig sind und diejenigen mit offensichtlich feindseligen Absichten.
-      Abhängig von der Stärke des Zauberes kann der Kleriker auch weniger offensichtliche Gefahren
-      erkennen. Dieser Zauber offenbart keine Wesen, die anderweitig verborgen sind, aber er informiert den
-      Kleriker darüber, dass böse Absichten von einer bestimmten Stelle ausströmen. Dieser Zauber kann auch
-      umgekehrt werden, um Gutes zu erkennen. Dies trifft auf Wesen mit verbündeter Gesinnung, gemeinsamen
-      Gottheiten oder ähnlichen heiligen Zielen zu.
-    </Beschreibung>
+    <Beschreibung>Der Kleriker hält sein heiliges Symbol in die Höhe und erkennt innerhalb eines Strahls, der sich 1,5 m breit und 18 m weit (oder weiter) von dem Symbol ausdehnt, Ausströmungen des Bösen. Die Definition von „böse“ hängt dabei vom Kleriker ab: Normalerweise umfasst dies Wesen mit gegensätzlicher Gesinnung, diejenigen, die der Gottheit des Klerikers unheilig sind und diejenigen mit offensichtlich feindseligen Absichten. Abhängig von der Stärke des Zauberes kann der Kleriker auch weniger offensichtliche Gefahren erkennen. Dieser Zauber offenbart keine Wesen, die anderweitig verborgen sind, aber er informiert den Kleriker darüber, dass böse Absichten von einer bestimmten Stelle ausströmen. Dieser Zauber kann auch umgekehrt werden, um Gutes zu erkennen. Dies trifft auf Wesen mit verbündeter Gesinnung, gemeinsamen Gottheiten oder ähnlichen heiligen Zielen zu. </Beschreibung>
     <Name>Böses entdecken*</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -823,37 +781,14 @@ spielmechanisch mit der Zeit zwischen Abenteuern oder tatsächlicher Abenteuerze
       <Manifestation>
         <Wurf>4</Wurf>
         <Beschreibung>Schimmernde Wellen gehen vom Schädel des Zauberwirkers aus.</Beschreibung>
-      </Manifestation>    
+      </Manifestation>
       <Manifestation>
         <Wurf>5</Wurf>
         <Beschreibung>Lichtblitze springen zeitweise vom Zauberwirkers aus über.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Der Zauberwirker kann durch Außersinnliche Wahrnehmung (kurz: ASW) die Gedanken anderer Wesen
-lesen. Bei niedrigen Zauberwürfen ist es dem Zauberwirker nur gestattet, oberflächliche Gedanken aufzuschnappen.
-Bei höheren Zauberwürfen kann sich der Zauberwirker konzentrieren und mit jeder Konzentrationsrunde
-tiefer in die Gedankenwelt vordringen, wie im Folgenden beschrieben. Um die Antwort
-auf eine gezielte Frage in den Gedanken zu finden, benötigt man üblicherweise 1W4 Runden, nachdem
-die für diese Tiefe der Gedankenwelt erforderliche Konzentrationsrunde erreicht wurde. Beispiel: Um herauszufinden,
-wo ein böser Nekromant seinen magischen Ring versteckt hat, benötigt man 1W4 Runden
-Zeit, sobald die vierte Konzentrationsrunde (jüngste Erinnerungen) erreicht ist. Um zu verstehen, warum
-der Nekromant so einen irrationalen Hass auf den König hat, benötigt man 1W4 Runden Zeit, wenn die
-sechste Konzentrationsrunde (Motivationen des Unterbewusstseins) erreicht ist.
-Runde 2: Der Zauberwirker begreift die längerfristigen Ziele und Motivationen, die mit den momentanen
-Gedanken und Handlungen des Wesens in Zusammenhang stehen.
-Runde 3: Der Zauberwirker versteht die Beziehungen des Wesens zu seinen Freunden und Feinden.
-Runde 4: Der Zauberwirker kann die jüngsten Erinnerungen des Wesens lesen. Es benötigt aber Zeit, um
-sich durch alle Gedanken zu wühlen – ungefähr eine Runde pro Tag an Erinnerungen.
-Runde 5: Der Zauberwirker kann die historischen Erinnerungen des Wesens lesen – so weit zurück, wie
-sich das Wesen erinnern kann.
-Runde 6: Der Zauberwirker begreift die unterbewussten Gedanken des Wesens – Motivationen und zugrundeliegende
-Verhaltensweisen, von denen vielleicht das Wesen selbst nichts weiß.
-Einige höhere Zauberwürfe erlauben dem Zauberwirker, sein Ziel zu wechseln. Durch den Wechsel auf
-ein neues Ziel darf dieses einen neuen Willenskraftwurf machen und die bisher erreichte Konzentrationsrunde
-wird zurückgesetzt. Beispiel: Falls der Zauberwirker sich drei Runden auf ein Ziel konzentriert hat,
-dann auf ein zweites Ziel wechselt und wieder auf das erste Ziel zurückspringt, würde er sich wieder in
-der ersten Konzentrationsrunde befinden.</Beschreibung>
+    <Beschreibung>Der Zauberwirker kann durch Außersinnliche Wahrnehmung (kurz: ASW) die Gedanken anderer Wesen lesen. Bei niedrigen Zauberwürfen ist es dem Zauberwirker nur gestattet, oberflächliche Gedanken aufzuschnappen. Bei höheren Zauberwürfen kann sich der Zauberwirker konzentrieren und mit jeder Konzentrationsrunde tiefer in die Gedankenwelt vordringen, wie im Folgenden beschrieben. Um die Antwort auf eine gezielte Frage in den Gedanken zu finden, benötigt man üblicherweise 1W4 Runden, nachdem die für diese Tiefe der Gedankenwelt erforderliche Konzentrationsrunde erreicht wurde. Beispiel: Um herauszufinden, wo ein böser Nekromant seinen magischen Ring versteckt hat, benötigt man 1W4 Runden Zeit, sobald die vierte Konzentrationsrunde (jüngste Erinnerungen) erreicht ist. Um zu verstehen, warum der Nekromant so einen irrationalen Hass auf den König hat, benötigt man 1W4 Runden Zeit, wenn die sechste Konzentrationsrunde (Motivationen des Unterbewusstseins) erreicht ist. Runde 2: Der Zauberwirker begreift die längerfristigen Ziele und Motivationen, die mit den momentanen Gedanken und Handlungen des Wesens in Zusammenhang stehen. Runde 3: Der Zauberwirker versteht die Beziehungen des Wesens zu seinen Freunden und Feinden. Runde 4: Der Zauberwirker kann die jüngsten Erinnerungen des Wesens lesen. Es benötigt aber Zeit, um sich durch alle Gedanken zu wühlen – ungefähr eine Runde pro Tag an Erinnerungen. Runde 5: Der Zauberwirker kann die historischen Erinnerungen des Wesens lesen – so weit zurück, wie sich das Wesen erinnern kann. Runde 6: Der Zauberwirker begreift die unterbewussten Gedanken des Wesens – Motivationen und zugrundeliegende Verhaltensweisen, von denen vielleicht das Wesen selbst nichts weiß. Einige höhere Zauberwürfe erlauben dem Zauberwirker, sein Ziel zu wechseln. Durch den Wechsel auf ein neues Ziel darf dieses einen neuen Willenskraftwurf machen und die bisher erreichte Konzentrationsrunde wird zurückgesetzt. Beispiel: Falls der Zauberwirker sich drei Runden auf ein Ziel konzentriert hat, dann auf ein zweites Ziel wechselt und wieder auf das erste Ziel zurückspringt, würde er sich wieder in der ersten Konzentrationsrunde befinden.</Beschreibung>
     <Name>Gedanken lesen</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -867,11 +802,7 @@ der ersten Konzentrationsrunde befinden.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Mit diesem Zauber kann der Zauberwirker einen Gegenstand aufspüren. Bei schwächeren Zauberwürfen
-ist eine physische Spur des gesuchten Gegenstands erforderlich und er kann nur auf der gleichen Existenzebene
-gefunden werden. Bei mächtigeren Zauberwürfen kann der Zauberwirker auch Gegenstände aufspüren,
-die er nie zu Gesicht bekommen hat, auch wenn diese sich auf einer anderen Ebene oder in einer
-anderen Zeit befinden.</Beschreibung>
+    <Beschreibung>Mit diesem Zauber kann der Zauberwirker einen Gegenstand aufspüren. Bei schwächeren Zauberwürfen ist eine physische Spur des gesuchten Gegenstands erforderlich und er kann nur auf der gleichen Existenzebene gefunden werden. Bei mächtigeren Zauberwürfen kann der Zauberwirker auch Gegenstände aufspüren, die er nie zu Gesicht bekommen hat, auch wenn diese sich auf einer anderen Ebene oder in einer anderen Zeit befinden.</Beschreibung>
     <Name>Gegenstand aufspüren</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -894,7 +825,7 @@ anderen Zeit befinden.</Beschreibung>
       <Manifestation>
         <Wurf>4</Wurf>
         <Beschreibung>Lichtblitz.</Beschreibung>
-      </Manifestation>          
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
     <Beschreibung>Der Zauberwirker öffnet ein verschlossenes Portal oder einen verschlossenen Gegenstand.</Beschreibung>
@@ -906,7 +837,7 @@ anderen Zeit befinden.</Beschreibung>
     <Seite>174</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf></Wurf>
+        <Wurf />
         <Beschreibung>Entscheidung des Zauberwirkers.</Beschreibung>
       </Manifestation>
     </Manifestationen>
@@ -934,14 +865,10 @@ anderen Zeit befinden.</Beschreibung>
       <Manifestation>
         <Wurf>4</Wurf>
         <Beschreibung>Das vollständige Monster bricht aus dem Erdboden hervor.</Beschreibung>
-      </Manifestation>    
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Der Zauberwirker muss die Hälfte des Zeitaufwands damit zubringen, einen Beschwörungskreis zu zeichnen
-– den Rest der Zeit ruft er die Geister von Monstern an. Am Ende der Phase beschwört der Zauberwirker
-dann ein Monster herbei. Er muss mit dem Monster vertraut sein und es muss von dieser Existenzebene
-stammen. Der Zauberwirker muss eine Materialprobe des Monsters besitzen, die während des Wirkens
-verbraucht wird (z. B. Haar, Fell, Pfote, Zahn, Schädel usw.).</Beschreibung>
+    <Beschreibung>Der Zauberwirker muss die Hälfte des Zeitaufwands damit zubringen, einen Beschwörungskreis zu zeichnen – den Rest der Zeit ruft er die Geister von Monstern an. Am Ende der Phase beschwört der Zauberwirker dann ein Monster herbei. Er muss mit dem Monster vertraut sein und es muss von dieser Existenzebene stammen. Der Zauberwirker muss eine Materialprobe des Monsters besitzen, die während des Wirkens verbraucht wird (z. B. Haar, Fell, Pfote, Zahn, Schädel usw.).</Beschreibung>
     <Name>Monster beschwören</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -955,9 +882,7 @@ verbraucht wird (z. B. Haar, Fell, Pfote, Zahn, Schädel usw.).</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Dieser Zauber umhüllt den Zauberwirker mit einer Lage gesträubter, spitzer Stacheln. Diese Stacheln dienen
-als Rüstung, erhöhen seinen waffenlosen Nahkampfschaden und können bei mächtigeren Zauberwürfen
-auch als Fernkampfwaffe benutzt werden.</Beschreibung>
+    <Beschreibung>Dieser Zauber umhüllt den Zauberwirker mit einer Lage gesträubter, spitzer Stacheln. Diese Stacheln dienen als Rüstung, erhöhen seinen waffenlosen Nahkampfschaden und können bei mächtigeren Zauberwürfen auch als Fernkampfwaffe benutzt werden.</Beschreibung>
     <Name>Nythuuls Stachelschweinmantel</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -980,12 +905,10 @@ auch als Fernkampfwaffe benutzt werden.</Beschreibung>
       <Manifestation>
         <Wurf>4</Wurf>
         <Beschreibung>Das Bildnis eines schrecklichen Monsters manifestiert sich für einen Moment und verschwindet dann.</Beschreibung>
-      </Manifestation>  
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Dieser Zauber lässt das Ziel abgrundtiefe Angst erleben, sodass es möglicherweise davonläuft oder sich
-auf den Boden kauert. Der Zauber wirkt nicht auf Konstrukte, Golems, geistlose Untote (etwa Zombies
-und Skelette) und andere Wesen, die keine Furcht empfinden.</Beschreibung>
+    <Beschreibung>Dieser Zauber lässt das Ziel abgrundtiefe Angst erleben, sodass es möglicherweise davonläuft oder sich auf den Boden kauert. Der Zauber wirkt nicht auf Konstrukte, Golems, geistlose Untote (etwa Zombies und Skelette) und andere Wesen, die keine Furcht empfinden.</Beschreibung>
     <Name>Schrecken</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -1008,13 +931,10 @@ und Skelette) und andere Wesen, die keine Furcht empfinden.</Beschreibung>
       <Manifestation>
         <Wurf>4</Wurf>
         <Beschreibung>Eine Säule aus geisterhaftem Nebel drückt das Wesen in die Luft.</Beschreibung>
-      </Manifestation>  
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>
-      Der Zauberwirker oder ein ausgewähltes Ziel können in der Luft schweben. Dieser Zauber erweist sich beim
-      Überwinden von Mauern, Durchsteigen von Schluchten oder dem Tragen schwerer Lasten als nützlich.
-    </Beschreibung>
+    <Beschreibung>Der Zauberwirker oder ein ausgewähltes Ziel können in der Luft schweben. Dieser Zauber erweist sich beim Überwinden von Mauern, Durchsteigen von Schluchten oder dem Tragen schwerer Lasten als nützlich. </Beschreibung>
     <Name>Schweben</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -1041,15 +961,10 @@ und Skelette) und andere Wesen, die keine Furcht empfinden.</Beschreibung>
       <Manifestation>
         <Wurf>5</Wurf>
         <Beschreibung>Wabernder Nebelstrahl.</Beschreibung>
-      </Manifestation>      
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Dieser nekromantische Zauber erfordert mindestens 1 Zauberbrand. Der Zauberwirker erzeugt einen gefährlichen
-Strahl, der dem Ziel Stärke entzieht und somit dessen körperliche Kraft zerstört. Reduziert man
-ein Wesen auf Stärke 0, so verwandelt es sich in eine gallertartige Masse, die nicht mehr in der Lage ist,
-ihr eigenes Gewicht zu stemmen oder sich vor Angriffen zu schützen. Verfügt das Ziel über keine Stärkeangabe,
-so wird bei normalen Menschen und menschengroßen Wesen von 10 ausgegangen. Verlorene
-Attributspunkte heilen auf übliche Weise.</Beschreibung>
+    <Beschreibung>Dieser nekromantische Zauber erfordert mindestens 1 Zauberbrand. Der Zauberwirker erzeugt einen gefährlichen Strahl, der dem Ziel Stärke entzieht und somit dessen körperliche Kraft zerstört. Reduziert man ein Wesen auf Stärke 0, so verwandelt es sich in eine gallertartige Masse, die nicht mehr in der Lage ist, ihr eigenes Gewicht zu stemmen oder sich vor Angriffen zu schützen. Verfügt das Ziel über keine Stärkeangabe, so wird bei normalen Menschen und menschengroßen Wesen von 10 ausgegangen. Verlorene Attributspunkte heilen auf übliche Weise.</Beschreibung>
     <Name>Schwächestrahl</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -1059,29 +974,24 @@ Attributspunkte heilen auf übliche Weise.</Beschreibung>
     <Manifestationen>
       <Manifestation>
         <Wurf>1</Wurf>
-        <Beschreibung>Ein Bogenstrahl aus Feuer. Die Farbe des Feuers variiert: Rot, Gelb,
-Blau oder Grün.</Beschreibung>
+        <Beschreibung>Ein Bogenstrahl aus Feuer. Die Farbe des Feuers variiert: Rot, Gelb, Blau oder Grün.</Beschreibung>
       </Manifestation>
       <Manifestation>
         <Wurf>2</Wurf>
-        <Beschreibung>Laserstrahl. Die Farbe des Feuers variiert: Rot, Gelb,
-Blau oder Grün.</Beschreibung>
+        <Beschreibung>Laserstrahl. Die Farbe des Feuers variiert: Rot, Gelb, Blau oder Grün.</Beschreibung>
       </Manifestation>
       <Manifestation>
         <Wurf>3</Wurf>
-        <Beschreibung>Lodernde Kugel. Die Farbe des Feuers variiert: Rot, Gelb,
-Blau oder Grün.</Beschreibung>
+        <Beschreibung>Lodernde Kugel. Die Farbe des Feuers variiert: Rot, Gelb, Blau oder Grün.</Beschreibung>
       </Manifestation>
       <Manifestation>
         <Wurf>4</Wurf>
-        <Beschreibung>Zischendes Flammenmeer. Die Farbe des Feuers variiert: Rot, Gelb,
-Blau oder Grün.</Beschreibung>
+        <Beschreibung>Zischendes Flammenmeer. Die Farbe des Feuers variiert: Rot, Gelb, Blau oder Grün.</Beschreibung>
       </Manifestation>
       <Manifestation>
         <Wurf>5</Wurf>
-        <Beschreibung>Brennende Hände, gefolgt von einem Funkenschauer. Die Farbe des Feuers variiert: Rot, Gelb,
-Blau oder Grün.</Beschreibung>
-      </Manifestation>          
+        <Beschreibung>Brennende Hände, gefolgt von einem Funkenschauer. Die Farbe des Feuers variiert: Rot, Gelb, Blau oder Grün.</Beschreibung>
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
     <Beschreibung>Der Zauberwirker beschwört die Flammen der Hölle herauf, um seine Feinde zu verbrennen.</Beschreibung>
@@ -1093,16 +1003,12 @@ Blau oder Grün.</Beschreibung>
     <Seite>184</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf></Wurf>
-        <Beschreibung>Siehe unten</Beschreibung>
+        <Wurf />
+        <Beschreibung>Siehe unten.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Dieser Zauber erzeugt illusionäre Ebenbilder des Zauberwirkers, die seine Aktionen exakt nachahmen. Sie
-tauchen direkt neben ihm auf und lenken Gegner ab, sodass sie anstelle des Zauberwirkers seine Ebenbilder
-angreifen. Mächtigere Zauberwürfe können auch Ebenbilder von Verbündeten oder Gegenständen
-erschaffen. Die maximale Anzahl an Ebenbildern, die der Zauberwirker von sich, Verbündeten oder
-Gegenständen erzeugen kann, ist durch seinen Wert in IN begrenzt.</Beschreibung>
+    <Beschreibung>Dieser Zauber erzeugt illusionäre Ebenbilder des Zauberwirkers, die seine Aktionen exakt nachahmen. Sie tauchen direkt neben ihm auf und lenken Gegner ab, sodass sie anstelle des Zauberwirkers seine Ebenbilder angreifen. Mächtigere Zauberwürfe können auch Ebenbilder von Verbündeten oder Gegenständen erschaffen. Die maximale Anzahl an Ebenbildern, die der Zauberwirker von sich, Verbündeten oder Gegenständen erzeugen kann, ist durch seinen Wert in IN begrenzt.</Beschreibung>
     <Name>Spiegelbild</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -1111,22 +1017,12 @@ Gegenständen erzeugen kann, ist durch seinen Wert in IN begrenzt.</Beschreibung
     <Seite>186</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf></Wurf>
-        <Beschreibung>Ein Spinnennetz in einer vom Zauberwirker bestimmten Form (lang und faserig, ein verklumpter Haufen,
-elegant, zerrissen usw.).</Beschreibung>
+        <Wurf />
+        <Beschreibung>Ein Spinnennetz in einer vom Zauberwirker bestimmten Form (lang und faserig, ein verklumpter Haufen, elegant, zerrissen usw.).</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Der Zauberwirker erschafft ein klebriges Spinnennetz, mit dem er Feinde fesseln kann. Sofern sich noch
-keine Dinge im Netz verfangen haben, ist es sehr schwer zu entdecken – quasi unsichtbar, es sei denn,
-jemand sucht danach. Ein Wesen, das das Netz berührt, wird festgehalten und kann sich nur über einen
-Stärke- oder Geschicklichkeitswurf (SG 20) befreien. Das Netz kann verbrannt (wodurch gefangene Wesen
-eventuell verwundet werden) oder mit einer sehr scharfen Klinge durchtrennt werden, sofern das
-schwertführende Wesen nicht schon im Netz verstrickt ist (RK 16, TP 5 pro zu befreiendem Wesen). Eine
-schartige Klinge oder ein stumpfer Gegenstand werden ebenfalls im Netz verstrickt; doch auch für eine
-außergewöhnlich scharfe Klinge besteht eine Wahrscheinlichkeit von 25 %, im Netz verstrickt zu werden.
-Nahkampfangriffe mit dem Ziel, im Netz festgehaltene Wesen zu befreien, laufen Gefahr, den Angreifer
-ebenfalls zu verstricken (Wahrscheinlichkeit: 10 % pro Angriff).</Beschreibung>
+    <Beschreibung>Der Zauberwirker erschafft ein klebriges Spinnennetz, mit dem er Feinde fesseln kann. Sofern sich noch keine Dinge im Netz verfangen haben, ist es sehr schwer zu entdecken – quasi unsichtbar, es sei denn, jemand sucht danach. Ein Wesen, das das Netz berührt, wird festgehalten und kann sich nur über einen Stärke- oder Geschicklichkeitswurf (SG 20) befreien. Das Netz kann verbrannt (wodurch gefangene Wesen eventuell verwundet werden) oder mit einer sehr scharfen Klinge durchtrennt werden, sofern das schwertführende Wesen nicht schon im Netz verstrickt ist (RK 16, TP 5 pro zu befreiendem Wesen). Eine schartige Klinge oder ein stumpfer Gegenstand werden ebenfalls im Netz verstrickt; doch auch für eine außergewöhnlich scharfe Klinge besteht eine Wahrscheinlichkeit von 25 %, im Netz verstrickt zu werden. Nahkampfangriffe mit dem Ziel, im Netz festgehaltene Wesen zu befreien, laufen Gefahr, den Angreifer ebenfalls zu verstricken (Wahrscheinlichkeit: 10 % pro Angriff).</Beschreibung>
     <Name>Spinnennetz</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -1138,15 +1034,15 @@ ebenfalls zu verstricken (Wahrscheinlichkeit: 10 % pro Angriff).</Beschreibung>
         <Wurf>1</Wurf>
         <Beschreibung>Muskeln wachsen sichtbar an, lassen ggf. Kleidung platzen.</Beschreibung>
       </Manifestation>
-    <Manifestation>
+      <Manifestation>
         <Wurf>2</Wurf>
         <Beschreibung>Muskeln glühen in einem teuflischen Licht.</Beschreibung>
       </Manifestation>
-    <Manifestation>
+      <Manifestation>
         <Wurf>3</Wurf>
         <Beschreibung>Eine intensive Aura umgibt das Ziel.</Beschreibung>
       </Manifestation>
-    <Manifestation>
+      <Manifestation>
         <Wurf>4</Wurf>
         <Beschreibung>Keine Veränderung.</Beschreibung>
       </Manifestation>
@@ -1161,14 +1057,12 @@ ebenfalls zu verstricken (Wahrscheinlichkeit: 10 % pro Angriff).</Beschreibung>
     <Seite>190</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf></Wurf>
+        <Wurf />
         <Beschreibung>Siehe unten.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Mit diesem Zauber erschafft der Zauberwirker eine einfache Illusion. Dieses Trugbild ist rein visuell, es
-hat keine hörbaren, greifbaren oder riechbaren Bestandteile. Indem er sich konzentriert, kann der Zauberwirker
-die Illusion verändern.</Beschreibung>
+    <Beschreibung>Mit diesem Zauber erschafft der Zauberwirker eine einfache Illusion. Dieses Trugbild ist rein visuell, es hat keine hörbaren, greifbaren oder riechbaren Bestandteile. Indem er sich konzentriert, kann der Zauberwirker die Illusion verändern.</Beschreibung>
     <Name>Trugbild</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -1177,13 +1071,12 @@ die Illusion verändern.</Beschreibung>
     <Seite>192</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf></Wurf>
+        <Wurf />
         <Beschreibung>Nichts zu sehen. Unsichtbarkeit!</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Der Zauberwirker ruft ein unsichtbares Wesen herbei, das seinen Befehlen gehorcht. Dieser unsichtbare
-Gefährte steht unter der Kontrolle des Zauberwirkers und kann verschiedene Aufgaben erfüllen.</Beschreibung>
+    <Beschreibung>Der Zauberwirker ruft ein unsichtbares Wesen herbei, das seinen Befehlen gehorcht. Dieser unsichtbare Gefährte steht unter der Kontrolle des Zauberwirkers und kann verschiedene Aufgaben erfüllen.</Beschreibung>
     <Name>Unsichtbarer Gefährte</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -1202,13 +1095,10 @@ Gefährte steht unter der Kontrolle des Zauberwirkers und kann verschiedene Aufg
       <Manifestation>
         <Wurf>3</Wurf>
         <Beschreibung>Der Zauberwirker ist in einen trüben Dunst gehüllt.</Beschreibung>
-      </Manifestation>      
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Der Zauberwirker weckt sein inneres Auge, um die wahre Natur der Dinge zu erkennen. Auf diese Weise
-ist er in der Lage, unsichtbare Wesen und Gegenstände zu sehen. Falls das Zielwesen oder der Zielgegenstand
-von einem Unsichtbarkeitsschild umgeben ist (gemäß dem Zauber Unsichtbarkeit), gilt das Zauberwurfergebnis
-des Zauberwirkers als SG für den Willenskraftwurf des Ziels.</Beschreibung>
+    <Beschreibung>Der Zauberwirker weckt sein inneres Auge, um die wahre Natur der Dinge zu erkennen. Auf diese Weise ist er in der Lage, unsichtbare Wesen und Gegenstände zu sehen. Falls das Zielwesen oder der Zielgegenstand von einem Unsichtbarkeitsschild umgeben ist (gemäß dem Zauber Unsichtbarkeit), gilt das Zauberwurfergebnis des Zauberwirkers als SG für den Willenskraftwurf des Ziels.</Beschreibung>
     <Name>Unsichtbares entdecken</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -1217,13 +1107,12 @@ des Zauberwirkers als SG für den Willenskraftwurf des Ziels.</Beschreibung>
     <Seite>195</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf></Wurf>
+        <Wurf />
         <Beschreibung>Das Ziel wird unsichtbar.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Der Zauberwirker macht sich selbst unsichtbar. Dieser Zauber kann auch Verbündeten Unsichtbarkeit verleihen
-und einen Unsichtbarkeitschild, der eine Entdeckung durch andere Zauber verhindert.</Beschreibung>
+    <Beschreibung>Der Zauberwirker macht sich selbst unsichtbar. Dieser Zauber kann auch Verbündeten Unsichtbarkeit verleihen und einen Unsichtbarkeitschild, der eine Entdeckung durch andere Zauber verhindert.</Beschreibung>
     <Name>Unsichtbarkeit</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -1242,7 +1131,7 @@ und einen Unsichtbarkeitschild, der eine Entdeckung durch andere Zauber verhinde
       <Manifestation>
         <Wurf>3</Wurf>
         <Beschreibung>Ein Kegel aus Nebel.</Beschreibung>
-      </Manifestation>    
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
     <Beschreibung>Der Zauberwirker lässt ein Wesen etwas vergessen.</Beschreibung>
@@ -1259,23 +1148,7 @@ und einen Unsichtbarkeitschild, der eine Entdeckung durch andere Zauber verhinde
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>
-      Mit diesem Zauber erschafft sich der Zauberkundige einen Stecken und durchwirkt ihn mit den magischen
-      Energien seiner Seele. Ein Zauberkundiger kann nur einen Stecken gleichzeitig erschaffen und er
-      erleidet große Qualen, wenn dieser zerstört wird. Die Materialkosten betragen 1000 GM pro Zauberstufe,
-      erfordern zusätzlich ungewöhnliche Materialien (z. B. genügend Adamant für einen Adamantstecken) und
-      benötigen minimal 2 Punkte Zauberbrand pro ZS, um den Stab richtig an sich zu binden. Ein Punkt dieses
-      Zauberbrands wird nie wieder heilen – das Attribut wird entsprechend dauerhaft verringert. Außerdem
-      muss der Zauberwirker über die benötigten Zauber verfügen, die auf dem Stecken platziert werden sollen,
-      und diese ohne Rast während des Zeitaufwands nutzen können. Der Zeitaufwand erfordert ein fortgesetztes
-      Wirken mit nur kurzen Unterbrechungen, die ruhelosen Schlaf bringen und in denen der Zauber wirker
-      weder Zauberbrand noch andere Wunden heilen kann. Die Wirksamkeit des Steckens ist auf höheren
-      Zauberstufen ungleich größer, wodurch dann Zeit- und Materialkosten steigen, wenn der Zauberkundige
-      mächtiger wird. In den unten angeführten Beschreibungen bezieht sich „ursprüngliche Zauberstufe“ auf
-      die Stufe, die der Zauberkundige zum Zeitpunkt der Erschaffung des Steckens besaß. Wenn er nach Erschaffung
-      des Steckens auf eine höhere Stufe aufsteigt, erhöhen sich Fähigkeiten in Zusammenhang mit
-      der ursprünglichen Zauberstufe nicht.
-    </Beschreibung>
+    <Beschreibung>Mit diesem Zauber erschafft sich der Zauberkundige einen Stecken und durchwirkt ihn mit den magischen Energien seiner Seele. Ein Zauberkundiger kann nur einen Stecken gleichzeitig erschaffen und er erleidet große Qualen, wenn dieser zerstört wird. Die Materialkosten betragen 1000 GM pro Zauberstufe, erfordern zusätzlich ungewöhnliche Materialien (z. B. genügend Adamant für einen Adamantstecken) und benötigen minimal 2 Punkte Zauberbrand pro ZS, um den Stab richtig an sich zu binden. Ein Punkt dieses Zauberbrands wird nie wieder heilen – das Attribut wird entsprechend dauerhaft verringert. Außerdem muss der Zauberwirker über die benötigten Zauber verfügen, die auf dem Stecken platziert werden sollen, und diese ohne Rast während des Zeitaufwands nutzen können. Der Zeitaufwand erfordert ein fortgesetztes Wirken mit nur kurzen Unterbrechungen, die ruhelosen Schlaf bringen und in denen der Zauber wirker weder Zauberbrand noch andere Wunden heilen kann. Die Wirksamkeit des Steckens ist auf höheren Zauberstufen ungleich größer, wodurch dann Zeit- und Materialkosten steigen, wenn der Zauberkundige mächtiger wird. In den unten angeführten Beschreibungen bezieht sich „ursprüngliche Zauberstufe“ auf die Stufe, die der Zauberkundige zum Zeitpunkt der Erschaffung des Steckens besaß. Wenn er nach Erschaffung des Steckens auf eine höhere Stufe aufsteigt, erhöhen sich Fähigkeiten in Zusammenhang mit der ursprünglichen Zauberstufe nicht. </Beschreibung>
     <Name>Zauberstecken</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -1298,13 +1171,10 @@ und einen Unsichtbarkeitschild, der eine Entdeckung durch andere Zauber verhinde
       <Manifestation>
         <Wurf>4</Wurf>
         <Beschreibung>Ein Blitz aus dem Himmel trifft den Gegenstand.</Beschreibung>
-      </Manifestation>  
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Der Zauberwirker lässt einen physischen Gegenstand zerbersten. Dieser Zauber richtet bei unbelebten
-Gegenständen Schaden an und ist gegenüber Objekten aus Kristall oder Glas besonders effektiv. Er kann
-den Gegenstand nicht nur unmittelbar beschädigen, sondern auch anhaltende Risse erzeugen, durch die
-er zukünftig leichter beschädigt werden kann.</Beschreibung>
+    <Beschreibung>Der Zauberwirker lässt einen physischen Gegenstand zerbersten. Dieser Zauber richtet bei unbelebten Gegenständen Schaden an und ist gegenüber Objekten aus Kristall oder Glas besonders effektiv. Er kann den Gegenstand nicht nur unmittelbar beschädigen, sondern auch anhaltende Risse erzeugen, durch die er zukünftig leichter beschädigt werden kann.</Beschreibung>
     <Name>Zerbersten</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -1328,8 +1198,7 @@ er zukünftig leichter beschädigt werden kann.</Beschreibung>
     <Manifestationen>
       <Manifestation>
         <Wurf>1</Wurf>
-        <Beschreibung>Der Körper des Zauberwirkers fällt in sich zusammen wie eine leere Hülle, die nur schlaffe
-Haut zurücklässt.</Beschreibung>
+        <Beschreibung>Der Körper des Zauberwirkers fällt in sich zusammen wie eine leere Hülle, die nur schlaffe Haut zurücklässt.</Beschreibung>
       </Manifestation>
       <Manifestation>
         <Wurf>2</Wurf>
@@ -1337,14 +1206,12 @@ Haut zurücklässt.</Beschreibung>
       </Manifestation>
       <Manifestation>
         <Wurf>3</Wurf>
-        <Beschreibung>Ektoplasma schießt aus dem Mund des Zauberwirkers hervor und bahnt sich seinen Weg in
-den Kopf des Ziels.</Beschreibung>
+        <Beschreibung>Ektoplasma schießt aus dem Mund des Zauberwirkers hervor und bahnt sich seinen Weg in den Kopf des Ziels.</Beschreibung>
       </Manifestation>
       <Manifestation>
         <Wurf>4</Wurf>
-        <Beschreibung>Geisterhafte Doppelgänger vom Zauberwirker und Ziel scheinen in der Luft zwischen
-beiden und ringen für kurze Zeit miteinander, bevor sich beide in den Körper des Ziels zurückziehen.</Beschreibung>
-      </Manifestation>          
+        <Beschreibung>Geisterhafte Doppelgänger vom Zauberwirker und Ziel scheinen in der Luft zwischen beiden und ringen für kurze Zeit miteinander, bevor sich beide in den Körper des Ziels zurückziehen.</Beschreibung>
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
     <Beschreibung>Der Zauberwirker ergreift Besitz von einem anderen Körper, entweder vorübergehend oder dauerhaft.</Beschreibung>
@@ -1366,34 +1233,10 @@ beiden und ringen für kurze Zeit miteinander, bevor sich beide in den Körper d
       <Manifestation>
         <Wurf>3</Wurf>
         <Beschreibung>Eine göttliche Leine fällt herunter und befestigt sich am Ziel.</Beschreibung>
-      </Manifestation>      
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>
-      Mit diesem Zauber bindet der Kleriker ein übernatürliches Wesen und zwingt es dazu, seinem Willen zu
-      gehorchen. Der Zauber gelingt am einfachsten, wenn das Wesen bereits durch einem anderen Zauber beherrscht
-      wird. Der Kleriker kann diesen Zauber auch sprechen, um Wesen zu kontrollieren, die auf ihrer
-      Heimatebene angetroffen werden.
-      Der Kleriker kann ebenfalls ein Wesen binden, das bereits unter der Kontrolle eines anderen Zauberwirkers
-      steht und durch einen anderen Zauber beschworen wurde (z. B. Tiere beschwören, Monster beschwören oder
-      Unsichtbarer Gefährte). Dies funktioniert auch bei Wesen, die auf nichtmateriellen Ebenen beheimatet sind
-      (z. B. Dämonen, Teufel, Elementare, Geister etc.). Der Kleriker bindet das Wesen, um seinem Willen, anstelle
-      des seines bisherigen Herrn, zu gehorchen. Um dem Zauber zu widerstehen, ist ein Willenskraftwurf
-      erlaubt, allerdings wird der Rettungswurf von dem anderen Zauberkundigen durchgeführt und nicht von
-      dem bereits beherrschten Zielwesen. Ist der Rettungswurf erfolgreich, wird die Kontrolle des gebundenen
-      Wesens auf den Kleriker übertragen, der Bindender Ruf gezaubert hat. Der Kleriker behält den Einfluss auf
-      das Wesen für eine gewisse Zeit, nach derer die Kontrolle wieder zu dem ursprünglichen Zauberwirker
-      zurückkehrt (sofern der ursprüngliche Beschwörungs- oder Kontrollzauber nicht inzwischen beendet ist).
-      Dieser Zauber betrifft keine Vertrauten oder andere Wesen, die freiwillig einem Zauberwirker dienen,
-      sondern nur jenen, die zwangsweise unter seiner Kontrolle stehen.
-      Unter bestimmten Voraussetzungen, die weiter unten beschrieben werden, kann der Kleriker auch andere
-      Ziele beeinflussen.
-      Ein Wesen, das sich unter der Kontrolle des Klerikers befindet, kann angewiesen werden eine Handlung
-      durchzuführen, welche, genau wie bei dem Zauber Tiere beschwören, in ihrem gewöhnlichen Leistungsvermögen
-      liegt. Das Wesen muss die Befehle des Klerikers hören können und wird ihr Bestes geben, diese
-      auszuführen. Selbstmörderische oder grundsätzlich widersprüchliche Befehle gewähren dem Ziel einen
-      weiteren Willenskraftwurf gegen die Kontrolle des Klerikers.
-    </Beschreibung>
+    <Beschreibung>Mit diesem Zauber bindet der Kleriker ein übernatürliches Wesen und zwingt es dazu, seinem Willen zu gehorchen. Der Zauber gelingt am einfachsten, wenn das Wesen bereits durch einem anderen Zauber beherrscht wird. Der Kleriker kann diesen Zauber auch sprechen, um Wesen zu kontrollieren, die auf ihrer Heimatebene angetroffen werden. Der Kleriker kann ebenfalls ein Wesen binden, das bereits unter der Kontrolle eines anderen Zauberwirkers steht und durch einen anderen Zauber beschworen wurde (z. B. Tiere beschwören, Monster beschwören oder Unsichtbarer Gefährte). Dies funktioniert auch bei Wesen, die auf nichtmateriellen Ebenen beheimatet sind (z. B. Dämonen, Teufel, Elementare, Geister etc.). Der Kleriker bindet das Wesen, um seinem Willen, anstelle des seines bisherigen Herrn, zu gehorchen. Um dem Zauber zu widerstehen, ist ein Willenskraftwurf erlaubt, allerdings wird der Rettungswurf von dem anderen Zauberkundigen durchgeführt und nicht von dem bereits beherrschten Zielwesen. Ist der Rettungswurf erfolgreich, wird die Kontrolle des gebundenen Wesens auf den Kleriker übertragen, der Bindender Ruf gezaubert hat. Der Kleriker behält den Einfluss auf das Wesen für eine gewisse Zeit, nach derer die Kontrolle wieder zu dem ursprünglichen Zauberwirker zurückkehrt (sofern der ursprüngliche Beschwörungs- oder Kontrollzauber nicht inzwischen beendet ist). Dieser Zauber betrifft keine Vertrauten oder andere Wesen, die freiwillig einem Zauberwirker dienen, sondern nur jenen, die zwangsweise unter seiner Kontrolle stehen. Unter bestimmten Voraussetzungen, die weiter unten beschrieben werden, kann der Kleriker auch andere Ziele beeinflussen. Ein Wesen, das sich unter der Kontrolle des Klerikers befindet, kann angewiesen werden eine Handlung durchzuführen, welche, genau wie bei dem Zauber Tiere beschwören, in ihrem gewöhnlichen Leistungsvermögen liegt. Das Wesen muss die Befehle des Klerikers hören können und wird ihr Bestes geben, diese auszuführen. Selbstmörderische oder grundsätzlich widersprüchliche Befehle gewähren dem Ziel einen weiteren Willenskraftwurf gegen die Kontrolle des Klerikers. </Beschreibung>
     <Name>Bindender Ruf*</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1403,15 +1246,11 @@ beiden und ringen für kurze Zeit miteinander, bevor sich beide in den Körper d
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung>Siehe unten</Beschreibung>
+        <Beschreibung>Siehe unten.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>
-      Mit diesem Zauber ruft der Zauberwirker eine mächtige Entladung elektrischer Energie herbei, die ausreicht,
-      um den meisten Wesen einen tödlichen Stromschlag zu versetzen, hölzerne Gegenstände zu zersplittern,
-      Stein zerplatzen zu lassen und Metall zum Schmelzen zu bringen.
-    </Beschreibung>
+    <Beschreibung>Mit diesem Zauber ruft der Zauberwirker eine mächtige Entladung elektrischer Energie herbei, die ausreicht, um den meisten Wesen einen tödlichen Stromschlag zu versetzen, hölzerne Gegenstände zu zersplittern, Stein zerplatzen zu lassen und Metall zum Schmelzen zu bringen. </Beschreibung>
     <Name>Blitzstrahl</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1429,32 +1268,15 @@ beiden und ringen für kurze Zeit miteinander, bevor sich beide in den Körper d
       </Manifestation>
       <Manifestation>
         <Wurf>3</Wurf>
-        <Beschreibung>Das Skelett des Dämons erscheint als erstes,
-dann bilden sich Organe, die danach von Muskeln zusammengehalten werden, während anschließend die Haut
-darüber wächst, bis die Gestalt des Dämons vollständig ist.</Beschreibung>
+        <Beschreibung>Das Skelett des Dämons erscheint als erstes, dann bilden sich Organe, die danach von Muskeln zusammengehalten werden, während anschließend die Haut darüber wächst, bis die Gestalt des Dämons vollständig ist.</Beschreibung>
       </Manifestation>
       <Manifestation>
         <Wurf>4</Wurf>
         <Beschreibung>In voller Gestalt bricht der Dämon aus dem Boden hervor.</Beschreibung>
-      </Manifestation>      
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>
-      Dieser Zauber beschwört einen Dämon, der dem Zauberwirker gefügig ist. Dämonen sind intelligent, launenhaft,
-      ehrgeizig und gefühlsgesteuert – und sie resgieren nicht immer wohlwollend auf ihre Beschwörung.
-      Der Zauber erfordert ein finsteres Ritual und wenigstens 1 Punkt Zauberbrand. Die Auswirkungen
-      dieses Zaubers variieren je nach Ausführung des Rituals. Der Zauberwirker kann an seinen Patron appellieren,
-      sofern er einen hat; er kann einen spezifischen Dämon beschwören, falls er dessen wahren Namen
-      kennt; oder er kann einfach versuchen, irgendeinen Dämon herbeizurufen. Abhängig vom angestrebten
-      Ergebnis wird die entsprechende, folgend angeführte Spalte verwendet.
-      Der beschworene Dämon steht nicht notwendigerweise unter der Kontrolle des Zauberwirkers. Sofern
-      unten nichts anderes angegeben ist, erhält der Dämon immer einen Willenskraftwurf gegen den Zauberwurf,
-      um sich der Kontrolle zu widersetzen. Gelingt dem Dämon dieser Rettungswurf, schlägt er um sich,
-      wenn er beschworen wird. Es besteht eine Grundwahrscheinlichkeit von 50 %, dass er den Zauberwirker
-      attackiert; diese wird um 20 % gesenkt, falls der Zauberwirker den Dämon im Dienst für seinen Patron
-      beschwört und um weitere 20 %, falls der Zauberwirker den wahren Namen des Dämons kennt. Falls der
-      Dämon den Zauberwirker nicht angreift, attackiert er ein anderes Wesen in der Nähe.
-    </Beschreibung>
+    <Beschreibung>Dieser Zauber beschwört einen Dämon, der dem Zauberwirker gefügig ist. Dämonen sind intelligent, launenhaft, ehrgeizig und gefühlsgesteuert – und sie resgieren nicht immer wohlwollend auf ihre Beschwörung. Der Zauber erfordert ein finsteres Ritual und wenigstens 1 Punkt Zauberbrand. Die Auswirkungen dieses Zaubers variieren je nach Ausführung des Rituals. Der Zauberwirker kann an seinen Patron appellieren, sofern er einen hat; er kann einen spezifischen Dämon beschwören, falls er dessen wahren Namen kennt; oder er kann einfach versuchen, irgendeinen Dämon herbeizurufen. Abhängig vom angestrebten Ergebnis wird die entsprechende, folgend angeführte Spalte verwendet. Der beschworene Dämon steht nicht notwendigerweise unter der Kontrolle des Zauberwirkers. Sofern unten nichts anderes angegeben ist, erhält der Dämon immer einen Willenskraftwurf gegen den Zauberwurf, um sich der Kontrolle zu widersetzen. Gelingt dem Dämon dieser Rettungswurf, schlägt er um sich, wenn er beschworen wird. Es besteht eine Grundwahrscheinlichkeit von 50 %, dass er den Zauberwirker attackiert; diese wird um 20 % gesenkt, falls der Zauberwirker den Dämon im Dienst für seinen Patron beschwört und um weitere 20 %, falls der Zauberwirker den wahren Namen des Dämons kennt. Falls der Dämon den Zauberwirker nicht angreift, attackiert er ein anderes Wesen in der Nähe. </Beschreibung>
     <Name>Dämonen beschwören</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1473,20 +1295,10 @@ darüber wächst, bis die Gestalt des Dämons vollständig ist.</Beschreibung>
       <Manifestation>
         <Wurf>3</Wurf>
         <Beschreibung>Die Ziele verblassen langsam, werden zu Nebel, der sich dann auflöst, ehe sie auf ähnliche Weise am Zielort wieder auftauchen.</Beschreibung>
-      </Manifestation>      
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Mit diesem Zauber betritt der Zauberwirker einen anderen Ort im Universum. Bei niedrigen Zauberwürfen
-erlaubt dieser Zauber dem Zauberwirker das Teleportieren an einen anderen Ort auf derselben Ebene.
-Bei höheren Zauberwürfen kann der Zauberwirker mittels dieses Zaubers mit einem einzigen Schritt auf
-andere Ebenen oder sogar Dimensionen wechseln. Der Zauber befördert den Zauberwirker, dessen Ausrüstung
-und gegebenenfalls auch andere Wesen.
-Je höher das Zauberwurfergebnis, desto weiter reist der Zauberwirker und erreicht auch umso präziser
-sein Ziel. Der Erfolg dieses Zaubers ist zu großen Teilen davon abhängig, wie vertraut der Zauberwirker
-mit der Örtlichkeit ist, zu der er reisen möchte. Jedes Zauberwurfergebnis gibt die Grundwahrscheinlichkeit
-in Abhängigkeit davon an, wohin der Zauberwirker gelangen will und wie vertraut er mit dem Ort
-ist. Dieser Prozentwurf wird ausgeführt, wenn der Zauberwirker sich für ein Ziel entschieden hat. Schlägt
-dieser Wurf fehl, erleidet der Zauberwirker automatisch einen Zauberpatzer.</Beschreibung>
+    <Beschreibung>Mit diesem Zauber betritt der Zauberwirker einen anderen Ort im Universum. Bei niedrigen Zauberwürfen erlaubt dieser Zauber dem Zauberwirker das Teleportieren an einen anderen Ort auf derselben Ebene. Bei höheren Zauberwürfen kann der Zauberwirker mittels dieses Zaubers mit einem einzigen Schritt auf andere Ebenen oder sogar Dimensionen wechseln. Der Zauber befördert den Zauberwirker, dessen Ausrüstung und gegebenenfalls auch andere Wesen. Je höher das Zauberwurfergebnis, desto weiter reist der Zauberwirker und erreicht auch umso präziser sein Ziel. Der Erfolg dieses Zaubers ist zu großen Teilen davon abhängig, wie vertraut der Zauberwirker mit der Örtlichkeit ist, zu der er reisen möchte. Jedes Zauberwurfergebnis gibt die Grundwahrscheinlichkeit in Abhängigkeit davon an, wohin der Zauberwirker gelangen will und wie vertraut er mit dem Ort ist. Dieser Prozentwurf wird ausgeführt, wenn der Zauberwirker sich für ein Ziel entschieden hat. Schlägt dieser Wurf fehl, erleidet der Zauberwirker automatisch einen Zauberpatzer.</Beschreibung>
     <Name>Ebenenwechsel</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1496,17 +1308,11 @@ dieser Wurf fehl, erleidet der Zauberwirker automatisch einen Zauberpatzer.</Bes
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung>
-          Eine Bank aus purpur-schwarzem Nebel, der von Blitzen durchzuckt wird und in dessen Inneren die heulenden
-          Schreie der Verdammten zu hören sind.
-        </Beschreibung>
+        <Beschreibung>Eine Bank aus purpur-schwarzem Nebel, der von Blitzen durchzuckt wird und in dessen Inneren die heulenden Schreie der Verdammten zu hören sind. </Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Dieser Zauber erzeugt einen entropischen Sturm, der eine Fläche von 12 x 12 m bedeckt. Wer in dem Mahlstrom
-gefangen ist, wird von elementaren Kräften des Chaos angegriffen, die Alterung, Zerfall oder Umwandlung
-hervorrufen. Alle Wesen rechtschaffener Gesinnung erhalten -1 auf Rettungswürfe, um dem
-Zauber zu widerstehen. Chaotische Wesen erhalten auf diese Rettungswürfe +1.</Beschreibung>
+    <Beschreibung>Dieser Zauber erzeugt einen entropischen Sturm, der eine Fläche von 12 x 12 m bedeckt. Wer in dem Mahlstrom gefangen ist, wird von elementaren Kräften des Chaos angegriffen, die Alterung, Zerfall oder Umwandlung hervorrufen. Alle Wesen rechtschaffener Gesinnung erhalten -1 auf Rettungswürfe, um dem Zauber zu widerstehen. Chaotische Wesen erhalten auf diese Rettungswürfe +1.</Beschreibung>
     <Name>Emirikols entropischer Mahlstrom</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1520,21 +1326,7 @@ Zauber zu widerstehen. Chaotische Wesen erhalten auf diese Rettungswürfe +1.</B
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Durch die Einnahme eines mystischen Trunks vor dem Schlafengehen, kann der Zauberwirker im Traum
-zu den mächtigen Kriegern vergangener und zukünftiger Zeitalter sprechen. Einer dieser Krieger wird
-herbeigerufen, um für die Sache des Zauberwirkers zu streiten. Wenn der Zauberwirker erwacht, tritt der
-Krieger aus dem Sonnenaufgang des anbrechenden Tages hervor und verschwindet bei Sonnenuntergang
-mit all seinen Besitztümern. Der Krieger glaubt zu träumen, verhält sich aber ansonsten so, wie er sich
-auch unter normalen Umständen verhalten würde.
-Der durch diesen Zauber herbeigerufene Krieger ist geneigt, je nach Gesinnung und persönlichen Ansichten,
-für die Sache des Zauberwirkers zu streiten – und das wird er auch tun, solange er nicht beleidigt oder
-anderweitig davon abgebracht wird. Wird er erschlagen, lösen sich sein Körper und seine Besitztümer in
-Nebel auf. Es besteht eine Wahrscheinlichkeit von 10 %, dass der Krieger im Besitz uralten Wissens ist,
-welches dem Zauberwirker unmittelbar von praktischem Nutzen ist – falls er die richtigen Fragen stellt.
-Der Zauberwirker kann nur über einen Ewigen Helden zur gleichen Zeit verfügen. Wirkt er diesen Zauber,
-während noch ein Ewiger Held aus einem zuvor gewirkten Zauber existiert, wird der zweite Zauber automatisch
-fehlschlagen.
-Die Spielwerte des herbeigerufenen Kriegers sind in den unten beschriebenen Zauberergebnissen aufgeführt.</Beschreibung>
+    <Beschreibung>Durch die Einnahme eines mystischen Trunks vor dem Schlafengehen, kann der Zauberwirker im Traum zu den mächtigen Kriegern vergangener und zukünftiger Zeitalter sprechen. Einer dieser Krieger wird herbeigerufen, um für die Sache des Zauberwirkers zu streiten. Wenn der Zauberwirker erwacht, tritt der Krieger aus dem Sonnenaufgang des anbrechenden Tages hervor und verschwindet bei Sonnenuntergang mit all seinen Besitztümern. Der Krieger glaubt zu träumen, verhält sich aber ansonsten so, wie er sich auch unter normalen Umständen verhalten würde. Der durch diesen Zauber herbeigerufene Krieger ist geneigt, je nach Gesinnung und persönlichen Ansichten, für die Sache des Zauberwirkers zu streiten – und das wird er auch tun, solange er nicht beleidigt oder anderweitig davon abgebracht wird. Wird er erschlagen, lösen sich sein Körper und seine Besitztümer in Nebel auf. Es besteht eine Wahrscheinlichkeit von 10 %, dass der Krieger im Besitz uralten Wissens ist, welches dem Zauberwirker unmittelbar von praktischem Nutzen ist – falls er die richtigen Fragen stellt. Der Zauberwirker kann nur über einen Ewigen Helden zur gleichen Zeit verfügen. Wirkt er diesen Zauber, während noch ein Ewiger Held aus einem zuvor gewirkten Zauber existiert, wird der zweite Zauber automatisch fehlschlagen. Die Spielwerte des herbeigerufenen Kriegers sind in den unten beschriebenen Zauberergebnissen aufgeführt.</Beschreibung>
     <Name>Ewiger Held</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1560,14 +1352,7 @@ Die Spielwerte des herbeigerufenen Kriegers sind in den unten beschriebenen Zaub
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>
-      Der Zauberwirker deutet mit dem Finger auf ein Ziel, spricht ein magisches Wort und schleudert einen Flammenstrahl,
-      der am Zielpunkt explodiert. Ein Feuerball hat einen Wirkungsbereich von 6 m Radius und trifft alle
-      Wesen am Zielort. Alle Wesen nehmen Schaden, falls ihnen kein erfolgreicher Reflexwurf gegen das Zauberwurfergebnis
-      gelingt. Andernfalls nehmen sie halben Schaden. Der Feuerball ist eine blitzartige Explosion die
-      für gewöhnlich keine Menschen in Brand steckt. Doch es besteht eine Wahrscheinlichkeit von 50 %, dass leicht
-      entflammbare Gegenstände (wie trockenes Tuch oder Papier) im Explosionsbereich in Flammen aufgehen.
-    </Beschreibung>
+    <Beschreibung>Der Zauberwirker deutet mit dem Finger auf ein Ziel, spricht ein magisches Wort und schleudert einen Flammenstrahl, der am Zielpunkt explodiert. Ein Feuerball hat einen Wirkungsbereich von 6 m Radius und trifft alle Wesen am Zielort. Alle Wesen nehmen Schaden, falls ihnen kein erfolgreicher Reflexwurf gegen das Zauberwurfergebnis gelingt. Andernfalls nehmen sie halben Schaden. Der Feuerball ist eine blitzartige Explosion die für gewöhnlich keine Menschen in Brand steckt. Doch es besteht eine Wahrscheinlichkeit von 50 %, dass leicht entflammbare Gegenstände (wie trockenes Tuch oder Papier) im Explosionsbereich in Flammen aufgehen. </Beschreibung>
     <Name>Feuerball</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1590,12 +1375,10 @@ Die Spielwerte des herbeigerufenen Kriegers sind in den unten beschriebenen Zaub
       <Manifestation>
         <Wurf>4</Wurf>
         <Beschreibung>Das Ziel schwitzt Quartz-Tropfen aus, die sich miteinander verbinden und eine umschließende Hülle formen.</Beschreibung>
-      </Manifestation>  
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Der Zauberwirker verwandelt andere Lebewesen zu Stein. Eine umgekehrte Version dieses Zaubers, Stein zu Fleisch,
-kann auch erlernt werden, um die Auswirkungen aufzuheben. Hinweis: Wird dieser Zauber erfolgreich gegen eine
-Wasserkreatur gewirkt (wie etwa ein Wasserelementar), fügt er ihr automatisch 1W4 Schaden pro ZS zu.</Beschreibung>
+    <Beschreibung>Der Zauberwirker verwandelt andere Lebewesen zu Stein. Eine umgekehrte Version dieses Zaubers, Stein zu Fleisch, kann auch erlernt werden, um die Auswirkungen aufzuheben. Hinweis: Wird dieser Zauber erfolgreich gegen eine Wasserkreatur gewirkt (wie etwa ein Wasserelementar), fügt er ihr automatisch 1W4 Schaden pro ZS zu.</Beschreibung>
     <Name>Fleisch zu Stein</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1618,15 +1401,10 @@ Wasserkreatur gewirkt (wie etwa ein Wasserelementar), fügt er ihr automatisch 1
       <Manifestation>
         <Wurf>4</Wurf>
         <Beschreibung>Keine sichtbare Manifestation.</Beschreibung>
-      </Manifestation>    
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Der Zauberwirker verleiht sich oder einem anderen Wesen Flugfähigkeit. Bewegungsrate und Dauer sind
-vom Zauberwurfergebnis abhängig. Beim Steigflug ist die Bewegungsrate halbiert, beim Sinkflug wird sie
-verdoppelt. Schwer beladene Wesen fliegen mit halber Bewegungsrate. Die Manövrierfähigkeit ist im Allgemeinen
-gut und entspricht etwa der einen großen Vogels (z. B. Adler oder Habicht). Die Wirkungsdauer
-wird immer vom SL im Geheimen gewürfelt und der Empfänger der Flugfähigkeit weiß nicht, wann sein
-Flug endet, bis er zu Boden stürzt.</Beschreibung>
+    <Beschreibung>Der Zauberwirker verleiht sich oder einem anderen Wesen Flugfähigkeit. Bewegungsrate und Dauer sind vom Zauberwurfergebnis abhängig. Beim Steigflug ist die Bewegungsrate halbiert, beim Sinkflug wird sie verdoppelt. Schwer beladene Wesen fliegen mit halber Bewegungsrate. Die Manövrierfähigkeit ist im Allgemeinen gut und entspricht etwa der einen großen Vogels (z. B. Adler oder Habicht). Die Wirkungsdauer wird immer vom SL im Geheimen gewürfelt und der Empfänger der Flugfähigkeit weiß nicht, wann sein Flug endet, bis er zu Boden stürzt.</Beschreibung>
     <Name>Fliegen</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1645,34 +1423,10 @@ Flug endet, bis er zu Boden stürzt.</Beschreibung>
       <Manifestation>
         <Wurf>3</Wurf>
         <Beschreibung>Der Zauberwirker scheint eine einseitige Unterhaltung zu führen.</Beschreibung>
-      </Manifestation>      
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Der Zauberwirker befragt einen Geist der äußeren Ebenen, um Antworten einzuholen oder Informationen weiterzugeben.
-Dieser Geist kann die Seele einer verstorbenen Person sein, ein Dämon einer anderen Ebene, ein
-Naturgeist in einem See oder Baum, der eigene, übernatürliche Patron des Zauberwirkers oder sogar ein Gott.
-Besonders effektiv ist dieser Zauber, falls der Zauberwirker einen Geist befragt, den er bereits kennt. Sollte
-der Zauberwirker seinen Patron (etwa über den Zauber Pakt mit einem Patron) oder einen von dessen Dienern
-befragen, erhält er +1 auf seinen Zauberwurf. Falls der Zauberwirker einen anderen, individuellen
-Geist befragt, der ihm durch einen vorherigen Kontakt, eine Legende, logische Schlussfolgerung (z. B. indem
-der Zauberwirker einen toten Körper sieht und dessen Geist zu finden wünscht) oder Nachforschung
-(z. B. indem der Zauberwirker dessen Altar besucht oder von seinen Taten gelesen hat) bekannt ist, gibt es
-keinen Modifikator. Falls der Zauberwirker keinerlei Kenntnisse über den zu befragenden Geist besitzt,
-einfach nur mit einem beliebigen, antwortenden Geist in Kontakt treten möchte oder absichtlich einen
-Geist der entgegengesetzten Gesinnung oder Einstellung kontaktiert, erhält er -1 auf den Zauberwurf.
-Falls der Geist dem Zauberwirker bekannt ist, ermittele mit 1W100 dessen Einstellung: (01 – 20) freundlich,
-(21 – 80) neutral, (81 – 00) feindselig. Ein freundlicher oder neutraler Geist wird nach bestem Wissen wahrheitsgemäß
-antworten und besitzt eine Grundwahrscheinlichkeit von 50 %, die Antwort auf eine gestellte Frage zu
-kennen, sofern diese in sein Wissensgebiet fällt – wobei die Wahrscheinlichkeit nach Ermessen des SL und der
-Schwierigkeit der gestellten Frage modifiziert werden kann. Wird ein feindseliger Geist befragt, würfle 1W100:
-(01 – 50) Er gibt irreführende Antworten; (51 – 80) er weigert sich, zu antworten; (81 – 95) er versucht, in den Verstand
-des Zauberwirkers einzudringen (Willenskraftwurf mit SG 4W6, bei Fehlschlag 1W4 temporärer IN-Schaden);
-(96 – 00) er versucht, diese Verbindung zu nutzen, um auf die materielle Ebene hinüberzuwechseln.
-Hinweis: Auf diese Weise Kontakt herzustellen, versetzt den Geist in die Lage, zukünftig umgekehrt Kontakt
-herzustellen (indem er den gleichen Zauber wirkt – sofern er dies kann – oder ähnliche Fähigkeiten
-besitzt). Außerdem sind nicht alle Geister erfreut darüber, von einem neugierigen Sterblichen gestört zu
-werden. Beispielsweise könnte ein Geist eines vor kurzem erschlagenen Wesens ziemlich zornig über seinen
-Tod sein. So eine Erweckung hätte sicherlich Konsequenzen.</Beschreibung>
+    <Beschreibung>Der Zauberwirker befragt einen Geist der äußeren Ebenen, um Antworten einzuholen oder Informationen weiterzugeben. Dieser Geist kann die Seele einer verstorbenen Person sein, ein Dämon einer anderen Ebene, ein Naturgeist in einem See oder Baum, der eigene, übernatürliche Patron des Zauberwirkers oder sogar ein Gott. Besonders effektiv ist dieser Zauber, falls der Zauberwirker einen Geist befragt, den er bereits kennt. Sollte der Zauberwirker seinen Patron (etwa über den Zauber Pakt mit einem Patron) oder einen von dessen Dienern befragen, erhält er +1 auf seinen Zauberwurf. Falls der Zauberwirker einen anderen, individuellen Geist befragt, der ihm durch einen vorherigen Kontakt, eine Legende, logische Schlussfolgerung (z. B. indem der Zauberwirker einen toten Körper sieht und dessen Geist zu finden wünscht) oder Nachforschung (z. B. indem der Zauberwirker dessen Altar besucht oder von seinen Taten gelesen hat) bekannt ist, gibt es keinen Modifikator. Falls der Zauberwirker keinerlei Kenntnisse über den zu befragenden Geist besitzt, einfach nur mit einem beliebigen, antwortenden Geist in Kontakt treten möchte oder absichtlich einen Geist der entgegengesetzten Gesinnung oder Einstellung kontaktiert, erhält er -1 auf den Zauberwurf. Falls der Geist dem Zauberwirker bekannt ist, ermittele mit 1W100 dessen Einstellung: (01 – 20) freundlich, (21 – 80) neutral, (81 – 00) feindselig. Ein freundlicher oder neutraler Geist wird nach bestem Wissen wahrheitsgemäß antworten und besitzt eine Grundwahrscheinlichkeit von 50 %, die Antwort auf eine gestellte Frage zu kennen, sofern diese in sein Wissensgebiet fällt – wobei die Wahrscheinlichkeit nach Ermessen des SL und der Schwierigkeit der gestellten Frage modifiziert werden kann. Wird ein feindseliger Geist befragt, würfle 1W100: (01 – 50) Er gibt irreführende Antworten; (51 – 80) er weigert sich, zu antworten; (81 – 95) er versucht, in den Verstand des Zauberwirkers einzudringen (Willenskraftwurf mit SG 4W6, bei Fehlschlag 1W4 temporärer IN-Schaden); (96 – 00) er versucht, diese Verbindung zu nutzen, um auf die materielle Ebene hinüberzuwechseln. Hinweis: Auf diese Weise Kontakt herzustellen, versetzt den Geist in die Lage, zukünftig umgekehrt Kontakt herzustellen (indem er den gleichen Zauber wirkt – sofern er dies kann – oder ähnliche Fähigkeiten besitzt). Außerdem sind nicht alle Geister erfreut darüber, von einem neugierigen Sterblichen gestört zu werden. Beispielsweise könnte ein Geist eines vor kurzem erschlagenen Wesens ziemlich zornig über seinen Tod sein. So eine Erweckung hätte sicherlich Konsequenzen.</Beschreibung>
     <Name>Geister befragen</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1695,37 +1449,10 @@ Tod sein. So eine Erweckung hätte sicherlich Konsequenzen.</Beschreibung>
       <Manifestation>
         <Wurf>4</Wurf>
         <Beschreibung>Eine flirrende Hitzewelle, die von Ort zu Ort springt.</Beschreibung>
-      </Manifestation>      
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>Der Zauberwirker ruft einen Hund aus dem Jenseits herbei, der für ihn auf die Jagd geht. Dieser gespenstische
-Jäger ist eine abstoßendes, dämonisches Wesen, das nichts Gutes im Schilde führt. Der Zauber erfordert mindestens
-1 Zauberbrand, der nicht eher heilt, als bis der gespenstische Hund dorthin zurückgekehrt ist, woher er
-kam. Auf der materiellen Ebene hat er keine feste Form, sondern erscheint zumeist als ein Schatten aus dampfendem
-Nebel. Der Zauberwirker muss den Hund in einfachen und direkten Worten wissen lassen, welchen
-Gegenstand oder welche Person er sucht – denn Mehrdeutigkeiten könnten dazu führen, dass ein falsches Ziel
-aufgespürt wird. Eine Materialprobe, wie etwa Kleidung, Haar oder eine Phiole Blut, ist am besten. Bilder,
-Beschreibungen, Namen (auch wahre Namen) sind weniger nützlich. Der Hund hat einen außerordentlichen
-Geruchssinn, er verfügt über rudimentäre übersinnliche Wahrnehmung (ASW) und das Zweite Gesicht. Vorausgesetzt,
-er hat ausreichend fundierte Hinweise und eine Spur, der er folgen kann, ist er bei der Jagd auf sein
-Ziel für gewöhnlich äußerst erfolgreich. Er wird die angegebene Person oder das Objekt aufspüren und – tot
-oder lebendig – dorthin zurückbringen, wo er ursprünglich gerufen wurde. Ihm sind „tot“ oder „lebendig“
-egal, er wählt in der Regel die für ihn zweckdienlichste Methode. Befindet sich das Zielobjekt auf einem fernen
-Kontinent oder in einem gefährlichen Labyrinth, steht dem Hund natürlich eine lange und potenziell erfolglose
-Reise bevor. Möchte der Zauberwirker dem Hund Bedingungen aufzwingen – etwa, das Zielobjekt lebend zurückzubringen
-oder nur zu einer bestimmten Zeit oder nach einem bestimmten Ereignis – provoziert er damit
-ein mögliches Scheitern. Dies ist in den Zauberergebnissen unten angegeben.
-Sofern nicht anders angegeben, fliegt der Hund mit einer Bewegungsrate von 30 m, hat Attributswerte von
-14 und kann die gleichen Aktionen machen wie ein normaler Mensch. Er hört zu, aber spricht nie. Er hat
-RK 18, 4W12 Trefferpunkte, einen Angriffsbonus von +8 (2W6 Schaden) und die gleichen Rettungswürfe
-wie der Zauberwirker. Er lässt sich nicht leichtfertig auf Kämpfe ein – auch nicht, um den Zauberwirker zu
-verteidigen – sondern kämpft nur, um an das gewünschte Objekt oder die Person zu kommen. Und dann
-auch nur, wenn ein Kampf absolut unvermeidbar ist. Er ist geduldig und wartet lieber ab, als anzugreifen.
-Wurde er mit ausreichend Informationen versorgt, besteht eine Grundwahrscheinlichkeit, dass der Hund
-beim Aufspüren seines Zieles erfolgreich ist (wie in den Zauberergebnissen angegeben), wenngleich er
-dabei nicht zwischen den Ebenen wechseln kann (sofern nicht anders angegeben) und ein Erfolg beim
-Aufspüren des Zieles nicht gleichbedeutend damit ist, dass er es in der angewiesenen Zeit zurückbringen
-kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforderlich.</Beschreibung>
+    <Beschreibung>Der Zauberwirker ruft einen Hund aus dem Jenseits herbei, der für ihn auf die Jagd geht. Dieser gespenstische Jäger ist eine abstoßendes, dämonisches Wesen, das nichts Gutes im Schilde führt. Der Zauber erfordert mindestens 1 Zauberbrand, der nicht eher heilt, als bis der gespenstische Hund dorthin zurückgekehrt ist, woher er kam. Auf der materiellen Ebene hat er keine feste Form, sondern erscheint zumeist als ein Schatten aus dampfendem Nebel. Der Zauberwirker muss den Hund in einfachen und direkten Worten wissen lassen, welchen Gegenstand oder welche Person er sucht – denn Mehrdeutigkeiten könnten dazu führen, dass ein falsches Ziel aufgespürt wird. Eine Materialprobe, wie etwa Kleidung, Haar oder eine Phiole Blut, ist am besten. Bilder, Beschreibungen, Namen (auch wahre Namen) sind weniger nützlich. Der Hund hat einen außerordentlichen Geruchssinn, er verfügt über rudimentäre übersinnliche Wahrnehmung (ASW) und das Zweite Gesicht. Vorausgesetzt, er hat ausreichend fundierte Hinweise und eine Spur, der er folgen kann, ist er bei der Jagd auf sein Ziel für gewöhnlich äußerst erfolgreich. Er wird die angegebene Person oder das Objekt aufspüren und – tot oder lebendig – dorthin zurückbringen, wo er ursprünglich gerufen wurde. Ihm sind „tot“ oder „lebendig“ egal, er wählt in der Regel die für ihn zweckdienlichste Methode. Befindet sich das Zielobjekt auf einem fernen Kontinent oder in einem gefährlichen Labyrinth, steht dem Hund natürlich eine lange und potenziell erfolglose Reise bevor. Möchte der Zauberwirker dem Hund Bedingungen aufzwingen – etwa, das Zielobjekt lebend zurückzubringen oder nur zu einer bestimmten Zeit oder nach einem bestimmten Ereignis – provoziert er damit ein mögliches Scheitern. Dies ist in den Zauberergebnissen unten angegeben. Sofern nicht anders angegeben, fliegt der Hund mit einer Bewegungsrate von 30 m, hat Attributswerte von 14 und kann die gleichen Aktionen machen wie ein normaler Mensch. Er hört zu, aber spricht nie. Er hat RK 18, 4W12 Trefferpunkte, einen Angriffsbonus von +8 (2W6 Schaden) und die gleichen Rettungswürfe wie der Zauberwirker. Er lässt sich nicht leichtfertig auf Kämpfe ein – auch nicht, um den Zauberwirker zu verteidigen – sondern kämpft nur, um an das gewünschte Objekt oder die Person zu kommen. Und dann auch nur, wenn ein Kampf absolut unvermeidbar ist. Er ist geduldig und wartet lieber ab, als anzugreifen. Wurde er mit ausreichend Informationen versorgt, besteht eine Grundwahrscheinlichkeit, dass der Hund beim Aufspüren seines Zieles erfolgreich ist (wie in den Zauberergebnissen angegeben), wenngleich er dabei nicht zwischen den Ebenen wechseln kann (sofern nicht anders angegeben) und ein Erfolg beim Aufspüren des Zieles nicht gleichbedeutend damit ist, dass er es in der angewiesenen Zeit zurückbringen kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforderlich.</Beschreibung>
     <Name>Gespenstischer Hund</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1744,26 +1471,10 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
       <Manifestation>
         <Wurf>3</Wurf>
         <Beschreibung>Keine Manifestation, wenn das Ziel stillsteht, aber seine Bewegungen sind blitzschnell.</Beschreibung>
-      </Manifestation>        
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung>
-      Der Zauberwirker erlangt eine höhere Bewegungsschnelligkeit. Seine Aktionen werden in ihrer Geschwindigkeit
-      so sehr erhöht, dass er sich mit der doppelten Bewegungsrate eines normalen Menschen bewegt
-      – oder noch schneller! Auf höheren Stufen wirkt dieser Zauber auch auf einige Wesen im Umkreis von 6 m
-      um den Zauberwirker. Allerdings altern von diesem Zauber betroffene Wesen mit abnormaler Schnelligkeit,
-      während sie unter seinem Einfluss stehen. Zusätzliche Aktionen werden wie folgt gewonnen:
-      Bewegung: Unter Hast stehende Wesen verdoppeln ihre Bewegungsrate. In manchen Fällen kann sie sogar
-      verdreifacht werden, wie unten angegeben.
-      Aktionswürfel: Unter Hast stehende Wesen erhalten zusätzliche Aktionswürfel. Abhängig von ihrer Charakterklasse,
-      können diese für Angriffe, das Wirken von Zaubern, das Vertreiben von Untoten, Handauflegen
-      oder Fertigkeitswürfe eingesetzt werden. Verfügt der Charakter momentan nur über einen Aktionswürfel,
-      ist der zusätzliche Aktionswürfel vom gleichen Typ (normalerweise 1W20). Verfügt der Charakter
-      über mehrere Aktionswürfel (aufgrund einer hohen Klassenstufe oder anderer Faktoren), ist der zusätzliche
-      Aktionswürfel gleich dem niedrigsten Aktionswürfel, den er schon besitzt. Beispiel: ein Charakter hat
-      die Aktionswürfel 1W20 + 1W14, daher erhält er zusätzlich 1W14 als dritten Aktionswürfel.
-      Dieser Zauber kann auch gewirkt werden, um den Zauber Verlangsamen zu negieren.
-    </Beschreibung>
+    <Beschreibung>Der Zauberwirker erlangt eine höhere Bewegungsschnelligkeit. Seine Aktionen werden in ihrer Geschwindigkeit so sehr erhöht, dass er sich mit der doppelten Bewegungsrate eines normalen Menschen bewegt – oder noch schneller! Auf höheren Stufen wirkt dieser Zauber auch auf einige Wesen im Umkreis von 6 m um den Zauberwirker. Allerdings altern von diesem Zauber betroffene Wesen mit abnormaler Schnelligkeit, während sie unter seinem Einfluss stehen. Zusätzliche Aktionen werden wie folgt gewonnen: Bewegung: Unter Hast stehende Wesen verdoppeln ihre Bewegungsrate. In manchen Fällen kann sie sogar verdreifacht werden, wie unten angegeben. Aktionswürfel: Unter Hast stehende Wesen erhalten zusätzliche Aktionswürfel. Abhängig von ihrer Charakterklasse, können diese für Angriffe, das Wirken von Zaubern, das Vertreiben von Untoten, Handauflegen oder Fertigkeitswürfe eingesetzt werden. Verfügt der Charakter momentan nur über einen Aktionswürfel, ist der zusätzliche Aktionswürfel vom gleichen Typ (normalerweise 1W20). Verfügt der Charakter über mehrere Aktionswürfel (aufgrund einer hohen Klassenstufe oder anderer Faktoren), ist der zusätzliche Aktionswürfel gleich dem niedrigsten Aktionswürfel, den er schon besitzt. Beispiel: ein Charakter hat die Aktionswürfel 1W20 + 1W14, daher erhält er zusätzlich 1W14 als dritten Aktionswürfel. Dieser Zauber kann auch gewirkt werden, um den Zauber Verlangsamen zu negieren. </Beschreibung>
     <Name>Hast</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1773,11 +1484,11 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
-      </Manifestation>  
+        <Beschreibung>Siehe unten.</Beschreibung>
+      </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Mit einem verzauberten Atemhauch aus seinen Lungen erweckt der Zauberwirker ein unbelebtes Objekt zum Leben. Mit der Macht dieses Zaubers können Statuen in Bewegung versetzt, Tonfiguren in gehorsame Homunkuli verwandelt, Zauberbücher gegen Diebe wehrhaft gemacht und Gewölbetüren zu standhaften Wächtern transformiert werden. Der Zauber erfordert ein kurzes Ritual und eine Vielzahl verschiedener Zutaten, die für jedes belebte Objekt unterschiedlich sind. Dieser Zauber belebt keine Überreste lebender Wesen und kann daher nicht als Ersatz für Tote beleben genutzt werden. Das Objekt bewegt sich gemäß seiner Natur, üblicherweise mit einer Bewegungsrate von 6 m oder weniger: Ein Buch bewegt sich etwa wie eine Raupe, eine Tonfigur bewegt sich vielleicht mit ihren modellierten Beinen oder Schwingen, eine Tür watschelt womöglich auf ihren vier Ecken umher usw. In Verbindung mit anderen Zaubern, die in dem Ritual eingesetzt werden, ist es auch möglich, dass das belebte Wesen spricht (z. B. durch Magischer Mund), fliegt (z. B. durch Fliegen) oder über andere Eigenschaft verfügt (z. B. durch Unsichtbarkeit oder Feuerresistenz). Bis zu einem zusätzlichen Zaubereffekt pro ZS kann der Zauberwirker „einbauen“, wenn ihm das Wirken dieses Zaubers mit mindestens 1 Zauberbrand gelingt. Das belebte Wesen gehorcht nicht immer dem Willen seines Erschaffers. Außer wenn unten angegeben, muss dem Zauberwirker ein Persönlichkeitswurf (SG 5) gelingen, damit das Wesen einen Befehl ausführt, der seiner Natur zuwider ist (z. B. wenn eine Tonfigur in ein Gewässer geschickt oder einem Buch befohlen wird, über ein Feuer zu springen). Das belebte Wesen hat die unten angegebenen Spielwerte. Seine RK hängt von seinem Material ab: Papier hat RK 4, Tuch oder Stroh haben RK 6, Leder oder Tierfelle haben RK 8, Holz oder Ton haben RK 10, Stein hat RK 12 und Eisen oder Stahl haben RK 14. Trefferpunkte sind wie unten angegeben, können aber für besonders stabile Materialien erhöht werden: Holz oder Ton erhalten +1 pro TW, Stein +2 pro TW und Eisen und Stahl verleihen +3 pro TW. Einzigartige oder besondere Materialien können weitere Eigenschaften und Vorteile aufweisen, je nach Entscheidung des SL. </Beschreibung>
     <Name>Lebenshauch</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1786,12 +1497,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>265</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Knisternde Elektrizität.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Schwarze, schäbige Fesseln.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Weiße Blässe.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Himmlischer grauer Dunst.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Das Licht der Gottheit des Klerikers hindert seine Gegner daran, ihre Hände gegen ihn zu erheben und üble Taten zu vollbringen. </Beschreibung>
     <Name>Lähmung*</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1801,11 +1524,11 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Variiert</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Mit diesem Zauber unterbricht der Zauberwirker arkane Energien. Dieser Zauber kann ein Pentagramm brechen, einen beschworenen Dämon bannen, einen magischen Trunk neutralisieren oder einen anderen Zauber negieren. Grundlegend beschreibt dieser Zauber einen Kampf der Willensstärke: Der Zauberwirker versucht, die arkanen Energien zu beherrschen und aufzulösen, die bereits von einem gegnerischen Zauberkundigen geformt wurden. Ist der Zauberwirker stärker, bannt er die feindliche Magie. Ist sein Rivale stärker, bleibt die Magie bestehen. In den meisten Fällen ist Konzentration für diesen Zauber immens hilfreich. Ein einfaches Magie bannen kann in einer Runde gewirkt werden und ungeachtet des Zauberwurfs ein maximales Zauberergebnis von 21 erreichen (wie unten angegeben). Für jede weitere Runde, die sich der Zauberwirker beim Wirken dieses Zaubers konzentriert, kann das Zauberergebnis schrittweise höher ausfallen, wie aus der Tabelle unten zu ersehen ist. Ein höherer Zeitaufwand garantiert kein besseres Zauberergebnis, doch sind die Zauberergebnisse je nach Zeitaufwand gedeckelt. Dieser Zauber kann auch als Gegenzauber gegen ein gegnerisches Wirken eingesetzt werden. Wird er auf diese Weise verwendet, kann er unabhängig vom Zeitaufwand jedes Ergebnis erzielen. Wird dieser Zauber gewirkt, muss der zu bannende Effekt mit einem Zauberwurf geschaffen worden sein, der kleiner oder gleich dem des Bannenden ist; der gegnerische Zauberkundige erhält einen Willenskraftwurf. Beispiel: Hat der Zauberwirker beim Zauberwurf auf Magie bannen eine 16 gewürfelt, könnte er damit ein feindliches Spiegelbild bannen, dass mit einem Zauberwurf von 15 oder weniger erzielt wurde. Ist der gegnerische Zauberwurf unbekannt, sollte ihn der Spielleiter sofort auswürfeln. Der Zauberwirker weiß nicht unbedingt um die Stärke des magischen Zaubers oder Effekts, den er zu bannen versucht. In einigen Fällen – wie unten angegeben – kann der gegnerische Zauberkundige das Bannen eines Zaubers verhindern, indem ihm ein erfolgreicher Willenskraftwurf gegen den Zauberwurf des Bannenden gelingt. Beispiel: Der Erschaffer des Spiegelbilds kann versuchen, es weiter aufrecht zu erhalten, indem er einen Willenskraftwurf macht, der größer oder gleich dem Zauberwurfergebnis des Bannenden ausfällt. </Beschreibung>
     <Name>Magie bannen</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1815,11 +1538,11 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Der Zauberwirker erschafft eine magische Schriftrolle.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker überträgt magische Schrift auf eine Schriftrolle, die zu einem späteren Zeitpunkt gelesen werden kann, um einen zauberähnlichen Effekt auszulösen. Das Ergebnis des Zauberwurfs bestimmt, welchen Zaubergrad der Zauberwirker schriftlich übertragen kann, die Anzahl an Zaubern, die niedergeschrieben werden können, und ob der Zauberwirker als Teil des Wirkens dabei einzigartige Eigenschaften erzeugen kann. Die meisten Zauberkundigen kennzeichnen ihre Schriftrollen und sie können ihnen Flüche oder Schutzzeichen anhängen, die andere davon abhält, sie zu lesen. Der Zauberwirker muss die notwendigen Materialien zur Übertragung auf eine Schriftrolle beibringen, darunter Papier, Pergament oder ähnliche Materialien, ein Schreibutensil und eine besondere Art von Tinte. Diese Grundkosten betragen 200 GM pro Zauber und Grad, der auf eine Schriftrolle eingezeichnet werden soll. Beispiel: Das Übertragen eines Zaubers des 1. Grades kostet 200 GM; das Übertragen von drei Zaubern des 1. Grades kostet 600 GM; das Übertragen eines Zaubers des 1. Grades und eines des 3. Grades kostet 800 GM. Der Zauberwirker kann auch Stoßzähne, Steintafeln oder andere, untypische Oberflächen wählen, doch dies verdoppelt die Kosten. Der Zeitaufwand für die Anfertigung einer Schriftrolle beträgt üblicherweise einen ganzen Tag pro Zauber und Grad. Im Gegensatz zu anderen Zaubern, führt der SL – und nicht der Zauberwirker – den Zauberwurf durch, um den Erfolg des Zauberwirkers zu bestimmen. Der Zauberwirker darf nur einen Zauber aufzeichnen, den er bereits beherrscht, und er muss vor Durchführung des Zauberwurfs ansagen, welche Zauber er auf eine Schriftrolle zu übertragen versucht. Die Materialkosten und der Zeitaufwand berechnen sich dann nach diesen Angaben. Das Ergebnis des Zauberwurfs bestimmt dann darüber, ob der Zauberwirker einen vollen, teilweisen oder gar keinen Erfolg hat. Ein von einer Schriftrolle gewirkter Zauber erfordert vom Leser üblicherweise einen Zauberwurf. Der Zauberwirker kann jedoch bei ausreichend hohen Erfolgsergebnissen bestimmen, dass der Schriftrollenzauber den Effekt eines festgelegten Ergebnisses auslöst. </Beschreibung>
     <Name>Magie schreiben</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1829,11 +1552,11 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Eingezeichnete Rune</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Dieser Zauber verleiht dem Zauberwirker Wissen über das geheime Alphabet der Feen. Die Feensprache besteht aus unheimlichen Siegeln von subtiler, aber gefährlicher Macht. Durch das Wirken dieses Zaubers kann der Zauberwirker eine solche Feenrune zeichnen. Die notwendigen Materialien, um eine solche Rune einzuzeichnen, kosten 200 GM pro Rune. Der Zauberwurf entscheidet darüber, welche Energien der Zauberwirker in seine Rune legen kann; der Zauberwirker kann dabei eine Rune bis in Höhe seines Zauberwurfergebnisses auswählen, wobei die Wahl getroffen werden muss, wenn die Rune niedergeschrieben wird. Eine Rune kann auf jeden Gegenstand geschrieben werden: auf einem Blatt oder einem Stück Rinde, auf einem Mantel oder Ring, über einer Tür, unter einer Tischplatte usw. Das Zauberwurfergebnis wird um 2 gesenkt, falls die Rune in die Luft gezeichnet werden soll; es wird um 4 gesenkt, falls die Rune unsichtbar gezeichnet werden soll und es wird um 8 gesenkt, wenn sie dauerhaft eingezeichnet werden soll (sie verschwindet nicht, wenn sie ausgelöst wird). Der Effekt wird je nach spezifischem Zeichen ausgelöst, wie unten beschrieben: Wenn es berührt wird, wenn es passiert wird, wenn es angeblickt wird usw. Bei fehlgeschlagenem Zauberwurf zischt das Zeichen und löst sich auf. Die zu seiner Herstellung verwendeten Materialien gehen verloren. Bei Erfolg wird das Zauberwurfergebnis zum SG für den gegnerischen Rettungswurf. Der Zauberwirker kann eine unbekannte Rune mit einem erfolgreichen Zauberwurf gegen das Wurfergebnis des Erschaffers ablegt. </Beschreibung>
     <Name>Runenalphabet der Feen</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1843,11 +1566,11 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Erschaffung einer magischen Waffe</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Mit diesem Zauber können Zauberkundige magische Waffen herstellen. Ein Zauberwurf bestimmt die möglichen Vorzüge und Eigenschaften der zu erschaffenden Waffe. Einzelheiten werden durch die Materialkomponenten, Handwerkskunst und weiteren Elemente bestimmt, die vom Zauberwirker eingebracht werden. Der Zauber wird in Form eines fortwährenden Rituals durch den Waffenfertigungsprozess gewirkt und der Zauberwirker benötigt einen Helfer, um die Waffe zu schmieden, sofern er nicht selbst ein Schmied ist. Für den Zauber eingesetzter Zauberbrand ist für die Dauer des Rituals verbraucht und heilt erst nach Abschluss des Rituals. Alle Kosten fallen an, bevor der Zauberwurf durchgeführt wird, und falls dieser fehlschlägt, ist alles Eingesetzte verloren. Eine Waffe, die nicht erfolgreich verzaubert wurde, kann mit der Hälfte der eingesetzten Materialkosten neu geschmiedet werden. Im Allgemeinen wird beim Herstellen einer magischen Waffe wie folgt verfahren: </Beschreibung>
     <Name>Schwertmagie</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1856,12 +1579,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>235</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Die Flüssigkeit schillert in bunten Farben.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Kleine, totenkopfförmige Wölkchen steigen von den Gebräu auf.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Das Gebräu wirbelt und dreht sich ,als wäre es lebendig.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Die Flüssigkeit trotzt der Gravitation, steigt an den Innenwänden ihres Gefäßes empor und tropft in Richtung Decke.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker kann mystische Gebräue herstellen, die dem Trinker übernatürliche Kräfte verleihen. Das Ergebnis des Zauberwurfs gibt an, welche Arten von Tränken gebraut werden können, so wie unten angegeben; jedes Wirken des Zaubers erlaubt es dem Zauberwirker, einen der möglichen Tränke auszuwählen (von seinem Zauberwurfergebnis oder darunter). Nachdem er sich auf einen Trank festgelegt hat, muss der Zauberwirker Gold in Höhe der Hälfte seines Zauberwurfergebnisses (abgerundet) x 25 GM ausgeben, um die notwendige Ausrüstung sowie die Grundzutaten für den Trank zu beschaffen. Zusätzlich benötigt jeder Trank eine besondere Substanz, die vom Zauberwirker persönlich geerntet und anschließend gebraut werden muss, was etwa eine Woche Zeit in Anspruch nimmt, nachdem der Zauber gewirkt wurde. Vorschläge für mögliche Sonderzutaten sowie weitere Einzelheiten über die Effekte von Tränken fi ndest du weiter unten. Im Gegensatz zu anderen Zaubern, führt hier der SL und nicht der Zauberwirker den Zauberwurf aus, um den Erfolg des Zauberwirkers zu bestimmen. </Beschreibung>
     <Name>Trank brauen</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1870,12 +1605,20 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>237</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Das Ziel scheint in mehrere Richtungen gedehnt und gestreckt zu werden.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Das Ziel ist von einem gräulichen Nebel umgeben, der es teilweise verdeckt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Das Ziel scheint sich ermattet zu Boden zu neigen und kann nur unter Schwierigkeiten gehen.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker beeinträchtigt die Fähigkeit des Zielwesens, sich mit ihrer normalen Bewegungsrate zu bewegen. Dieser Zauber kann auch als Gegenzauber für Hast gewirkt werden. </Beschreibung>
     <Name>Verlangsamen</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1884,12 +1627,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>238</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Dem Ziel wachsen Kiemenschlitze im Nacken.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Der Körper des Ziels wird schuppig und nimmt eine grünlich-blaue oder silbrige Färbung an.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Die Augen des Ziels treten fischartig aus ihren Höhlen hervor und die Lippen spitzen sich.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Nase und Mund des Ziels ziehen sich zu engen Schlitzen zusammen.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker verleiht sich und anderen die Fähigkeit, unter zu Wasser atmen und sich frei bewegen zu können.</Beschreibung>
     <Name>Wasser atmen</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1898,12 +1653,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>239</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Strömungen aus farbiger Luft, die sich zu einer rasenden Böe verdichten.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein Sturm aufgewühlter Luftmassen hinter dem Zauberwirker, die als Windstoß davon wirbeln.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Dutzende kleiner Zyklone, die vom Zauberwirker fort fegen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Nichts weiter als ein normaler Windstoß.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker atmet aus und sein Odem wird zu einem mächtigen Windstoß. Der Wind ist ausreichend stark, um kleine Flammen zu löschen, wie die von Kerzen oder Fackeln. Er vermag auch Wesen zurückzudrängen, die in Richtung des Zauberwirker fliegen oder sogar gehen. Der Wind facht größere Feuer zu lodernden Feuersbrünsten an und fegt unbefestigte Gegenstände hinfort. </Beschreibung>
     <Name>Windstoß</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -1912,12 +1679,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>242</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Die Augen des Zauberwirkers werden eisblau.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Die Temperatur im Umkreis von 3 m um den Zauberwirker fällt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Haut und Haare des Zauberwirkers überziehen sich mit Raureif.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Arktische Winde, die aus dem Nichts auftauchen.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker erschafft Eismauern oder greift seine Feinde mit gefrierender Kälte an, um sie zu verletzen oder zu behindern. Kann er den Zauber erfolgreich wirken, darf der Zauberwirker sich für jeden Effekt bis in Höhe seines Zauberwurfergebnisses entscheiden, wodurch er eine größere Spanne an Auswahlmöglichkeiten besitzt, um auch schwächere, aber vielleicht nützlichere Ergebnisse nutzen zu können. </Beschreibung>
     <Name>Eis beherrschen</Name>
     <Grad>4</Grad>
   </ZauberTemplate>
@@ -1926,12 +1705,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>243</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Die Haut des Zauberwirkers sieht aus wie grob behauener Fels.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Die Stimme des Zauberwirkers erhält einen knirschenden Klang.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Unter den Füßen des Zauberwirkers rumort die Erde.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Kleine Kristalle in seltsamen Farben schießen um den Zauberwirker aus dem Boden hervor.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker zwingt den Erdelementen seinen Willen auf. Bei erfolgreichem Wirken des Zaubers darf der Zauberwirker einen Effekt bis zur Höhe seines Zauberwurfergebnisses auswählen, wodurch ihm mit jedem Wirken mehr Möglichkeiten offenstehen und auch ein schwächeres, aber in der Situation womöglich nützlicheres Ergebnis erzeugt werden kann.</Beschreibung>
     <Name>Erde umformen</Name>
     <Grad>4</Grad>
   </ZauberTemplate>
@@ -1940,12 +1731,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>245</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Der Körper des Zauberwirkers entzündet sich und steht in (harmlosen) Flammen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Nahegelegene Flammen springen von ihren Brandherden und tanzen um den Zauberwirker herum.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Feuerkugeln fallen vom Himmel herab und nehmen die vom Zauberwirker erschaffene Gestalt an.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Der Zauberwirker erbricht eine Feuermasse, die dann die Auswirkungen des Zaubers erfüllt.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker erschafft und beeinflusst Feuer, um einen Weg zu versperren, seine Feinde in Brand zu setzen und sich selbst vor Schaden zu schützen. Kann er den Zauber erfolgreich wirken, darf der Zauberwirker sich für jeden Effekt bis in Höhe seines Zauberwurfergebnisses entscheiden, wodurch er eine größere Spanne an Auswahlmöglichkeiten besitzt, um auch schwächere, aber vielleicht nützlichere Ergebnisse nutzen zu können. </Beschreibung>
     <Name>Feuer beherrschen</Name>
     <Grad>4</Grad>
   </ZauberTemplate>
@@ -1954,12 +1757,20 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>246</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Ein schimmernder Lichtpfad verbindet den Zauberwirker und seine ausgewählten Ziele.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Die Augen der verbundenen Zauberkundigen glühen mit dem gleichen unheimlichen, blauen Licht.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Funken magischer Blitze zucken zwischen den verbundenen Zauberkundigen.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker öffnet einen Kanal zwischen sich und anderen Zauberkundigen, wodurch er diese beim Zauberwirken unterstützen und so die Kosten des Zauberbrandes ausgleichen kann. Sofern es die Wirkungsdauer gestattet, kann der Zauberwirker mit einem Willenskraftwurf mit SG 11 den Kanal offenhalten und andere Aktionen machen. Misslingt der Rettungswurf, bricht die Verbindung zusammen, doch der Zauberwirker kann seine andere Aktion normal machen. Wer diesen Zauber wirkt, gilt für die Belange des Zaubers als primärer Zauberwirker.</Beschreibung>
     <Name>Lokerimons geordnete Unterstützung</Name>
     <Grad>4</Grad>
   </ZauberTemplate>
@@ -1968,12 +1779,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>248</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Der Körper des Zieles verdreht sich und zerläuft wie geschmolzener Ton.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein Rauchwolke verhüllt das Ziel vorübergehend und löst sich auf, wenn die veränderte Gestalt fertig ist.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Das Ziel leuchtet in blendendem Licht, das langsam abklingt, wenn die neue Gestalt fertig ist.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Die Haut des Ziels wendet sich von innen nach außen und zeigt dessen innere Organe, bevor sie zu einer neuen Gestalt zurückschnappt.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker verwandelt sich oder eine andere Person in eine anderes Wesen.</Beschreibung>
     <Name>Verwandlung</Name>
     <Grad>4</Grad>
   </ZauberTemplate>
@@ -1982,12 +1805,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>249</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Die Augen des Zauberwirkers werden totenbleich.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Auf der Stirn des Zauberwirkers öffnet sich ein drittes Auge.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Fühler aus Fleisch winden sich aus der Oberseite des Kopfes des Zauberwirkers hervor.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Die Augen des Zauberwirkers verschwinden vollständig aus seinen Augenhöhlen.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker erweitert seine Sinne ins Übermenschliche, um ferne Ereignisse zu beobachten oder die Wahrheit zu erkennen. </Beschreibung>
     <Name>Zaubersinne</Name>
     <Grad>4</Grad>
   </ZauberTemplate>
@@ -1996,12 +1831,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>251</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Dem Ziel tritt Qualm aus Nase, Ohren und Mund.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein Blitz aus rotem Feuer schießt aus den Augen des Ziels hervor.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Fühler aus unheilvoll aussehendem Protoplasma brechen aus den Händen des Zauberwirkers hervor und bohren sich in den Kopf des Ziels.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Der Zauberwirker inhaliert Ströme funkelnder Energie aus dem Mund des Ziels.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker attackiert den Verstand seines Opfers mit magischer Amnesie, wodurch sich das Ziel vorübergehend oder sogar dauerhaft an nichts mehr erinnern kann. </Beschreibung>
     <Name>Gedanken auslöschen</Name>
     <Grad>5</Grad>
   </ZauberTemplate>
@@ -2010,12 +1857,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>252</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Winzige Hyphenstränge wachsen aus den Fingern des Zauberwirkers, während er diese Magie wirkt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Eine Wolke schillernder Sporen strömt aus Mund und Nase des Zauberwirkers hervor, bevor die Magie Form annimmt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Kleine Boviste wachsen aus dem Fuß des Zauberwirkers hervor und vermehren sich spiralförmig in Richtung Zauberziel.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Die Haut des Zauberwirkers wird von einem Sporenflaum überwuchert, der sich dann zu dem gewünschten Effekt verdichtet.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker nutzt und verstärkt die stets präsenten Pilz- und Schimmelsporen, um spektakuläre Effekte zu erzielen – darunter erstickende Wolken, schützende Rüstungen, Fesseln und spontane Pilzerschaffung. Bei erfolgreichem Wirken kann sich der Zauberwirker auch für ein niedrigeres Zauberresultat entscheiden, als sein Wurf anzeigt, falls dieser Effekt potenziell nützlicher für ihn ist. </Beschreibung>
     <Name>Hepsojs fruchtbare Pilze</Name>
     <Grad>5</Grad>
   </ZauberTemplate>
@@ -2024,12 +1883,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>254</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Der Jäger schält sich aus den Schatten heraus und streift dann auf der Suche nach seinem Ziel davon.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Der Zauberwirker erbricht eine Masse aus Gallenflüssigkeit und krebszerfressenem Fleisch, welche dann die Form des Jägers annimmt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Das Ziel träumt von einem gesichtslosen Wesen, das ihn jede Nacht verfolgt, bis der Jäger es findet.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Der persönliche Gegenstand des Ziels geht in Flammen auf und aus dem entstehenden Rauch bildet sich der Jäger.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker beschwört einen magischen Jäger, der für ihn ein Ziel fängt oder tötet. Der Zauber erzeugt entweder einen niederen oder höheren Unfehlbaren Jäger, dessen Spielwerte wie folgt aussehen: Unfehlbarer Jäger, niederer: INI +3; A Biss +6 nah (3W10 + 3) oder lähmende Berührung (Zähigkeitswurf mit SG 12 oder 1W5 Tage gelähmt); RK 17; TW 8W8 + 3; BW 12 m; AW 1W20; BES halber Schaden durch normale Waffen, Tarnung, Unsichtbares erkennen; RW ZÄH +5, REF +3, WIL +2; G N. Unfehlbarer Jäger, höherer: INI +5; Biss +8 nach (4W10 + 4) oder lähmende Berührung (Zähigkeitswurf mit SG 15 oder 2W4 Tage gelähmt); RK 21; TW 10W8 + 8; BW 15 m; AW 2W20; BES halber Schaden durch normale Waffen, Tarnung, Unsichtbares erkennen; RW ZÄH +7, REF +5, WIL +4; G N. Unfehlbare Jäger greifen an, um entweder zu töten oder zu fangen (aber niemals beides), und sie nutzen ihre lähmende Berührung, um ihre Beute kampfunfähig zu machen und ihrem Herrn zurückzubringen. Unfehlbare Jäger können problemlos ein einzelnes, menschengroßes (oder kleineres) Wesen tragen. Durch Waffen mit einer Verzauberung von +1 oder mehr erleiden sie normalen Schaden, durch normale Waffen nur halben Schaden. Sie können ihren Körper mit Schatten verdunkeln, um sich zu verstecken und einen Bonus von +10 zu erhalten, um eine Entdeckung zu vermeiden. Sie können unsichtbare Gegner erkennen und sie jagen ihre Beute mittels Magie. Gewöhnliche Maßnahmen seitens der Beute, wie Spuren zu verwischen, sind immer erfolglos. Jäger können keine magischen Barrieren überwinden, doch sie warten geduldig, bis eine solche Sperre abklingt oder ihre Beute die Sicherheit des geschützten Gebietes verlässt. Wird der Jäger erschlagen, beendet dies den Zauber; ein neuer Jäger kann nicht vor Ablauf eines Monats auf die gleiche Beute angesetzt werden. </Beschreibung>
     <Name>Lokerimons unfehlbarer Jäger</Name>
     <Grad>5</Grad>
   </ZauberTemplate>
@@ -2038,12 +1909,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>256</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Der Zauberwirker wird von einem Feld funkelnder Lichter eingehüllt, die aufblitzen, wenn er Ziel eines Zaubers wird.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein Strom kleiner, glühender Kugeln umkreist den Zauberwirker, die sich nach und nach auflösen, wenn sie magische Angriffe abwehren.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Schattige Münder verbergen sich in den Kleiderfalten des Zauberwirkers und verschlingen gegen ihn gerichtete Zauber.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Eine Wolke leuchtenden Rauchs umwölkt den Körper des Zauberwirkers.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker umgibt sich mit einem Feld, das Magie bannt, ihm einen Bonus auf Gegenzauber verleiht und ihn immun gegenüber Zaubern niedriger Grade macht. </Beschreibung>
     <Name>Magisches Bollwerk</Name>
     <Grad>5</Grad>
   </ZauberTemplate>
@@ -2052,12 +1935,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>257</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Das Skelett des Zauberwirkers leuchtet orange-blau und tritt aus dessen Körper heraus.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Aus dem Körper des Zauberwirkers tritt Protoplasma hervor, dass sich zu einem Duplikat formt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Der Zauberwirker erbricht seine kopierte Gestalt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Der Zauberwirker schält sich die eigene Haut vom Körper, um das Duplikat zu erschaffen.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Zauberkundigenzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Zauberwirker erschafft eine magische Kopie von sich selbst, um Aktionen durchzuführen, ferne Ereignisse zu beobachten und dem Tod möglicherweise ein Schnippchen zu schlagen. Bei einem erfolgreichen Wirken dieses Zaubers darf sich der Zauberwirker entscheiden, jeden Effekt bis in Höhe seines Zauberwurfergebnisses zu nutzen, wodurch sich seine Handlungsoptionen vervielfältigen und ein schwächeres Ergebnis genutzt werden kann, falls es sich in einer Situation als vorteilhafter erweist.</Beschreibung>
     <Name>Replikation</Name>
     <Grad>5</Grad>
   </ZauberTemplate>
@@ -2237,7 +2132,7 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung>Siehe unten</Beschreibung>
+        <Beschreibung>Siehe unten.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
@@ -2321,11 +2216,11 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Der Gegenstand ändert sein Aussehen nicht, verwandelt sich aber bei Berührung.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker verwandelt einen Gegenstand in ein giftiges Wesen. Er kann z. B. einen Schleuderstein in eine Spinne, einen Pfeil in eine Natter oder einen Stab in eine Giftschlange verwandeln. Die Besonderheiten werden wie folgt dargestellt: (Siehe Regelwerk.)</Beschreibung>
     <Name>Beißender Stein</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -2334,12 +2229,20 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>276</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Glitzernder Staub erscheint in einer Wolke, die das Ziel umgibt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein funkelndes, magisches Seil bindet das Ziel.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Eine göttliche Leine fällt herunter und befestigt sich am Ziel.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Mit diesem Zauber bindet der Kleriker ein übernatürliches Wesen und zwingt es dazu, seinem Willen zu gehorchen. Der Zauber gelingt am einfachsten, wenn das Wesen bereits durch einem anderen Zauber beherrscht wird. Der Kleriker kann diesen Zauber auch sprechen, um Wesen zu kontrollieren, die auf ihrer Heimatebene angetroffen werden. Der Kleriker kann ebenfalls ein Wesen binden, das bereits unter der Kontrolle eines anderen Zauberwirkers steht und durch einen anderen Zauber beschworen wurde (z. B. Tiere beschwören, Monster beschwören oder Unsichtbarer Gefährte). Dies funktioniert auch bei Wesen, die auf nichtmateriellen Ebenen beheimatet sind (z. B. Dämonen, Teufel, Elementare, Geister etc.). Der Kleriker bindet das Wesen, um seinem Willen, anstelle des seines bisherigen Herrn, zu gehorchen. Um dem Zauber zu widerstehen, ist ein Willenskraftwurf erlaubt, allerdings wird der Rettungswurf von dem anderen Zauberkundigen durchgeführt und nicht von dem bereits beherrschten Zielwesen. Ist der Rettungswurf erfolgreich, wird die Kontrolle des gebundenen Wesens auf den Kleriker übertragen, der Bindender Ruf gezaubert hat. Der Kleriker behält den Einfluss auf das Wesen für eine gewisse Zeit, nach derer die Kontrolle wieder zu dem ursprünglichen Zauberwirker zurückkehrt (sofern der ursprüngliche Beschwörungs- oder Kontrollzauber nicht inzwischen beendet ist). Dieser Zauber betrifft keine Vertrauten oder andere Wesen, die freiwillig einem Zauberwirker dienen, sondern nur jenen, die zwangsweise unter seiner Kontrolle stehen. Unter bestimmten Voraussetzungen, die weiter unten beschrieben werden, kann der Kleriker auch andere Ziele beeinflussen. Ein Wesen, das sich unter der Kontrolle des Klerikers befindet, kann angewiesen werden eine Handlung durchzuführen, welche, genau wie bei dem Zauber Tiere beschwören, in ihrem gewöhnlichen Leistungsvermögen liegt. Das Wesen muss die Befehle des Klerikers hören können und wird ihr Bestes geben, diese auszuführen. Selbstmörderische oder grundsätzlich widersprüchliche Befehle gewähren dem Ziel einen weiteren Willenskraftwurf gegen die Kontrolle des Klerikers. </Beschreibung>
     <Name>Bindender Ruf</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -2349,11 +2252,11 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Der Kleriker hält sein heiliges Symbol empor und spricht ein Gebet. Er wird unvermittelt in ein helles Licht getaucht. Als das Licht erlischt, brennt das heilige Symbol des Klerikers mit strahlendem Glanz. </Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker kanalisiert die sakrale Macht seiner Gottheit in sein heiliges Symbol, welches zu einem Zeichen der Gläubigen, einer Waffe der Gerechtigkeit und zu einem Fluch für alles Unheilige wird. </Beschreibung>
     <Name>Göttliches Symbol</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -2362,12 +2265,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>278</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Das oder die Zielobjekt(e) wird/werden, passend zur Gottheit des Klerikers, mit farbigem Glanz bedeckt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Die Finger des Klerikers werden vorübergehend astförmig und belaubt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Der Duft von frisch geschnittenem Holz und gefallenen Blättern erfüllt die Luft um den Kleriker.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Protoplasmische Reben wickeln sich um das bzw. die Zielobjekt(e).</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker zerstört die Funktionalität von hölzernen Gegenständen, indem er sie nutzlos macht oder sie sogar dazu bringt, ihre Besitzer anzugreifen. </Beschreibung>
     <Name>Holz verdrehen</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -2376,12 +2291,20 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>279</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Das Ziel wird unsichtbar, um in seinem normalem Zustand wieder zu erscheinen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Eine große Zahl feenhafter Zimmerleute erscheint und hämmert das Ziel in seinen normalen Zustand zurück.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Ein glitzernder Vorhang fällt vor das Ziel; wenn er sich öffnet, befindet sich das Ziel wieder im Normalzustand.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker befreit ein Wesen aus der Lähmung. Mächtigere Auswirkungen heilen sogar Versteinerungen und andere bewegungseinschränkende Effekte. </Beschreibung>
     <Name>Lähmung heilen</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -2391,11 +2314,19 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Das Ziel wird ohne sichtbaren Effekt geheilt</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung>Das Ziel wird geheilt und das Zeichen der Gottheit des Klerikers erscheint als Muttermal oder kleine Narbe an einer Stelle, die vormals vom Attributsverlust betroffen war.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf />
+        <Beschreibung>Ein Strahl göttlichen Lichts scheint auf das Ziel und badet es in Licht, während seine Attribute wiederhergestellt werden.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker stellt die verlorene Lebenskraft eines Wesens wieder her. Typischerweise stellt dieser Zauber verlorene Attributswerte oder gebrochene und abgetrennte Gliedmaßen wieder her. Er kann zwar auch heilen, kann aber kein verlorenes Glück wieder herstellen. Der Zauber kann auf den Kleriker selbst oder einen Verbündeten gewirkt werden. In Spieltests versuchten einige Gruppen diesen Zauber mit Zauberbrand von Zauberkundigen zu kombinieren, um eine „eins-zwei-Kombo“ zu kreieren - Der Zauberkundige verbrannte also Attributspunkte durch Zauberbrand und der Kleriker stellt diese Punkte sofort wieder her, sodass der Zauberkundige diese Punkte einfach wiederverwenden konnte. Obwohl dieses Vorgehen eigentlich regelkonform ist, ist es dennoch wichtig, dass der Spielleiter den Spielern in Erinnerung ruft, dass DCC ein Spiel ist, bei dem Magie nicht wie Chemie funktioniert. Magie gleicht vielmehr der Anrufung von übernatürlichen Wesen. Klerikale Zauber sind Akte göttlicher Wesen und die Zauber der Zauberkundigen sind meistens das Ergebnis von Handel, Vereinbarungen und Versprechungen mit Dämonen, Teufeln, Geistern und überirdischen Patronen. Wenn der Kleriker Lebenskraft wiederherstellen dazu verwendet, um Zauberbrand gegenzurechnen, wird er unausweichlich in Schwierigkeiten geraten. Seine Gottheit wird es sicher nicht gutheißen, wenn er seine Kraft, Wunden zu heilen, absichtlich dafür einsetzt, um die Ziele einer anderen übernatürlichen Macht zu fördern! </Beschreibung>
     <Name>Lebenskraft wiederherstellen</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -2405,11 +2336,11 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Die Augen des Klerikers wabern hell und dunkel, in einer kaleidoskopartigen Unschärfe. Die Augen des betroffenen Ziels wabern gleichsam. </Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker hypnotisiert ein Ziel mit der unergründlichen Tiefe des Lotusblickes.</Beschreibung>
     <Name>Lotusblick</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -2418,12 +2349,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>283</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Betroffene Schlangen werden von einer schimmernden, blauen Aura umgeben, die auch den Kleriker umgibt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Betroffene Schlangen scheinen ihre Gesichtsform, der des Klerikers anzupassen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Betroffene Schlangen ändern ihre Schuppen in ein farbenfrohes Muster, das an die Kleider, die Haarfarbe oder Frisur des Klerikers erinnert.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Betroffene Schlangen werden pechschwarz.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker kann in seiner Gegenwart Schlangen kontrollieren oder möglicherweise auf sein Gebot hin auch Schlangen herbeirufen. Die Schlangen werden bedrohen, bewachen, angreifen oder auch anderen Befehlen gehorchen. </Beschreibung>
     <Name>Schlangen beschwören</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -2432,12 +2375,20 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>285</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Göttliche, silberne Ketten wickeln sich um das Ziel und fesseln es.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Ein dichter Nebel legt sich auf das Ziel.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Eine Klaue erscheint aus dem Himmel und krallt sich das Ziel, um es dorthin zurück zu bringen, wo es herkam; (4) das Ziel wird einfach aus seinem Dasein weggeblinzelt.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker vertreibt ein Wesen und schickt es möglicherweise dorthin zurück, woher es kam. Dieser Zauber wird normalerweise dafür verwendet, um ein übernatürliches Wesen zurück auf seine Heimatebene zu schicken, obwohl er auch dafür verwendet werden kann, irdische Wesen in ihr Versteck zurück zu treiben. Der Kleriker bestimmt ein einzelnes Ziel. Dies kann ein Wesen innerhalb der Sichtlinie sein oder ein Wesen, das nicht anwesend ist. Dann muss der Kleriker aber eine Materialprobe des Wesens besitzen (z. B. eine Haarlocke, einen Fingernagel, eine bevorzugte Waffe, einen Tropfen Blut usw.). Der Kleriker spricht dann den Zauber und das Ziel wird, wie unten beschrieben, beeinträchtigt. </Beschreibung>
     <Name>Verbannen</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -2451,7 +2402,7 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker spricht einen tiefgründigen Fluch auf ein Wesen, das aber immer einen Willenskraftwurf erhält, um zu widerstehen. Dieser Zauber muss sehr vorsichtig angewandt werden, da er als mächtige Gottestat angesehen wird. Schwerwiegende Flüche, wie solche, die ganze Familien oder Gesellschaften betreffen, oder solche, die sich auf Generationen auswirken, werden als Sünde betrachtet. Rituale, die einen längeren Zeitaufwand mit sich bringen, sind für finstere Flüche angemessen. In Anhang F findest du Beispiele von einfachen Flüchen mit Hintergründen, die über die Spielmechaniken hinausgehen. </Beschreibung>
     <Name>Verfluchen</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -2460,12 +2411,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>288</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Das Ziel wird ohne sichtbaren Effekt geheilt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Das Ziel wird geheilt und das Zeichen des Klerikers erscheint als Muttermal oder Narbe an der Stelle, die vorher vom Gift oder der Krankheit betroffen war.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Blendende Strahlen göttlichem Lichts strahlen auf das Ziel, lassen es eine intensive, fast schmerzhafte Hitze empfinden, welche ihm die Gifte dem Körper brennt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Die Haut des Ziels schält sich sofort, wie bei einem schrecklichen Sonnenbrand; während die alte Haut abgestreift wird, erscheint die neue darunter, jünger und gesünder als zuvor.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Dieser Zauber stoppt die Ausbreitung von Giften oder Krankheiten und kann deren Auswirkungen aufheben. Der Kleriker kann diesen Zauber auf sich selbst oder auf jemanden, den er berührt, wirken. Während die Auswirkungen von Giften leicht erkannt werden können, sind manche Krankheiten komplexer Natur und ihre Auswirkungen nicht immer klar. Der Spielleiter sollte entscheiden, welche Krankheiten von diesem Zauber vernünftigerweise geheilt werden können und welche nicht. </Beschreibung>
     <Name>Vergiftung oder Krankheit heilen</Name>
     <Grad>2</Grad>
   </ZauberTemplate>
@@ -2475,11 +2438,11 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Ein Blitz aus göttlichem Feuer fährt auf die Glaubensfeinde des Klerikers herab.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker ruft göttliche Vergeltung auf diejenigen, die den Absichten seiner Gottheit im Weg stehen. Er verursacht physische und psychische Qualen, Verlust von Attributswerten und andere schwächende Folgen.</Beschreibung>
     <Name>Blitz aus heiterem Himmel</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -2489,11 +2452,11 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Geisterhafte Gestalten der Gottheit des Klerikers oder seiner Gefolgsleute erscheinen und beginnen damit, die kosmischen Bande, die das Ziel mit seinem übernatürlichen Patron verbinden, zu zertrennen. </Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker ruft die göttlichen Mächte an, um die Bande zwischen Sterblichen und ihren übernatürlichen Patronen zu trennen, geht aber das Risiko ein, ungewollte Aufmerksamkeit auf sich selbst zu lenken. Dieser Zauber verlangt dem Kleriker einiges ab und kann nur einmal alle 7 Tage, nach einer Zeit des Fastens, Betens und spiritueller Vorbereitung, gewirkt werden. Typischerweise wird ein Gegenstand oder ein Körperteil (Haar, Blut, Fingernagel usw.) des Zieles benötigt, um diesen Zauber zu wirken. Wird der Zauber ohne solch einen Gegenstand gewirkt, erhält der Zauberwurf einen Malus von -4. Zusätzlich verringert ein Versuch ohne eine körperliche Verbindung mit dem Ziel die Reichweite auf 30 m pro ZS. Wird der Zauber gewirkt, so macht der Kleriker einen normalen Zauberwurf. Wenn dieser Wurf den ursprünglichen Pakt-mit-einem-Patron-Zauber übersteigt, wird die Verbindung unterbrochen und das betroffene Subjekt verliert sofort alle Vorteile dieses Pakts. Dies bringt auch den Verlust von Zaubern, die man durch den Patron erlernt hat, mit sich. Die Zielperson kann für einen Monat den Pakt mit einem Patron nicht wiederherstellen, es sei denn, mächtige Magie hebt den Exorzismus auf. Zusätzlich kann die Zielperson Nebeneffekte aus der Trennung des Bandes erleiden (siehe unten). Ist der Zauberwurf des Klerikers nicht ausreichend, um den Pakt mit einem Patron aufzuheben, kann es passieren, dass die beteiligten Mächte versuchen, den Kleriker für seine Einmischung zu bestrafen. Der Kleriker muss einen Glückswurf machen, damit nicht die Aufmerksamkeit auf ihn gelenkt und er dem Zorn der beteiligten übernatürlichen Mächte ausgesetzt wird. Verpatzt er den Glückswurf, wird der Kleriker den Gehilfen des Patrons, oder auf höheren Stufen dem Patron selbst, entgegentreten müssen. Während sich der Text dieses Zaubers auf den Pakt-mit-einem-Patron-Zauber bezieht, kann er auch in gleicher Weise dazu verwendet werden, ähnliche übernatürliche Verbindungen zu lösen. </Beschreibung>
     <Name>Exorzismus</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -2502,12 +2465,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>292</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Sprudelndes Wasser fließt aus der Hand des Klerikers, um das Wesen rein zu waschen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Das Ziel würgt einen schwarzen Klumpen hervor, der schnell wieder verschwindet.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Der Kleriker streift das Ziel mit seiner Hand, löst dabei verdorbenes Fleisch, um makellose Haut darunter zu offenbaren.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Ein göttliches Feuer brennt den Fluch aus.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker ruft göttliche Macht an, um unheilvolle Auswirkungen eines Fluches auf eine Person oder einen Gegenstand zu bannen. Wie in den Zauberbeschreibungen unten aufgeführt, ist ein geringerer Fluch einer, der einen Verlust von 2 oder weniger Punkten von Attributswerten bewirkt; ein mittelschwerer Fluch hat 3-4 Punkte Auswirkung oder hat irgendeinen einschränkenden Effekt (Nachteil auf Würfe, begrenzte Geschwindigkeit usw.) und ein schwerwiegender Fluch ist einer, der mehr als 5 Punkte Auswirkung auf Attributswerte hat oder irgendeinen schwächenden Effekt hat (Blindheit, Taubheit, Unbeweglichkeit usw.). Wird ein Rettungswurf verlangt, so macht die betroffene Person oder der betroffene Gegenstand einen zweiten Rettungswurf gegen den Fluch (Rettungswurf und SG sind die gleichen, wie bei dem ursprünglichen Fluch) oder, wenn kein Rettungswurf gegen den ursprünglichen Fluch erlaubt war, kann die betroffene Person oder der betroffene Gegenstand entweder einen Zähigkeitsswurf oder Willenskraftwurf (Ermessen des Spielers) gegen SG 10 + TW des Wesens, auf das der Fluch gewirkt wurde, machen. Misslingt der Rettungswurf, verbleibt der Fluch und es müssen 24 Stunden vergehen, bis der Kleriker erneut versuchen kann, den Fluch zu brechen.</Beschreibung>
     <Name>Fluch brechen</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -2516,12 +2491,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>293</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Die Leiche „heilt“ auf wundersame Weise, sodass sie sich erhebt und im Plauderton mit dem Kleriker spricht, bis sie wieder, am Ende der Dauer, in ihren verwesten Zustand verfällt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Die Leiche glüht in einem weichen Licht und ihre Lippen und ihr Kiefer bewegen sich, um die Fragen zu beantworten.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Die Seele der Leiche kommt als geisterartige Erscheinung zum Vorschein und schwebt über der Leiche, um die Fragen zu beantworten.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Die Leiche bewegt sich so, dass sie Antworten oder Fragen schreibt, indem sie sie in den Dreck kratzt, oder sie benutzt ihr geronnenes Blut, um sie an Wände zu schreiben.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker spricht mit einen toten Wesen und dies beantwortet seine Fragen. Der Kleriker muss sich in der Nähe der sterblichen Überreste befinden und er muss eine Sprache sprechen, die das Wesen versteht. Diese wird die Fragen des Klerikers nach zu Lebzeiten bestem Wissen beantworten. Beachte, dass Wesen mit eigensinniger oder ungehorsamer Persönlichkeit die gleichen Charakterzüge im Tod zeigen. </Beschreibung>
     <Name>Mit den Toten sprechen</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -2531,11 +2518,11 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Die Luft erfüllt ein strenger Geruch, während sich die Toten durch die Berührung des Klerikers erheben.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker ruft die Kräfte seiner Gottheit an, um das verrottende Fleisch und alternden Knochen von getöteten Wesen wiederzubeleben und somit geistlose Gehilfen zu erschaffen, die seinem Willen gehorchen und seinen Feinden eine Qual sein werden. Die Art und Anzahl dieser Untoten bestimmten der Zauberwurf und die Anzahl der verfügbaren toten Wesen; ein Kleriker kann z. B. Skelette aus bloßen Knochen erschaffen, aber er benötigt eine ganze Leiche, um einen Zombie hervorzubringen. Ungeachtet des Zauberwurfs kann er nicht mehr erschaffen, als „Rohmaterial“ zur Verfügung steht (z. B. 5 Skelette erschaffen, wenn nur 3 vollständige Gerippe verfügbar sind). In Abhängigkeit vom Zauberwurf bleiben die Untoten für 1 Stunde oder länger belebt und unter der Kontrolle des Klerikers. Wenn die Dauer des Zaubers endet, zerfällt der Untote wieder in seinen ursprünglichen Zustand zurück. Kein Kleriker kann zu irgendeiner Zeit mehr als 4x seine ZS in Trefferwürfeln Untote beherrschen, aber er kann bereits kontrollierte Untote „freilassen“, um andere, möglicherweise stärkere Untote zu befehligen. Unkontrollierte Untote könnten allerdings zu ihrem ursprünglichen Herren zurückkehren. Deshalb sollte der Kleriker vorsichtig sein, wenn es darum geht, Untote aus seiner Kontrolle zu entlassen. Der Spieler sollte sich auf die Werte von untoten Wesen weiter hinten in diesem Buch beziehen, um ein Gespür dafür zu bekommen, was alles mit diesem Zauber erschaffen werden kann. Dies sollte aber nur als Richtlinie gelten, nicht als Einschränkung. Die typische humanoide Leiche wird ein Skelett mit 1 TW oder einen Zombie mit 3 TW hervorbringen. Es gibt aber weitaus mächtigere Skelette, die z. B. aus den Knochen eines Riesen erschaffen werden. Dieses Regelwerk enthält Werte für nachfolgende Untote und ein kreativer Kleriker kann natürlich zusätzliche eigene Entwürfe „beleben“: Geist (siehe S. 419), Ghoul (siehe S. 420), Mumie (siehe S. 425), Schatten (siehe S. 428), Skelett (siehe S. 431) und Zombie (siehe S. 436) </Beschreibung>
     <Name>Tote beleben</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -2545,11 +2532,11 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Die Waffe des Klerikers leuchtet in einem göttlichen Glanz, steigt in die Luft und wirbelt umher, als ob sie von einem unsichtbaren Meister geschwungen würde.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker stärkt seine Waffe mit seinem Glauben, was es ihr erlaubt, seine Gegner zu zerschmettern, als ob sie von einem unsichtbaren Kämpfer geschwungen würde. Angriffe mit dieser Waffe benutzen den normalen Angriffsmodifikator des Klerikers für den Nahkampf und Angriffswürfel, wobei der Nahkampfwurf mit dem höheren Wert aus Stärke- und Persönlichkeitsmodifikator angepasst wird. Höhere Zauberwürfe steigern Angriffs- und Schadenswürfe und erlauben zusätzliche Aktionswürfel. Die Waffe benutzt zur Bestimmung des Ergebnisses eines kritischen Treffers den Kritwürfel und die Krittabelle des Klerikers. Wird der Zauber auf eine magische Waffe angewandt, addiert der Kleriker alle „Plusse“ der Waffe zu seinem Zauberwurf. Die Waffe des Glaubens kann nicht selbst ein Ziel sein oder von physischen Angriffen beschädigt werden, aber sie kann durch Magie bannen oder einem ähnlichen, magienegierenden Effekt unschädlich gemacht werden. Während sie als Waffe des Glaubens gestärkt ist, erhält sie zusätzlich eine oder mehrere besondere Fähigkeiten. Der Kleriker kann aus einer der folgenden, in den Zauberbeschreibungen vermerkten Fähigkeiten wählen. Vernichter der Gottlosen: Die Waffe verursacht zusätzlich +1 Schaden gegen unheilige Wesen. Heilige Erschütterung: Ein von der Klinge getroffenes Wesen muss ein Zähigkeitswurf mit SG 10 machen oder es ist benommen (-1 auf alle Würfe für die nächste Runde). Licht des Herrn: Die Waffe leuchtet in einem strahlenden Gelb und leuchtet so hell wie eine Fackel. Heiliger Verteidiger: Die Waffe pariert Angriffe auf den Kleriker von dem Wesen, das das Ziel der Waffe ist und gibt diesem Wesen einen Malus von -2 auf alle Angriffe gegen den Kleriker. </Beschreibung>
     <Name>Waffe des Glaubens</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -2558,12 +2545,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>297</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Ein göttlicher Diener der Gottheit des Klerikers erscheint und flüstert ihm den wahren Namen des Ziels in sein Ohr.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Der wahre Name erscheint, geschrieben in himmlischem Feuer und nur für den Kleriker in der Luft vor ihm sichtbar.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Der Kleriker ist die Zielperson einer kurzen Halluzination der Namensgebung des Ziels bei seiner Geburt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Ein nahegelegenes Tier krächzt den wahren Namen des Ziels mit rauer, überirdischer Stimme.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker ruft seine Gottheit an, um den wahren Namen eines Individuums oder eines Wesens aufzudecken. Dies erlaubt es ihm, das benannte Individuum einfacher mit seiner Magie zu beeinflussen. Dieser Zauber wirkt nur bei intelligenten Lebewesen und magischen Konstrukten, die von ihrem Schöpfer benannt wurden. Untote, Schleime, Tiere und ähnliche Wesen, die keinen Namen besitzen, sind immun gegen den Zauber. Andere Wesen können nach Ermessen des Spielleiters betroffen sein. Ein erfolgreicher Willenskraftwurf bedeutet, dass dem Kleriker der wahre Name des Ziels verborgen bleibt. Um das Wissen um den wahren Namen eines Wesens zu erlangen (oder zumindest einen davon; viele Wesen besitzen mehrere geheime Namen unterschiedlicher Macht), muss der Kleriker entweder innerhalb der Reichweite sein und eine ununterbrochene Sichtlinie zum Ziel haben oder einen persönlichen Gegenstand oder ein körperliche Probe (Blut, Haare, Fingernägel usw.) des Ziels besitzen. Falls der Kleriker eine solche besitzt, kann der Zauber aus jeder Entfernung gesprochen werden, solange sich das Ziel auf der gleichen Existenzebene wie der Kleriker befindet. Sobald der wahre Name eines Wesens bekannt ist, genießt der Kleriker dauerhaft die Vorteile, die unten bei den Zauberwürfen aufgeführt sind. Er kann außerdem versuchen, den Zauber zu wiederholen, um weiter(e) geheime Namen des Ziels zu erkennen, aber ein Fehlschlag bei weiteren Wiederholungen des Zaubers macht das Ziel dauerhaft resistent für weitere Versuche des Klerikers – er hat dann bereits alles über dieses Ziel gelernt. Aufgrund der Komplexität und der magischen Natur von wahren Namen, kann der Kleriker nicht einfach einen wahren Namen mit einer anderen Person teilen. Versuche, den wahren Namen aufzuschreiben oder auszusprechen, werden während des Kommunikationsprozesses unverständlich und dem möglichen Empfänger muss ein Zauberwurf (SG Zauberwurf des Klerikers) gelingen, um den Versuch des Priesters, den wahren Namen zu teilen, zu verstehen. Ein Fehlschlag bedeutet, dass es für den Empfänger unmöglich ist, den Kleriker zu verstehen und er kann keinen weiteren Versuch starten, den wahren Namen zu verstehen, bis der Kleriker den Zauber wiederholt. Ein Individuum, dessen wahrer Name in den Besitz eines Anderen gefallen ist, kann versuchen, den Namen zu annullieren, um alle Boni zu negieren, die der Besitzer des Namens dafür erhalten hat. Dies erfordert normalerweise das Eingreifen eines Patrons oder eines Gottes, die Unternehmung einer Queste mit dem Ziel, den Mächtigen persönlich in Erinnerung zu bleiben – oder identitätsauslöschende Magie oder andere Möglichkeiten, die der Spielleiter bestimmt. </Beschreibung>
     <Name>Wahrer Name</Name>
     <Grad>3</Grad>
   </ZauberTemplate>
@@ -2573,11 +2572,11 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Die Erde beginnt sich zu heben und zu verwerfen, während der Kleriker den Erdboden unter seinen Füßen berührt. </Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker erzeugt ein starkes, gezieltes Erdbeben, das in der unmittelbaren Nähe Zerstörung anrichtet. Die Schockwelle erschrickt Wesen, bringt Bauwerke zum Einstürzen, erzeugt Spalten in der Erdkruste und verursacht Lawinen und Erdrutsche. </Beschreibung>
     <Name>Erdbeben</Name>
     <Grad>4</Grad>
   </ZauberTemplate>
@@ -2586,12 +2585,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>302</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Die Haut der Ziele trübt sich und schlägt Blasen bis die Zerstörung in ihre Körper eindringt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Spiralen aus göttlichem Licht fallen aus der Höhe herab oder fahren aus dem Boden und wickeln sich um die Ziele.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Energiestrahlen scheinen aus dem heiligen Symbol des Klerikers und berühren jedes Ziel in der Reihe.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Geisterhafte Figuren verschmelzen mit den Zielen und berühren ihre Gesichter mit unwirklichen Händen.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker schlägt seine Gegner mit Gebrechen, Krankheiten und Wunden. Diejenigen, die sich gegen den Glauben des Klerikers stellen (und insofern als unheilig gelten oder eine entgegengesetzte Gesinnung besitzen), erleiden einen Malus von -2 auf ihren Zähigkeitswurf. Alle anderen würfeln ihre Rettungswürfe normal. Der Zauber betrifft alle Gegner in einem Bereich von 3 m2 pro ZS. Verbündete Wesen in dem Bereich sind nicht betroffen. </Beschreibung>
     <Name>Gebrechen der Götter</Name>
     <Grad>4</Grad>
   </ZauberTemplate>
@@ -2600,12 +2611,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>304</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Der Kleriker stößt ein Geräusch von surrenden Flügeln aus und die Schwärme erscheinen.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Insekten strömen von den Handflächen des Klerikers.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Insekten brodeln aus dem Boden unter den Füßen des Ziels.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Larven brechen aus dem Körper des Klerikers hervor und aus ihnen entfesselt sich der Schwarm.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker beschwört einen Schwarm Insekten, um seine Gegner damit anzugreifen. Siehe S. 423 für die Werte von Insektenschwärmen. </Beschreibung>
     <Name>Ungezieferplage</Name>
     <Grad>4</Grad>
   </ZauberTemplate>
@@ -2614,12 +2637,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>305</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Im betroffenen Bereich bricht ein harmloses, göttliches Feuer aus, das die Zuflucht magisch gereinigt hinterlässt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Der betroffene Bereich leuchtet mit einem göttlichen Glanz in einer Farbe, die zur jeweiligen Gottheit passt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Ein Stoß göttlicher Musik ertönt aus dem Mund des Klerikers, sodass der betroffene Bereich in den Klängen der Sphären mitschwingt.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Tränen aus heiligem/unheiligem Wasser fließen aus den Augen des Klerikers und salben den betroffenen Bereich.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker weiht einen physischen Raum seiner Gottheit, gewährt ihm übernatürlichen Schutz und stimmt ihn auf den Willen und die Absicht seines göttlichen Meisters ab. Dieser heilige Ort wird zu einer Zuflucht für den Kleriker und andere Anhänger der Gottheit. Der Zauber kann auch auf einen Raum gesprochen werden, der bereits einer anderen Gottheit geweiht ist. Ist der Zauberwurf des Klerikers höher, als der des anderen Klerikers, der den Raum zuerst geweiht hatte, wird der Raum entweiht und gewährt denen keine weiteren Vorteile, die sich darin befinden. Ein Raum, der entweiht wurde, muss von herumliegenden Spuren der vorherigen göttlichen Verbindung gereinigt werden (ein Monate dauernder Prozess), bevor er einer neuen Gottheit geweiht werden kann. Für eine erneute Weihe im Namen seiner früheren Gottheit, ist keine Reinigung des Raumes notwendig. Der Kleriker, die Anhänger der Gottheit des Klerikers und diejenigen mit der gleichen Gesinnung wie der Kleriker, erhalten die Vorteile der Zuflucht, wie sie bei den Zauberwurfbeschreibungen angegeben sind. Diejenigen mit einer anderen Gesinnung, die einer Gottheit folgen, die nicht im Gegensatz zur Gottheit des Klerikers steht, erhalten die Hälfte der Vorteile der Zuflucht (aufgerundet),z. B. ein Kleriker eines anderen, aber nicht feindseligen Gottes, würde einen +1 Bonus für Händeauflegen erhalten, wenn der Kleriker eine 20 auf Weihe/Entweihung gewürfelt hat. Individuen, die unheilig sind (abhängig vom Glauben des Klerikers) oder eine Gottheit anbeten, die im Gegensatz zu der des zaubernden Klerikers steht, erleiden einen Malus, der dem Bonus der Zuflucht entspricht, die wahren Gläubigen gewährt wird. Solche Individuen können auch physischen Schaden erleiden. Jede Zuflucht gewährt einen Bonus auf Zauberwürfe, Vertreibungen, Hände auflegen und Gebete um göttliche Hilfe. Zusätzlich bietet die Zuflucht einen Bonus auf Aktionen, die der Gottheit, der der Raum geweiht ist, zusagen. Der Spielleiter muss diese Boni je nach der jeweiligen Gottheit gewähren, aber sie sollten immer zu Aktionen passen, die der Gottheit gefallen. Zum Beispiel würde eine Zuflucht, die Klazath, Gott des Krieges, geweiht wurde, alle Kampfwürfe, die von dem Kleriker selbst und seiner Gefolgschaft innerhalb der Zuflucht gemacht werden, modifizieren. Die Anhänger von Amun Tor, Gott der Mysterien und Rätsel, würden Boni der Zuflucht erhalten, die beim Lösen von Chiffren oder beim Entdecken von versteckten Hinweisen helfen; die von Bobugbubilz, Dämonenfürst der bösen Amphibien, würden entdecken, dass alle Dienerlurche oder beschworene Wesen innerhalb der Zuflucht die Boni auf ihre TP, Rettungswürfe und Angriffswürfe bekommen. </Beschreibung>
     <Name>Weihe/Entweihung</Name>
     <Grad>4</Grad>
   </ZauberTemplate>
@@ -2629,11 +2664,11 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Siehe unten</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker beschwört eine Feuersbrunst, die seine Gegner verbrennt.</Beschreibung>
     <Name>Gerechtes Feuer</Name>
     <Grad>5</Grad>
   </ZauberTemplate>
@@ -2642,12 +2677,24 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Seite>208</Seite>
     <Manifestationen>
       <Manifestation>
-        <Wurf />
-        <Beschreibung />
+        <Wurf>1</Wurf>
+        <Beschreibung>Blitze erscheinen in den Augen des Klerikers</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>2</Wurf>
+        <Beschreibung>Die Brust des Klerikers schwillt unnatürlich an, bevor er einen Windstoß ausatmet.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>3</Wurf>
+        <Beschreibung>Seltsam gefärbte und geformte Wolken formen sich über der Position des Klerikers.</Beschreibung>
+      </Manifestation>
+      <Manifestation>
+        <Wurf>4</Wurf>
+        <Beschreibung>Die Luft wird ungewöhnlich still, Tiere verstummen und es kommt zu einem Wetterumschwung.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker verändert das natürliche Wetter, um Bedingungen seiner Wahl zu schaffen, bis hin zu sehr unnatürlichen Effekten für die jeweilige Jahreszeit oder Region. Die Anwendung dieses Zaubers benötigt eine Phase und dann weitere 10 Minuten, bis sich das Wetter merklich ändert. Winde wehen aus einer Richtung, die der Kleriker bestimmt, und die Wetteränderung entspricht normalerweise (aber nicht immer) der jeweiligen Jahreszeit. </Beschreibung>
     <Name>Wetterkontrolle</Name>
     <Grad>5</Grad>
   </ZauberTemplate>
@@ -2657,11 +2704,11 @@ kann. Der Spielleiter kann diese Grundwahrscheinlichkeit anpassen, falls erforde
     <Manifestationen>
       <Manifestation>
         <Wurf />
-        <Beschreibung />
+        <Beschreibung>Ein Feld aus drehenden, rasiermesserscharfen Klingen erscheint in der Luft.</Beschreibung>
       </Manifestation>
     </Manifestationen>
     <Typ>Klerikerzauber</Typ>
-    <Beschreibung />
+    <Beschreibung>Der Kleriker erschafft ein unbewegliches Hindernis aus herumwirbelnden Klingen, um einen Gang zu versperren und diejenigen zu vernichten, die damit in Berührung kommen. Gegner können versuchen, Geschosse durch den Vorhang aus Stahl zu schießen, aber alle Wesen auf der anderen Seite der Barriere erhalten einen Bonus von +4 auf ihre RK und einen Bonus von +2 auf Reflexwürfe, die gegen Angriffe von der anderen Seite gerichtet sind. </Beschreibung>
     <Name>Wirbelnde Verderbnis</Name>
     <Grad>5</Grad>
   </ZauberTemplate>

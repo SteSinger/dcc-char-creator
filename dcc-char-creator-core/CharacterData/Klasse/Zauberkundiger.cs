@@ -25,8 +25,8 @@ namespace DccCharCreator.core.CharacterData.Klasse
 
             Startkapital = $"{startGold} GM";
 
-            var factory = new WürfelFactory(random);
-            var zauberFactory = new ZauberFactory(factory.W100, factory._4W20, factory.W4, factory.W6, factory.W8, factory.W10, factory.W3, factory.W11);
+            var würfelFactory = new WürfelFactory(random);
+            var zauberFactory = new ZauberFactory(würfelFactory);
 
             Zauberbuch = zauberFactory.ZauberkundigenZauberErstellen(stufe, Character.Attribute.Glück.Modifikator, Character.Attribute.Intelligenz.Value, random);
         }
