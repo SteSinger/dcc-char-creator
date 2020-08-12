@@ -13,6 +13,18 @@ namespace dcc_char_creator_cli
     {
         static void Main(string[] args)
         {
+            var zauberListe = ZauberTemplate.ZauberDict.Value.SelectMany(x => x.Value.SelectMany(y => y.Value)).ToList();
+            foreach (var z in zauberListe)
+            {
+                z.Beschreibung = string.Join(" ", z.Beschreibung.Split('\n', StringSplitOptions.RemoveEmptyEntries).Select(x => x.Trim()));
+
+                foreach (var m in z.Manifestationen)
+                {
+                    m.Beschreibung = string.Join(" ", m.Beschreibung.Split('\n', StringSplitOptions.RemoveEmptyEntries).Select(x => x.Trim()));
+                }
+            }
+
+            ZauberTemplate.Save(zauberListe);
             //var zt = new ZauberTemplate
             //{
             //    Beschreibung = "Beschreibung",
@@ -26,7 +38,7 @@ namespace dcc_char_creator_cli
             //ZauberTemplate.Save(new List<ZauberTemplate>() { zt });
 
             var wf = new WürfelFactory(new Random());
-            var zauberFactory = new ZauberFactory(wf.W100, wf._4W20, wf.W4, wf.W6, wf.W8, wf.W10, wf.W3, wf.W11);
+            var zauberFactory = new ZauberFactory(wf);
 
             zauberFactory.ZauberkundigenZauberErstellen(6, 1, 12, new Random());
 

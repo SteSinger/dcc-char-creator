@@ -2,7 +2,7 @@
 
 namespace DccCharCreator.core.Würfel
 {
-    public class WürfelFactory
+    public class WürfelFactory : IWürfelFactory
     {
         private readonly WürfelFunktionen würfel;
 
@@ -13,6 +13,8 @@ namespace DccCharCreator.core.Würfel
 
 
         public IW4 W4 => new WürfelBecher(() => würfel.W(4));
+        
+        public IW5 W5 => new WürfelBecher(() => würfel.W(5));
 
         public I3W6 _3W6 => new WürfelBecher(() => würfel.W(6, 3));
 

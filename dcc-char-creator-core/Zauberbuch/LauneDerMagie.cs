@@ -20,5 +20,10 @@ namespace DccCharCreator.core.Zauberbuch
         {
             return Serializer.Load<LauneDerMagie>(FileName, x => { }, x => x.Wurf);
         }
+
+        public override string ToString()
+        {
+            return Beschreibung;
+        }
     }
 }

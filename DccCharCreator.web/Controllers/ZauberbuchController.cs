@@ -21,8 +21,8 @@ namespace DccCharCreator.web.Controllers
             }
 
             Random random = new Random();
-            var wf = new WürfelFactory(random);
-            var zauberFactory = new ZauberFactory(wf.W100, wf._4W20, wf.W4, wf.W6, wf.W8, wf.W10, wf.W3, wf.W11);
+            var würfelFactory = new WürfelFactory(random);
+            var zauberFactory = new ZauberFactory(würfelFactory);
 
             var zauberbuchVM = new ZauberbuchViewModel
             {
@@ -35,7 +35,7 @@ namespace DccCharCreator.web.Controllers
             zauberbuchVM.Zauberbuch = klasse switch
             {
                 Klasse.Zauberer => zauberFactory.ZauberkundigenZauberErstellen(stufe, glueck, intelligenz, random),
-                Klasse.Kleriker => zauberFactory.KlerikerZauberErstellen(stufe, glueck, false, random), // Zauberanzahl ist Stufenabhängig
+                Klasse.Kleriker => zauberFactory.KlerikerZauberErstellen(stufe, glueck, false, random),
                 Klasse.KlerikerLaunen => zauberFactory.KlerikerZauberErstellen(stufe, glueck, true, random),
                 Klasse.Elf => zauberFactory.ElfenZauberErstellen(stufe, intelligenz, random),
                 _ => throw new ArgumentOutOfRangeException(nameof(klasse))
